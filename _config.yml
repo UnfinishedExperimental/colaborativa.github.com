@@ -12,12 +12,21 @@ navegacion-herramientas: { es: Herramientas, en: Tools}
 navegacion-codigo: { es: Código, en: Code}
 
 footer-mapa: { es: Mapa, en: Map}
-footer-copyleft: { es: Algunos derechos reservados, en: Some rights reserved}
+footer-content-somos-opensource: { es: Somos una empresa de código abierto , en: We are an open source company }
+footer-content-somos-opensource-url: { url: http://www.github.com/colaborativa }
+footer-content-opensource: { es: El código de nuestra web está compartido bajo, en: Our website code is shared under }
+footer-content-opensource-url: { url: http://www.opensource.org/licenses/MIT, es: la licencia MIT, en: the MIT License}
+footer-content-copyleft: { es: los textos e imágenes bajo licencia, en: text and images are licensed under}
+footer-content-copyleft-url: { url: http://creativecommons.org/licenses/by/3.0/, es: CC BY 3.0., en: CC BY 3.0.}
+footer-content-codigofuente-url: { url: https://github.com/colaborativa/colaborativa.github.com/, es: Código fuente., en: Source code }
+footer-content-hechocon: { es: Hecho con, en: Made with }
+
 enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Estamos en Facebook, en: We are in Facebook}
-enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Síguenos en Twitter, en: Follow us in Twitter}
+enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Síguenos en Twitter, en: Follow us in Twitter, profile: @colaborativaeu }
 enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Nuestras fotos en Flickr, en: Our pictures in Flickr}
 enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Nuestros videos en YouTube, en: Our videos in YouTube}
 enlaces-sociales-issuu: { url: http://www.issuu.com/colaborativa, es: Nuestros documentos en Issuu, en: Our documents in Issuu}
+enlaces-sociales-github: { url: http://www.github.com/colaborativa, es: Nuestro código en Github, en: Our code in Github}
 
 listado-colaborativos-titulo: { es: Colaborativos, en: Colaborativos}
 listado-colaborativos-subtitulo: { es: ¿Quiénes somos?, en: Who we are?}

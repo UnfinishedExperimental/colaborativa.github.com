@@ -32,9 +32,6 @@
 			}
 			return false;
 		});
-
-		$("body").emailSpamProtection("email");
 		// Apaño para colocar el titulo de la pagina correcto cuando filtro por terminos en la pagina de proyectos
-
 	});
 	})(jQuery);

@@ -4,20 +4,25 @@
 			<hgroup>
 				<h1 class="big">{{ site.subtitulo.[page.language] }}</h1>
 				<h3>
-					<span class="email"></span><a href="mailto:info[at]colaborativa.eu">info@colaborativa.eu</a>
+					<span class="email"></span><a class="mail" href="mailto:info [at] colaborativa.eu">info [at] colaborativa.eu</a>
 					<span class="tel"></span><a href="tel:+34 957 78 21 64">+34 957 78 21 64</a>
 				</h3>
 			</hgroup>
 			<p><span class="vcard"><span class="adr"><span class="street-address">Calle Marroquíes 2</span>, <span class="postal-code">14001</span>, <span class="locality">Córdoba</span> <span class="country">España</span> · <a href="#">{{ site.footer-mapa.[page.language] }}</a></span></span></p>
-			<p>{{ site.titulo }} 2010­-­2012 · <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="copyright">{{ site.footer-copyleft.[page.language] }}</a></p>
+			<p><a href="{{ site.enlaces-sociales-facebook.url }}"><span></span>{{ site.enlaces-sociales-facebook.[page.language] }}</a> · <a href="{{ site.enlaces-sociales-twitter.url }}"><span></span>{{ site.enlaces-sociales-twitter.[page.language] }}</a> {{ site.enlaces-sociales-twitter.profile }}</p>
 		</div>
 		<ul class="enlacesSociales">
-			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-facebook.url }}"><span></span>{{ site.enlaces-sociales-facebook.[page.language] }}</a></li>
-			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-twitter.url }}"><span></span>{{ site.enlaces-sociales-twitter.[page.language] }}</a></li>
 			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-flickr.url }}"><span></span>{{ site.enlaces-sociales-flickr.[page.language] }}</a></li>
 			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-youtube.url }}"><span></span>{{ site.enlaces-sociales-youtube.[page.language] }}</a></li>
 			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-issuu.url }}"><span></span>{{ site.enlaces-sociales-issuu.[page.language] }}</a></li>
+			<li><a class="enlaceExterno social" href="{{ site.enlaces-sociales-github.url }}"><span></span>{{ site.enlaces-sociales-github.[page.language] }}</a></li>
 		</ul>
 	</div>
 	<div class="contenedorPie"></div>
+	<div class="contenedor">
+		<div class="credits">
+			<p class="copyleft">{{ site.titulo }} 2010­-­{{ site.time | date: "%Y"  }} · <a href="{{ site.footer-content-somos-opensource-url.url }}">{{ site.footer-content-somos-opensource.[page.language] }}</a> · {{ site.footer-content-opensource.[page.language] }} <a href="{{ site.footer-content-opensource-url.url }}" rel="copyright">{{ site.footer-content-opensource-url.[page.language] }}</a>, {{ site.footer-content-copyleft.[page.language] }} <a href="{{ site.footer-content-opensource-url.url }}" rel="copyright">{{ site.footer-content-copyleft-url.[page.language] }}</a></p>
+			<p class="copyleft">{{ site.footer-content-hechocon.[page.language] }} <a href="http://pages.github.com/">github pages</a>, <a href="https://github.com/mojombo/jekyll/wiki">jekyll</a>, <a href="http://sass-lang.com/">SASS</a>, <a href="http://compass-style.org/">Compass</a> {{ site.inline-y.[page.language] }} <a href="http://glyphish.com/">Glyphish icons</a></p>
+		</div>
+	</div>
 </footer>

@@ -253,16 +253,23 @@ body, p {
 }
 
 /* line 52, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+p.copyleft {
+  font: 11px/17px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  color: #606060;
+  text-align: center;
+}
+
+/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 i {
   font-style: italic;
 }
 
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 60, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 blockquote p {
   font-style: italic;
   text-indent: 4px;
@@ -270,57 +277,57 @@ blockquote p {
   margin-bottom: 4px;
 }
 
-/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:link, a:visited, a:active {
   color: #2671bc;
   text-decoration: none;
   border-bottom: 1px dotted #DFDFDF;
 }
 
-/* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 74, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:hover {
   color: #5195da;
 }
 
-/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 77, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:link.listadoTitulo, a:visited.listadoTitulo, a:active.listadoTitulo {
   color: #2671bc;
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 77, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:hover.listadoTitulo {
   color: #5195da;
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:link.social, a:visited.social, a:active.social {
   color: #929292;
   border-bottom: none;
 }
 
-/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:hover.social {
   color: #bfbfbf;
 }
 
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:link.titulo, a:visited.titulo, a:link.menu, a:visited.menu, a:hover.menu {
   color: #343434;
   border-bottom: none;
   text-decoration: none;
 }
 
-/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:hover.titulo {
   color: #343434;
   border-bottom: 1px dotted #DFDFDF;
 }
 
-/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 103, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 .goog-trans-section font {
   background-color: #ffffcc;
 }
@@ -997,11 +1004,24 @@ footer {
   background: url(/imagenes/iconosContacto.png) 0px 0px no-repeat;
   margin-left: 15px;
 }
+/* line 33, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpagina.scss */
+.datosContacto p {
+  margin-top: 12px;
+}
+/* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpagina.scss */
+.datosContacto p:last-child {
+  margin-top: 8px;
+}
 
-/* line 34, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpagina.scss */
+/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpagina.scss */
+.credits {
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 45, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpagina.scss */
 footer h3 {
   margin-top: 8px;
-  margin-bottom: 30px;
 }
 
 /* line 12, ../sass/screen.scss */
