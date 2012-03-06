@@ -152,7 +152,11 @@
 		loadingDecorator : function(options)
 		{
 			// the default loading decorator simply says: loading ...
-			return '<h1 class="tweetContenido cargando">Cargando...</h1>';
+			{% if page.language == "es" %}
+				return '<h1 class="tweetContenido cargando">Cargando...</h1>';
+			{% else %}
+				return '<h1 class="tweetContenido cargando">Loading...</h1>';
+			{% endif %}
 		},
 		errorDecorator : function(errorText, options)
 		{
@@ -162,7 +166,11 @@
 		noDataDecorator : function(options)
 		{
 			// the default no-data decorator simply says: No more data
-			return '<h1 class="tweetContenido sindatos">No hay más datos</h1>';
+			{% if page.language == "es" %}
+				return '<h1 class="tweetContenido sindatos">No hay más datos</h1>';
+			{% else %}
+				return '<h1 class="tweetContenido sindatos">No more data</h1>';
+			{% endif %}
 		},
 		tweetTimestampDecorator : function(tweet, options)
 		{
@@ -199,17 +207,29 @@
 			var tweetTimestamp = '';
 			if (diff < 60)
 			{
-				tweetTimestamp += 'hace ' + diff + ' segundo' + (diff == 1 ? '' : 's');
+				{% if page.language == "es" %}
+					tweetTimestamp += 'hace ' + diff + ' segundo' + (diff == 1 ? '' : 's');
+				{% else %}
+					tweetTimestamp +=  diff + ' second' + (diff == 1 ? '' : 's') + 'ago';
+				{% endif %}
 			}
 			else if (diff < 3600)
 			{
 				var t = parseInt((diff + 30) / 60);
-				tweetTimestamp += 'hace ' + t + ' minuto' + (t == 1 ? '' : 's');
+				{% if page.language == "es" %}
+					tweetTimestamp += 'hace ' + t + ' minuto' + (t == 1 ? '' : 's');
+				{% else %}
+					tweetTimestamp +=  diff + ' minute' + (diff == 1 ? '' : 's') + 'ago';
+				{% endif %}	
 			}
 			else if (diff < 86400)
 			{
 				var t = parseInt((diff + 1800) / 3600);
-				tweetTimestamp += 'hace ' + t + ' hora' + (t == 1 ? '' : 's');
+				{% if page.language == "es" %}
+					tweetTimestamp += 'hace ' + t + ' hora' + (t == 1 ? '' : 's');
+				{% else %}
+					tweetTimestamp +=  diff + ' hour' + (diff == 1 ? '' : 's') + 'ago';
+				{% endif %}
 			}
 			else
 			{
@@ -225,18 +245,27 @@
 
 				var mins = d.getMinutes();
 				var minutes = (mins < 10 ? '0' : '') + mins;
-
-				var monthName = [ "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic" ];
-
-				tweetTimestamp += d.getDate() + ' de ' + monthName[d.getMonth()];
-
+				{% if page.language == "es" %}
+					var monthName = [ "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic" ];
+				{% else %}
+					var monthName = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
+				{% endif %}
+				{% if page.language == "es" %}
+					tweetTimestamp += d.getDate() + ' de ' + monthName[d.getMonth()];
+				{% else %}
+					tweetTimestamp += monthName[d.getMonth()] + ' ' + d.getDate();
+				{% endif %}
 				if (d.getFullYear() < now.getFullYear())
 				{
 					tweetTimestamp += ', ' + d.getFullYear();
 				}
 
 				var t = parseInt((diff + 43200) / 86400);
-				tweetTimestamp += ' (hace ' + t + ' día' + (t == 1 ? '' : 's') + ')';
+				{% if page.language == "es" %}
+					tweetTimestamp += ' (hace ' + t + ' día' + (t == 1 ? '' : 's') + ')';
+				{% else %}
+					tweetTimestamp += ' (' + t + ' day' + (t == 1 ? '' : 's') + ' ago)';
+				{% endif %}
 			}
 
 			return tweetTimestamp;
@@ -253,7 +282,11 @@
 				'<h5 class="tweetInfo tweet">' +
 				' ' +
 				'<a class="tweetInfo-link listadoTitulo" href="http://twitter.com/' + tw.in_reply_to_screen_name + '/status/' + tw.in_reply_to_status_id + '" target="_blank">' +
-				'respondiendo a ' + tw.in_reply_to_screen_name +
+				{% if page.language == "es" %}
+					'respondiendo a ' + tw.in_reply_to_screen_name +
+				{% else %}
+					'in reply to ' + tw.in_reply_to_screen_name +
+				{% endif %}
 				'</a>' +
 				'</h5>';
 			}
@@ -273,11 +306,20 @@
 				'<a class="tweetInfo-retweeter-link listadoTitulo" href="http://twitter.com/' + screenName + '" target="_blank">' +
 				screenName +
 				'</a>';
-				var rtcount = ' y ' + rtc + (rtc > 1 ? ' otros' : ' otro');
+				{% if page.language == "es" %}
+					var rtcount = ' y ' + rtc + (rtc > 1 ? ' otros' : ' otro');
+				{% else %}
+					var rtcount = ' & ' + rtc + (rtc > 1 ? ' others' : ' other');
+				{% endif %}
 				html =
 				'' +
 				'<h5 class="tweetInfo tweet">' +
-				'Retuiteado por ' + link +
+				{% if page.language == "es" %}
+					'Retuiteado por ' + link +
+				{% else %}
+					'Retweeted by ' + link +
+				{% endif %}
+				
 				(rtc > 0 ? rtcount : '') +
 				'</h5>';
 			}
