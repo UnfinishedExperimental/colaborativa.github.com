@@ -10,9 +10,10 @@
 
 
 html{
-	background-color: rgb(238,238,238);
 	height: 100%;
 	body{
+		background-image: url(/imagenes/background.png);
+		background-repeat: repeat;
 		background-color: rgb(250,250,250);
 		.cabeceraPagina, .piePagina, .cuerpoPagina{
 			width: 100%;
@@ -28,8 +29,7 @@ html{
 		}
 		.cuerpoPagina {
 			min-height: 400px;
-			background-color: rgb(250,250,250);
-			border-top: 1px solid #f2f2f2;
+			border-top: 1px solid rgb(228,228,228);
 			margin-top: 50px;
 			.contenedor{
 				position: relative;
@@ -37,7 +37,7 @@ html{
 			}
 		}
 		.piePagina {
-			border-top: 1px solid #f2f2f2;
+			border-top: 1px solid rgb(228,228,228);
 			margin-top: 80px;
 			.contenedor{
 				position: relative;
