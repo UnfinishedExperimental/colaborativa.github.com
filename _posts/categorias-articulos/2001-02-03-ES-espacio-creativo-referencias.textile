@@ -1,0 +1,12 @@
+---
+language: es
+layout: blog-categorias-articulos
+category: categorias-articulos
+title: Espacio Creativo Referencias
+permalink: /blog/espacio-creativo-referencias/
+url-otro-idioma: /en/blog/espacio-creativo-referencias/
+slug: espacio-creativo-referencias
+
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/espacio-creativo-independiente/

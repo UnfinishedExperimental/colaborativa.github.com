@@ -5,9 +5,10 @@
 	</hgroup>
 	<ul>
 		{% for item in site.categories.articulos limit:8 %}
+			{% if item.language == page.language %}
 			{% for proyecto in item.categorias %}
 				{% if proyecto == page.slug %}
-				<li>
+				<li class="goog-trans-section" lang="es">
 					<hgroup>
 						<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
 						<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
@@ -16,6 +17,7 @@
 				{% else %}
 				{% endif %}
 			{% endfor %}
+			{% endif %}
 		{% endfor %}
 	</ul>
 	<div class="contenedorPie"></div>

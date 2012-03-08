@@ -2,10 +2,10 @@
 language: en
 layout: blog-categorias-articulos
 category: categorias-articulos
-title: Espacio Creativo Independiente
-permalink: /en/blog/espacio-creativo/
-url-otro-idioma: /blog/espacio-creativo/
-slug: espacio-creativo
+title: Espacio Creativo in Cordoba
+permalink: /en/blog/espacio-creativo-cordoba/
+url-otro-idioma: /blog/espacio-creativo-cordoba/
+slug: espacio-creativo-cordoba
 
 ---
 

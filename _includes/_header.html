@@ -1,3 +1,9 @@
+{% if page.auto-traduccion %}
+{% capture temp %}{{ page.url}}#googtrans(es|en){% endcapture %}
+{% assign url = temp  %}
+{% else %}
+{% assign url = page.url %}
+{% endif %}
 <header class="cabeceraPagina notranslate">
 	<div class="contenedor">
 		<div class="tituloMenuBusqueda">

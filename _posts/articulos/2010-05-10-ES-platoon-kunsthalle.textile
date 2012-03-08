@@ -1,0 +1,30 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Platoon Kunsthalle. Seúl, Corea del Sur
+permalink: /blog/2010/05/platoon-kunsthalle/
+url-otro-idioma: /en/blog/2010/05/platoon-kunsthalle/
+slug: platoon-kunsthalle
+
+subtitulo: Espacios prefabricados para promocionar la cultura
+imagen: farm3.staticflickr.com/2494/3690813522_b9cb52be16
+autores: 
+ - javi-buron
+
+categorias:
+ - espacio-creativo-referencias
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Más información aquí, url: http://www.kunsthalle.com/ }
+
+
+---
+
+Platoon Kunsthalle es la iniciativa más reciente de la plataforma cultural "Platoon":http://platoon.org/ fundada en Alemania en el año 2000. La flamante nueva sede en Seúl está construida con 28 contenedores –marca inconfundible de Platoon que les permite poner sus iniciativas en marcha en un tiempo récord– y presenta un espacio para la promoción de la rica escena cultural asiática. Espacios de trabajo, zonas de exposición, un bar y un restaurante conforman está interesantísima propuesta.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

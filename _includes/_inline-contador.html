@@ -34,9 +34,9 @@
 			{% endif %}
 		{% endfor %}
 		{% if an_integer == 1 %}
-			{{ an_integer }} {{ site.inline-proyectos.[page.language] }} {{ site.inline-en.[page.language] }} {{ page.title }}
+			{{ an_integer }} {{ site.inline-proyectos.[page.language] }}
 		{% else %}
-			{{ an_integer }} {{ site.inline-proyectos.[page.language] }}s {{ site.inline-en.[page.language] }} {{ page.title }}
+			{{ an_integer }} {{ site.inline-proyectos.[page.language] }}s
 		{% endif %}
 	
 	{% when "blog-categorias-articulos" %}	
@@ -53,9 +53,9 @@
 			{% endif %}
 		{% endfor %}
 		{% if an_integer == 1 %}
-			{{ an_integer }} {{ site.inline-articulos.[page.language] }} {{ site.inline-en.[page.language] }} {{ page.title }}
+			{{ an_integer }} {{ site.inline-articulos.[page.language] }}
 		{% else %}
-			{{ an_integer }} {{ site.inline-articulos.[page.language] }}s {{ site.inline-en.[page.language] }} {{ page.title }}
+			{{ an_integer }} {{ site.inline-articulos.[page.language] }}s
 		{% endif %}
 
 {% endcase %}

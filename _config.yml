@@ -29,7 +29,7 @@ enlaces-sociales-issuu: { url: http://www.issuu.com/colaborativa, es: Nuestros d
 enlaces-sociales-github: { url: http://www.github.com/colaborativa, es: Nuestro código en Github, en: Our code in Github}
 
 listado-colaborativos-titulo: { es: Colaborativos, en: Colaborativos}
-listado-colaborativos-subtitulo: { es: ¿Quiénes somos?, en: Who we are?}
+listado-colaborativos-subtitulo: { es: ¿Quiénes somos?, en: Who are we?}
 
 listado-colaboradores-titulo: { es: Colaboradores, en: Colaboradores}
 listado-colaboradores-subtitulo: { es: ¿Con quién colaboramos?, en: Who we work with?}

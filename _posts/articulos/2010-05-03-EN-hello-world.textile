@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: "Hello world!"
-permalink: /blog/2010/05/hello-world/
-url-otro-idioma: /en/blog/2010/05/hello-world/
+permalink: /en/blog/2010/05/hello-world/
+url-otro-idioma: /blog/2010/05/hello-world/
 slug: hello-world
 
+auto-traduccion: yes
 subtitulo: Inauguramos el blog del Espacio Creativo Independiente
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
 autores: 

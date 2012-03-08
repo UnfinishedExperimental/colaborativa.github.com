@@ -1,0 +1,29 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: "Centre for Social Innovation. Toronto, Canada"
+permalink: /blog/2010/05/social-innovation/
+url-otro-idioma: /en/blog/2010/05/social-innovation/
+slug: social-innovation
+
+subtitulo: Un espacio de referencia mundial en innovación social
+imagen: farm1.staticflickr.com/220/501043927_064fc3d6e1
+autores: 
+ - javi-buron
+
+categorias:
+ - espacio-creativo-referencias
+ - espacio-creativo
+
+enlaces:
+- { type: externo, title: Centre for Social Innovation. Toronto. Canada, url: http://socialinnovation.ca/ }
+
+
+---
+
+Este interesante proyecto empezó a gestarse en el año 2003 de la mano de Tonya Surman ("the Commons Group":http://www.commons.ca/) y Margie Zeidler ("UrbanSpace":http://www.urbanspace.org/) tras el éxito de esta última con la iniciativa "401 Richmond":http://www.cultureandcommunities.ca/resources/cultural-facility-profiles/artspace-north/401-richmond.html -un antiguo edificio industrial que en la actualidad aloja a más de 140 iniciativas culturales y micro-empresas-
+
+Así, han creado un espacio estimulante tanto para el sector público, el privado y organizaciones sin ánimo de lucro, donde trabajar, encontrarse y conectar con otros individuos, grupos y organizaciones. Tras cuatro años de andadura y debido a la enorme aceptación de la propuesta han iniciado la rehabilitación de un segundo edificio.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

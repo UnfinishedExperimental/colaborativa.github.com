@@ -9,7 +9,7 @@
 				{% if item.language == page.language %}
 				{% for autor in item.autores %}
 					{% if autor == page.slug %}
-					<li>
+					<li class="goog-trans-section" lang="es">
 						<hgroup>
 							<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
 							<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
