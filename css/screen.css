@@ -101,8 +101,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 300px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* line 8, ../sass/_slides.scss */
+=======
+/* line 7, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
+>>>>>>> master
 =======
 /* line 7, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
 >>>>>>> master
@@ -268,13 +272,20 @@ p.copyleft {
 }
 
 /* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 i {
   font-style: italic;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 55, ../sass/_type.scss */
+=======
+/* line 60, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 60, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -283,7 +294,11 @@ strong {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 58, ../sass/_type.scss */
+=======
+/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -295,7 +310,11 @@ blockquote p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 64, ../sass/_type.scss */
+=======
+/* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -306,7 +325,11 @@ a:link, a:visited, a:active {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 69, ../sass/_type.scss */
+=======
+/* line 74, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 74, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -315,7 +338,11 @@ a:hover {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 72, ../sass/_type.scss */
+=======
+/* line 77, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 77, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -326,7 +353,11 @@ a:link.listadoTitulo, a:visited.listadoTitulo, a:active.listadoTitulo {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 77, ../sass/_type.scss */
+=======
+/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -337,8 +368,13 @@ a:hover.listadoTitulo {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 82, ../sass/_type.scss */
 a:link.social {
+=======
+/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+a:link.social, a:visited.social, a:active.social {
+>>>>>>> master
 =======
 /* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:link.social, a:visited.social, a:active.social {
@@ -348,7 +384,11 @@ a:link.social, a:visited.social, a:active.social {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 86, ../sass/_type.scss */
+=======
+/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -357,7 +397,11 @@ a:hover.social {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 89, ../sass/_type.scss */
+=======
+/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -368,7 +412,11 @@ a:link.titulo, a:visited.titulo, a:link.menu, a:visited.menu, a:hover.menu {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 94, ../sass/_type.scss */
+=======
+/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+>>>>>>> master
 =======
 /* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 >>>>>>> master
@@ -378,8 +426,11 @@ a:hover.titulo {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 1, ../sass/_botonSocial.scss */
 =======
+=======
+>>>>>>> master
 /* line 103, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 .goog-trans-section font {
   background-color: #ffffcc;
@@ -387,6 +438,9 @@ a:hover.titulo {
 
 /* botonera addthis sociales */
 /* line 6, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_componentes.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .botonlateralSocial {
   margin-top: 15px;
@@ -394,7 +448,11 @@ a:hover.titulo {
   margin-bottom: 25px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 4, ../sass/_botonSocial.scss */
+=======
+/* line 9, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_componentes.scss */
+>>>>>>> master
 =======
 /* line 9, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_componentes.scss */
 >>>>>>> master
@@ -403,8 +461,11 @@ a:hover.titulo {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 3, ../sass/_listadosAuxiliares.scss */
 =======
+=======
+>>>>>>> master
 /* Componente paginacion */
 /* line 18, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_componentes.scss */
 ul.pager {
@@ -657,7 +718,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 
 /* bloqueActividades */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 83, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 84, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 84, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -666,7 +731,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   width: 300px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 88, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -680,7 +749,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   margin-bottom: 0px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 97, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 96, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 96, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -699,7 +772,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   width: 290px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 103, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -719,7 +796,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   border-bottom-style: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 115, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 114, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 114, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -727,6 +808,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   text-decoration: none;
   color: #323232;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 120, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li:hover {
@@ -738,6 +820,8 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 }
 /* line 126, ../sass/_listadosAuxiliares.scss */
 =======
+=======
+>>>>>>> master
 /* line 119, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .bloqueActividades li:hover {
   background-color: #efefef;
@@ -747,6 +831,9 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   background-color: #d7d7d7;
 }
 /* line 125, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .bloqueActividades li span {
   width: 33px;
@@ -756,6 +843,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   left: 0;
   height: 33px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 134, ../sass/_listadosAuxiliares.scss */
 .bloqueActividades li.estrategico span {
@@ -794,6 +882,25 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 }
 
+=======
+/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+.bloqueActividades li.planeamiento-estrategico span {
+  background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
+}
+/* line 136, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+.bloqueActividades li.acciones-culturales span {
+  background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
+}
+/* line 139, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+.bloqueActividades li.datos-geoposicionados span {
+  background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
+}
+/* line 142, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+.bloqueActividades li.visualizacion-informacion span {
+  background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
+}
+
+>>>>>>> master
 /* subcategoryPopUp en reacciones */
 /* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -860,22 +967,29 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 
 /* listadoReacciones */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 196, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones {
   margin-bottom: 25px;
 }
 /* line 198, ../sass/_listadosAuxiliares.scss */
 =======
+=======
+>>>>>>> master
 /* line 197, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones {
   margin-bottom: 25px;
 }
 /* line 199, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .listadoReacciones p.nota {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 202, ../sass/_listadosAuxiliares.scss */
 .listadoReacciones #follow {
@@ -883,18 +997,27 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 }
 /* line 205, ../sass/_listadosAuxiliares.scss */
 =======
+=======
+>>>>>>> master
 /* line 203, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones #follow {
   margin-top: 15px;
 }
 /* line 206, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .listadoReacciones .tweetButton {
   margin-top: 10px;
   margin-bottom: 0px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 209, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 210, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 210, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -905,7 +1028,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   color: #929292;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 215, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 216, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 216, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -920,7 +1047,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   margin-bottom: 5px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 225, ../sass/_listadosAuxiliares.scss */
+=======
+/* line 226, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+>>>>>>> master
 =======
 /* line 226, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 >>>>>>> master
@@ -930,9 +1061,12 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* cabeceraPagina */
 /* line 3, ../sass/_cabecerapagina.scss */
 =======
+=======
+>>>>>>> master
 /* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
 .cabeceraPagina {
@@ -951,7 +1085,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   padding-top: 25px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 23, ../sass/_cabecerapagina.scss */
+=======
+/* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -960,7 +1098,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   width: 960px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 26, ../sass/_cabecerapagina.scss */
+=======
+/* line 15, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 15, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -972,7 +1114,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   resize: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 33, ../sass/_cabecerapagina.scss */
+=======
+/* line 22, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 22, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -987,7 +1133,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   padding-left: 15px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 42, ../sass/_cabecerapagina.scss */
+=======
+/* line 31, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 31, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -997,7 +1147,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 
 /* @end */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 50, ../sass/_cabecerapagina.scss */
+=======
+/* line 39, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 39, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1009,8 +1163,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   padding: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 57, ../sass/_cabecerapagina.scss */
 =======
+=======
+>>>>>>> master
 /* line 46, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu li.idioma {
   display: inline-block;
@@ -1020,6 +1177,9 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   padding: 0;
 }
 /* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .menu a:link {
   padding: 3px 10px;
@@ -1032,7 +1192,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   transition: all 0.2s linear;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 64, ../sass/_cabecerapagina.scss */
+=======
+/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1044,7 +1208,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   transition: all 0.2s linear;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 68, ../sass/_cabecerapagina.scss */
+=======
+/* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1056,7 +1224,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   transition: all 0.2s linear;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 72, ../sass/_cabecerapagina.scss */
+=======
+/* line 71, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 71, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1068,7 +1240,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   transition: all 0.2s linear;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 76, ../sass/_cabecerapagina.scss */
+=======
+/* line 75, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 75, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1077,6 +1253,7 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   position: relative;
   top: 2px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 81, ../sass/_cabecerapagina.scss */
 .menu .menuBlog:before {
@@ -1092,6 +1269,8 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
 }
 /* line 90, ../sass/_cabecerapagina.scss */
 =======
+=======
+>>>>>>> master
 /* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuBlog:before {
   content: url(/imagenes/menuBlog.png);
@@ -1105,13 +1284,20 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   content: url(/imagenes/menuEquipo.png);
 }
 /* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 .menu .menuCodigo:before {
   content: url(/imagenes/menuCodigo.png);
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 95, ../sass/_cabecerapagina.scss */
+=======
+/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1130,7 +1316,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   margin: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 108, ../sass/_cabecerapagina.scss */
+=======
+/* line 107, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 107, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1141,7 +1331,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   -webkit-box-sizing: border-box;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 114, ../sass/_cabecerapagina.scss */
+=======
+/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1165,7 +1359,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   width: 70%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 133, ../sass/_cabecerapagina.scss */
+=======
+/* line 132, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 132, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1190,7 +1388,11 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   text-shadow: 0 1px #ffffff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 153, ../sass/_cabecerapagina.scss */
+=======
+/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+>>>>>>> master
 =======
 /* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 >>>>>>> master
@@ -1511,6 +1713,7 @@ html body .piePagina .contenedor {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 398, ../sass/screen.scss */
 #columnaTres {
   height: 440px;
@@ -1603,6 +1806,16 @@ li.paginacion a:active {
 /* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista {
 >>>>>>> master
+=======
+/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio {
+  top: 0px;
+  width: 960px;
+  margin-top: 30px;
+}
+/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista {
+>>>>>>> master
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -1615,8 +1828,13 @@ li.paginacion a:active {
   margin-bottom: 30px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 10, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+1) {
+=======
+/* line 138, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista:nth-child(3n+1) {
+>>>>>>> master
 =======
 /* line 138, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista:nth-child(3n+1) {
@@ -1628,8 +1846,13 @@ li.paginacion a:active {
   border-right: 1px dotted #dfdfdf;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 17, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+2) {
+=======
+/* line 145, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista:nth-child(3n+2) {
+>>>>>>> master
 =======
 /* line 145, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista:nth-child(3n+2) {
@@ -1641,8 +1864,13 @@ li.paginacion a:active {
   border-right: 1px dotted #dfdfdf;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 24, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .nodoLista:nth-child(3n+3) {
+=======
+/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista:nth-child(3n+3) {
+>>>>>>> master
 =======
 /* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista:nth-child(3n+3) {
@@ -1652,6 +1880,7 @@ li.paginacion a:active {
   width: 315px;
   border: none;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 30, ../sass/_portfoliolayout.scss */
 .listadoNodosInicio.Portfolio .imagenNodoLista a {
@@ -1669,6 +1898,20 @@ li.paginacion a:active {
 >>>>>>> master
   width: 300px;
 }
+=======
+/* line 158, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista .infoNodoLista {
+  width: 300px;
+}
+/* line 160, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista .infoNodoLista .cabeceraNodo p {
+  margin-top: 10px;
+}
+/* line 165, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+.listadoNodos.Portfolio .nodoLista .imagenNodoLista a {
+  width: 300px;
+}
+>>>>>>> master
 
 /* Nodo en lista */
 /* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
