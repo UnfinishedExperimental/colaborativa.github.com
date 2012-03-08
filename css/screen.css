@@ -667,15 +667,15 @@ a.enlaceExterno[href*='youtube.com']:hover > span {
   background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 }
 /* line 136, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.acciones span {
+.bloqueActividades li.acciones-culturales span {
   background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
 }
 /* line 139, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.geoposicionamiento span {
+.bloqueActividades li.datos-geoposicionados span {
   background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
 }
 /* line 142, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.visualizacion span {
+.bloqueActividades li.visualizacion-informacion span {
   background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 }
 

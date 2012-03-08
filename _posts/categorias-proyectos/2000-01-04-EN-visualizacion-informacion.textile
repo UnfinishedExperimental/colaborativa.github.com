@@ -1,0 +1,11 @@
+---
+language: en
+layout: portfolio-categorias-proyectos
+category: categorias-proyectos
+title: Visualization of information
+permalink: /en/projects/information-visualization/
+url-otro-idioma: /proyectos/visualizacion-informacion/
+slug: visualizacion-informacion
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos

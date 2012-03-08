@@ -1,7 +1,7 @@
 <div class="bloqueActividades">
 	<h2>{{ site.listado-proyectos-categorias-titulo.[page.language] }}</h2>
 	<ul>
-		{% for item in site.categories.categorias-proyectos %}
+		{% for item in site.categories.categorias-proyectos reversed %}
 		{% if item.language == page.language %}
 		<li class="{{ item.slug }}"><span></span><a href="{{ item.url }}">{{ item.title }}</a></li>
 		{% endif %}

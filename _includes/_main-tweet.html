@@ -219,7 +219,7 @@
 				{% if page.language == "es" %}
 					tweetTimestamp += 'hace ' + t + ' minuto' + (t == 1 ? '' : 's');
 				{% else %}
-					tweetTimestamp +=  diff + ' minute' + (diff == 1 ? '' : 's') + 'ago';
+					tweetTimestamp +=  t + ' minute' + (t == 1 ? '' : 's') + ' ago';
 				{% endif %}	
 			}
 			else if (diff < 86400)
@@ -228,7 +228,7 @@
 				{% if page.language == "es" %}
 					tweetTimestamp += 'hace ' + t + ' hora' + (t == 1 ? '' : 's');
 				{% else %}
-					tweetTimestamp +=  diff + ' hour' + (diff == 1 ? '' : 's') + 'ago';
+					tweetTimestamp +=  t + ' hour' + (t == 1 ? '' : 's') + 'ago';
 				{% endif %}
 			}
 			else
