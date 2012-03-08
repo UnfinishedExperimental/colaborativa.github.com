@@ -1,0 +1,11 @@
+---
+language: es
+layout: portfolio-categorias-proyectos
+category: categorias-proyectos
+title: Acciones culturales en torno a la ciudad
+permalink: /proyectos/acciones-culturales/
+url-otro-idioma: /en/projects/cultural-actions/
+slug: acciones-culturales
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos

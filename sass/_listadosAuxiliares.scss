@@ -80,11 +80,10 @@
 
 
 /* bloqueActividades */
+
 .bloqueActividades{
 	height: 170px;
-	width: 290px;
-	margin-left: 15px;
-	
+	width: 300px;
 	h2{
 		font: 25px/25px "colaborativaBook";
 		color: white;
@@ -131,22 +130,23 @@
 		left: 0;
 		height: 33px;
 	}
-	li.estrategico span{
+	li.planeamiento-estrategico span{
 		background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 	}
-	li.acciones span{
+	li.acciones-culturales span{
 		background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
 	}
-	li.geoposicionamiento span{
+	li.datos-geoposicionados span{
 		background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
 	}
-	li.visualizacion span{
+	li.visualizacion-informacion span{
 		background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 	}
 }
 
 
-/* subcategoryPopUp */
+/* subcategoryPopUp en reacciones */
+
 .subcategoryPopUp, .subcategoryPopUp2 {
 	position: absolute;
 	@include box-sizing(border-box);
@@ -193,6 +193,7 @@
 
 
 /* listadoReacciones */
+
 .listadoReacciones {
 	margin-bottom: 25px;
 	p.nota {

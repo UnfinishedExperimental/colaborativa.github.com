@@ -9,8 +9,8 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h1 class="big">{{ site.navegacion-equipo.es }}</h1>
-				<div id="columnaNavegacion">
+				<h1 class="big">{{ site.navegacion-equipo.[page.language] }}</h1>
+				<div id="columnaNavegacion" class="notranslate">
 					{% include _listado-colaborativos.html %}
 					{% include _listado-colaboradores.html %}
 				</div>

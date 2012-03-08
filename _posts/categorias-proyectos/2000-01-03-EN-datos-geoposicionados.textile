@@ -1,0 +1,11 @@
+---
+language: en
+layout: portfolio-categorias-proyectos
+category: categorias-proyectos
+title: Geopositioned data
+permalink: /en/projects/geopositioned-data/
+url-otro-idioma: /proyectos/datos-geoposicionados/
+slug: datos-geoposicionados
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos

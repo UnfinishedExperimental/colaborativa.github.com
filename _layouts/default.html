@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.language }}">
 	<head>
-		<title>{{ site.titulo }}</title>
+		<title>{{ site.titulo }} | {{ site.subtitulo.[page.language] }}</title>
 		<meta charset='UTF-8'/>
 		{% include _scripts.html %}
 	</head>
@@ -13,20 +13,24 @@
 					<div id="slides">
 						<div class="slides_container">
 							{% for banner in site.categories.proyectos %}
+								{% if banner.language == page.language %}
 								{% if banner.en-cabecera %}
 								<div>
 									<a href="{{ banner.url }}">
-										<img src="{{ banner.imagen-cabecera }}" alt="{{ banner.title }}" title="{{ banner.title }}">
+										<img src="http://{{ banner.imagen-cabecera }}_b.jpg" alt="{{ banner.title }}" title="{{ banner.title }}">
 									</a>
 								</div>
+								{% endif %}
 								{% endif %}
 							{% endfor %}
 						</div>
 					</div>
 				</div>
-				<div class="listadoNodosInicio">
-					{% for item in site.categories.articulos limit:2 %}
+				<div class="listadoNodos Inicio">
+					{% for item in site.categories.articulos limit:4 %}
+						{% if item.language == page.language %}
 						{% include _nodolista-articulo.html %}
+						{% endif %}
 					{% endfor %}
 				</div>
 				<div id="columnaTres">

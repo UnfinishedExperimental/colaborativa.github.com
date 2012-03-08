@@ -9,25 +9,24 @@
 		{% include _header.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
-				<h1 class="big">{{ site.navegacion-proyectos.es }}</h1>
-				<div id="columnaNavegacion">
-					<section class="listadoArticulos Proyectos">
-						<ul>
-							<li>
-								<h3>{{ content }}</h3>
-							</li>
-						</ul>
+				<h1 class="big">{{ site.navegacion-proyectos.[page.language] }}</h1>
+				<div id="columnaNavegacion" class="notranslate">
+					<section>
+						<h2>{{ page.title }}</h2>
+						{{ content }}
 					</section>
 				</div>
 				<div id="dosColumnasContenido">
 					<section class="listadoNodos">
 						<h1 class="tituloListado">{% include _inline-contador.html %}</h1>
 						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
 							{% for categoria in item.categorias %}
-								{% if categoria == page.title %}
+								{% if categoria == page.slug %}
 									{% include _nodolista-proyecto.html %}
 								{% endif %}
 							{% endfor %}
+							{% endif %}
 						{% endfor %}
 					</section>
 				</div>

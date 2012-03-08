@@ -1,20 +1,24 @@
 ---
+language: es
 layout: blog-articulo
 category: articulos
 title: Cambio de prioridades
+permalink: /blog/2012/02/cambio-prioridades/
+url-otro-idioma: /en/blog/2012/02/cambio-prioridades/
+slug: cambio-prioridades
 
 subtitulo: El Espacio Creativo Independiente busca asociarse con la iniciativa privada
 imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
 autores: 
- - Magda Sánchez
- - Javi Burón
+ - magda-sanchez
+ - javi-buron
 
 categorias:
- - Localwiz
- - Espacio Creativo Independiente
+ - localwiz
+ - espacio-creativo
 
 relacionados:
- - Otro artículo
+ - otro-articulo
 
 enlaces:
 - { type: externo, title: Blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }

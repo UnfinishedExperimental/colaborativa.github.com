@@ -10,24 +10,23 @@
 		<section class="cuerpoPagina">
 			<div class="contenedor">
 				<h1 class="big">{{ site.navegacion-blog.es }}</h1>
-				<div id="columnaNavegacion">
-					<section class="listadoArticulos Proyectos">
-						<ul>
-							<li>
-								<h3>{{ content }}</h3>
-							</li>
-						</ul>
+				<div id="columnaNavegacion" class="notranslate">
+					<section>
+						<h2>{{ page.title }}</h2>
+						{{ content }}
 					</section>
 				</div>
 				<div id="dosColumnasContenido">
 					<section class="listadoNodos">
 						<h1 class="tituloListado">{% include _inline-contador.html %}</h1>
 						{% for item in site.categories.articulos %}
-							{% for tag in item.categorias %}
-								{% if tag == page.title %}
-									{% include _nodolista-articulo.html %}
-								{% endif %}
-							{% endfor %}
+							{% if item.language == page.language %}
+								{% for tag in item.categorias %}
+									{% if tag == page.slug %}
+										{% include _nodolista-articulo.html %}
+									{% endif %}
+								{% endfor %}
+							{% endif %}
 						{% endfor %}
 					</section>
 				</div>
