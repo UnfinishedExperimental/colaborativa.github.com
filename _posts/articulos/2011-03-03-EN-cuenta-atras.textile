@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Empieza la cuenta atrás
-permalink: /blog/2011/03/cuenta-atras/
-url-otro-idioma: /en/blog/2011/03/cuenta-atras/
+permalink: /en/blog/2011/03/cuenta-atras/
+url-otro-idioma: /blog/2011/03/cuenta-atras/
 slug: cuenta-atras
 
+auto-traduccion: yes
 subtitulo: Recabando apoyos para el Espacio Creativo
 imagen: 
 autores: 

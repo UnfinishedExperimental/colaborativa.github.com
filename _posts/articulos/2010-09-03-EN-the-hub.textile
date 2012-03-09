@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: The Hub
-permalink: /blog/2010/09/the-hub/
-url-otro-idioma: /en/blog/2010/09/the-hub/
+permalink: /en/blog/2010/09/the-hub/
+url-otro-idioma: /blog/2010/09/the-hub/
 slug: the-hub
 
+auto-traduccion: yes
 subtitulo: Primera sede española de la iniciativa internacional de centros de innovación
 imagen: 
 autores: 

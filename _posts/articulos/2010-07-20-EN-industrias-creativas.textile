@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: "¿Qué son las industrias creativas?"
-permalink: /blog/2010/07/industrias-creativas/
-url-otro-idioma: /en/blog/2010/07/industrias-creativas/
+permalink: /en/blog/2010/07/industrias-creativas/
+url-otro-idioma: /blog/2010/07/industrias-creativas/
 slug: industrias-creativas
 
+auto-traduccion: yes
 subtitulo: Creatividad, talento y cultura para un sector emergente de la economía mundial
 imagen: farm5.static.flickr.com/4080/4808222072_7e2d331a5f
 autores: 
@@ -21,7 +22,6 @@ relacionados:
 
 enlaces:
 - 
-
 
 ---
 

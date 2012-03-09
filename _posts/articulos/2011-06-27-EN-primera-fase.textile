@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: ¡Primera fase superada!
-permalink: /blog/2011/06/primera-fase/
-url-otro-idioma: /en/blog/2011/06/primera-fase/
+permalink: /en/blog/2011/06/primera-fase/
+url-otro-idioma: /blog/2011/06/primera-fase/
 slug: primera-fase
 
+auto-traduccion: yes
 subtitulo: Cumplimos la solvencia técnica y profesional requeridas
 imagen: 
 autores: 

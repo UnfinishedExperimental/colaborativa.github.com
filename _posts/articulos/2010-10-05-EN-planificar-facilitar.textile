@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Planificar o facilitar
-permalink: /blog/2010/10/planificar-facilitar/
-url-otro-idioma: /en/blog/2010/10/planificar-facilitar/
+permalink: /en/blog/2010/10/planificar-facilitar/
+url-otro-idioma: /blog/2010/10/planificar-facilitar/
 slug: planificar-facilitar
 
+auto-traduccion: yes
 subtitulo: Dos estrategias distintas para conseguir la ciudad deseada
 imagen: 
 autores: 

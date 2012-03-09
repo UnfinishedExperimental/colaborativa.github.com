@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Novedades y búsqueda de patrocinadores
-permalink: /blog/2011/05/novedades-patrocinadores/
-url-otro-idioma: /en/blog/2011/05/novedades-patrocinadores/
+permalink: /en/blog/2011/05/novedades-patrocinadores/
+url-otro-idioma: /blog/2011/05/novedades-patrocinadores/
 slug: novedades-patrocinadores
 
+auto-traduccion: yes
 subtitulo: Sobre el concurso y los próximos pasos
 imagen: farm7.staticflickr.com/6200/6079299279_1ee1027e17
 autores: 

@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Toronto, Ciudad Creativa
-permalink: /blog/2010/09/toronto-creativa/
-url-otro-idioma: /en/blog/2010/09/toronto-creativa/
+permalink: /en/blog/2010/09/toronto-creativa/
+url-otro-idioma: /blog/2010/09/toronto-creativa/
 slug: toronto-creativa
 
+auto-traduccion: yes
 subtitulo: Looking for Toronto I - La creatividad como motor ciudadano
 imagen: 
 autores: 

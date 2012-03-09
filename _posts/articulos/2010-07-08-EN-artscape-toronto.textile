@@ -1,12 +1,14 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Artscape, Toronto
-permalink: /blog/2010/07/artscape-toronto/
-url-otro-idioma: /en/blog/2010/07/artscape-toronto/
+permalink: /en/blog/2010/07/artscape-toronto/
+url-otro-idioma: /blog/2010/07/artscape-toronto/
 slug: artscape-toronto
 
+auto-traduccion: yes
+auto-translation: yes
 subtitulo: Reciclando los espacios industriales de Toronto para el trabajo de los artistas
 imagen: 
 autores: 

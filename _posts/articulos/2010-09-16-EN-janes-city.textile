@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Jane's city
-permalink: /blog/2010/09/janes-city/
-url-otro-idioma: /en/blog/2010/09/janes-city/
+permalink: /en/blog/2010/09/janes-city/
+url-otro-idioma: /blog/2010/09/janes-city/
 slug: janes-city
 
+auto-traduccion: yes
 subtitulo: Looking for Toronto II - Tras los pasos de Jane Jacobs
 imagen: 
 autores: 

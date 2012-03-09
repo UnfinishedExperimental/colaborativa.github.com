@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Dossier de patrocinio
-permalink: /blog/2011/05/dossier-patrocinio/
-url-otro-idioma: /en/blog/2011/05/dossier-dpatrocinio/
+permalink: /en/blog/2011/05/dossier-patrocinio/
+url-otro-idioma: /blog/2011/05/dossier-dpatrocinio/
 slug: dossier-patrocinio
 
+auto-traduccion: yes
 subtitulo: Buscando patrocinadores para el futuro Espacio Creativo
 imagen: 
 autores: 

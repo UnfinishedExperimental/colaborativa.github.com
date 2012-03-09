@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Primeras Reuniones, primeras impresiones II
-permalink: /blog/2010/07/primeras-reunionesII/
-url-otro-idioma: /en/blog/2010/07/primeras-reunionesII/
+permalink: /en/blog/2010/07/primeras-reunionesII/
+url-otro-idioma: /blog/2010/07/primeras-reunionesII/
 slug: primeras-reunionesII
 
+auto-translation: yes
 subtitulo:Reuniones con Jesús Cabello, del Museo Regina, Imdeec, Partido Popular de Córdoba y con el Consejo Social de la Universidad
 imagen: 
 autores: 
@@ -16,12 +17,10 @@ categorias:
  - espacio-creativo
  - espacio-creativo-cordoba
 
-
 relacionados:
  - primeras-reunionesI
 
 enlaces:
-
 
 ---
 

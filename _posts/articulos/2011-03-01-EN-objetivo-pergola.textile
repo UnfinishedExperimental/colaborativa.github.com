@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: "¡Objetivo: Pérgola!"
-permalink: /blog/2011/03/objetivo-pergola/
-url-otro-idioma: /en/blog/2011/03/objetivo-pergola/
+permalink: /en/blog/2011/03/objetivo-pergola/
+url-otro-idioma: /blog/2011/03/objetivo-pergola/
 slug: objetivo-pergola
 
+auto-traduccion: yes
 subtitulo: El concurso de la Pérgola, una oportunidad para el Espacio Creativo
 imagen: farm8.staticflickr.com/7054/6946728983_c5af699669
 autores: 

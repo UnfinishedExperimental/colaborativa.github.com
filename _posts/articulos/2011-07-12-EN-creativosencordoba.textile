@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Creativos en Córdoba
-permalink: /blog/2011/07/creativosencordoba/
-url-otro-idioma: /en/blog/2011/07/creativosencordoba/
+permalink: /en/blog/2011/07/creativosencordoba/
+url-otro-idioma: /blog/2011/07/creativosencordoba/
 slug: creativosencordoba
 
+auto-traduccion: yes
 subtitulo: Nuestra visualización de la escena creativa cordobesa
 imagen: farm8.staticflickr.com/7048/6946673375_19f217a1b0
 autores: 

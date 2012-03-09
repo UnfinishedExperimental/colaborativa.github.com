@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Camaraderie, Toronto
-permalink: /blog/2010/07/camaraderie-toronto/
-url-otro-idioma: /en/blog/2010/07/camaraderie-toronto/
+permalink: /en/blog/2010/07/camaraderie-toronto/
+url-otro-idioma: /blog/2010/07/camaraderie-toronto/
 slug: camaraderie-toronto
 
+auto-traduccion: yes
 subtitulo: Una pequeña iniciativa con una gran vocación
 imagen: 
 autores: 

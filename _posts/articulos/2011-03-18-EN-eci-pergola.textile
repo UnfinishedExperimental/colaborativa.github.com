@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Espacio Creativo en la Pérgola
-permalink: /blog/2011/03/eci-pergola/
-url-otro-idioma: /en/blog/2011/03/eci-pergola/
+permalink: /en/blog/2011/03/eci-pergola/
+url-otro-idioma: /blog/2011/03/eci-pergola/
 slug: eci-pergola
 
+auto-traduccion: yes
 subtitulo: Primeros detalles de la propuesta que vamos a presentar
 imagen: farm8.staticflickr.com/7041/6800601520_cdfdc950c2
 autores: 

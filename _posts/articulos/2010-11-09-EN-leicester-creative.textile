@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Leicester Creative Business Depot
-permalink: /blog/2010/11/leicester-creative/
-url-otro-idioma: /en/blog/2010/11/leicester-creative/
+permalink: /en/blog/2010/11/leicester-creative/
+url-otro-idioma: /blog/2010/11/leicester-creative/
 slug: leicester-creative
 
+auto-traduccion: yes
 subtitulo: Una nueva iniciativa pública inglesa para la regeneración urbana a través del emprendimiento creativo
 imagen: 
 autores: 

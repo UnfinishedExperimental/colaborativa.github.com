@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: "¡Estamos de vuelta!"
-permalink: /blog/2010/09/vuelta/
-url-otro-idioma: /en/blog/2010/09/vuelta/
+permalink: /en/blog/2010/09/vuelta/
+url-otro-idioma: /blog/2010/09/vuelta/
 slug: vuelta
 
+auto-traduccion: yes
 subtitulo: Retomamos la actividad del blog
 imagen: 
 autores: 

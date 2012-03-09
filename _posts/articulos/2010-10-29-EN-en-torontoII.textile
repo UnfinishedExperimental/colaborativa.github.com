@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Colaborativa en Toronto
-permalink: /blog/2010/10/en-torontoII/
-url-otro-idioma: /en/blog/2010/10/en-torontoII/
+permalink: /en/blog/2010/10/en-torontoII/
+url-otro-idioma: /blog/2010/10/en-torontoII/
 slug: en-torontoII
 
+auto-traduccion: yes
 subtitulo: Publicamos el reportaje de las fotos que hicimos durante el viaje
 imagen: 
 autores: 

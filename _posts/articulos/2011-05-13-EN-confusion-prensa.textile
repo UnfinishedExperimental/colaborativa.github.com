@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Confusión en la prensa de hoy
-permalink: /blog/2011/05/confusion-prensa/
-url-otro-idioma: /en/blog/2011/05/confusion-prensa/
+permalink: /en/blog/2011/05/confusion-prensa/
+url-otro-idioma: /blog/2011/05/confusion-prensa/
 slug: confusion-prensa
 
+auto-traduccion: yes
 subtitulo: Confunden el centro cívico de la Foggara con la Pérgola
 imagen: 
 autores: 
@@ -14,6 +15,7 @@ autores:
 
 categorias:
  - espacio-creativo
+ - espacio-creativo-cordoba
 
 relacionados:
  - 

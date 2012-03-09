@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Back from Toronto
-permalink: /blog/2010/09/back-toronto/
-url-otro-idioma: /en/blog/2010/09/back-toronto/
+permalink: /en/blog/2010/09/back-toronto/
+url-otro-idioma: /blog/2010/09/back-toronto/
 slug: back-toronto
 
+auto-traduccion: yes
 subtitulo: Primer balance de nuestro viaje a la ciudad creativa canadiense más importante
 imagen: 
 autores: 
@@ -15,6 +16,7 @@ autores:
 categorias:
  - espacio-creativo
  - espacio-creativo-cordoba
+
 
 relacionados:
  - 

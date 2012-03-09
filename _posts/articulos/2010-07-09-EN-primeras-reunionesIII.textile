@@ -1,12 +1,14 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Primeras Reuniones, primeras impresiones III
-permalink: /blog/2010/07/primeras-reunionesIII/
-url-otro-idioma: /en/blog/2010/07/primeras-reunionesIII/
+permalink: /en/blog/2010/07/primeras-reunionesIII/
+url-otro-idioma: /blog/2010/07/primeras-reunionesIII/
 slug: primeras-reunionesIII
 
+auto-traduccion: yes
+auto-translation: yes
 subtitulo: Finalizamos con la Fundación Córdoba Capital Cultural, el Obispado de Córdoba y la Gerencia de Urbanismo 
 imagen: 
 autores: 

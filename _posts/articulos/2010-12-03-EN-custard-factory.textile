@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Custard Factory, Birmingham
-permalink: /blog/2010/12/custard-factory/
-url-otro-idioma: /en/blog/2010/12/custard-factory/
+permalink: /en/blog/2010/12/custard-factory/
+url-otro-idioma: /blog/2010/12/custard-factory/
 slug: custard-factory
 
+auto-traduccion: yes
 subtitulo: Actividad creativa para la regeneracion de zonas industriales obsoletas en Birmingham
 imagen: 
 autores: 

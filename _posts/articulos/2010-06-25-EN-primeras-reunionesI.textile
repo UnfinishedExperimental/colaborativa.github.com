@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Primeras Reuniones, primeras impresiones I
-permalink: /blog/2010/06/primeras-reunionesI/
-url-otro-idioma: /en/blog/2010/06/primeras-reunionesI/
+permalink: /en/blog/2010/06/primeras-reunionesI/
+url-otro-idioma: /blog/2010/06/primeras-reunionesI/
 slug: primeras-reunionesI
 
+auto-translation: yes
 subtitulo: Primeros contactos con David Luque, la Delegación de Cultura del Ayuntamiento, la Oficina de la Capitalidad y la Universidad de Córdoba
 imagen: 
 autores: 
@@ -16,13 +17,11 @@ categorias:
  - espacio-creativo
  - espacio-creativo-cordoba
 
-
 relacionados:
  - 
 
 enlaces:
 - 
-
 
 ---
 

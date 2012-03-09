@@ -7,6 +7,7 @@ permalink: /blog/2011/11/coworking-conference/
 url-otro-idioma: /en/blog/2011/11/coworking-conference/
 slug: coworking-conference
 
+auto-traduccion: yes
 subtitulo: We attended the Coworking International Conference in Berlin
 imagen: farm7.staticflickr.com/6212/6340317464_0d69b158ba
 autores: 

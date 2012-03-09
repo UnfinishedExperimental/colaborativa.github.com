@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Round Foundry, Leeds
-permalink: /blog/2010/07/round-foundry/
-url-otro-idioma: /en/blog/2010/07/round-foundry/
+permalink: /en/blog/2010/07/round-foundry/
+url-otro-idioma: /blog/2010/07/round-foundry/
 slug: round-foundry
 
+auto-traduccion: yes
 subtitulo: Multitud de servicios para atender las necesidades de los emprendedores
 imagen: 
 autores: 
