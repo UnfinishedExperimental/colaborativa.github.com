@@ -1,0 +1,45 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Coworking spaces are all around the world!
+permalink: /blog/2011/11/coworking-conference/
+url-otro-idioma: /en/blog/2011/11/coworking-conference/
+slug: coworking-conference
+
+subtitulo: We attended the Coworking International Conference in Berlin
+imagen: farm7.staticflickr.com/6212/6340317464_0d69b158ba
+autores: 
+ - magda-sanchez
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - back-toronto
+ - en-torontoI
+ - en-torontoII
+
+enlaces:
+- 
+
+
+---
+
+That is what we thought when we first arrived at the conference, we found people from many countries around the world wanting to share their experiences and wanting to know more about why the coworking community is becoming larger and larger!. In brief these are some of the things that we found…
+
+h6.…inspiring
+
+An initiative that we found particularly inspiring is "http://xindanwei.com/":http://xindanwei.com/ in China with 300 square meters and 6000 members. They define the concept of *active coworkers* in which they have access to free office space in exchange for being involved in projects, enabling events or helping in the management of time/space usage. This concept opens up a new whole world of options for involving the coworking community in the management and sustainability of the space. The essence of the coworking space would be to make people be part of it, when everybody gains something then everybody is happy! and that is what is matters at the end.
+
+h6.…useful
+
+There were few sessions focusing on the ways to bring revenue, some of them seem pretty straightforward such as sharing facilities for external use (meeting rooms) or sharing revenue with the landlord. However other were not that obvious, such as building business out of trust and good reputation. We need to be aware of what people do in order to facilitate networking and collaborative works between the coworkers, after this community will build up and then trust will come. One last way, having a scholarship program in the coworking space consisting in for example giving office space for free to an entrepreneur with a nice idea. This will bring a lot of attention to your coworking space, and the lucky entrepreneurs will do free publicity on how happy they are and how helpful the scholarship program has been to them.
+
+h6.…missing
+
+We missed sessions talking about what coworkers do for a living, are they designers, architects, developers? and more importantly, how does that affect to the design of a coworking space? It is clear that it is not the same having a coworking space for creative people than for business people. They have different needs, even though that was said in the sessions we would have like speakers spending more time describing their public objective, the actions performed to accommodate them in the space and finally their experiences.
+
+Colaborativa enjoyed a lot attending to Coworking Berlin 2011 last Nov 3-5, we will definitely go to next year conference and hopefully we will be presenting our space in Córdoba!!
+
+_Este post fue publicado originalmente en el blog del Espacio Creativo._

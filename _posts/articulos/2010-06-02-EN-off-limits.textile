@@ -1,0 +1,34 @@
+---
+language: en
+layout: blog-articulo
+category: articulos
+title: Off Limits, Madrid
+permalink: /en/blog/2010/06/off-limits/
+url-otro-idioma: /blog/2010/06/off-limits/
+slug: off-limits
+
+auto-traduccion: yes
+subtitulo: Espacios para la creación como nuevos servicios empresariales
+imagen: 
+autores: 
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - the-hub
+
+enlaces:
+- { type: externo, title: Off Limits, url: http://www.offlimits.es/ }
+
+
+---
+
+Off Limits se presenta como una interesante combinación de servicios de gestión cultural y formación, exposición y producción de proyectos de arte contemporáneo y alquiler de espacio a empresas. Aunque se trate de una sola empresa, que gestiona de forma independiente su espacio, traemos hoy su caso aquí porque constituye un claro ejemplo de esta nueva forma de colaborar con otras industrias creativas compartiendo los espacios.
+
+Inicialmente Off Limits perseguía la existencia en Madrid de un espacio destinado al arte contemporáneo más experimental y alejado de los circuitos comerciales tradicionales. En 1998 consiguieron la cesión de un antiguo garaje del barrio de Salamanca, el garaje Pemasa, que durante 2 años convirtieron en un lugar que albergó algunas de las propuestas artísticas más experimentales del momento.
+
+Off Limits se encuentra desde el año 2000 ubicado en un antiguo horno de pan de 1908, situado en las inmediaciones del Museo Reina Sofía, Teatro Valle Inclán, Caixa Forum y La Casa Encendida. Como indican en su web, el espacio consiste en 210m2 diáfanos de sala de exhibiciones, que utilizan para numeroso tipo de eventos y presentaciones, 125m2 de oficinas con 25 puestos de trabajo y 300m2 de terraza en el interior de la manzana.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

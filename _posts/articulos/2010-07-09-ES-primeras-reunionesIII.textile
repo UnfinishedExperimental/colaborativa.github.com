@@ -1,0 +1,42 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Primeras Reuniones, primeras impresiones III
+permalink: /blog/2010/07/primeras-reunionesIII/
+url-otro-idioma: /en/blog/2010/07/primeras-reunionesIII/
+slug: primeras-reunionesIII
+
+subtitulo: Finalizamos con la Fundación Córdoba Capital Cultural, el Obispado de Córdoba y la Gerencia de Urbanismo 
+imagen: 
+autores: 
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - primeras-reunionesI
+ - primeras-reunionesII
+
+enlaces:
+- 
+
+
+---
+
+Hola a todos. Finalizamos aquí el repaso que estamos haciendo de las entrevistas y encuentros mantenidos hasta el momento en relación al Espacio Creativo Independiente.
+
+Nos llamaron de la *Fundación Córdoba Ciudad Cultural* para mantener un encuentro con su directora-gerente, Carlota Álvarez Basso. Por su trayectoria profesional, Carlota ha tenido la oportunidad de conocer iniciativas parecidas, más ligadas al mundo de la creación artística, en distintas ciudades de Europa. Nos expresó la conveniencia de una propuesta así para Córdoba, máxime cuando la ciudad busca convertirse en una referencia cultural al hilo de la Capitalidad. Nos aconsejó buscar sinergias con los proyectos públicos de finalidad similar que ya estuvieran en marcha y que contaran con financiación garantizada. Tras darnos una serie de referencias útiles, finalizó ofreciéndonos su apoyo y el de la Fundación que dirige.
+
+Solicitamos un encuentro en el *Obispado de Córdoba* para presentar la propuesta a los responsables de Patrimonio. El Obispado es propietario de una gran cantidad de edificios, muchos de ellos de gran valor histórico-artístico. Sin embargo alguno de estos presentan un alto riesgo de deterioro por la falta de un uso y de mantenimiento continuado. Valoraron la iniciativa muy positívamente, mostrándose especialmente sensibles en lo que atañe al factor de conservación y mantenimiento de los espacios que se propone en el proyecto. Se comprometieron a elevar la propuesta al Consejo Episcopal y darnos una respuesta en caso de considerar la iniciativa de su interés.
+
+Acudimos ilusionados a la *Gerencia de Urbanismo*, convocados por el Coordinador General de Urbanismo, al comprobar su interés y atención por el proyecto y saber que están trabajando en la búsqueda de un espacio adecuado. Algunos espacios barajados inicialmente, a pesar de ser muy atractivos, se revelaron inadecuados para poder en marcha el proyecto de manera rápida y económica. No obstante, quedaron en seguir buscando e informarnos en caso de encontrar alguna opción.
+
+Para finalizar esta serie de resúmenes queremos hacer un breve balance del estado en el que nos encontramos. La iniciativa ha sido muy bien acogida y en ese sentido hemos recibido muchos apoyos, pero pocas reuniones han abierto alguna posibilidad real en relacion a espacios concretos. Esta escasez de posibilidades contrasta con lo que vemos a nuestro alrededor: edificios abandonados o con un uso parcial en nuestra ciudad de los que seguimos desconociendo su futuro inmediato.
+
+Desde Colaborativa creemos en la viabilidad inmediata del Espacio Creativo por su capacidad de ser puesto en marcha de manera rápida y temporal. Alejándose de los horizontes temporales que se plantean para otro tipo de iniciativas que solicitan la cesión de algún bien público (un solar, un edificio por 50 años, por 75 años…). Nuestros plazos pueden más breves y estarán vinculados a la propia evolución del proyecto.
+
+Estamos ultimando la agenda de nuestro "viaje a Toronto":http://www.espaciocreativo.colaborativa.eu/blog/?p=33 en Septiembre donde nos reuniremos con algunas de las iniciativas que hemos reseñado en el blog. Os mantendremos informados!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

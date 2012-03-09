@@ -1,0 +1,35 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Im Rüetschi Haus, Suhr
+permalink: /blog/2010/06/imruetschi-haus/
+url-otro-idioma: /en/blog/2010/06/imruetschi-haus/
+slug: imruetschi-haus
+
+subtitulo: Un pequeño ejemplo de espacio creativo desde la suiza rural
+imagen: 
+autores: 
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Im Rüetschi Haus, url: http://www.forum-h3.ch/ }
+
+
+---
+
+Gracias a la sugerencia que nos hizo Amanda, traemos hoy una iniciativa inspiradora. En Suhr, cerca de Aarau, un pequeño pueblecito de Suiza, los Rüetschi tomaron la determinación a mediados de los 90 de renovar el uso de la vieja fábrica del negocio familiar. Se trata de un edificio industrial alargado y horizontal, hecho a bases de distintos cuerpos yuxtapuestos, con una gran generosidad de espacios y de iluminación natural. Eran básicamente espacios para maquinaria industrial.
+
+Las posibilidades espaciales que ofrecía un edificio así incitó a los Rüetschi a compartimentarlo y a alquilarlo para empresas dedicadas como ellos a la artesanía y a la manufactura. Lo interesante del caso es cómo aprovecharon los alquileres de los espacios para generar una serie de servicios comunes de los que se benefician todos los ocupantes: sala de ordenadores, servicios y espacios comunes, zona puesta a disposición de jóvenes, y por último, el _forum h3_, un espacio polivalente que sirve tanto como espacio cultural como zona de encuentro. También, y de forma complementaria a los alquileres, ofrecen distintos serviciso de administración, asesoría legal y financiera. Todo, como dicen ellos, con la finalidad de dar “más posibilidades a los jóvenes emprendedores”. Actualmente está al 100% de su capacidad.
+
+Es alentador encontrar referencias como ésta porque dan la medida de cómo pueden funcionar los programas similares al del Espacio Creativo Independiente con independencia del sitio y del tamaño. Se trata simplemente de saber encontrar la escala adecuada.
+
+Gracias Amanda por encontrarnos donde trabaja la hermana artista de tu cuñado, y a "Pilar":http://pirulinaberlin.blogspot.com/ y a Daniela por la traducción de los contenidos de la web. Gracias!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

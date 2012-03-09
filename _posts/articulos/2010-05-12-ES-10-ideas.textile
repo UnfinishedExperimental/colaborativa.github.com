@@ -1,0 +1,29 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: 10 Ideas para un Espacio Creativo Independiente
+permalink: /blog/2010/05/10-ideas/
+url-otro-idioma: /en/blog/2010/05/10-ideas/
+slug: 10-ideas
+
+subtitulo: Ideas para guiar la puesta en marcha de espacios para las industrias creativas
+imagen: 
+autores: 
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Consulta el dossier en Issuu, url: http://issuu.com/colaborativa.eu/docs/10_ideas_1_1 }
+
+
+---
+
+Aquí tenéis el dossier completo en PDF tanto en Inglés como en Castellano. Here you have the complete dossier both in English and Spanish
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

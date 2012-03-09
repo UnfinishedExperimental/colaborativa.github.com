@@ -1,0 +1,34 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: The Media Center. Huddersfield, England
+permalink: /blog/2010/05/media-centerd/
+url-otro-idioma: /en/blog/2010/05/media-center/
+slug: media-center
+
+subtitulo: Un nuevo ejemplo de renovación urbana a través de la actividad creativa desde Inglaterra
+imagen: 
+autores: 
+ - javi-buron
+
+categorias:
+ - espacio-creativo
+ - espacio-creativo-referencias
+
+relacionados:
+ - village-underground
+ - leicester-creative
+ - platoon-kunsthalle
+
+enlaces:
+- { type: externo, title: The Media Center, url: http://www.the-media-centre.co.uk/ }
+
+
+---
+
+The Media Center en Huddersfield formó parte de la ambiciosa estrategia de regeneración en "West Yorkshire":http://en.wikipedia.org/wiki/West_Yorkshire tras la grave crisis industrial sufrida en los años 80. Abrió sus puertas en 1995 bajo gestión públics pero el modelo se abandonó cuatro años más tarde al ser incapaz de mantener una gestión sostenible de la iniciativa. En el año 2000 el proyecto se transfirió a una organización independiente sin ánimo de lucro y desde ese momento se ha consolidado como uno de los “creative clusters” más exitosos del Reino Unido.
+
+Actualmente la iniciativa incluye tres edificios con espacios de trabajo y un amplio programa artístico y cultural, con la reciente inclusión de los “creative lofts” donde los emprendedores tienen acceso a viviendas flexibles que disponen de espacios de trabajo adecuados.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

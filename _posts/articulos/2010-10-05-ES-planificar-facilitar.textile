@@ -1,0 +1,38 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Planificar o facilitar
+permalink: /blog/2010/10/planificar-facilitar/
+url-otro-idioma: /en/blog/2010/10/planificar-facilitar/
+slug: planificar-facilitar
+
+subtitulo: Dos estrategias distintas para conseguir la ciudad deseada
+imagen: 
+autores: 
+ - javi-buron
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - regeneracion-economica
+ - modelo-colaboracion
+
+enlaces:
+- 
+
+
+---
+
+Los medios locales se hacen eco esta semana de dos interesantes iniciativas que desde el sector público apoyan la industria creativo cultural en nuestra ciudad: la nueva incubadora del Proyecto Lunar y la promoción de un distrito creativo en torno al corredor cultural Corredera-Compañía-Mezquita.
+
+Ilusiona comprobar el enorme compromiso que las diversas administraciones públicas e instituciones están llevando a cabo para el desarrollo del sector empresarial creativo-cultural en Córdoba. En base a nuestra investigación y la observación directa en nuestra reciente visita a Toronto hemos identificado otro tipo de estrategia, perfectamente compatible con la que está en marcha.
+
+En Toronto observamos que el desarrollo de las industrias creativo-culturales en determinadas zonas de la ciudad se produce de forma totalmente orgánica, propiciado por la existencia de espacios adecuados a precios asequibles. La intervención pública se limita a “liberar”, de forma controlada y no necesariamente pensando en un sector económico concreto, aquellas zonas de la ciudad que se encuentran estancadas por usos industriales o equipamientos públicos obsoletos otorgándoles una zonificación urbanística más flexible y variada. Esto permite que florezca un complejo ecosistema de micro-empresas, comercios de barrio, talleres, oficinas y estudios.
+
+Somos conscientes de las enormes diferencias entre Toronto y Córdoba pero también reconocemos el distinto papel que adopta el sector público en cada una de estas estrategias. Uno proyecta primero una imagen deseada de ciudad y construye un extenso marco de políticas para llevarlo a cabo, el otro se limita a facilitar la diversidad urbanística y económica a través de intervenciones puntuales controladas.
+
+¿Cual pensáis que es más efectiva?¿Creéis que pueden ser compatibles entre sí?
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

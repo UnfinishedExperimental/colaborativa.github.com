@@ -1,0 +1,32 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Bamboo Curtain Studio, Taipei
+permalink: /blog/2010/05/bamboo-curtain/
+url-otro-idioma: /en/blog/2010/05/bamboo-curtain/
+slug: bamboo-curtain
+
+subtitulo: Recuperación de espacios industriales para la cultura desde Taiwan
+imagen: 
+autores: 
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+ - espacio-creativo-referencias
+
+relacionados:
+ - platoon-kunsthalle
+
+enlaces:
+- { type: externo, title: The Bamboo Curtain Studio, url: http://bambooculture.com/ }
+
+
+---
+
+No hemos encontrado información de cuando se fundó este interesante espacio en la capital de Taiwan. Originalmente era un estudio para artistas y actualmente incluye programas educativos, talleres equipados para artes plásticas y una completa oferta de intercambio cultural y residencia de artistas. Los dos edificios rehabilitados fueron anteriormente parte de una granja de pollos y conservan un espacio central abierto que sirve de sala de exposiciones al aire libre y lugar de encuentro.
+
+Desde hace cinco años el espacio está dirigido por Margaret Shiu Tan, economista por la Universidad de Berkley, California y integrante del panorama cultural taiwanés desde los años 80. Gracias a su constante dedicación numerosos edificios industriales de la isla han sido reconvertidos en espacios culturales y artísticos.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

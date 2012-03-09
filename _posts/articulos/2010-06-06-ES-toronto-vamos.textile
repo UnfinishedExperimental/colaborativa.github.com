@@ -1,0 +1,31 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: ¡Toronto allá vamos!
+permalink: /blog/2010/06/toronto-vamos/
+url-otro-idioma: /en/blog/2010/06/toronto-vamos/
+slug: toronto-vamos
+
+subtitulo: Viajamos a la ciudad de la creatividad para visitar algunas de las referencias del Espacio Creativo
+imagen: 
+autores: 
+ - magda-sanchez
+ - javi-buron
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- 
+
+
+---
+
+Este próximo Septiembre y gracias al programa "Inexe":http://www.iemprendedores.es/index.php/inexe?phpMyAdmin=ffd17511f1ba48233314380145d6c483&phpMyAdmin=J0gUJvVajLWa1gdZB3O9PCnz112&phpMyAdmin=eead39a790aca50bef46dd031e2cc4f7 de la consejería de Empleo, Economía, Innovación y Ciencia de la Junta de Andalucía tendremos la oportunidad de ir a Toronto para conocer en directo algunas de las referencias que hemos estudiado en la gestación del Espacio Creativo Independiente en Córdoba: "Center for Social Innovation".http://socialinnovation.ca/, "Richmond 401":http://www.401richmond.net/, "UrbanSpace":http://urbanspace.org/ y "Artscape":http://www.torontoartscape.on.ca/ son algunas de las numerosas iniciativas que visitaremos. Estamos fijando reuniones con sus responsables para conocer de primera mano la historia de cada uno de estos proyectos, sus modelos de gestión, establecer colaboraciones y aprender lo máximo posible de su experiencia.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

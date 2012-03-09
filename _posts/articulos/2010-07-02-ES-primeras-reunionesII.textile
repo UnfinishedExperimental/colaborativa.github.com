@@ -1,0 +1,41 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Primeras Reuniones, primeras impresiones II
+permalink: /blog/2010/07/primeras-reunionesII/
+url-otro-idioma: /en/blog/2010/07/primeras-reunionesII/
+slug: primeras-reunionesII
+
+subtitulo:Reuniones con Jesús Cabello, del Museo Regina, Imdeec, Partido Popular de Córdoba y con el Consejo Social de la Universidad
+imagen: 
+autores: 
+ - curro-crespo
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - primeras-reunionesI
+
+enlaces:
+- 
+
+
+---
+
+Hola amigos. Continuamos por donde lo dejamos.
+
+Desde el principio hemos sentido la necesidad de que el proyecto del Espacio Creativo Independiente sea conocido por las fuerzas políticas presentes en las instituciones de nuestra ciudad. Esta iniciativa quiere evitar cualquier posibilidad de ser adscrita políticamente y en ese sentido nada nos gustaría más que pudiera ser vista y considerada del interés general de la ciudad. Creemos que estamos cumpliendo este objetivo y queríamos haceros partícipes de ello.
+
+Nos alegró mucho que *Jesús Cabello*, gerente del Museo Regina, nos propusiera un encuentro directamente a través de nuestra página en Facebook. En la reunión Jesús nos informó de la disponibilidad del edificio del Museo para su puesta en marcha inmediata, por las buenas condiciones en las que se encuentra. Quedamos pendientes de hacer una visita, pero del estudio de los planos y la información gráfica que nos suministró comprobamos ciertas dificultades de entrada por tratarse de un edificio distribuido por plantas de reducido tamaño.
+
+Acudimos al *Imdeec* animados por la calurosa acogida que su presidente, Valentín Priego, hizo del Espacio Creativo en el mismo acto de su presentación en la Cámara de Comercio. En el Imdeec pudimos conocer el esfuerzo que vienen desarrollando para lograr hacer de las industrias creativas un sector clave en el desarrollo económico y del empleo en Córdoba. El Imdeec se encuentra gestionando en la actualidad el Plan Urban Sur, un proyecto con fondos europeos para la regeneración urbanística, económica y social del Sector Sur, que desea que pivote en torno a la cultura y las industrias creativas. De esa forma se quiere aprovechar el impulso que provocarán en el barrio equipamientos culturales de la importancia del futuro Centro de Congresos y el Centro de Creación Contemporánea. El Imdeec nos ofreció estudiar la forma de incorporar la iniciativa del Espacio Creativo dentro del conjunto de actuaciones del Urban Sur, y de forma más concreta, integrarse en el edificio de la antigua Magisterio, edificio contenedor destinado a convertirse en un dinamizador de la actividad empresarial asociada a la cultura.
+
+Presentamos también el Espacio Creativo Independiente al *Partido Popular* de Córdoba, que valoró de manera muy positiva el énfasis que la iniciativa está haciendo desde el principio de la capacidad que debe desarrollar de sostenerse económicamente por sí misma así como por su fomento del espíritu empresarial. Les atrajo saber que vamos a hacer un viaje próximamente a Toronto, donde tendremos oportunidad de conocer in situ experiencias similares que están funcionando con éxito. La reunión finalizó emplazándonos para un nuevo encuentro a la vuelta del viaje con el objeto de ampliarles informarción y contarles el estado de avance del proyecto.
+
+Seguimos pensando el papel clave que la Universidad de Córdoba puede jugar para esta iniciativa. Por eso acudimos a entrevistamos con la presidenta del *Consejo Social de la UCO*, Anabel Carrillo, quien también estuvo presente en la presentación en la Cámara. Pusimos al corriente a Anabel de nuestros contactos anteriores con la Universidad y de la visita que realizamos al Colegio Mayor Séneca. Ella a su vez nos informó de las diversas iniciativas en marcha en la ciudad para incentivar las industrias creativas en las que participa el Consejo Social. Mostró interés por el aspecto del proyecto para ser implantado de manera temporal y reversible, a la vez que nos comentó las lógicas dificultades que eso implica en relación a la gestión del edicio.
+
+En el próximo post continuaremos con las últimas reuniones que hemos mantenido. Os adelantamos que nos hemos reunido con la Fundación Córdoba 2016, con el Obispado de Córdoba y con la Gerencia Municipal de Urbanismo. Hasta entonces, un saludo!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

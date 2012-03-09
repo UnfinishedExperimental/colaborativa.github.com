@@ -1,0 +1,30 @@
+---
+language: en
+layout: blog-articulo
+category: articulos
+title: 10 ideas for an Independent Creative Space in Cordoba
+permalink: /en/blog/2010/05/presentacion-camara/
+url-otro-idioma: /blog/2010/05/presentacion-camara/
+slug: presentacion-camara
+
+subtitulo: Sharing presentation’s slides
+imagen: 
+autores: 
+ - magda-sanchez
+
+categorias:
+ - espacio-creativo
+ - espacio-creativo-cordoba
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Presentación en Slide, url: http://www.slideshare.net/colaborativa/10-ideas-para-un-espacio-creativo-independiente-en-crdoba?from=ss_embed }
+
+
+---
+
+Here you have last wednesday presentation’s slides. We encourage you to share with your friends!
+
+_This post was originally published on Creative Space Blog._

@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="listadoNodos Inicio">
-					{% for item in site.categories.articulos limit:4 %}
+					{% for item in site.categories.articulos limit:2 %}
 						{% if item.language == page.language %}
 						{% include _nodolista-articulo.html %}
 						{% endif %}

@@ -1,0 +1,39 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Espacio Creativo en la Pérgola
+permalink: /blog/2011/03/eci-pergola/
+url-otro-idioma: /en/blog/2011/03/eci-pergola/
+slug: eci-pergola
+
+subtitulo: Primeros detalles de la propuesta que vamos a presentar
+imagen: farm8.staticflickr.com/7041/6800601520_cdfdc950c2
+autores: 
+ - javi-buron
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- 
+
+
+---
+
+El proceso del concurso sigue en marcha y continuamos trabajando en cómo hacer realidad el Espacio Creativo Independiente en la Pérgola. Nos gustaría adelantaros más  detalles sobre el proyecto.
+
+El Espacio Creativo en la Pérgola albergará espacios de trabajo en alquiler para emprendedores y empresas del sector creativo-cultural, salas de reuniones, un espacio cultural y una cafetería.
+
+El Espacio Creativo ofrecerá 12 oficinas de diferentes tamaños –de 2 a 6 puestos de trabajo– con un rango de alquileres que oscilarán, según nuestras primeras estimaciones, entre los 150€ y los 450€ al mes. Estos precios incluirán los gastos de luz, internet, seguridad, limpieza y seguros. Además contará con 22 puestos de trabajo individual y acceso a las salas de reuniones por tan sólo 50€ al mes.
+
+El otro gran objetivo del Espacio Creativo es desarrollar una actividad cultural asociada de carácter público. En nuestra primeras estimaciones el proyecto podría generar 10.000€ anuales para una programación cultural continua, sin considerar posibles patrocinios.
+
+Creemos que el proyecto puede ser de gran interés no sólo para los creativos que decidan instalarse en la Pérgola, sino también para aquellos que deseen trabajar allí ocasionalmente y por supuesto para el público en general, que disfrutará de las actividades culturales.
+
+¡Seguimos esperando con ilusión vuestras cartas de apoyo, si tenéis cualquier duda o comentario sobre el proyecto no dudéis en contactar con nosotros!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

@@ -1,0 +1,44 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Back from Toronto
+permalink: /blog/2010/09/back-toronto/
+url-otro-idioma: /en/blog/2010/09/back-toronto/
+slug: back-toronto
+
+subtitulo: Primer balance de nuestro viaje a la ciudad creativa canadiense más importante
+imagen: 
+autores: 
+ - magda-sanchez
+
+categorias:
+ - espacio-creativo
+ - ECI-Córdoba
+
+relacionados:
+ - 
+
+enlaces:
+- 
+
+
+---
+
+¡Hola a todos! Ya hemos regresado de nuestro viaje a Toronto.
+
+Lo primero deciros que el viaje ha cumplido con creces nuestras expectativas.
+
+Ha sido muy emocionante conocer en persona algunos de los espacios que venimos estudiando desde hace tiempo. En ellos hemos podido comprobar cómo la convivencia de creativos trabajando en un mismo espacio logra generar esa atmósfera especial, productiva y estimulante, que tanto deseamos para el Espacio Creativo.
+
+Tuvimos la fortuna de que los espacios que visitamos eran muy diferentes entre sí. Unos eran de iniciativa pública, otros de iniciativa privada. Cada uno con un tamaño diferente (desde una oficina hasta un antiguo complejo industrial) y destinado a un perfil de emprendedor distinto. Al final todos necesarios y complementarios entre sí. Conocer esta diversidad ha sido una de las experiencias más positivas del viaje.
+
+Conforme vayamos ordenando la información del viaje la iremos publicando en el blog.
+
+También aprovechamos para informaros que el _Instituto de Innovación para el Bienestar Ciudadano_, "i2BC":http://www.i2bc.es/, nos ha invitado a formar parte de la _Red Andaluza de Living Labs y Espacios Sociales de Innovación_, denominada "RedPLI":http://redpli.i2bc.es/, por el proyecto del Espacio Creativo Independiente.
+
+Esta red se ha creado para coordinar y aunar esfuerzos en torno a la innovación abierta e innovación social en Andalucía, implicando a todas las personas y agentes que estén interesados.
+
+Somos la primera empresa de Córdoba invitada a formar parte de la red y nos sentimos muy orgullosos de ellos. Podéis visitar el perfil de colaborativa "aquí":https://redpli.i2bc.es/pg/profile/colaborativa.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

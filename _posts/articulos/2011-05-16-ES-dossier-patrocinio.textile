@@ -1,0 +1,29 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Dossier de patrocinio
+permalink: /blog/2011/05/dossier-patrocinio/
+url-otro-idioma: /en/blog/2011/05/dossier-dpatrocinio/
+slug: dossier-patrocinio
+
+subtitulo: Buscando patrocinadores para el futuro Espacio Creativo
+imagen: 
+autores: 
+ - javi-buron
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Dossier de patrocinio en issuu, url: http://issuu.com/colaborativa.eu/docs/dossier_patrocinio }
+
+
+---
+
+Aquí tenéis el dossier de patrocinio que hemos preparado. Sería fantástico contar con vuestra ayuda para poder contactar con aquellas empresas e instituciones que puedan estar interesados en colaborar con proyecto. Un saludo
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

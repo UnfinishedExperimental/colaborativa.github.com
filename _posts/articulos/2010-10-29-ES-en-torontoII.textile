@@ -1,0 +1,29 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Colaborativa en Toronto
+permalink: /blog/2010/10/en-torontoII/
+url-otro-idioma: /en/blog/2010/10/en-torontoII/
+slug: en-torontoII
+
+subtitulo: Publicamos el reportaje de las fotos que hicimos durante el viaje
+imagen: 
+autores: 
+ - magda-sanchez
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Facebook del Espacio Creativo, url: http://www.facebook.com/espaciocreativo }
+
+
+---
+
+En nuestro perfil de facebook hemos ido publicando periódicamente las fotos más representativas del viaje a Toronto, organizadas por iniciativas y acompañadas de un breve comentario. Os invitamos a visitarlo y a conocer con un poco más de detalle los magníficos sitios que tuvimos la fortuna de visitar. Como adelanto aquí tenéis esta selección con las mejores imágenes. ¡Esperamos que os gusten!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

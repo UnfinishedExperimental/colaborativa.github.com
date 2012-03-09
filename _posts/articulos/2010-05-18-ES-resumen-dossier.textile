@@ -1,0 +1,61 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: 10 Ideas para un Espacio Creativo Independiente en Córdoba
+permalink: /blog/2010/05/resumen-dossier/
+url-otro-idioma: /en/blog/2010/05/resumen-dossier/
+slug: resumen-dossier
+
+subtitulo: Resumen de las ideas fundamentales de nuestro dossier sobre el Espacio Creativo Independiente
+imagen: farm4.staticflickr.com/3312/4580367329_2eed429a8e
+autores: 
+ - magda-sanchez
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: El Dossier en issuu, url: http://issuu.com/colaborativa.eu/docs/10_ideas_1_1 }
+
+
+---
+
+Ayer sintetizamos las ideas del "dossier":http://www.espaciocreativo.colaborativa.eu/wiki en estos diez párrafos, nos encantaría conocer vuestra opinión a través del blog o mañana en directo en el salón de actos de la Cámara de Comercio de Córdoba
+
+Aquí los tenéis!
+
+*01. Ciudad Creativa*
+La convivencia y el diálogo entre emprendedores es un mecanismo que estimula la creatividad. Las Ciudades Creativas toman conciencia de ello y fomentan lugares físicos que permitan la interacción no planificada y el trabajo en proximidad.
+
+*02. Córdoba emprendedora*
+La oferta cultural de Córdoba ha proliferado espectacularmente con el horizonte de la Capitalidad Europea de la Cultura en 2016. Para hacer de Córdoba una auténtica ciudad cultural se necesita además apostar por la industria creativa como un sector económico estratégico de la ciudad.
+
+*03. La industria creativa*
+Las industrias creativas participan con su actividad empresarial en la economía local. La Unesco divide las industrias creativas en trece campos distintos: publicidad, arquitectura, arte y mercado de antigüedades, artesanías, diseño, diseño de moda, cine y video, software interactivos de entretenimiento, música, artes de actuación, edición, software y servicios de computación, televisión y radio.
+
+*04. Regeneración económica y social*
+El Espacio Creativo Independiente puede ayudar a la regeneración económica y social de aquellos barrios más necesitados. La propia actividad empresarial de los creativos provoca un impacto económico y comercial beneficioso para su entorno.
+
+*05. Recuperación de espacios abandonados*
+La recuperación de numerosos edificios abandonados en Córdoba está detenida por la actual falta de financiación tanto para la rehabilitación como para su mantenimiento. Las industrias creativas pueden reactivar estos espacios de forma rápida y económica, deteniendo la degradación que provoca su abandono ya que una recuperación posterior sería más costosa.
+
+*06. Modelo de colaboración Público-Privado*
+Un modelo de gestión híbrido permite ligar el éxito de la iniciativa a la correcta gestión de los recursos y fomenta una actitud más responsable. Es posible así establecer un modelo más transparente de colaboración entre particulares y administraciones locales.
+
+*07. Espacios adecuados para las actividades creativas*
+La industria creativa, frente a otro tipo de actividades empresariales, se integra con naturalidad en tipologías industriales, docentes y sanitarias. Para los creativos es fundamental disponer de espacios flexibles por encima de la calidad de los acabados o una céntrica localización.
+
+*08. Espacio de Bienvenida*
+Cualquier iniciativa con vocación pública precisa la existencia de un espacio abierto que lo relacione con la ciudad. Un lugar de encuentro que albergue actividades culturales al aire libre y que esté a disposición del barrio.
+
+*09. Desde una mesa a un taller*
+A diferencia de las incubadoras de empresas, dirigidas al apoyo del emprendedor en sus inicios, el Espacio Creativo dispone de una amplia variedad de espacios de trabajo que permiten la convivencia tanto de empresas noveles como de aquellas ya consolidadas. Se favorece de forma natural la transferencia de conocimiento entre los propios emprendedores.
+
+*10. Espacios comunes para la convivencia y la cultura*
+Para fomentar el diálogo y la comunicación es imprescindible que existan zonas comunes que sirvan como punto de encuentro y den soporte a actividades culturales. Una programación cultural abierta y continua, financiada a través del alquiler de los espacios, contribuirá a ampliar la oferta cultural de Córdoba.
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

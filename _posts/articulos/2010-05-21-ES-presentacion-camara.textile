@@ -1,0 +1,30 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Presentación 10 ideas para un Espacio Creativo Independiente en Córdoba
+permalink: /blog/2010/05/presentacion-camara/
+url-otro-idioma: /en/blog/2010/05/presentacion-camara/
+slug: presentacion-camara
+
+subtitulo: Compartimos la presentación que utilizamos en la Cámara de Comercio
+imagen: 
+autores: 
+ - magda-sanchez
+
+categorias:
+- espacio-creativo
+- espacio-creativo-cordoba
+
+relacionados:
+ - 
+
+enlaces:
+- { type: externo, title: Presentación en Slide, url: http://www.slideshare.net/colaborativa/10-ideas-para-un-espacio-creativo-independiente-en-crdoba?from=ss_embed }
+
+
+---
+
+Aquí tenéis las diapositivas de la presentación del pasado miércoles. Os animamos a compartirla con vuestros amigos!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._

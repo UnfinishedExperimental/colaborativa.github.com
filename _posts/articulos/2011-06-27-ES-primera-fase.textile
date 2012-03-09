@@ -1,0 +1,33 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: ¡Primera fase superada!
+permalink: /blog/2011/06/primera-fase/
+url-otro-idioma: /en/blog/2011/06/primera-fase/
+slug: primera-fase
+
+subtitulo: Cumplimos la solvencia técnica y profesional requeridas
+imagen: 
+autores: 
+ - magda-sanchez
+
+categorias:
+ - espacio-creativo
+
+relacionados:
+ - novedades-patrocinadores
+ - eci-pergola
+ - objetivo-pergola
+
+enlaces:
+- 
+
+
+---
+
+Hola a todos, anunciaros que hemos superado con éxito la primera fase (solvencia económica y profesional) del concurso de la pérgola! En el próximo paso un comité de expertos valorará y puntuará nuestra propuesta, el último paso consistirá en la apertura del sobre C con la propuesta económica ¡La gran noticia es que somos el único equipo que ha logrado superar esta primera fase!
+
+¡El Espacio Creativo Independiente está un poco más cerca de convertirse en realidad! Ahora queda esperar la valoración del comité de expertos, mientras tanto seguiremos avanzando reuniones con posibles patrocinadores. Si conoces empresas que pudieran estar interesadas en patrocinar el proyecto no dudes en contactar con nosotros. Un saludo y gracias por vuestro apoyo!
+
+_Este post ha sido publicado originalmente en el blog del Espacio Creativo._
