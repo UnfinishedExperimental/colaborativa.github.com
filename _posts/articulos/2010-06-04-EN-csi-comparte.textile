@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Center for Social Innovation comparte su modelo con todos nosotros
-permalink: /blog/2010/06/csi-comparte/
-url-otro-idioma: /en/blog/2010/06/csi-comparte/
+permalink: /en/blog/2010/06/csi-comparte/
+url-otro-idioma: /blog/2010/06/csi-comparte/
 slug: csi-comparte
 
+auto-traduccion: yes
 subtitulo: Compartir espacios para la Innovación social - La historia y el modelo del CSI de Toronto
 imagen: 
 autores: 
@@ -22,7 +23,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Shared spaces for Social Innovation, url: http://socialinnovation.ca/sssi }
-
 
 ---
 

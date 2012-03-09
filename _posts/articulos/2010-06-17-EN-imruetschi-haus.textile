@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Im Rüetschi Haus, Suhr
-permalink: /blog/2010/06/imruetschi-haus/
-url-otro-idioma: /en/blog/2010/06/imruetschi-haus/
+permalink: /en/blog/2010/06/imruetschi-haus/
+url-otro-idioma: /blog/2010/06/imruetschi-haus/
 slug: imruetschi-haus
 
+auto-traduccion: yes
 subtitulo: Un pequeño ejemplo de espacio creativo desde la suiza rural
 imagen: 
 autores: 

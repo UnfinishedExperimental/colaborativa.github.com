@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: ¡Toronto allá vamos!
-permalink: /blog/2010/06/toronto-vamos/
-url-otro-idioma: /en/blog/2010/06/toronto-vamos/
+permalink: /en/blog/2010/06/toronto-vamos/
+url-otro-idioma: /blog/2010/06/toronto-vamos/
 slug: toronto-vamos
 
+auto-traduccion: yes
 subtitulo: Viajamos a la ciudad de la creatividad para visitar algunas de las referencias del Espacio Creativo
 imagen: 
 autores: 
@@ -15,8 +16,9 @@ autores:
  - curro-crespo
 
 categorias:
-- espacio-creativo
-- espacio-creativo-cordoba
+ - espacio-creativo
+ - espacio-creativo-cordoba
+
 
 relacionados:
  - 

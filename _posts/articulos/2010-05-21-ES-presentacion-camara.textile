@@ -13,8 +13,8 @@ autores:
  - magda-sanchez
 
 categorias:
-- espacio-creativo
-- espacio-creativo-cordoba
+ - espacio-creativo
+ - espacio-creativo-cordoba
 
 relacionados:
  - 

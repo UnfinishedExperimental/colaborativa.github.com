@@ -14,6 +14,7 @@ autores:
 
 categorias:
  - espacio-creativo
+ - espacio-creativo-referencias
 
 relacionados:
  - the-hub

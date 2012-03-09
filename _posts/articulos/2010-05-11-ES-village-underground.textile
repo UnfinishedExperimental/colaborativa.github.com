@@ -13,7 +13,8 @@ autores:
  - javi-buron
 
 categorias:
- - espacio-creativo
+- espacio-creativo
+- espacio-creativo-referencias
 
 relacionados:
  - 

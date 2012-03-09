@@ -14,7 +14,8 @@ autores:
  - curro-crespo
 
 categorias:
- - espacio-creativo
+- espacio-creativo
+- espacio-creativo-cordoba
 
 relacionados:
  - 

@@ -1,12 +1,13 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Palo Alto Barcelona
-permalink: /blog/2010/06/palo-alto/
-url-otro-idioma: /en/blog/2010/06/palo-alto/
+permalink: /en/blog/2010/06/palo-alto/
+url-otro-idioma: /blog/2010/06/palo-alto/
 slug: palo-alto
 
+auto-traduccion: yes
 subtitulo: El caso Palo Alto y la fábrica recuperada del Poble Nou
 imagen: 
 autores: 
