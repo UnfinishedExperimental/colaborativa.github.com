@@ -7,8 +7,8 @@ permalink: /en/blog/2010/07/primeras-reunionesII/
 url-otro-idioma: /blog/2010/07/primeras-reunionesII/
 slug: primeras-reunionesII
 
-auto-translation: yes
-subtitulo:Reuniones con Jesús Cabello, del Museo Regina, Imdeec, Partido Popular de Córdoba y con el Consejo Social de la Universidad
+auto-traduccion: yes
+subtitulo: Reuniones con Jesús Cabello, del Museo Regina, Imdeec, Partido Popular de Córdoba y con el Consejo Social de la Universidad
 imagen: 
 autores: 
  - curro-crespo

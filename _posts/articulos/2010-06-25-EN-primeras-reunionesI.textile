@@ -7,7 +7,7 @@ permalink: /en/blog/2010/06/primeras-reunionesI/
 url-otro-idioma: /blog/2010/06/primeras-reunionesI/
 slug: primeras-reunionesI
 
-auto-translation: yes
+auto-traduccion: yes
 subtitulo: Primeros contactos con David Luque, la Delegación de Cultura del Ayuntamiento, la Oficina de la Capitalidad y la Universidad de Córdoba
 imagen: 
 autores: 

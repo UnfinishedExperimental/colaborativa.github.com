@@ -8,7 +8,6 @@ url-otro-idioma: /blog/2010/07/artscape-toronto/
 slug: artscape-toronto
 
 auto-traduccion: yes
-auto-translation: yes
 subtitulo: Reciclando los espacios industriales de Toronto para el trabajo de los artistas
 imagen: 
 autores: 

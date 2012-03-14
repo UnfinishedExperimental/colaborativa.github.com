@@ -27,6 +27,10 @@
 		</section>
 		<div class="contenedorPie"></div>
 		{% include _footer.html %}
-		{% include _script-translate.html %}
+		{% if page.language == "es" %}
+			{% include _script-translate-es-en.html %}
+		{% else %}
+			{% include _script-translate-en-es.html %}
+		{% endif %}
 	</body>
 </html>

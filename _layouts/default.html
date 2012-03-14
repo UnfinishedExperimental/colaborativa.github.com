@@ -4,6 +4,11 @@
 		<title>{{ site.titulo }} | {{ site.subtitulo.[page.language] }}</title>
 		<meta charset='UTF-8'/>
 		{% include _scripts.html %}
+		{% if page.language == "es" %}
+			{% include _script-translate-es-en.html %}
+		{% else %}
+			{% include _script-translate-en-es.html %}
+		{% endif %}
 	</head>
 	<body>
 		{% include _header.html %}
@@ -27,7 +32,7 @@
 					</div>
 				</div>
 				<div class="listadoNodos Inicio">
-					{% for item in site.categories.articulos limit:2 %}
+					{% for item in site.categories.articulos limit:4 %}
 						{% if item.language == page.language %}
 						{% include _nodolista-articulo.html %}
 						{% endif %}
@@ -41,6 +46,5 @@
 			</div>
 		</section>
 		{% include _footer.html %}
-		{% include _script-translate.html %}
 	</body>
 </html>

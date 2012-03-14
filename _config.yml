@@ -9,7 +9,7 @@ navegacion-blog: { es: Blog, en: Blog}
 navegacion-proyectos: { es: Proyectos, en: Projects}
 navegacion-equipo: { es: Equipo, en: Team}
 navegacion-herramientas: { es: Herramientas, en: Tools}
-navegacion-codigo: { es: Código, en: Code}
+navegacion-codigo: { es: Colaboratorio, en: Colaboratorio}
 
 footer-mapa: { es: Mapa, en: Map}
 footer-content-somos-opensource: { es: Somos una empresa de código abierto , en: We are an open source company }
