@@ -1,0 +1,9 @@
+---
+layout: none
+category: colaboradores
+title: Fundación Bodegas Campos
+slug: fund-bodegas-campos
+
+link: http://www.fundacionbodegascampos.info
+imagen: farm7.staticflickr.com/6092/6853539514_e706c3d645
+---
