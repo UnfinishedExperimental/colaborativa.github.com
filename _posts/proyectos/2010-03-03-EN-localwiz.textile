@@ -9,8 +9,8 @@ slug: localwiz
 
 subtitulo: "Tu guía móvil para descubrir la ciudad"
 imagen: farm7.staticflickr.com/6040/6999667353_ed973219f9
-imagen-cabecera: 
-en-cabecera: no
+imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
+en-cabecera: yes
 
 colaboradores:
  - fund-bodegas-campos
@@ -27,7 +27,7 @@ enlaces:
 
 ---
 
-Córdoba es una ciudad eminentemente turística que disfruta a lo largo del año de un flujo continuo de visitantes. Acuden a atraídos por su historia, su significado y su enorme patrimonio. Si esos visitantes fueran considerados como personas que forman parte de manera eventual de la población de la ciudad, sorprende comprobar cómo esa población &quot;flotante&quot; llega a triplicar a la población residente. Supone un número demasiado importante de personas con las que convivimos diariamente y con las que inexplicablemente no nos comunicamos.
+Córdoba es una ciudad eminentemente turística que disfruta a lo largo del año de un flujo continuo de visitantes. Acuden a atraídos por su historia, su significado y su enorme patrimonio. Si esos visitantes fueran considerados como personas que forman parte de manera eventual de la población de la ciudad, sorprende comprobar cómo esa población "flotante" llega a triplicar a la población residente. Supone un número demasiado importante de personas con las que convivimos diariamente y con las que inexplicablemente no nos comunicamos.
 
 El deseo del visitante de *vivir la experiencia más auténtica posible* en las visitas le anima a pasear y a explorar, poniéndole en contacto directo con la realidad física de las ciudades. Para nosotros poder conocer la percepción que recibe en Córdoba representa una valiosa fuente de información de la extraer un conocimiento actualizado de la ciudad.
 

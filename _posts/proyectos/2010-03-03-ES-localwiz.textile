@@ -1,16 +1,16 @@
 ---
-language: en
+language: es
 layout: portfolio-proyecto
 category: proyectos
 title: Localwiz
-permalink: /en/projects/localwiz/
-url-otro-idioma: /proyectos/localwiz/
+permalink: /proyectos/localwiz/
+url-otro-idioma: /en/projects/localwiz/
 slug: localwiz
 
-subtitulo: Tu guía móvil para descubrir la ciudad
+subtitulo: "Tu guía móvil para descubrir la ciudad"
 imagen: farm7.staticflickr.com/6040/6999667353_ed973219f9
-imagen-cabecera: 
-en-cabecera: no
+imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
+en-cabecera: yes
 
 colaboradores:
  - fund-bodegas-campos
@@ -23,11 +23,10 @@ enlaces:
 - { type: externo, title: Visita la web de Localwiz, url:http://www.cordoba.localwiz.eu/ }
 - { type: externo, title: "Localwiz Córdoba en la App Store", url:http://itunes.apple.com/es/app/localwiz-cordoba-lite/id406482879 }
 - { type: externo, title: "Localwiz Málaga en la App Store", url:http://itunes.apple.com/es/app/localwiz-malaga/id435689265 }
-- { type: prensa, title: "Córdoba en pantalla táctil", source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
 
 ---
 
-Córdoba es una ciudad eminentemente turística que disfruta a lo largo del año de un flujo continuo de visitantes. Acuden a atraídos por su historia, su significado y su enorme patrimonio. Si esos visitantes fueran considerados como personas que forman parte de manera eventual de la población de la ciudad, sorprende comprobar cómo esa población &quot;flotante&quot; llega a triplicar a la población residente. Supone un número demasiado importante de personas con las que convivimos diariamente y con las que inexplicablemente no nos comunicamos.
+Córdoba es una ciudad eminentemente turística que disfruta a lo largo del año de un flujo continuo de visitantes. Acuden a atraídos por su historia, su significado y su enorme patrimonio. Si esos visitantes fueran considerados como personas que forman parte de manera eventual de la población de la ciudad, sorprende comprobar cómo esa población "flotante" llega a triplicar a la población residente. Supone un número demasiado importante de personas con las que convivimos diariamente y con las que inexplicablemente no nos comunicamos.
 
 El deseo del visitante de *vivir la experiencia más auténtica posible* en las visitas le anima a pasear y a explorar, poniéndole en contacto directo con la realidad física de las ciudades. Para nosotros poder conocer la percepción que recibe en Córdoba representa una valiosa fuente de información de la extraer un conocimiento actualizado de la ciudad.
 
