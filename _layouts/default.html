@@ -4,11 +4,6 @@
 		<title>{{ site.titulo }} | {{ site.subtitulo.[page.language] }}</title>
 		<meta charset='UTF-8'/>
 		{% include _scripts.html %}
-		{% if page.language == "es" %}
-			{% include _script-translate-en-es.html %}
-		{% else %}
-			{% include _script-translate-es-en.html %}
-		{% endif %}
 	</head>
 	<body>
 		{% include _header.html %}
@@ -46,5 +41,10 @@
 			</div>
 		</section>
 		{% include _footer.html %}
+		{% if page.language == "es" %}
+			{% include _script-translate-en-es.html %}
+		{% else %}
+			{% include _script-translate-es-en.html %}
+		{% endif %}
 	</body>
 </html>

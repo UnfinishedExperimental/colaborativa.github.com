@@ -1,10 +1,10 @@
 ---
-language: es
+language: en
 layout: equipo-colaborativo
 category: equipo
 title: Magda Sánchez
-permalink: /equipo/magda-sanchez/
-url-otro-idioma: /en/team/magda-sanchez/
+permalink: /en/team/magda-sanchez/
+url-otro-idioma: /equipo/magda-sanchez/
 slug: magda-sanchez
 
 cargo: Co-fundadora
