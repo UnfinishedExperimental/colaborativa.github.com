@@ -24,7 +24,6 @@ enlaces:
 
 ---
 
-
 El Espacio Creativo Independiente es el nombre del lugar que estamos promoviendo en Córdoba que ofrezca *espacios de trabajo para emprendedores de las industrias creativas y culturales*, además de *espacios comunes para la convivencia* y una *programación cultural* asociada.
 
 El proyecto se basa en el potencial que tienen los espacios físicos de trabajo e intercambio (networking) para estimular la puesta en marcha de iniciativas empresariales. El Espacio Creativo Independiente ofrece a los emprendedores creativos espacios de trabajo asequibles, una serie de recursos compartidos y la oportunidad de trabajar en proximidad con otras empresas y emprendedores del mismo sector. De esta forma pretendemos *incrementar el protagonismo de las industrias creativas en el modelo productivo de Córdoba* y apostar por un modelo de economía sostenible que se base en el apoyo al talento local.
@@ -38,4 +37,3 @@ Además de dar facilidades y promover el contacto entre los creativos, el otro g
 Pero no todos los espacios son válidos. Las industrias creativas son sensibles a la singularidad del espacio. Proponemos la cesión temporal de edificios singulares que se adecue al programa que promueve el Espacio Creativo Independiente, para contribuir con su uso a su mantenimiento. Esta forma de colaboración con la iniciativa permitirá identificar a las instituciones implicadas en la cesión con la promoción de la creatividad y la cultura en la ciudad.
 
 Presentamos el proyecto del Espacio Creativo Independiente al "concurso":http://www.gmu.ayuncordoba.es/otros-tipos-de-contratos.html de concesión de uso de la Pérgola de los Jardines Duque de Rivas en Córdoba, convocado en marzo de 2011 por la Gerencia de Urbanismo. Al concurso concurrimos junto a *Zum creativos*, una de las empresas de diseño y comunicación más importantes de Córdoba, que ha decidido implicarse y contribuir a conseguir hacer realidad el proyecto.
-
