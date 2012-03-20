@@ -1,0 +1,32 @@
+---
+language: en
+layout: portfolio-proyecto
+category: proyectos
+title: dosymedio
+permalink: /en/projects/dosymedio/
+url-otro-idioma: /proyectos/dosymedio/
+slug: dosymedio
+
+subtitulo: "Tertulia gráfica sobre actualidad urbana"
+imagen: farm8.staticflickr.com/7271/6853622350_27e482bb44
+imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
+en-cabecera: yes
+
+colaboradores:
+
+categorias:
+ - acciones-culturales
+ - planeamiento-estrategico
+
+enlaces:
+- { type: externo, title: Dosymedio en facebook, url:http://www.facebook.com/2ymedio/ }
+
+---
+
+En su segunda etapa dosymedio dejó de ser un colectivo que organizaba de manera anónima una serie de actividades muy diversas para pasar a dar nombre a un formato muy concreto de actividad cultural: una tertulia celebrada periódicamente para tratar temas de actualidad en torno a la arquitectura, el espacio publico y el urbanismo en Cordoba con una actitud analitica, desprejuiciada, propositiva y constructiva.
+
+Nuestro deseo era organizar en la ciudad una actividad cultural que sirviera como punto de encuentro y espacio para la reflexión sobre la actualidad urbanística. El formato de las tradicionales tertulias se ajustaba de maravilla a lo que estábamos buscando, generar una conversación en torno a una mesa en un lugar público al que todo el mundo pudiera asistir para conocer la diversidad de opiniones sobre un tema concreto en un ambiente desenfadado.
+
+Para las tertulias preparamos una gran mesa redonda con la fotografía aérea de Córdoba pegada sobre su tablero. La presencia de la mesa marca el lugar donde se celebra la tertulia. En torno a ella se sientan los invitados y asistentes, que durante la tertulia pueden apoyar gráficamente sus planteamientos dibujando con rotuladores sobre la foto aérea de la mesa. Finalizada la tertulia, los dibujos dejan un registro de la conversación y de las cosas que se estuvieron hablando.
+
+En las convocatorias celebradas hasta ahora hemos podido acercarnos a diferentes temáticas urbanísticas que han sido protagonista de la actualidad de la ciudad en los últimos meses, como la peatonalización del Casco Histórico, el debate sobre el modelo de espacios libres generado a partir de la remodelación del Parque Cruz Conde, el polémico proyecto de la Ronda Norte de Córdoba o el asunto de las parcelaciones ilegales, de tanta trascendencia en Córdoba. En todas ellas tuvimos la fortuna de contar con la presencia de expertos que aportaron su visión especializada sobre el tema y dinamizaron la conversación con los asistentes al acto.
