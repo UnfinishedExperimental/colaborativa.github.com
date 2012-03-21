@@ -1,0 +1,12 @@
+---
+language: en
+layout: blog-categorias-articulos
+category: categorias-articulos
+title: Creativos en Córdoba
+permalink: /en/blog/creativos-cordoba/
+url-otro-idioma: /blog/creativos-cordoba/
+slug: creativos-cordoba
+
+---
+
+Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/localwiz/
