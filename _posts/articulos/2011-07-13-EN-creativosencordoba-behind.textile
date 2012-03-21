@@ -1,0 +1,32 @@
+---
+language: en
+layout: blog-articulo
+category: articulos
+title: Creativos en Córdoba
+permalink: /en/blog/2011/07/creativosencordoba-behind/
+url-otro-idioma: /blog/2011/07/creativosencordoba-behind/
+slug: creativosencordoba-behind
+
+subtitulo: Using treemap to visualize the creative scene in cordoba
+imagen: farm7.staticflickr.com/6117/7002579897_645a8a3ff0
+autores: 
+ - magda-sanchez
+
+categorias:
+ - creativos-cordoba
+
+relacionados:
+ - industrias-creativas
+
+enlaces:
+- { type: externo, title: Este artículo fue publicado originalmente en mi Blog, url: http://www.magdasanchez.es/2011/07/creativosencordoba-com-behind-the-scenes/ }
+
+
+---
+
+
+On Monday we released our brand new Visualization at "creativosencordoba":http://www.creativosencordoba.com/. I am very excited since it is the first time I collaborate developing a website... you know I am more an iphone/C++/arduino/linux programmer.. It all started with a research on how to visualize data on the web in an intuitive, clear and useful way. We decided a "treemap":http://en.wikipedia.org/wiki/Treemapping was the most suitable way for representing the creative scene of Cordoba.
+
+After that, few days of watching video tutorials about javascript, jquery and "d3.js":http://mbostock.github.com/d3/, which is the javascript library for creating amazing visualizations. The result treemap is very interactive allowing us to select one or more categories and then take a look at the people in Cordoba that are working on those areas. The best thing is that people are collaborating including more creatives so the treemap's shape is continuously changing and giving us new and useful pieces of information.
+
+Looking forward to doing more web visualizations soon!

@@ -1,0 +1,38 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: Arquitectura y software
+permalink: /blog/2011/07/arquitectura-software/
+url-otro-idioma: /en/blog/2011/07/arquitectura-software/
+slug: arquitectura-software
+
+subtitulo: Presentamos Colaborativa en los curso de verano de la UCO
+imagen: farm7.staticflickr.com/6239/7002765659_96dec688d3
+autores: 
+ - javi-buron
+ - magda-sanchez
+ - curro-crespo
+
+categorias:
+ - colaborativa
+ - localwiz
+ - creativos-cordoba
+ - espacio-creativo-cordoba
+
+relacionados:
+ - creativosencordoba
+ - presentacion-localwiz
+
+enlaces:
+- { type: externo, title: Página web con la programación del curso, url: :http://laboratoriodenuevasprofesiones.blogspot.com/ }
+
+---
+
+El "Consejo Social":http://www.consejosocialuco.org/ de la "Universidad de Córdoba":http://www.uco.es/ nos invitó a participar en el curso *Laboratorio de nuevas profesiones. Conversaciones digitales: perfiles profesionales e industria*, organizado entre los días 4 y 8 de julio dentro de los cursos de verano Corduba 2011. El curso se celebró en la fantástica Nueva Ampliación del Museo Arqueológico de Córdoba, un lugar que os animamos a descubrir si no lo conocéis. Allí coincidimos con empresas amigas y tuvimos el privilegio de conocer otras iniciativas de gran interés.
+
+Al curso estaban invitados expertos y personas del mundo de la empresa para mostrar las posibilidades que ofrecen los contenidos digitales y los servicios basados en las nuevas tecnologías para redefinir el sentido de las profesiones y servir de motor para nuevas iniciativas emprendedoras. Ese es el caso de Colaborativa, que fue invitada por su forma de renovar la práctica del urbanismo con la ayuda de la tecnología.
+
+En nuestra presentación, titulada *Arquitectura y Software. Nuevas profesiones para la gestión de la ciudad*, mostrábamos dos situaciones que abocan a los arquitectos a tener que reinventarse. Por un lado el descenso del número de encargos. Por otro su irrelevancia social, al haber estado durante mucho tiempo al servicio de la especulación inmobiliaria o al de las revistas especializadas. Se necesitan explorar nuevas de trabajo, que den respuesta a las problemáticas urbanas y arquitectónicas de hoy demanda y que devuelvan la relevancia social de la profesión. Estas ideas las teníamos muy presentes cuando fundamos Colaborativa, y ejemplificamos el tipo de trabajos que estamos interesados en desarrollar con dos de nuestros proyectos más importantes, "Localwiz":http://www.test.colaborativa.eu/proyectos/localwiz.html y "Espacio Creativo Independiente":http://www.test.colaborativa.eu/proyectos/espaciocreativoindependiente.html .
+
+A continuación os dejamos la presentación.
