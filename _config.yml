@@ -69,3 +69,4 @@ inline-por: { es: por, en: by}
 inline-y: { es: y, en: "&"}
 inline-proyectos: { es: proyecto, en: project}
 inline-auto-traduccion: { es: traducción automática, en: automated translation }
+inline-leermas: { es: <leer más>, en: <read more> }

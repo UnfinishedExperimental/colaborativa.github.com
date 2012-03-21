@@ -18,7 +18,7 @@ categorias:
  - acciones-culturales
 
 enlaces:
-- { type: externo, title: Descárgate la aplicación web de ForoVivo, url:https://github.com/colaborativa/ForoVivo }
+- { type: externo, title: Descárgate la aplicación web de ForoVivo, url: https://github.com/colaborativa/ForoVivo }
 
 ---
 
