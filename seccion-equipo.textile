@@ -5,7 +5,7 @@ title: Sobre Colaborativa
 permalink: /equipo/
 url-otro-idioma: /en/team/
 
-subtitulo: Estrategias y herramientas para transformar ciudades
+subtitulo: PROBANDOEstrategias y herramientas para transformar ciudades
 ---
 
 Cuando pensamos nuestro nombre queríamos que expresara la actitud que promovemos y aplicamos en nuestro trabajo: colaborativa, *una forma de trabajar desjerarquizada y en red*. La colaboración hace posible que nos comuniquemos con los que nos rodean, que intercambiemos conocimientos y sumemos capacidades para conseguir hacer realidad objetivos compartidos. Colaborando las ideas surgen de manera colectiva, la mejor forma de fomentar una auténtica creatividad social. "Colaborativa":http://colaborativa.eu es la manera en la que queremos que se hagan las ciudades.
