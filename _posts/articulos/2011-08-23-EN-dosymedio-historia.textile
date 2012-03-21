@@ -1,0 +1,43 @@
+---
+language: en
+layout: blog-articulo
+category: articulos
+title: Dosymedio y la exploración de la ciudad
+permalink: /en/blog/2011/08/dosymedio-historia/
+url-otro-idioma: /blog/2011/08/dosymedio-historia/
+slug: dosymedio-historia
+
+auto-traduccion: yes
+subtitulo: Detectando oportunidades en la realidad de Córdoba
+imagen: farm8.staticflickr.com/7266/6856348984_98686dc9ec
+autores: 
+ - magda-sanchez
+ - javi-buron
+ - curro-crespo
+
+categorias:
+ - dosymedio
+
+relacionados:
+
+enlaces:
+
+---
+
+A mediados de 2009 un grupo de amigos decidimos unirmos para desarrollar actividades en equipo que nos sirvieran para profundizar en el conocimiento de nuestra ciudad. Nos constituimos bajo una firma colectiva y anónima. Así nació el colectivo *dosymedio.*
+
+Aquel año organizamos diferentes eventos que tenían como denominador común la ciudad. La que de manera más genuina representaba el espíritu con el que nació dosymedio fueron *las exploraciones*, tres acciones  - introducción, observación y proposición -  que nos acercaban a la realidad de Córdoba, descubriendo oportunidades a partir del contacto directo y proponiendo ideas.
+
+h3. Las exploraciones de dosymedio
+
+La primera exploración nos llevó al barrio de *"Fray Albino":http://www.flickr.com/photos/39340581@N07/sets/72157620618009401/*, tradicionalmente aislado del resto de la ciudad a pesar de su cercanía al centro. Su aislamiento, sin embargo, ha permitido la supervivencia de una forma de vida que ya no se da en el resto de Córdoba. Propusimos actuaciones sencillas e inmediatas sobre "El Cerro":http://www.flickr.com/photos/39340581@N07/3616956216/in/set-72157620618009401 (Balcón de Córdoba), "la calle Beato Henares":http://www.flickr.com/photos/39340581@N07/3616820934/in/set-72157620618009401 (El bulevar de Fray albino) y "el estadio de San Eulogio":http://www.flickr.com/photos/39340581@N07/3616206025/in/set-72157620618009401 (Cubierta-Incubadero).
+
+La segunda exploración, *"en busca de espacios de creación":http://www.flickr.com/photos/39340581@N07/sets/72157621696035597/*, la iniciamos recopilando una gran cantidad de edificios y espacios abandonados de la ciudad. Posteriormente estudiamos las enormes posibilidades que algunos de ellos presentan para ser recuperados y devueltos a la actividad ciudadana, contribuyendo de paso a la regeneración urbana de ciertos barrios. Tal fue el caso del "Antiguo Matadero":http://www.flickr.com/photos/39340581@N07/3938192028/in/set-72157621696035597 (Factoría de Creativos), la "Antigua Cárcel":http://www.flickr.com/photos/39340581@N07/3937755723/in/set-72157621696035597 (Centro Fátima) o la "Escuela de Agrónomos":http://www.flickr.com/photos/39340581@N07/3937755723/in/set-72157621696035597 (Semillero de Empresas y Escuela de Mayores).
+
+Participaron en dosymedio Álvaro Carnicero, Miguel Cejas, Rafa Sillero, José Carlos Rico, Jacinta Ortiz, Héctor Romero, Miguel Gómez Losada, Izabella Radonska, Xavi Coll, Rafa Zurita... y nosotros, Magda Sánchez, Javier Burón y Curro Crespo. Dosymedio como tal finalizó por la dificultad de continuar realizándolo únicamente en nuestro tiempo libre. La sensación de aquellos que compartíamos que dosymedio inauguraba unas líneas de investigación que merecían la pena ser exploradas con más profundidad fue el germen que nos impulsó a fundar Colaborativa.
+
+Desde Colaborativa quisimos mantener una actividad que mantuviera el espíritu del colectivo, por ello ideamos "las tertulias gráficas sobre actualidad urbana":http://www.colaborativa.eu/proyectos/dosymedio.html y que como homenaje heredó su nombre.
+
+A continuación podéis ver un video donde resumimos la fase de análisis que hicimos del barrio de Fray Albino después de visitarlo.
+
+"Exploraciones: Fray Albino":http://vimeo.com/5389170 from "dosymedio":http://vimeo.com/user1968857 on "Vimeo":http://vimeo.com.

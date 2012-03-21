@@ -1,0 +1,32 @@
+---
+language: en
+layout: blog-articulo
+category: articulos
+title: Localwiz, Córdoba en tu iPhone
+permalink: /en/blog/2011/01/presentacion-localwiz/
+url-otro-idioma: /blog/2011/01/presentacion-localwiz/
+slug: presentacion-localwiz
+
+subtitulo: Presentamos nuestra aplicación en la Fundación Bodegas Campos
+imagen: farm8.staticflickr.com/7225/7002448403_5e4a72c0fb
+autores: 
+ - javi-buron
+
+categorias:
+ - localwiz
+
+relacionados:
+
+enlaces:
+
+---
+
+Para celebrar su reciente lanzamiento, el pasado jueves, 20 de enero, organizamos una presentación de Localwiz Córdoba en la Ermita de la Candelaria, sede de la Fundación Bodegas Campos, que nos cedió generosamente su espacio para la celebración del acto.
+
+La presentación nos brindó la oportunidad de contar cómo surgió la idea de la aplicación, la investigación que hicimos al principio, su funcionamiento y sus contenidos, las nuevas funcionalidades en las que estamos trabajando, y las posibilidades que ofrece como software para la geolocalización de lugares físicos en dispositivos móviles, un servicio de interés para instituciones y empresas.
+
+En la presentación analizamos el impacto del turismo en Córdoba, y la forma en la que ésta no llega a aprovechar sus numerosos y variados atractivos de forma estratégica y sostenible. Localwiz nació precisamente para guiar al visitante a esos otros atractivos de la ciudad que desconoce, que le invite a desplazarse por ella y a extraer de una forma directa una experiencia más real de la ciudad. Elegimos la Ermita de la Candelaria para la presentación por ser un magnífico ejemplo del tipo de &quot;joyas escondidas&quot; que Localwiz quiere contribuir a difundir.
+
+Las presentaciones de productos tecnológicos no son usuales en Córdoba. En nuestro viaje a Toronto pudimos comprobar del valor y la importancia de este tipo de eventos cuando asistimos a Sprout Up!, un evento mensual donde emprendedores de base tecnológica presentan sus productos e ideas a otros emprendedores e interesados. Una buena forma de dar a conocer lo que otros hacen y favorecer el networking y el establecimiento de sinergias.
+
+A continuación podéis consultar la presentación que hicimos ese día.
