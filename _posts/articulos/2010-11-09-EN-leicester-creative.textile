@@ -9,7 +9,7 @@ slug: leicester-creative
 
 auto-traduccion: yes
 subtitulo: Una nueva iniciativa pública inglesa para la regeneración urbana a través del emprendimiento creativo
-imagen: 
+imagen: farm8.staticflickr.com/7120/6857524032_494d26dcac
 autores: 
  - magda-sanchez
 

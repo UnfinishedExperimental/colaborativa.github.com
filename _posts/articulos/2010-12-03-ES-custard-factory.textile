@@ -9,7 +9,7 @@ slug: custard-factory
 
 auto-traduccion: yes
 subtitulo: Actividad creativa para la regeneracion de zonas industriales obsoletas en Birmingham
-imagen: 
+imagen: farm7.staticflickr.com/6101/7003639815_b67b1d0a47
 autores: 
  - curro-crespo
 
@@ -24,7 +24,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Custard Factory, Birmingham, url: http://www.custardfactory.co.uk/ }
-
 
 ---
 

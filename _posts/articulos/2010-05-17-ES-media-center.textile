@@ -8,7 +8,8 @@ url-otro-idioma: /en/blog/2010/05/media-center/
 slug: media-center
 
 subtitulo: Un nuevo ejemplo de renovación urbana a través de la actividad creativa desde Inglaterra
-imagen: 
+imagen: farm3.staticflickr.com/2461/3957097324_a41e9ef08c
+imagen-creditos: { title: "The Media Centre, Huddersfield by Toby Shuttleworth, on Flickr", url: http://www.flickr.com/photos/tobyshu/3957097324/ }
 autores: 
  - javi-buron
 

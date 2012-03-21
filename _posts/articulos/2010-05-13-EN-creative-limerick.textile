@@ -8,7 +8,7 @@ url-otro-idioma: /blog/2010/05/creative-limerick/
 slug: creative-limerick
 
 subtitulo: 
-imagen: 
+imagen: farm8.staticflickr.com/7077/7003638719_2885b6b4d0
 autores: 
  - javi-buron
 
@@ -17,10 +17,8 @@ categorias:
  - espacio-creativo
 
 relacionados:
- - 
 
 enlaces:
-- 
 
 ---
 

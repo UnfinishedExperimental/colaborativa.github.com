@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/11/leicester-creative/
 slug: leicester-creative
 
 subtitulo: Una nueva iniciativa pública inglesa para la regeneración urbana a través del emprendimiento creativo
-imagen: 
+imagen: farm8.staticflickr.com/7120/6857524032_494d26dcac
 autores: 
  - magda-sanchez
 
@@ -24,7 +24,6 @@ relacionados:
 enlaces:
 - { type: externo, title: Leicester Creative Business Depot, url: http://www.lcbdepot.co.uk/ }
 - { type: externo, title: Designing the LCB Depot, url: http://newmanconcept.co.uk/ashsak/LCB/pages/client.html }
-
 
 ---
 

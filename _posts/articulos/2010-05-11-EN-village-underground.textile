@@ -9,7 +9,7 @@ slug: village-underground
 
 auto-traduccion: yes
 subtitulo: Creativity and recycling from London to promote urban culture
-imagen: 
+imagen: farm8.staticflickr.com/7110/6857527070_75fe4e5674
 autores: 
  - javi-buron
 

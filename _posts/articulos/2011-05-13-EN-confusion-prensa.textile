@@ -9,7 +9,7 @@ slug: confusion-prensa
 
 auto-traduccion: yes
 subtitulo: Confunden el centro cívico de la Foggara con la Pérgola
-imagen: farm8.staticflickr.com/7054/6946728983_c5af699669
+imagen: farm8.staticflickr.com/7241/7003537195_298df47d94
 autores: 
  - curro-crespo
 
@@ -22,7 +22,6 @@ relacionados:
 
 enlaces:
 - { type: prensa, title: El Consistorio licita el bar y el comercio del nuevo centro de visitantes, source: El Día de Córdoba, date: May 2011, url: http://www.eldiadecordoba.es/article/cordoba/973482/consistorio/licita/bar/y/comercio/nuevo/centro/visitantes.html }
-
 
 ---
 

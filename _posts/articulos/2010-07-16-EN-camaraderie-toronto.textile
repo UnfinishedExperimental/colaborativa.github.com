@@ -9,7 +9,7 @@ slug: camaraderie-toronto
 
 auto-traduccion: yes
 subtitulo: Una pequeña iniciativa con una gran vocación
-imagen: 
+imagen: farm7.staticflickr.com/6236/6857524908_9bddd5172c
 autores: 
  - curro-crespo
 
@@ -24,7 +24,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Camaraderie Toronto, url: http://camaraderie.ca/ }
-
 
 ---
 

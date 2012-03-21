@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2011/03/cuenta-atras/
 slug: cuenta-atras
 
 subtitulo: Recabando apoyos para el Espacio Creativo
-imagen: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
+imagen: farm7.staticflickr.com/6058/6857423092_8697f6da50
 autores: 
  - javi-buron
 
@@ -20,7 +20,6 @@ relacionados:
  - objetivo-pergola
 
 enlaces:
-- 
 
 ---
 

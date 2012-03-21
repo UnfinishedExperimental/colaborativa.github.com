@@ -9,7 +9,7 @@ slug: gaswork-layout
 
 auto-traduccion: yes
 subtitulo: Metodología y estrategia compartida para gestionar espacios culturales
-imagen: farm4.staticflickr.com/3346/4641553142_101e2cc709
+imagen: farm8.staticflickr.com/7219/7003640193_73588c8a10
 autores: 
  - javi-buron
 
@@ -23,7 +23,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Gasworks. Londres, url: http://www.gasworks.org.uk/ }
-
 
 ---
 

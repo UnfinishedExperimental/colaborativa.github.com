@@ -9,7 +9,7 @@ slug: off-limits
 
 auto-traduccion: yes
 subtitulo: Espacios para la creación como nuevos servicios empresariales
-imagen: 
+imagen: farm5.static.flickr.com/4024/4647651413_5c2a41bee1
 autores: 
  - curro-crespo
 

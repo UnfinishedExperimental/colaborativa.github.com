@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/09/the-hub/
 slug: the-hub
 
 subtitulo: Primera sede española de la iniciativa internacional de centros de innovación
-imagen: 
+imagen: farm8.staticflickr.com/7276/7003637085_76fc2b095b
 autores: 
  - curro-crespo
 
@@ -22,7 +22,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Hub Madrid, url: http://madrid.the-hub.net/public/ }
-
 
 ---
 

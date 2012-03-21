@@ -9,7 +9,7 @@ slug: the-hub
 
 auto-traduccion: yes
 subtitulo: Primera sede española de la iniciativa internacional de centros de innovación
-imagen: 
+imagen: farm8.staticflickr.com/7276/7003637085_76fc2b095b
 autores: 
  - curro-crespo
 

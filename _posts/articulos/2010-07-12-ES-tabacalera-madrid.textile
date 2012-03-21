@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/07/tabacalera-madrid/
 slug: tabacalera-madrid
 
 subtitulo: Self-management to convert a public building into a social center
-imagen: 
+imagen: farm7.staticflickr.com/6117/6857527814_c26e734b69
 autores: 
  - javi-buron
 
@@ -21,7 +21,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: La Tabacalera Madrid, url: http://latabacalera.net/ }
-
 
 ---
 

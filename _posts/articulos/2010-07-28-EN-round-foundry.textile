@@ -9,7 +9,7 @@ slug: round-foundry
 
 auto-traduccion: yes
 subtitulo: Multitud de servicios para atender las necesidades de los emprendedores
-imagen: 
+imagen: farm8.staticflickr.com/7129/7003638049_74f8c345eb
 autores: 
  - curro-crespo
 
@@ -24,7 +24,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Round Foundry. Leeds, url: http://www.roundfoundry.net/ }
-
 
 ---
 

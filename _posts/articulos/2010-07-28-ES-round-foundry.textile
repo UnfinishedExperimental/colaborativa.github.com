@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/07/round-foundry/
 slug: round-foundry
 
 subtitulo: Multitud de servicios para atender las necesidades de los emprendedores
-imagen: 
+imagen: farm8.staticflickr.com/7129/7003638049_74f8c345eb
 autores: 
  - curro-crespo
 

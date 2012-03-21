@@ -9,7 +9,7 @@ slug: primera-fase
 
 auto-traduccion: yes
 subtitulo: Cumplimos la solvencia técnica y profesional requeridas
-imagen: farm8.staticflickr.com/7054/6946728983_c5af699669
+imagen: farm8.staticflickr.com/7231/7003536569_8fe412be6b
 autores: 
  - magda-sanchez
 
@@ -23,8 +23,6 @@ relacionados:
  - objetivo-pergola
 
 enlaces:
-- 
-
 
 ---
 

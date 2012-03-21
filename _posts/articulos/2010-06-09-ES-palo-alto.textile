@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/06/palo-alto/
 slug: palo-alto
 
 subtitulo: El caso Palo Alto y la fábrica recuperada del Poble Nou
-imagen: 
+imagen: farm7.staticflickr.com/6117/7003640955_48babdc011
 autores: 
  - curro-crespo
 
@@ -21,7 +21,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Palo Alto BCN, url: http://www.paloaltobcn.org/ }
-
 
 ---
 

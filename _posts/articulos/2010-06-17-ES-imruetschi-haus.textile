@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/06/imruetschi-haus/
 slug: imruetschi-haus
 
 subtitulo: Un pequeño ejemplo de espacio creativo desde la suiza rural
-imagen: 
+imagen: farm7.staticflickr.com/6033/7003636535_d44ab3f3a0
 autores: 
  - curro-crespo
 
@@ -21,7 +21,6 @@ relacionados:
 
 enlaces:
 - { type: externo, title: Im Rüetschi Haus, url: http://www.forum-h3.ch/ }
-
 
 ---
 

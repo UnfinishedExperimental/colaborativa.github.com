@@ -9,7 +9,7 @@ slug: creative-limerick
 
 auto-traduccion: yes
 subtitulo: Empty office and retail spaces for the creative industry
-imagen: 
+imagen: farm8.staticflickr.com/7077/7003638719_2885b6b4d0
 autores: 
  - javi-buron
 
@@ -18,10 +18,8 @@ categorias:
  - espacio-creativo
 
 relacionados:
- - 
 
 enlaces:
-- 
 
 ---
 
