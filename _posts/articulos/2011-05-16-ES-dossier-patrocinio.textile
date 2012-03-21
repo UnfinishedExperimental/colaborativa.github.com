@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2011/05/dossier-dpatrocinio/
 slug: dossier-patrocinio
 
 subtitulo: Buscando patrocinadores para el futuro Espacio Creativo
-imagen: 
+imagen: farm8.staticflickr.com/7129/7002854031_f1360d9afe
 autores: 
  - javi-buron
 

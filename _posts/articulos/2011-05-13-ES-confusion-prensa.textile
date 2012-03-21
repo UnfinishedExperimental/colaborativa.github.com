@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2011/05/confusion-prensa/
 slug: confusion-prensa
 
 subtitulo: Confunden el centro cívico de la Foggara con la Pérgola
-imagen: 
+imagen: farm8.staticflickr.com/7054/6946728983_c5af699669
 autores: 
  - curro-crespo
 

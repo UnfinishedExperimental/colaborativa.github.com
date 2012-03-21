@@ -9,7 +9,7 @@ slug: cambio-prioridades
 
 auto-traduccion: yes
 subtitulo: Buscando espacios privados para el Espacio Creativo
-imagen: 
+imagen: farm8.staticflickr.com/7058/6864434073_bf8027bdde
 autores: 
  - magda-sanchez
  - javi-buron

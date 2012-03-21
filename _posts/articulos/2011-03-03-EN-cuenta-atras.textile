@@ -9,7 +9,7 @@ slug: cuenta-atras
 
 auto-traduccion: yes
 subtitulo: Recabando apoyos para el Espacio Creativo
-imagen: 
+imagen: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
 autores: 
  - javi-buron
 

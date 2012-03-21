@@ -9,7 +9,7 @@ slug: primera-fase
 
 auto-traduccion: yes
 subtitulo: Cumplimos la solvencia técnica y profesional requeridas
-imagen: 
+imagen: farm8.staticflickr.com/7054/6946728983_c5af699669
 autores: 
  - magda-sanchez
 

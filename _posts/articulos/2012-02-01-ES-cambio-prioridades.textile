@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2012/02/cambio-prioridades/
 slug: cambio-prioridades
 
 subtitulo: Buscando espacios privados para el Espacio Creativo
-imagen: 
+imagen: farm8.staticflickr.com/7058/6864434073_bf8027bdde
 autores: 
  - magda-sanchez
  - javi-buron
