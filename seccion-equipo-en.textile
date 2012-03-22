@@ -8,12 +8,12 @@ url-otro-idioma: /equipo/
 subtitulo: Strategies and tools for transforming cities
 ---
 
-Thinking about our company name we wanted to express the same attitude as when we work: colaborativa, *a non-hierarchical and connected way of working*. Collaboration makes possible to communicate with people around us, to interchange ideas and to put together our abilities to achieve shared interests or aims. When collaborating ideas flow in a collective way, which is the best way for an authentic social creativity.
+Thinking about our company name we wanted to express our attitude towards work: colaborativa, *a non-hierarchical and connected way of working*. Collaboration makes possible to communicate with people around us, to interchange ideas and to put together our abilities to achieve shared interests or aims. When we are collaborating with each other then ideas flow in a collective way, this is the best way for having an authentic social creativity.
 "Colaborativa":http://colaborativa.eu is the way we want cities to be built.
 
 h3. What do we do?
 
-Colaborativa develops *strategies and tools for transforming cities*. We work for making cities more open, inclusive and sustainable. We develop "strategic and management urban planning":http://www.colaborativa.eu/proyectos/actividad/planeamientoestrat%C3%A9gicoygesti%C3%B3nurbana.html, allowing to identify opportunities and to make the most of them in a sustainable manner; we develop "geolocation data applications"":http://www.colaborativa.eu/proyectos/actividad/aplicacionesdegeoposicionamientodedatos.html for Web and mobile devices; we perform "data visualizations":http://www.colaborativa.eu/proyectos/actividad/visualizaci%C3%B3ndeinformaci%C3%B3n.html; and we organize "cultural actions about the city":http://www.colaborativa.eu/proyectos/actividad/accionesculturalesentornolaciudad.html, in order to generate a public debate about the urban model that we all want and the important role that citizens are playing on it.
+Colaborativa develops *strategies and tools for transforming cities*. We work for making cities more open, inclusive and sustainable. We develop "strategic and management urban planning":http://www.colaborativa.eu/proyectos/actividad/planeamientoestrat%C3%A9gicoygesti%C3%B3nurbana.html, allowing to identify opportunities and to make the most of them in a sustainable manner; we develop "geolocation data applications":http://www.colaborativa.eu/proyectos/actividad/aplicacionesdegeoposicionamientodedatos.html for Web and mobile devices; we perform "data visualizations":http://www.colaborativa.eu/proyectos/actividad/visualizaci%C3%B3ndeinformaci%C3%B3n.html; and we organize "cultural actions about the city":http://www.colaborativa.eu/proyectos/actividad/accionesculturalesentornolaciudad.html, in order to generate a public debate about the urban model that we all want and the important role that citizens are playing on it.
 
 h3. Who are we?
 
