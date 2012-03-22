@@ -1,0 +1,24 @@
+---
+language: es
+layout: portfolio-proyecto
+category: proyectos
+title: Colaboratorio
+permalink: /proyectos/colaboratorio/
+url-otro-idioma: /en/projects/colaboratorio/
+slug: colaboratorio
+
+subtitulo: "Espacio de cultura abierta en torno a la ciencia, el arte y la tecnología"
+imagen: farm7.staticflickr.com/6060/7002394559_a2b5f96d1b
+imagen-cabecera:
+en-cabecera:
+
+colaboradores:
+
+categorias:
+ - planeamiento-estrategico
+ - acciones-culturales
+
+enlaces:
+- { type: externo, title: Visita la web de Creativos en Córdoba, url: http://colaboratorio.colaborativa.eu }
+
+---
