@@ -5,14 +5,14 @@ title: Sobre Colaborativa
 permalink: /equipo/
 url-otro-idioma: /en/team/
 
-subtitulo: PROBANDOEstrategias y herramientas para transformar ciudades
+subtitulo: Estrategias y herramientas para transformar ciudades
 ---
 
 Cuando pensamos nuestro nombre queríamos que expresara la actitud que promovemos y aplicamos en nuestro trabajo: colaborativa, *una forma de trabajar desjerarquizada y en red*. La colaboración hace posible que nos comuniquemos con los que nos rodean, que intercambiemos conocimientos y sumemos capacidades para conseguir hacer realidad objetivos compartidos. Colaborando las ideas surgen de manera colectiva, la mejor forma de fomentar una auténtica creatividad social. "Colaborativa":http://colaborativa.eu es la manera en la que queremos que se hagan las ciudades.
 
 h3. ¿Qué hacemos?
 
-Colaborativa desarrolla *estrategias y herramientas para transformar ciudades*. Trabajamos para hacer las ciudades más abiertas, inclusivas y sostenibles. Elaboramos "planeamiento estratégico y de gestión urbana":http://www.colaborativa.eu/proyectos/actividad/planeamientoestrat%C3%A9gicoygesti%C3%B3nurbana.html, que permita identificar oportunidades y aprovecharlas de manera sostenible; desarrollamos "aplicaciones de geoposicionamiento de datos":http://www.colaborativa.eu/proyectos/actividad/aplicacionesdegeoposicionamientodedatos.html para web y dispositivos móviles; realizamos "visualizaciones de información":http://www.colaborativa.eu/proyectos/actividad/visualizaci%C3%B3ndeinformaci%C3%B3n.html; y organizamos "acciones culturales en torno a la ciudad":http://www.colaborativa.eu/proyectos/actividad/accionesculturalesentornolaciudad.html, para generar un debate público en torno al modelo urbano que queremos y el papel que juega en él la ciudadanía
+Colaborativa desarrolla *estrategias y herramientas para transformar ciudades*. Trabajamos para hacer las ciudades más abiertas, inclusivas y sostenibles. Elaboramos "planeamiento estratégico y de gestión urbana":http://www.colaborativa.eu/proyectos/actividad/planeamientoestrat%C3%A9gicoygesti%C3%B3nurbana.html, que permita identificar oportunidades y aprovecharlas de manera sostenible; desarrollamos "aplicaciones de geoposicionamiento de datos":http://www.colaborativa.eu/proyectos/actividad/aplicacionesdegeoposicionamientodedatos.html para web y dispositivos móviles; realizamos "visualizaciones de información":http://www.colaborativa.eu/proyectos/actividad/visualizaci%C3%B3ndeinformaci%C3%B3n.html; y organizamos "acciones culturales en torno a la ciudad":http://www.colaborativa.eu/proyectos/actividad/accionesculturalesentornolaciudad.html, para generar un debate público en torno al modelo urbano que queremos y el papel que juega en él la ciudadanía.
 
 h3. ¿Quiénes la formamos?
 
