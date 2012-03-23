@@ -19,6 +19,6 @@ categorias:
  - acciones-culturales
 
 enlaces:
-- { type: externo, title: Visita la web de Creativos en Córdoba, url: http://colaboratorio.colaborativa.eu }
+- { type: webpropia, title: Visita la web de Creativos en Córdoba, url: http://colaboratorio.colaborativa.eu }
 
 ---

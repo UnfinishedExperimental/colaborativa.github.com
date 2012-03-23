@@ -12,9 +12,9 @@
 		<div class="cuerpoNodo">
 			{% case page.layout %} 
 				{% when "portfolio-categorias-proyectos" %}
-					<p>{{ item.content | strip_html | truncate: 300 }} {{ site.inline-leermas.[item.language] }}</p>
+					<p>{% include _inline-enlace-externo.html %} {{ item.content | strip_html | truncate: 300 }} {{ site.inline-leermas.[item.language] }}</p>
 				{% when "portfolio" %}
-					<p>{{ item.content | strip_html | truncate: 200 }} {{ site.inline-leermas.[item.language] }}</p>
+					<p>{% include _inline-enlace-externo.html %} {{ item.content | strip_html | truncate: 200 }} {{ site.inline-leermas.[item.language] }}</p>
 			{% endcase %}
 		</div>
 	</div>

@@ -18,7 +18,7 @@ categorias:
  - visualizacion-informacion
 
 enlaces:
-- { type: externo, title: Visita la web de Creativos en Córdoba, url: http://creativosencordoba.com }
+- { type: webpropia, title: Visita la web de Creativos en Córdoba, url: http://creativosencordoba.com }
 
 ---
 

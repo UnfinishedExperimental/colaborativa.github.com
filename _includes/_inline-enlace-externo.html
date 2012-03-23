@@ -1,0 +1,5 @@
+{% for enlace in item.enlaces %}
+	{% if enlace.type == "webpropia" %}
+	<a target="_blank" href="{{ enlace.url }}">{{ enlace.url }}</a>
+	{% endif  %}
+{% endfor  %}

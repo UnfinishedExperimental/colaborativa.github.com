@@ -4,7 +4,7 @@
 		<h4>{{ site.listado-articulos-proyecto-subtitulo.[page.language] }}</h4>
 	</hgroup>
 	<ul>
-		{% for item in site.categories.articulos limit:8 %}
+		{% for item in site.categories.articulos %}
 			{% if item.language == page.language %}
 			{% for proyecto in item.categorias %}
 				{% if proyecto == page.slug %}

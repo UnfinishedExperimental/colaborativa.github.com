@@ -19,7 +19,7 @@ categorias:
  - planeamiento-estrategico
 
 enlaces:
-- { type: externo, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
+- { type: webpropia, title: Visita el blog del Espacio Creativo Independiente, url: http://wwww.espaciocreativo.colaborativa.eu }
 - { type: externo, title: Página del Espacio Creativo Independiente en Facebook, url: http://www.facebook.com/espaciocreativo }
 
 ---

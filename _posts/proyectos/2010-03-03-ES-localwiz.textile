@@ -20,7 +20,7 @@ categorias:
  - planeamiento-estrategico
 
 enlaces:
-- { type: externo, title: Visita la web de Localwiz, url:http://www.cordoba.localwiz.eu/ }
+- { type: webpropia, title: Visita la web de Localwiz, url:http://www.cordoba.localwiz.eu/ }
 - { type: externo, title: "Localwiz Córdoba en la App Store", url:http://itunes.apple.com/es/app/localwiz-cordoba-lite/id406482879 }
 - { type: externo, title: "Localwiz Málaga en la App Store", url:http://itunes.apple.com/es/app/localwiz-malaga/id435689265 }
 - { type: prensa, title: "Córdoba en pantalla táctil", source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
