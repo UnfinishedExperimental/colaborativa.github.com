@@ -9,7 +9,7 @@ slug: primeras-reunionesIII
 
 auto-traduccion: yes
 subtitulo: Finalizamos con la Fundación Córdoba Capital Cultural, el Obispado de Córdoba y la Gerencia de Urbanismo 
-imagen: 
+imagen: farm5.staticflickr.com/4011/4589535876_86648ff879
 autores: 
  - curro-crespo
 

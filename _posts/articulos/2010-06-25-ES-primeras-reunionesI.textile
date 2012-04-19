@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/06/primeras-reunionesI/
 slug: primeras-reunionesI
 
 subtitulo: Primeros contactos con David Luque, la Delegación de Cultura del Ayuntamiento, la Oficina de la Capitalidad y la Universidad de Córdoba
-imagen: 
+imagen: farm5.staticflickr.com/4011/4589535876_86648ff879
 autores: 
  - curro-crespo
 
