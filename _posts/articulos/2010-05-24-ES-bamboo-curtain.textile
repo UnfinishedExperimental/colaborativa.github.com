@@ -9,7 +9,7 @@ slug: bamboo-curtain
 
 subtitulo: Recuperación de espacios industriales para la cultura desde Taiwan
 imagen: farm3.staticflickr.com/2597/4039083622_f42cf7a810
-imagen-creditos: { title: "Untitled by nypark, on Flickr"", url: http://www.flickr.com/photos/nypark/4039083622/ }
+imagen-creditos: { title: "Untitled by nypark, on Flickr", url: http://www.flickr.com/photos/nypark/4039083622/ }
 autores: 
  - curro-crespo
 
@@ -22,6 +22,7 @@ relacionados:
 
 enlaces:
 - { type: externo, title: The Bamboo Curtain Studio, url: http://bambooculture.com/ }
+
 
 ---
 
