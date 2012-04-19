@@ -8,9 +8,9 @@ url-otro-idioma: /en/projects/colaboratorio/
 slug: colaboratorio
 
 subtitulo: "Espacio de cultura abierta en torno a la ciencia, el arte y la tecnología"
-imagen: farm7.staticflickr.com/6060/7002394559_a2b5f96d1b
-imagen-cabecera:
-en-cabecera:
+imagen: farm6.staticflickr.com/5327/7093262365_9f1b3216d6
+imagen-cabecera: farm6.staticflickr.com/5321/6947192358_43c4e29ed0
+en-cabecera: yes
 
 colaboradores:
 
@@ -19,6 +19,10 @@ categorias:
  - acciones-culturales
 
 enlaces:
-- { type: webpropia, title: Visita la web de Creativos en Córdoba, url: http://colaboratorio.colaborativa.eu }
+- { type: webpropia, title: Visita la web de Colaboratorio, url: http://colaboratorio.colaborativa.eu }
 
 ---
+
+El vertiginoso ritmo de innovación tecnológica e intelectual en el movimiento del software abierto ha generado auténticas revoluciones en la forma de entender la cultura, la creación y la colaboración entre individuos y grupos. Tradicionalmente nuestra sociedad se ha conformado mediante la división del arte y la ciencia. Esta división ha dañado gravemente nuestros sistemas educativos, organismos culturales, instituciones científicas y valores sociales. 
+
+Colaboratorio es nuestra modesta respuesta a estas dos situaciones. Un espacio digital y físico dedicado a explorar la riqueza y posibilidades de la cultura abierta con una actitud reconciliadora frente al arte, la ciencia y la tecnología. Colaboratorio funciona como un centro de recursos abierto para desarrollar talleres, proyectos y eventos relacionados con cualquier aspecto de la cultura abierta. Ofrecemos nuestro espacio de trabajo, apoyo técnico y herramientas de forma gratuita, tan sólo te pediremos que liberes total o parcialmente el proyecto con una licencia abierta de tu elección. Los proyectos en Colaboratorio se organizan a través de líneas de trabajo o temáticas relacionadas con la cultura abierta. Dentro de estas lineas se irán proponiendo talleres, proyectos y eventos.
