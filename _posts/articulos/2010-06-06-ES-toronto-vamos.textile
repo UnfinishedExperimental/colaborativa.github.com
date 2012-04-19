@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/06/toronto-vamos/
 slug: toronto-vamos
 
 subtitulo: Viajamos a la ciudad de la creatividad para visitar algunas de las referencias del Espacio Creativo
-imagen: 
+imagen: farm8.staticflickr.com/7268/7093198949_8cb258053a
 autores: 
  - magda-sanchez
  - javi-buron

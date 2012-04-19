@@ -9,7 +9,7 @@ slug: 10-ideas
 
 auto-traduccion: yes
 subtitulo: Ideas para guiar la puesta en marcha de espacios para las industrias creativas
-imagen: 
+imagen: farm8.staticflickr.com/7078/6947060702_3e5dc2ab77
 autores: 
  - curro-crespo
 

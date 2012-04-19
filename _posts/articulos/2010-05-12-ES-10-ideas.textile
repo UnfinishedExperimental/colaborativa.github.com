@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/05/10-ideas/
 slug: 10-ideas
 
 subtitulo: Ideas para guiar la puesta en marcha de espacios para las industrias creativas
-imagen: 
+imagen: farm8.staticflickr.com/7078/6947060702_3e5dc2ab77
 autores: 
  - curro-crespo
 

@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/06/off-limits/
 slug: off-limits
 
 subtitulo: Espacios para la creación como nuevos servicios empresariales
-imagen: farm5.static.flickr.com/4024/4647651413_5c2a41bee1
+imagen: farm8.staticflickr.com/7219/6947096032_0cf3bdb325
 autores: 
  - curro-crespo
 

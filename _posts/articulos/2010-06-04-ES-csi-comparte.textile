@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/06/csi-comparte/
 slug: csi-comparte
 
 subtitulo: Compartir espacios para la Innovación social - La historia y el modelo del CSI de Toronto
-imagen: 
+imagen: farm6.staticflickr.com/5451/6947115956_73bf33d512
 autores: 
  - magda-sanchez
 

@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/05/presentacion-camara/
 slug: presentacion-camara
 
 subtitulo: Compartimos la presentación que utilizamos en la Cámara de Comercio
-imagen: 
+imagen: farm7.staticflickr.com/6061/6080769732_6e33e439ab
 autores: 
  - magda-sanchez
 

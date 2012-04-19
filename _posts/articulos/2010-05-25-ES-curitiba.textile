@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/05/curitiba/
 slug: curitiba
 
 subtitulo: El ejemplo de Jaimer Lerner o como con creatividad y pocos recursos se pueden transformar las ciudades
-imagen: 
+imagen: farm6.staticflickr.com/5334/6947079264_c4ac0f510b
 autores: 
  - javi-buron
 
