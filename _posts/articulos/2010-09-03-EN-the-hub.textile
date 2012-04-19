@@ -2,7 +2,7 @@
 language: en
 layout: blog-articulo
 category: articulos
-title: The Hub
+title: The Hub, Madrid
 permalink: /en/blog/2010/09/the-hub/
 url-otro-idioma: /blog/2010/09/the-hub/
 slug: the-hub

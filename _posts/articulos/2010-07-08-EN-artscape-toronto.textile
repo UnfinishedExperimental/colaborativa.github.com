@@ -9,7 +9,7 @@ slug: artscape-toronto
 
 auto-traduccion: yes
 subtitulo: Reciclando los espacios industriales de Toronto para el trabajo de los artistas
-imagen: 
+imagen: farm8.staticflickr.com/7237/6947143958_f8c31afa91
 autores: 
  - magda-sanchez
 

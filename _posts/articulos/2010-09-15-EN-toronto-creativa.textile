@@ -9,7 +9,7 @@ slug: toronto-creativa
 
 auto-traduccion: yes
 subtitulo: Looking for Toronto I - La creatividad como motor ciudadano
-imagen: 
+imagen: farm2.staticflickr.com/1331/5125147093_51387b3e87
 autores: 
  - curro-crespo
 

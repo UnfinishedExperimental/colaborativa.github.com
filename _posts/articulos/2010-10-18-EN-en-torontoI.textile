@@ -9,7 +9,7 @@ slug: en-torontoI
 
 auto-traduccion: yes
 subtitulo: Hablando con John Coburn sobre la importancia de la proximidad entre artistas
-imagen: 
+imagen: farm5.staticflickr.com/4046/5125147233_01020af1fb
 autores: 
  - magda-sanchez
 

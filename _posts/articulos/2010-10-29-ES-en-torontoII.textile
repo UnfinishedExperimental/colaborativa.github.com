@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/10/en-torontoII/
 slug: en-torontoII
 
 subtitulo: Publicamos el reportaje de las fotos que hicimos durante el viaje
-imagen: 
+imagen: farm5.staticflickr.com/4003/5125146999_d292c7a3b7
 autores: 
  - magda-sanchez
 
