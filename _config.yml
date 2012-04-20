@@ -1,6 +1,7 @@
 auto: true
 permalink: /blog/:year/:month/:title/
 url: http://www.colaborativa.eu
+paginate: 10
 
 titulo: Colaborativa
 subtitulo: { es: Estrategias y herramientas para transformar ciudades, en: Strategies and tools for transforming cities}

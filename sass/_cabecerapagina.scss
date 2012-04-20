@@ -1,4 +1,5 @@
 @import "compass/css3";
+@import "compass/css3/images";
 
 .cabeceraPagina{
 	-webkit-user-select: none;
@@ -7,7 +8,7 @@
 	-o-user-select: none;
 	user-select: none;
 	height: 85px;
-	@include linear-gradient(color_stops(rgba(220,220,220,1),rgba(250,250,250,0)));
+	@include background-image(linear-gradient(rgba(220,220,220,1),rgba(250,250,250,0)));
 	padding-top: 25px;
 	.tituloMenuBusqueda{
 		display: table;

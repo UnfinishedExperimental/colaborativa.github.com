@@ -3,10 +3,10 @@
 {% assign url = temp  %}
 	{% if item.language == "es" %}
 		{% assign language = "en" %}
-		{% assign traduccion = " goog-trans-section resaltado" %}
+		{% assign traduccion = " goog-trans-section" %}
 	{% else %}
 		{% assign language = "es" %}
-		{% assign traduccion = " goog-trans-section resaltado" %}
+		{% assign traduccion = " goog-trans-section" %}
 	{% endif %}
 {% else %}
 	{% assign url = item.url %}
@@ -26,11 +26,11 @@
 		<div class="cabeceraNodo">
 			<p class="additionalInfo">{% include _inline-fecha-autor.html %}</p>
 			<hgroup>
-				<h1><a class="titulo" href="{{ item.url }}">{{ item.title }}</a></h1>
-				<h2>{{ item.subtitulo }}</h2>
+				<h1><a class="titulo {% if item.auto-traduccion %}resaltado{% endif %}" href="{{ item.url }}">{{ item.title }}</a></h1>
+				<h2 class="{% if item.auto-traduccion %}resaltado{% endif %}">{{ item.subtitulo }}</h2>
 			</hgroup>
 		</div>
-		<div class="cuerpoNodo">
+		<div class="cuerpoNodo {% if item.auto-traduccion %}resaltado{% endif %}">
 			{{ item.content | strip_html | truncate: 275 }} {{ site.inline-leermas.[item.language] }}
 		</div>
 	</div>
