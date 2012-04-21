@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/09/janes-city/
 slug: janes-city
 
 subtitulo: Looking for Toronto II - Tras los pasos de Jane Jacobs
-imagen: 
+imagen: farm8.staticflickr.com/7257/7099656455_fee6a6e485
 autores: 
  - curro-crespo
 

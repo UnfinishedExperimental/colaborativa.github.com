@@ -9,7 +9,7 @@ slug: janes-city
 
 auto-traduccion: yes
 subtitulo: Looking for Toronto II - Tras los pasos de Jane Jacobs
-imagen: 
+imagen: farm8.staticflickr.com/7257/7099656455_fee6a6e485
 autores: 
  - curro-crespo
 
@@ -23,7 +23,6 @@ relacionados:
 enlaces:
 - { type: externo, title: Jane Jacobs en Wikipedia, url: http://en.wikipedia.org/wiki/Jane_Jacobs }
 - { type: externo, title: Más sobre las teorías de Jane Jacobs, url: http://elblogdefarina.blogspot.com/2009/02/jane-jacobs-destellos-de-sostenibilidad.html }
-
 
 ---
 
