@@ -9,8 +9,8 @@ slug: localwiz
 
 subtitulo: "Your mobile guide to discover the city"
 imagen: farm7.staticflickr.com/6040/6999667353_ed973219f9
-imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
-en-cabecera: yes
+imagen-cabecera: 
+en-cabecera: no
 
 colaboradores:
  - fund-bodegas-campos

@@ -9,8 +9,8 @@ slug: forovivo
 
 subtitulo: "Debates participativos para la acción urbana"
 imagen: farm7.staticflickr.com/6108/6853635630_9385443195
-imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
-en-cabecera: yes
+imagen-cabecera: 
+en-cabecera: no
 
 colaboradores:
 

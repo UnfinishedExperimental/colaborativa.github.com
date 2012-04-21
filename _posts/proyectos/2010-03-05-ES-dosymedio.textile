@@ -9,8 +9,8 @@ slug: dosymedio
 
 subtitulo: "Tertulia gráfica sobre actualidad urbana"
 imagen: farm8.staticflickr.com/7271/6853622350_27e482bb44
-imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
-en-cabecera: yes
+imagen-cabecera: 
+en-cabecera: no
 
 colaboradores:
 
