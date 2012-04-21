@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/05/resumen-dossier/
 slug: resumen-dossier
 
 subtitulo: Resumen de las ideas fundamentales de nuestro dossier sobre el Espacio Creativo Independiente
-imagen: farm4.staticflickr.com/3312/4580367329_2eed429a8e
+imagen: farm8.staticflickr.com/7078/6947060702_3e5dc2ab77
 autores: 
  - magda-sanchez
 

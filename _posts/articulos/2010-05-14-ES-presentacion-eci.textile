@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/05/presentacion-eci/
 slug: presentacion-eci
 
 subtitulo: Presentamos nuestra investigación en la Cámara de Comercio de Córdoba
-imagen: farm2.staticflickr.com/1164/4606613616_d8658206c3
+imagen: farm7.staticflickr.com/6198/6079300209_f85eee1330
 autores: 
  - magda-sanchez
 

@@ -9,7 +9,7 @@ slug: back-toronto
 
 auto-traduccion: yes
 subtitulo: Primer balance de nuestro viaje a la ciudad creativa canadiense más importante
-imagen: 
+imagen: farm2.staticflickr.com/1078/5125147715_e5ce0bb74e
 autores: 
  - magda-sanchez
 

@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/09/vuelta/
 slug: vuelta
 
 subtitulo: Retomamos la actividad del blog
-imagen: 
+imagen: farm7.staticflickr.com/6186/6079835068_30810f7398
 autores: 
  - magda-sanchez
  - javi-buron

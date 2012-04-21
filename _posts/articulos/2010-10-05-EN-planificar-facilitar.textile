@@ -9,7 +9,7 @@ slug: planificar-facilitar
 
 auto-traduccion: yes
 subtitulo: Dos estrategias distintas para conseguir la ciudad deseada
-imagen: 
+imagen: farm7.staticflickr.com/6181/6079301731_bf7f3e4368
 autores: 
  - javi-buron
 
@@ -23,7 +23,6 @@ relacionados:
 
 enlaces:
 - 
-
 
 ---
 

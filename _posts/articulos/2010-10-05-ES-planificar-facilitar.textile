@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/10/planificar-facilitar/
 slug: planificar-facilitar
 
 subtitulo: Dos estrategias distintas para conseguir la ciudad deseada
-imagen: 
+imagen: farm7.staticflickr.com/6181/6079301731_bf7f3e4368
 autores: 
  - javi-buron
 

@@ -9,7 +9,7 @@ slug: vuelta
 
 auto-traduccion: yes
 subtitulo: Retomamos la actividad del blog
-imagen: 
+imagen: farm7.staticflickr.com/6186/6079835068_30810f7398
 autores: 
  - magda-sanchez
  - javi-buron
@@ -24,7 +24,6 @@ relacionados:
 
 enlaces:
 - 
-
 
 ---
 
