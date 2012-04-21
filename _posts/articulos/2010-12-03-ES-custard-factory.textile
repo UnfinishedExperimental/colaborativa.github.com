@@ -7,7 +7,6 @@ permalink: /blog/2010/12/custard-factory/
 url-otro-idioma: /en/blog/2010/12/custard-factory/
 slug: custard-factory
 
-auto-traduccion: yes
 subtitulo: Actividad creativa para la regeneracion de zonas industriales obsoletas en Birmingham
 imagen: farm7.staticflickr.com/6101/7003639815_b67b1d0a47
 autores: 
