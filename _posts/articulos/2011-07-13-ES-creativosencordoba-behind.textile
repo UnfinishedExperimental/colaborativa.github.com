@@ -14,7 +14,7 @@ autores:
  - magda-sanchez
 
 categorias:
- - creativos-cordoba
+ - creativosencordoba
 
 relacionados:
  - industrias-creativas

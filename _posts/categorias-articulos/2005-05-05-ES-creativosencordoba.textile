@@ -1,11 +1,11 @@
 ---
-language: en
+language: es
 layout: blog-categorias-articulos
 category: categorias-articulos
 title: Creativos en Córdoba
-permalink: /en/blog/creativos-cordoba/
-url-otro-idioma: /blog/creativos-cordoba/
-slug: creativos-cordoba
+permalink: /blog/creativosencordoba/
+url-otro-idioma: /en/blog/creativosencordoba/
+slug: creativosencordoba
 
 ---
 

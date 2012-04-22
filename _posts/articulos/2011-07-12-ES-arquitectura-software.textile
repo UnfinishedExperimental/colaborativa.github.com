@@ -17,7 +17,7 @@ autores:
 categorias:
  - colaborativa
  - localwiz
- - creativos-cordoba
+ - creativosencordoba
  - espacio-creativo-cordoba
 
 relacionados:

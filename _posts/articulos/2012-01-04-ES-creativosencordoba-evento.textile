@@ -13,9 +13,11 @@ autores:
  - curro-crespo
 
 categorias:
- - creativos-cordoba
+ - creativosencordoba
 
 relacionados:
+ - creativosencordoba-behind
+ - creativosencordoba
 
 enlaces:
 
@@ -23,7 +25,7 @@ enlaces:
 
 El pasado sábado 17 de diciembre tuvo lugar en la Posada del Potro de Córdoba el primer Evento solidario Creativos en Córdoba. Durante ese día un grupo de diseñadores, arquitectos y profesionales de la "creatividad":http://www.espaciocreativo.colaborativa.eu/blog/eci-cordoba/%C2%BFque-son-las-industrias-creativas/ ofrecimos nuestros servicios a cualquier persona interesada en ellos a cambio de un donativo. El objetivo era recaudar dinero y contribuir a la maravillosa labor social que una serie de asociaciones locales llevan a cabo. Necesidades cotidianas para un emprendedor o un pequeño negocio (esbozar un logo, pensar la distribución de un local, consejos de marketing para las redes sociales, etc.) pudieron encontrar asesoramiento creativo entre los diferentes perfiles que allí nos dimos cita.
 
-Para organizar el evento colaboramos con Marta Jiménez, Alfonso Alba y Elena Medel, de La Bella Varsovia. El trabajo coordinado de todos los que estuvimos implicados fue determinante para organizarlo en el escaso tiempo de una semana. Experiencias como ésta nos reafirma en la necesidad de vencer los impedimentos mentales (la comodidad, los prejuicios,...) y compartir los objetivos para hacerlos colectivos para que &quot;ocurran cosas&quot; a nuestro alrededor.
+Para organizar el evento colaboramos con Marta Jiménez, Alfonso Alba y Elena Medel. El trabajo coordinado de todos los que estuvimos implicados fue determinante para organizarlo en el escaso tiempo de una semana. Experiencias como ésta nos reafirma en la necesidad de vencer los impedimentos mentales (la comodidad, los prejuicios,...) y compartir los objetivos para hacerlos colectivos para que &quot;ocurran cosas&quot; a nuestro alrededor.
 
 La respuesta obtenida de la convocatoria para participar fue una grata sorpresa. Iris Severino y Antonio Gutiérrez (CuatroKas), María José Martín (Portavoz), José Carlos Rico (Taller de Arquitectura Rico+Roa), Juan Navero, Juan David Gómez, Antonio Cantador y Jesús Hernández (Vualac!), Sergio Tejerina y Yoana Vega (Dinámico), Antonio Lara, Xavier Coll, David Molina (Estudio Chicane), Blanca Sánchez (Aynuki), Claudia de Toro y Nazaret Castro (Clo&amp;Naz), Manolo Torres, Pedro Peinado, Verónica Moreno (A las 6 en la playa), Álvaro Saco y Alicia Anguita se sumaron a la iniciativa e hicieron posible el evento gracias a su participación generosa y desinteresada.
 

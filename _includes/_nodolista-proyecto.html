@@ -14,7 +14,16 @@
 				{% when "portfolio-categorias-proyectos" %}
 					<p>{% include _inline-enlace-externo.html %} {{ item.content | strip_html | truncate: 300 }} {{ site.inline-leermas.[item.language] }}</p>
 				{% when "portfolio" %}
-					<p>{% include _inline-enlace-externo.html %} {{ item.content | strip_html | truncate: 200 }} {{ site.inline-leermas.[item.language] }}</p>
+					{% comment %}
+						pequeño script para limitar el tamaño de la descripción basado en la longitud del título y el subtítulo
+					{% endcomment %}
+					{% capture longitud %}{{ item.title }}{{ item.title }}{{ item.subtitulo }} {% include _inline-enlace-externo.html %}{% endcapture %}
+					{% assign an_integer = longitud.size %}
+					{% if longitud.size < 220 %}
+						<p>{% include _inline-enlace-externo.html %} {{ item.content | strip_html | truncate: 200 }} {{ site.inline-leermas.[item.language] }}</p>
+					{% else %}
+						<p>{% include _inline-enlace-externo.html %} {{ item.content | strip_html | truncate: 130 }} {{ site.inline-leermas.[item.language] }}</p>
+					{% endif %}
 			{% endcase %}
 		</div>
 	</div>

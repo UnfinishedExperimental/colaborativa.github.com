@@ -1,0 +1,40 @@
+---
+language: en
+layout: portfolio-proyecto
+category: proyectos
+title: Localwiz
+permalink: /en/projects/localwiz/
+url-otro-idioma: /proyectos/localwiz/
+slug: localwiz
+
+subtitulo: "Your mobile guide to discover the city"
+imagen: farm7.staticflickr.com/6040/6999667353_ed973219f9
+imagen-cabecera: 
+en-cabecera: no
+
+colaboradores:
+ - fund-bodegas-campos
+
+categorias:
+ - datos-geoposicionados
+ - planeamiento-estrategico
+
+enlaces:
+- { type: webpropia, title: Visita la web de Localwiz, url: http://www.cordoba.localwiz.eu }
+- { type: externo, title: "Localwiz Cordoba in the App Store", url:http://itunes.apple.com/en/app/localwiz-cordoba-lite/id406482879 }
+- { type: externo, title: "Localwiz Malaga in the App Store", url:http://itunes.apple.com/en/app/localwiz-malaga/id435689265 }
+- { type: prensa, title: "Córdoba en pantalla táctil", source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
+
+---
+
+Cordoba is mainly a tourist city having a continuous flow of visitors throughout the whole year. Cordoba's history and great patrimony are the main attractions. If we consider the number of visitors as part of the population of the city, then it is a great surprise that this floating population is three times bigger than the resident population. Everyday we live with many visitors and for no reason we do not communicate with them. 
+
+Visitors want to *live the most authentic possible experience*, which encourages them to walk around and explore the city, having direct contact with the city's reality. Getting to know what they think about Cordoba is very important to us. It is a valuable source of information to update our knowledge about our city.  
+
+h3. Localwiz and the authentic experience of the city
+
+Localwiz was born as a tool to establish this communication link. It recommends a *set of carefully chosen destinations*, with them visitors will get to know the reality of Cordoba better. Localwiz invites them to move around the city, to discover destinations outside the typical routes, and to rate and share the experience with their friends.
+ 
+Localwiz is an *mobile application*, a software solution that takes advantage of current smartphone's features. The recommended destinations are geolocated in a map and practical information is shown for each of them, such as pictures, opening hours, address, etc.. Localwiz was developed for Apple devices because of the high maturity level of this platform and for having a very consolidated App Market. Localwiz is distributed worldwide throughout the App Store, the online App Market from Apple. It is been developed as a *versatile tool* so that it could be easily adapted to geolocate other destinations.
+
+We "publicly presented":http://www.colaborativa.eu/blog/localwizc%C3%B3rdobaentuiphone.html Localwiz Cordoba in January 2011, in the Candelaria's Chapel, head office of Bodegas Campos's Fundation. Since now we have continuously worked in improving the application and updating its contents. In June 2011, we extended Localwiz's action field by releasing a new version for Malaga.

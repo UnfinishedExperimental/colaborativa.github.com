@@ -15,7 +15,7 @@ autores:
 
 categorias:
  - espacio-creativo-cordoba
- - creativos-cordoba
+ - creativosencordoba
 
 relacionados:
  - industrias-creativas
