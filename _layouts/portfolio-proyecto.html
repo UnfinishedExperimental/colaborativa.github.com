@@ -41,7 +41,7 @@
 		</section>
 		<div class="contenedorPie"></div>
 		{% include _footer.html %}
-		{{% if page.auto-traduccion %}
+		{% if page.auto-traduccion %}
 			{% if page.language == "es" %}
 				{% include _script-translate-es-en.html %}
 			{% else %}
