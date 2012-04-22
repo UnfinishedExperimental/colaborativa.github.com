@@ -1,6 +1,6 @@
 <ul>
 	{% for item in page.enlaces %}
-	{% if item.type == "externo" or "webpropia" %}
+	{% if item.type == 'externo' or item.type == 'webpropia' %}
 	<li><a class="enlaceExterno social" target="_blank" href="{{ item.url }}"><span class="{{ item.url }}"></span>{{ item.title }}</a></li>
 	{% endif  %}
 	{% endfor  %}
