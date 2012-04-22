@@ -95,11 +95,21 @@ a:link.titulo, a:visited.titulo, a:link.menu, a:visited.menu, a:hover.menu {
 	color: #343434;
 	border-bottom: none;
 	text-decoration: none;
+	&.resaltado{
+		color: silver;
+	}
 };
 a:hover.titulo{
 	color: #343434;
 	border-bottom: 1px dotted #DFDFDF;
+	&.resaltado{
+		color: silver;
+	}
 }
-.resaltado, .goog-trans-section font {
+.resaltado{
+	background-color: #ffffcc;
+	color: silver;
+}
+.goog-trans-section font {
 	background-color: #ffffcc;
 }

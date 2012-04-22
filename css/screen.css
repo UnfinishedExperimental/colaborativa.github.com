@@ -318,15 +318,29 @@ a:link.titulo, a:visited.titulo, a:link.menu, a:visited.menu, a:hover.menu {
   border-bottom: none;
   text-decoration: none;
 }
+/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+a:link.titulo.resaltado, a:visited.titulo.resaltado, a:link.menu.resaltado, a:visited.menu.resaltado, a:hover.menu.resaltado {
+  color: silver;
+}
 
-/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
 a:hover.titulo {
   color: #343434;
   border-bottom: 1px dotted #DFDFDF;
 }
+/* line 105, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+a:hover.titulo.resaltado {
+  color: silver;
+}
 
-/* line 103, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
-.resaltado, .goog-trans-section font {
+/* line 109, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+.resaltado {
+  background-color: #ffffcc;
+  color: silver;
+}
+
+/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
+.goog-trans-section font {
   background-color: #ffffcc;
 }
 
