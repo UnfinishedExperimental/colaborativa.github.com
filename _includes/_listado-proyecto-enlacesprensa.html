@@ -1,9 +1,9 @@
 {% for item in page.enlaces %}
 	{% if item.type == "prensa" %}
-		{% assign hayprensa = 1 %}
+		{% assign hay-prensa = 1 %}
 	{% endif %}
 {% endfor %}
-{% if hayprensa %}
+{% if hay-prensa %}
 <section class="listadoArticulos">
 	<hgroup>
 		<h3>{{ site.listado-enlaces-prensa-titulo.[page.language] }}</h3>

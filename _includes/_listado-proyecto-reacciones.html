@@ -20,7 +20,7 @@
 	(function ($) {
 		jQuery(document).ready(function () {
 			$('#follow').jTweetsAnywhere({
-				searchParams: 'q=twitter.com/',
+				searchParams: 'q=colaborativa.eu{{ page.url | xml_escape }}',
 				count: 18,
 				showTweetFeed: {
 					showProfileImages: true,

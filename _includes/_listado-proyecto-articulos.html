@@ -5,32 +5,44 @@
 {% capture temp %}{{ contador }}*{% endcapture %}
 {% assign an_integer = contador.size %}
 
-<section class="listadoArticulos">
-	<hgroup>
-		<h3>{{ site.listado-articulos-proyecto-titulo.[page.language] }}</h3>
-		<h4>{{ site.listado-articulos-proyecto-subtitulo.[page.language] }}</h4>
-	</hgroup>
-	<ul>
-		{% for item in site.categories.articulos %}
-			{% if item.language == page.language %}
-			{% for proyecto in item.categorias %}
-				{% if proyecto == page.slug %}
-					{% capture temp %}{{ contador}}*{% endcapture %}
-					{% assign contador = temp %}
-					{% assign an_integer = contador.size %}
-					{% if an_integer <=  numero-de-articulos %}
-						<li class="goog-trans-section" lang="es">
-							<hgroup>
-								<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
-								<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
-							</hgroup>
-						</li>
+{% for item in site.categories.articulos %}
+	{% if item.language == page.language %}
+	{% for proyecto in item.categorias %}
+		{% if proyecto == page.slug %}
+			{% assign hay-articulos = 'yes' %}
+		{% endif %}
+	{% endfor %}
+	{% endif %}
+{% endfor %}
+
+{% if hay-articulos %}
+	<section class="listadoArticulos">
+		<hgroup>
+			<h3>{{ site.listado-articulos-proyecto-titulo.[page.language] }}</h3>
+			<h4>{{ site.listado-articulos-proyecto-subtitulo.[page.language] }}</h4>
+		</hgroup>
+		<ul>
+			{% for item in site.categories.articulos %}
+				{% if item.language == page.language %}
+				{% for proyecto in item.categorias %}
+					{% if proyecto == page.slug %}
+						{% capture temp %}{{ contador}}*{% endcapture %}
+						{% assign contador = temp %}
+						{% assign an_integer = contador.size %}
+						{% if an_integer <=  numero-de-articulos %}
+							<li class="goog-trans-section" lang="es">
+								<hgroup>
+									<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
+									<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
+								</hgroup>
+							</li>
+						{% endif %}
+					{% else %}
 					{% endif %}
-				{% else %}
+				{% endfor %}
 				{% endif %}
 			{% endfor %}
-			{% endif %}
-		{% endfor %}
-	</ul>
-	<div class="contenedorPie"></div>
-</section>
+		</ul>
+		<div class="contenedorPie"></div>
+	</section>
+{% endif %}
