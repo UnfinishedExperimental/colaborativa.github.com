@@ -1,3 +1,10 @@
+{% assign numero-de-articulos = 5 %}
+
+{% assign contador = '' %}
+{% assign contador = temp %}
+{% capture temp %}{{ contador }}*{% endcapture %}
+{% assign an_integer = contador.size %}
+
 <section class="listadoArticulos">
 	<hgroup>
 		<h3>{{ site.listado-articulos-proyecto-titulo.[page.language] }}</h3>
@@ -8,12 +15,17 @@
 			{% if item.language == page.language %}
 			{% for proyecto in item.categorias %}
 				{% if proyecto == page.slug %}
-				<li class="goog-trans-section" lang="es">
-					<hgroup>
-						<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
-						<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
-					</hgroup>
-				</li>
+					{% capture temp %}{{ contador}}*{% endcapture %}
+					{% assign contador = temp %}
+					{% assign an_integer = contador.size %}
+					{% if an_integer <=  numero-de-articulos %}
+						<li class="goog-trans-section" lang="es">
+							<hgroup>
+								<h4><a class="listadoTitulo" href="{{ item.url }}">{{ item.title }}</a></h4>
+								<h5>{{ item.date | date:"%b %Y" }} · {{ item.subtitulo }}</h5>
+							</hgroup>
+						</li>
+					{% endif %}
 				{% else %}
 				{% endif %}
 			{% endfor %}
