@@ -1253,22 +1253,21 @@ html body .piePagina .contenedor {
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
-  background-color: silver;
 }
 
 /* Listado Nodos */
-/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos {
   top: -30px;
   position: relative;
 }
 
-/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio {
   top: 0px;
   width: 720px;
 }
-/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 93, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio .nodoLista {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1280,40 +1279,40 @@ html body .piePagina .contenedor {
   padding-bottom: 0;
   border-bottom-style: none;
 }
-/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 101, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio .nodoLista:first-child {
   padding-right: 15px;
   border-right: 1px solid #f2f2f2;
   padding-left: 0;
 }
-/* line 107, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 106, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio .nodoLista:last-child {
   width: 330px;
   border-right: 1px solid #f2f2f2;
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio .nodoLista .imagenNodoLista a {
   height: 170px;
   width: 300px;
 }
-/* line 117, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 116, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio .nodoLista .infoNodoLista {
   width: 300px;
 }
-/* line 119, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 118, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Inicio .nodoLista .infoNodoLista .cabeceraNodo p {
   margin-top: 10px;
 }
 
-/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 125, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio {
   top: 0px;
   width: 960px;
   margin-top: 30px;
 }
-/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 129, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1325,7 +1324,7 @@ html body .piePagina .contenedor {
   height: 400px;
   margin-bottom: 30px;
 }
-/* line 138, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista:nth-child(3n+1) {
   padding-left: 0px;
   padding-right: 15px;
@@ -1333,7 +1332,7 @@ html body .piePagina .contenedor {
   border: none;
   border-right: 1px dotted #dfdfdf;
 }
-/* line 145, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 144, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista:nth-child(3n+2) {
   padding-left: 15px;
   padding-right: 15px;
@@ -1341,28 +1340,28 @@ html body .piePagina .contenedor {
   border: none;
   border-right: 1px dotted #dfdfdf;
 }
-/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista:nth-child(3n+3) {
   padding-left: 15px;
   padding-right: 0px;
   width: 315px;
   border: none;
 }
-/* line 158, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 157, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista .infoNodoLista {
   width: 300px;
 }
-/* line 160, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 159, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista .infoNodoLista .cabeceraNodo p {
   margin-top: 10px;
 }
-/* line 165, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 164, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .listadoNodos.Portfolio .nodoLista .imagenNodoLista a {
   width: 300px;
 }
 
 /* Nodo en lista */
-/* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 174, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1371,13 +1370,12 @@ html body .piePagina .contenedor {
   padding-bottom: 25px;
   border-bottom: 1px solid #f2f2f2;
 }
-/* line 180, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 179, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .imagenNodoLista {
   float: left;
   margin-right: 15px;
-  background-color: silver;
 }
-/* line 184, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 182, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .imagenNodoLista a {
   display: block;
   margin: 0;
@@ -1386,26 +1384,25 @@ html body .piePagina .contenedor {
   height: 200px;
   overflow: hidden;
   background-size: cover;
-  background-color: silver;
 }
-/* line 193, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 190, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .imagenNodoLista a:link, .nodoLista .imagenNodoLista a:visited {
   border-bottom-style: none;
 }
-/* line 199, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 196, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .cabeceraNodo h3 {
   padding-top: 8px;
   padding-bottom: 14px;
 }
-/* line 203, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 200, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .cabeceraNodo hgroup {
   margin-top: 8px;
 }
-/* line 208, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 205, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .cuerpoNodo p {
   display: inline-block;
 }
-/* line 212, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
+/* line 209, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_portfoliolayout.scss */
 .nodoLista .infoNodoLista {
   float: left;
   width: 450px;

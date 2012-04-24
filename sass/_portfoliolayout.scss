@@ -77,7 +77,6 @@
 		margin-bottom: 30px;
 		overflow: hidden;
 		position: relative;
-		background-color: silver;
 	}
 }
 
@@ -180,7 +179,6 @@
 	.imagenNodoLista{
 		float: left;
 		margin-right: 15px;
-		background-color: silver;
 		a{
 			display: block;
 			margin: 0;
@@ -189,7 +187,6 @@
 			height:200px;
 			overflow:hidden;
 			background-size: cover;
-			background-color: silver;
 			&:link, &:visited{
 				border-bottom-style: none;
 			}
