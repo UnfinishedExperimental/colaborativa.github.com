@@ -19,17 +19,22 @@
 					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-blog.[page.language] | downcase}}/" class="menuBlog menu">{{ site.navegacion-blog.[page.language] }}</a></h3></li>
 					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-proyectos.[page.language] | downcase}}/" class="menuProyectos menu">{{ site.navegacion-proyectos.[page.language] }}</a></h3></li>
 					<li><h3><a href="{{ urlIdioma }}/{{ site.navegacion-equipo.[page.language] | downcase}}/" class="menuEquipo menu">{{ site.navegacion-equipo.[page.language] }}</a></h3></li>
+					{% comment %}
+					desactivado por defecto
 					{% if page.language == "es" %}
 						<li class="idioma"><h3><a class="menuIdioma menu" href="{{ page.url-otro-idioma }}">en</a></h3></li>
 					{% else %}
 						<li class="idioma"><h3><a class="menuIdioma menu" href="{{ page.url-otro-idioma }}">es</a></h3></li>
 					{% endif %}
+					{% endcomment %}
 				</ul>
 			</nav>
+			{% comment %}
 			<!--<form id="search" class="search-form">
 				<input type="text">
 				<input type="submit">
 			</form>-->
+			{% endcomment %}
 		</div>
 	</div>
 </header>
