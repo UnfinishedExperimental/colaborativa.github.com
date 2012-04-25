@@ -8,7 +8,7 @@ url-otro-idioma: /en/team/curro-crespo/
 slug: curro-crespo
 
 cargo: Co-fundador
-imagen: /imagenes/0_curro
+imagen: farm8.staticflickr.com/7072/6966658362_25efbdbeee
 
 enlaces:
 - { type: externo, title: Mi perfil en twitter @currocrespog, url: http://wwww.twitter.com/currocrespog }

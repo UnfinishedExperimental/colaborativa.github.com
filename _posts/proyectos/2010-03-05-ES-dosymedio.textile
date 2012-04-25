@@ -19,7 +19,7 @@ categorias:
  - planeamiento-estrategico
 
 enlaces:
-- { type: externo, title: Dosymedio en facebook, url:http://www.facebook.com/2ymedio/ }
+ - { type: externo, title: Dosymedio en facebook, url: http://www.facebook.com/2ymedio/ }
 
 ---
 

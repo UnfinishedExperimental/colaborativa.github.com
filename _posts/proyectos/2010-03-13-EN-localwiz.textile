@@ -21,8 +21,8 @@ categorias:
 
 enlaces:
 - { type: webpropia, title: Visita la web de Localwiz, url: http://www.cordoba.localwiz.eu }
-- { type: externo, title: "Localwiz Cordoba in the App Store", url:http://itunes.apple.com/en/app/localwiz-cordoba-lite/id406482879 }
-- { type: externo, title: "Localwiz Malaga in the App Store", url:http://itunes.apple.com/en/app/localwiz-malaga/id435689265 }
+- { type: externo, title: "Localwiz Cordoba in the App Store", url: http://itunes.apple.com/en/app/localwiz-cordoba-lite/id406482879 }
+- { type: externo, title: "Localwiz Malaga in the App Store", url: http://itunes.apple.com/en/app/localwiz-malaga/id435689265 }
 - { type: prensa, title: "Córdoba en pantalla táctil", source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html }
 
 ---

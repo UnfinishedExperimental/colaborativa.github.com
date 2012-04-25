@@ -8,7 +8,7 @@ url-otro-idioma: /equipo/javi-buron/
 slug: javi-buron
 
 cargo: Co-founder
-imagen: /imagenes/0_javi
+imagen: farm8.staticflickr.com/7271/7112735339_cac7d0ddc5
 
 enlaces:
 - { type: externo, title: My twitter profile @javiburon, url: http://wwww.twitter.com/javiburon }
