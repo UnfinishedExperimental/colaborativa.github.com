@@ -8,4 +8,4 @@ url-otro-idioma: /en/projects/cultural-actions/
 slug: acciones-culturales
 ---
 
-Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos
+Planeamos y coordinamos todo tipo de actividades –eventos, talleres, mesas redondas…– relacionadas con la ciudad y el territorio.

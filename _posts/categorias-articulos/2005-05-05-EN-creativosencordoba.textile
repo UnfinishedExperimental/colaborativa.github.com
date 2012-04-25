@@ -9,4 +9,4 @@ slug: creativosencordoba
 
 ---
 
-Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/localwiz/
+creativosencordoba.com es una herramienta online que visualiza la diversidad y el tamaño de las iniciativas creativas y culturales de Córdoba. Más información "aquí":/proyectos/creativosencordoba/

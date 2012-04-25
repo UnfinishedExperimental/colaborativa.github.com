@@ -8,4 +8,4 @@ url-otro-idioma: /proyectos/visualizacion-informacion/
 slug: visualizacion-informacion
 ---
 
-Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos
+Diseñamos herramientas de visualización para analizar las realidades geográficas, sociales y económicas de ciudades y regiones.

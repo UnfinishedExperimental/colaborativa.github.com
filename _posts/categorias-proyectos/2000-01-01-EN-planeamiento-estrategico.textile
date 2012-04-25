@@ -8,4 +8,4 @@ url-otro-idioma: /proyectos/planeamiento-estrategico/
 slug: planeamiento-estrategico
 ---
 
-Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos
+Investigamos y proponemos alternativas para un desarrollo racional y participado de nuestras ciudades.

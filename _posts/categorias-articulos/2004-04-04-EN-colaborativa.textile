@@ -9,4 +9,4 @@ slug: colaborativa
 
 ---
 
-Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/localwiz/
+Noticias, eventos y otros temas relacionados con el día a día en Colaborativa. "¿Quiénes somos?":/equipo/

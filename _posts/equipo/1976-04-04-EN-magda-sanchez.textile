@@ -8,10 +8,10 @@ url-otro-idioma: /equipo/magda-sanchez/
 slug: magda-sanchez
 
 cargo: Co-fundadora
-imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
+imagen: /imagenes/0_magda
 
 enlaces:
- - { type: externo, title: Mi perfil en twitter msanchezmora, url: http://wwww.twitter.com/msachezmora }
+ - { type: externo, title: Mi perfil en twitter @msanchezmora, url: http://wwww.twitter.com/msachezmora }
  - { type: externo, title: Mi página personal, url: http://www.magdasanchez.es }
 
 ---

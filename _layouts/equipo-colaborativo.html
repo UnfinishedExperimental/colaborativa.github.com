@@ -12,12 +12,14 @@
 				<h1 class="big">{{ site.navegacion-equipo.[page.language] }}</h1>
 				<div id="columnaNavegacion" class="notranslate">
 					{% include _listado-colaborativos.html %}
+					{% comment %}
 					{% include _listado-colaboradores.html %}
+					{% endcomment %}
 				</div>
 				<div id="tresColumnasContenido">
 					<article class="nodo equipo notranslate">
 						<div class="cabeceraNodo">
-							<div class="miniaturaNodo" style="background: url(http://{{ page.imagen }}_t.jpg) center center no-repeat">
+							<div class="miniaturaNodo" style="background: url({{ page.imagen }}.jpg) center center no-repeat">
 							</div>
 							<hgroup>
 								<h1>{{ page.title }}</h1>

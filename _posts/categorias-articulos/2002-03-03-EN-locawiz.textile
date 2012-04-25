@@ -9,4 +9,4 @@ slug: localwiz
 
 ---
 
-Esta es una descripción de la categoría de proyectos describiendo brevemente en que tipo de proyectos trabajamos ver más "aquí":/proyectos/localwiz/
+Localwiz es la guía de Córdoba en para Iphone que descubre al visitante las joyas escondidas de nuestra ciudad. Más información  "aquí":/proyectos/localwiz/
