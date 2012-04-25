@@ -5,5 +5,5 @@ title: Zum Creativos
 slug: zum-creativos
 
 link: http://www.zum.es
-imagen: farm8.staticflickr.com/7029/6537173667_fb67e1c206
+imagen: farm8.staticflickr.com/7117/6966055322_df3aa41f4a
 ---

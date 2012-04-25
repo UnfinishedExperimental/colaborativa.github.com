@@ -14,6 +14,11 @@ en-cabecera: yes
 
 colaboradores:
  - zum-creativos
+ - surgenia
+ - csi
+ - urban-space
+ - dcabo-consultores
+ - bella-varsovia
 
 categorias:
  - planeamiento-estrategico
