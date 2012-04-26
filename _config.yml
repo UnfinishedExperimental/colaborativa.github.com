@@ -1,6 +1,6 @@
 auto: true
 permalink: /blog/:year/:month/:title/
-url: http://www.colaborativa.eu
+url: http://colaborativa.eu
 paginate: 10
 
 titulo: Colaborativa
