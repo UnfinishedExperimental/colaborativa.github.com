@@ -15,11 +15,11 @@ navegacion-codigo: { es: Colaboratorio, en: Colaboratorio}
 footer-mapa: { es: Mapa, en: Map}
 footer-content-somos-opensource: { es: Somos una empresa de código abierto , en: We are an open source company }
 footer-content-somos-opensource-url: { url: http://www.github.com/colaborativa }
-footer-content-opensource: { es: El código de nuestra web está compartido bajo, en: Our website code is shared under }
+footer-content-opensource: { es: de nuestra web está compartido bajo, en: of our website code is shared under }
 footer-content-opensource-url: { url: http://www.opensource.org/licenses/MIT, es: la licencia MIT, en: the MIT License}
 footer-content-copyleft: { es: los textos e imágenes bajo licencia, en: text and images are licensed under}
 footer-content-copyleft-url: { url: http://creativecommons.org/licenses/by/3.0/, es: CC BY 3.0., en: CC BY 3.0.}
-footer-content-codigofuente-url: { url: https://github.com/colaborativa/colaborativa.github.com/, es: Código fuente., en: Source code }
+footer-content-codigofuente-url: { url: https://github.com/colaborativa/colaborativa.github.com/, es: El código fuente, en: The source code }
 footer-content-hechocon: { es: Hecho con, en: Made with }
 
 enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Estamos en Facebook, en: We are in Facebook}
