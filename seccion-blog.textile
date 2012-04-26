@@ -4,4 +4,6 @@ layout: blog
 title: Blog
 permalink: /blog/
 url-otro-idioma: /en/blog/
+
+subtitulo: 
 ---
