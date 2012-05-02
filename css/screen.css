@@ -258,7 +258,7 @@ p.copyleft {
 }
 
 /* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_type.scss */
-i {
+i, em {
   font-style: italic;
 }
 
