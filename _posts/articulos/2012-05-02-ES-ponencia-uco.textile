@@ -1,0 +1,36 @@
+---
+language: es
+layout: blog-articulo
+category: articulos
+title: code is poetry
+permalink: /en/blog/2012/05/ponencia-uco/
+url-otro-idioma: /blog/2012/05/ponencia-uco/
+slug: /ponencia-uco
+
+auto-traduccion: no
+subtitulo: Ponencia en la Escuela Politécnica Superior, UCO
+imagen: farm9.staticflickr.com/8007/7135701949_bae9ccb2fe
+autores: 
+ - magda-sanchez
+
+categorias:
+ - colaborativa
+
+relacionados:
+ - arquitectura-software
+
+enlaces:
+- { type: externo, title: Propuesta técnica presentada, url: http://issuu.com/msanchezmora/docs/ponencia_uco_03-2012/ }
+
+
+---
+
+El pasado 20 de Marzo tuve la oportunidad de dar una ponencia dentro de las jornadas de celebración del Patrón de la Escuela Politécnica Superior de Córdoba. Aquí os dejo la presentación en donde realicé un recorrido por mi experiencia profesional desde el término de mis estudios en 2001 en la Universidad de Córdoba, hasta el trabajo actual en  Colaborativa.
+
+El trabajo en colaboración con otras disciplinas y la creatividad inherente en las tareas de programación fueron algunas de las ideas que transmití a los estudiantes. Resalté la importancia del diseño en el desarrollo de aplicaciones, muchas veces menospreciado en nuestro ámbito y como una solución técnicamente perfecta puede fracasar por un diseño inadecuado. Nuestra obsesión como ingenieros en la resolución de problemas técnicos nos hace perder en muchas ocasiones una perspectiva más global de los proyectos.
+
+Por último, para ilustrar el carácter transversal y multifacético de la informática les mostré proyectos reales de aplicación en instalaciones artísticas. Espero haberles inspirado un poco en cuanto el abanico de posibilidades profesionales que tienen a su alcance.
+
+¡Espero que os guste!
+
+_Este post ha sido publicado originalmente en el blog del Magda Sánchez._
