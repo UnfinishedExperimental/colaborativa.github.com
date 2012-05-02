@@ -20,12 +20,11 @@ relacionados:
  - arquitectura-software
 
 enlaces:
-- { type: externo, title: Propuesta técnica presentada, url: http://issuu.com/msanchezmora/docs/ponencia_uco_03-2012/ }
-
+- { type: slideshow, title: code is poetry, ID: 120502081911-247544ad31f54abbaffe3ae78844204d }
 
 ---
 
-El pasado 20 de Marzo tuve la oportunidad de dar una ponencia dentro de las jornadas de celebración del Patrón de la Escuela Politécnica Superior de Córdoba. Aquí os dejo la presentación en donde realicé un recorrido por mi experiencia profesional desde el término de mis estudios en 2001 en la Universidad de Córdoba, hasta el trabajo actual en  Colaborativa.
+El pasado 20 de Marzo tuve la oportunidad de dar una ponencia dentro de las jornadas de celebración del "Patrón de la Escuela Politécnica Superior":http://www.uco.es/eps/sites/default/files/info_general/novedades/2012/RamaInformatica.pdf de Córdoba. Aquí os dejo la presentación en donde realicé un recorrido por mi experiencia profesional desde el término de mis estudios en 2001 en la Universidad de Córdoba, hasta el trabajo actual en Colaborativa.
 
 El trabajo en colaboración con otras disciplinas y la creatividad inherente en las tareas de programación fueron algunas de las ideas que transmití a los estudiantes. Resalté la importancia del diseño en el desarrollo de aplicaciones, muchas veces menospreciado en nuestro ámbito y como una solución técnicamente perfecta puede fracasar por un diseño inadecuado. Nuestra obsesión como ingenieros en la resolución de problemas técnicos nos hace perder en muchas ocasiones una perspectiva más global de los proyectos.
 
