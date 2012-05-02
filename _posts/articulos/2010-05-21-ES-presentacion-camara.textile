@@ -8,7 +8,7 @@ url-otro-idioma: /en/blog/2010/05/presentacion-camara/
 slug: presentacion-camara
 
 subtitulo: Compartimos la presentación que utilizamos en la Cámara de Comercio
-imagen: farm7.staticflickr.com/6061/6080769732_6e33e439ab
+imagen: farm8.staticflickr.com/7060/6989212892_e0f66ee8d3
 autores: 
  - magda-sanchez
 
@@ -20,8 +20,8 @@ relacionados:
  - 
 
 enlaces:
-- { type: externo, title: Presentación en Slide, url: http://www.slideshare.net/colaborativa/10-ideas-para-un-espacio-creativo-independiente-en-crdoba?from=ss_embed }
-
+ - { type: externo, title: Presentación en Issuu, url: http://issuu.com/colaborativa.eu/docs/presentacion_10_ideas }
+ - { type: slideshow, title: 10 Ideas para el Espacio Creativo Independiente de Córdoba, ID: 110823105405-4a97505c25e84cc9808f267d2b34f929 }
 
 ---
 

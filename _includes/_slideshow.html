@@ -1,0 +1,8 @@
+{% for item in page.enlaces %}
+	{% if item.type == 'slideshow'  %}
+		<figure class="keynote">
+			<object style="width:600px;height:435px" ><param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v1/IssuuViewer.swf?mode=embed&amp;viewMode=presentation&amp;layout=http%3A%2F%2Fskin.issuu.com%2Fv%2Fcolor%2Flayout.xml&amp;backgroundColor=000000&amp;showFlipBtn=true&amp;documentId={{ item.ID }}" /><param name="allowfullscreen" value="true"/><param name="menu" value="false"/><embed src="http://static.issuu.com/webembed/viewers/style1/v1/IssuuViewer.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" style="width:600px;height:435px" flashvars="mode=embed&amp;viewMode=presentation&amp;layout=http%3A%2F%2Fskin.issuu.com%2Fv%2Fcolor%2Flayout.xml&amp;backgroundColor=000000&amp;showFlipBtn=true&amp;documentId={{ item.ID }}" /></object>
+			<figcaption>{{ item.title | truncate:80 }}</figcaption>
+		</figure>
+	{% endif %}
+{% endfor %}
