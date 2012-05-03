@@ -650,7 +650,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   border-bottom: 1px dotted silver;
   height: 35px;
   display: table;
-  width: 290px;
+  width: 300px;
 }
 /* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .bloqueActividades li a:link {
