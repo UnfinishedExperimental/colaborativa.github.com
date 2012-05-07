@@ -3,15 +3,9 @@ language: en
 layout: blog-articulo
 category: articulos
 title: code is poetry
-<<<<<<< HEAD:_posts/articulos/2012-05-02-EN-ponencia-uco.textile
-permalink: /en/blog/2012/05/ponencia-uco/
-url-otro-idioma: /blog/2012/05/ponencia-uco/
-slug: ponencia-uco
-=======
 permalink: /en/blog/2012/04/ponencia-uco/
 url-otro-idioma: /blog/2012/04/ponencia-uco/
 slug: /ponencia-uco
->>>>>>> Changing date to Ponencia-Uco so it will show as it was updloaded in April.:_posts/articulos/2012-04-02-EN-ponencia-uco.textile
 
 auto-traduccion: yes
 subtitulo: Ponencia en la Escuela Politécnica Superior, UCO
