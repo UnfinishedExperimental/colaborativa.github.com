@@ -1,0 +1,9 @@
+---
+layout: none
+category: colaboradores
+title: Asociación Peatonal Cordobesa A Pata
+slug: a-pata
+
+link: https://sites.google.com/site/asociacionpeatonalapata
+imagen: farm8.staticflickr.com/7101/7159286080_aba1d526f6
+---
