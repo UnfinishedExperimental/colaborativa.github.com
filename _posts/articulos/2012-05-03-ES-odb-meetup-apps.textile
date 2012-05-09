@@ -19,6 +19,7 @@ categorias:
 relacionados:
 
 enlaces:
+ - { type: slideshow-flickr, title: "ODB Meetup - Apps" , ID: 72157629599285378, User: 50381188@N06 }
 
 ---
 

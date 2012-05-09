@@ -24,7 +24,8 @@ relacionados:
  - toronto-vamos
 
 enlaces:
- - { type: externo, title: Jane's Walk 2012, Córdoba, url: http://janeswalk.net/cities/list/category/cordoba }
+ - { type: externo, title: "Jane's Walk 2012, Córdoba", url: http://janeswalk.net/cities/list/category/cordoba }
+ - { type: slideshow-flickr, title: "Jane's Walk 2012, Córdoba", ID: 72157629989680397, User: 50381188@N06}
 
 ---
 
