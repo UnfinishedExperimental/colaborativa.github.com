@@ -5,13 +5,13 @@ category: articulos
 title: ODB Meetup - Apps
 permalink: /blog/2012/05/odb-meetup-apps/
 url-otro-idioma: /en/blog/2012/05/odb-meetup-apps/
-slug: /odb-meetup-apps
+slug: odb-meetup-apps
 
 subtitulo: "Primer encuentro sobre tecnologías móviles en Córdoba"
 imagen: farm8.staticflickr.com/7131/6995929194_a9a639ef5e
 autores: 
  - magda-sanchez
- - javi-burón
+ - javi-buron
 
 categorias:
  - colaborativa

@@ -5,7 +5,7 @@ category: articulos
 title: code is poetry
 permalink: /blog/2012/04/ponencia-uco/
 url-otro-idioma: /en/blog/2012/04/ponencia-uco/
-slug: /ponencia-uco
+slug: ponencia-uco
 
 subtitulo: "Ponencia en la Escuela Politécnica Superior, UCO"
 imagen: farm9.staticflickr.com/8007/7135701949_bae9ccb2fe

@@ -1,3 +1,10 @@
+{% assign numero-de-articulos = 2 %}
+
+{% assign contador = '' %}
+{% assign contador = temp %}
+{% capture temp %}{{ contador }}*{% endcapture %}
+{% assign an_integer = contador.size %}
+
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
 	<head>
@@ -28,9 +35,14 @@
 					</div>
 				</div>
 				<div class="listadoNodos Inicio">
-					{% for item in site.categories.articulos limit:4 %}
+					{% for item in site.categories.articulos %}
 						{% if item.language == page.language %}
-						{% include _nodolista-articulo.html %}
+							{% capture temp %}{{ contador}}*{% endcapture %}
+							{% assign contador = temp %}
+							{% assign an_integer = contador.size %}
+							{% if an_integer <=  numero-de-articulos %}
+								{% include _nodolista-articulo.html %}
+							{% endif %}
 						{% endif %}
 					{% endfor %}
 				</div>
