@@ -6,7 +6,7 @@ title: Los Paseos de Jane en Córdoba
 permalink: /proyectos/janes-walk-cordoba/
 url-otro-idioma: /en/projects/janes-walk-cordoba/
 slug: janes-walk-cordoba
-published: true
+published: false
 
 subtitulo: "¡Sal a la calle y anda!"
 imagen: farm8.staticflickr.com/7235/7170327908_94fc172065

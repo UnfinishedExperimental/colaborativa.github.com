@@ -6,7 +6,7 @@ title: ¡Sal a la calle y anda!
 permalink: /blog/2012/05/sal-a-la-calle/
 url-otro-idioma: /en/blog/2012/05/sal-a-la-calle/
 slug: sal-a-la-calle
-published: false
+published: true
 
 subtitulo: "Crónica de los paseos de Jane 2012 en Córdoba"
 imagen: farm6.staticflickr.com/5447/7153616379_904df8c36a
