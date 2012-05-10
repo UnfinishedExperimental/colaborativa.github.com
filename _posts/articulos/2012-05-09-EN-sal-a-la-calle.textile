@@ -17,6 +17,7 @@ autores:
 categorias:
  - dosymedio
  - colaborativa
+ - janes-walk-cordoba
 
 relacionados:
  - janes-city

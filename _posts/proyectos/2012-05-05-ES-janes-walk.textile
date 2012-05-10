@@ -1,0 +1,38 @@
+---
+language: es
+layout: portfolio-proyecto
+category: proyectos
+title: Los Paseos de Jane en Córdoba
+permalink: /proyectos/janes-walk-cordoba/
+url-otro-idioma: /en/projects/janes-walk-cordoba/
+slug: colaboratorio
+published: false
+
+subtitulo: "¡Sal a la calle y anda!"
+imagen: 
+imagen-cabecera: 
+en-cabecera: yes
+
+colaboradores:
+ - a-pata
+ - janes-walk
+
+categorias:
+ - acciones-culturales
+
+enlaces:
+ - { type: webpropia, title: los Paseos de Jane en Córdoba, url: http://janeswalk.net/cities/landing/category/cordoba/ }
+
+---
+
+Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs":http://es.wikipedia.org/wiki/Jane_Jacobs . Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada. Jane Jacobs insistió en la importancia de aquellos aspectos que cohesionan el tejido urbano como son la experiencia peatonal de la calle y la importancia del espacio público.
+
+En 2007, un año después del fallecimiento de Jane Jacobs, un grupo de amigos y admiradores decidieron organizar el 4 de mayo, aniversario de su nacimiento, una serie de paseos por distintos barrios de Toronto. Su intención era poner en práctica la idea de Jane Jacobs de que las ciudades deben conocerse de la forma más directa y sensorial posible. Ese fue el germen de los paseos conocidos como Jane’s Walk.
+
+Los Paseos de Jane son gratuitos y guiados por voluntarios y han ido creciendo de forma exponencial desde los 27 paseos del primer año hasta los más de 550 paseos de la última edición en más de 85 ciudades de todos los continentes.
+
+"En nuestro viaje a Toronto de 2010":http://colaborativa.eu/blog/2010/06/toronto-vamos/ tuvimos la oportunidad de conocer el evento de la mano de los organizadores de la primera edición, nos pareció una actividad en total sintonía con el Mayo cordobés y que podría reactivar el diálogo sobre temas urbanos de una forma mucho más efectiva y colectiva que nuestras "tertulias dosymedio":../dosymedio/. Cuando nos propusimos la celebración del evento en Córdoba contactamos con la "Asociación Peatonal Cordobesa A Pata":https://sites.google.com/site/asociacionpeatonalapata/ , colaboradores perfectos para un evento que celebra el paseo y el diálogo a pie de calle como el mejor método para conocer nuestras ciudades.
+
+La primera edición de 2012 se celebró el fin de semana del 5 y 6 de Mayo y contó con ocho paseos con enfoques muy diferentes: Xiomara Gómez, arqueóloga, “De puerta a puerta, un paseo por el urbanismo histórico cordobés” · Rosa Colmenarejo, paisajista, “Mix & Match” · Florent Prunier, miembro de la "Asociación el Bosque Animado":http://aeaelbosqueanimado.blogspot.com.es/, “La naturaleza integrada en la ciudad, Córdoba salvaje” · Juan Cuenca, Rosa Lara y Pedro Caro, arquitectos, “La entrada a Córdoba: De la Puerta del Puente a la calle Cruz Conde” · Guadalupe Gómez, arqueóloga, “Historia y carácter del Campo de la Verdad-Fray Albino” · Juan Aljama, técnico de accesibilidad, “Córdoba accesible” · Pepe y Miguel Cejas, miembros de la plataforma Emplazarte, "Paseo folclórico-crítico por las entrañas del Casco Histórico" · Elena Medel y Alejandra Vanessa, escritora y editora, "Un solo pez en el agua. Hacer pie en la Córdoba escrita"
+
+La participación desbordó nuestras expectativas más optimistas y cientos de personas de todas las edades nos acompañaron en los paseos. ¡Esperamos que el año que viene podamos contar con muchos más paseos y así poder disfrutar de una visión más plural, colectiva y participada de nuestra ciudad!
