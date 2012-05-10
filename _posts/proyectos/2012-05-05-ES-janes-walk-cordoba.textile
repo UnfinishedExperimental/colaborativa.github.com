@@ -5,12 +5,12 @@ category: proyectos
 title: Los Paseos de Jane en Córdoba
 permalink: /proyectos/janes-walk-cordoba/
 url-otro-idioma: /en/projects/janes-walk-cordoba/
-slug: colaboratorio
-published: false
+slug: janes-walk-cordoba
+published: true
 
 subtitulo: "¡Sal a la calle y anda!"
-imagen: 
-imagen-cabecera: 
+imagen: farm8.staticflickr.com/7235/7170327908_94fc172065
+imagen-cabecera: farm9.staticflickr.com/8147/7171873822_cf0656cc38
 en-cabecera: yes
 
 colaboradores:
@@ -21,7 +21,14 @@ categorias:
  - acciones-culturales
 
 enlaces:
- - { type: webpropia, title: los Paseos de Jane en Córdoba, url: http://janeswalk.net/cities/landing/category/cordoba/ }
+ - { type: externo, title: los Paseos de Jane en Córdoba, url: http://janeswalk.net/cities/landing/category/cordoba/ }
+ - { type: externo, title: Crónica de los paseos en nuestro blog, url: /blog/2012/05/sal-a-la-calle/ }
+ - { type: prensa, title: "Destripando Córdoba a pie", source: Diario ABC Córdoba, date: May 2012, url: http://www.abc.es/20120503/cordoba/abcp-destripando-cordoba-20120503.html }
+ - { type: prensa, title: "Los Paseos de Jane entrevista en PTV", source: PTV, date: May 2012, url: http://www.youtube.com/watch?v=fXkWfxveN6I&feature=relmfu }
+ - { type: prensa, title: "Proponen 8 recorridos temáticos por Córdoba este fin de semana", source: Diario Córdoba, date: May 2012, url: http://www.diariocordoba.com/noticias/cultura/proponen-8-recorridos-tematicos-por-cordoba-este-fin-de-semana_712658.html }
+ - { type: prensa, title: "Los pasos cordobeses de Jane Jacobs", source: El Mundo, date: May 2012, url: http://www.elmundo.es/elmundo/2012/05/06/andalucia/1336317344.html }
+ - { type: prensa, title: "Un paseo diferente por la ciudad", source: El día de Córdoba, date: May 2012, url: http://www.eldiadecordoba.es/article/cordoba/1248172/unos/paseos/tematicos/ofrecen/una/vision/distinta/la/ciudad.html }
+ - { type: prensa, title: "Una ciudad para pasearla", source: Diario Córdoba, date: May 2012, url: http://www.diariocordoba.com/noticias/opinion/una-ciudad-para-pasearla_714222.html }
 
 ---
 

@@ -1,0 +1,9 @@
+---
+layout: none
+category: colaboradores
+title: Jane's Walk
+slug: janes-walk
+
+link: http://janeswalk.net
+imagen: farm8.staticflickr.com/7225/7171919874_a4c6cb8252
+---
