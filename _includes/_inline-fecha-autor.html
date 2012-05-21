@@ -62,3 +62,11 @@
 		{% endcase %}
 	{% endfor %}
 {% endfor %}
+
+{% for colaborador in site.categories.colaboradores reversed %}
+	{% for autor in [objeto].autores %}
+		{% if autor == colaborador.slug %}
+			{{ colaborador.title }}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
