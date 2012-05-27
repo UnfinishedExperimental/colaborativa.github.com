@@ -74,21 +74,25 @@
 		@include transition(all .2s linear);
 	}
 	a:before{
-		padding-right: 7px;
+		font: 25px "colaborativa-icons";
+		padding-right: 6px;
 		position: relative;
-		top: 2px;
+		top: 3px;
 	}
 	.menuBlog:before{
-		content: url(/imagenes/menuBlog.png);
+		content: "\f000";
+		//content: url(/imagenes/menuBlog.png);
 	}
 	.menuProyectos:before{
-		content: url(/imagenes/menuProyectos.png);
+		content: "\f002";
+		//content: url(/imagenes/menuProyectos.png);
 	}
 	.menuEquipo:before{
-		content: url(/imagenes/menuEquipo.png);
+		content: "\f001";
+		//content: url(/imagenes/menuEquipo.png);
 	}
 	.menuCodigo:before{
-		content: url(/imagenes/menuCodigo.png);
+		//content: url(/imagenes/menuCodigo.png);
 	}
 }
 
