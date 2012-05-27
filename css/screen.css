@@ -95,6 +95,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'colaborativa-icons';
+  src: url("fonts/colaborativa-icons-regular-webfont.eot");
+  src: url("fonts/colaborativa-icons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativa-icons-regular-webfont.woff") format("woff"), url("fonts/colaborativa-icons-regular-webfont.ttf") format("truetype"), url("fonts/colaborativa-icons-regular-webfont.svg#colaborativa-iconsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_slides.scss */
 .slides_container {
   width: 960px;
@@ -648,7 +656,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 1px dotted silver;
-  height: 35px;
+  height: 30px;
   display: table;
   width: 300px;
 }
@@ -664,7 +672,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   color: #323232;
   margin: 0;
   text-align: left;
-  padding: 0;
+  padding: 0px 0px 6px 0px;
   border-bottom-style: none;
 }
 /* line 114, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
@@ -680,34 +688,32 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
 .bloqueActividades li:active {
   background-color: #d7d7d7;
 }
-/* line 125, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li span {
-  width: 33px;
-  display: table-cell;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 33px;
-}
 /* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.planeamiento-estrategico span {
-  background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
-}
-/* line 136, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.acciones-culturales span {
-  background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
+.bloqueActividades li a:before {
+  font: 25px "colaborativa-icons";
+  padding-right: 6px;
+  position: relative;
+  top: 4px;
 }
 /* line 139, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.datos-geoposicionados span {
-  background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
+.bloqueActividades li.planeamiento-estrategico a:before {
+  content: "\f006";
 }
 /* line 142, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
-.bloqueActividades li.visualizacion-informacion span {
-  background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
+.bloqueActividades li.acciones-culturales a:before {
+  content: "\f003";
+}
+/* line 145, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+.bloqueActividades li.datos-geoposicionados a:before {
+  content: "\f005";
+}
+/* line 148, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+.bloqueActividades li.visualizacion-informacion a:before {
+  content: "\f004";
 }
 
 /* subcategoryPopUp en reacciones */
-/* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp, .subcategoryPopUp2 {
   position: absolute;
   -webkit-box-sizing: border-box;
@@ -726,7 +732,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   -o-border-radius: 5px / 5px;
   border-radius: 5px / 5px;
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 179, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp .triangulo, .subcategoryPopUp2 .triangulo {
   background-image: url(/imagenes/triangulo.png);
   display: block;
@@ -738,62 +744,62 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   border-style: none;
   border-width: 0;
 }
-/* line 172, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 190, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp p, .subcategoryPopUp2 p {
   color: #b4b4b4;
 }
-/* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 193, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp a, .subcategoryPopUp a:link, .subcategoryPopUp a:active, .subcategoryPopUp2 a, .subcategoryPopUp2 a:link, .subcategoryPopUp2 a:active {
   color: white;
   border-bottom-style: none;
   position: relative;
 }
-/* line 180, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 198, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp a:hover, .subcategoryPopUp2 a:hover {
   color: #bdbdbd;
 }
 
-/* line 184, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 202, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp {
   margin-top: 65px;
 }
 
-/* line 187, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 205, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp2 {
   margin-top: 42px;
 }
-/* line 189, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 207, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .subcategoryPopUp2 .triangulo {
   left: 8px;
 }
 
 /* listadoReacciones */
-/* line 197, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 215, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones {
   margin-bottom: 25px;
 }
-/* line 199, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 217, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones p.nota {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 203, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 221, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones #follow {
   margin-top: 15px;
 }
-/* line 206, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 224, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones .tweetButton {
   margin-top: 10px;
   margin-bottom: 0px;
 }
-/* line 210, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 228, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones .tweetContenido.cargando {
   display: block;
   height: 105px;
   font: 13px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #929292;
 }
-/* line 216, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 234, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones li, .listadoReacciones .reaccionesIcono {
   position: relative;
   display: block;
@@ -804,7 +810,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   margin-right: 5px;
   margin-bottom: 5px;
 }
-/* line 226, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
+/* line 244, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_listadosAuxiliares.scss */
 .listadoReacciones .reaccionesIcono {
   cursor: pointer;
   opacity: 0.65;
@@ -913,28 +919,25 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
 }
 /* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu a:before {
-  padding-right: 7px;
+  font: 25px "colaborativa-icons";
+  padding-right: 6px;
   position: relative;
-  top: 2px;
+  top: 3px;
 }
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuBlog:before {
-  content: url(/imagenes/menuBlog.png);
+  content: "\f000";
 }
-/* line 84, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .menu .menuProyectos:before {
-  content: url(/imagenes/menuProyectos.png);
-}
-/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
-.menu .menuEquipo:before {
-  content: url(/imagenes/menuEquipo.png);
+  content: "\f002";
 }
 /* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
-.menu .menuCodigo:before {
-  content: url(/imagenes/menuCodigo.png);
+.menu .menuEquipo:before {
+  content: "\f001";
 }
 
-/* line 95, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form {
   height: 50px;
   display: table-cell;
@@ -949,14 +952,14 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   width: 420px;
   margin: 0;
 }
-/* line 108, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='text'], .search-form input[type='submit'] {
   display: table-cell;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-/* line 114, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 118, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='text'] {
   -webkit-border-top-left-radius: 15px;
   -webkit-border-bottom-left-radius: 15px;
@@ -976,7 +979,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   float: left;
   width: 70%;
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='submit'] {
   -webkit-border-top-right-radius: 15px;
   -webkit-border-bottom-right-radius: 15px;
@@ -997,7 +1000,7 @@ a.enlaceExterno[href*='issuu.com']:hover > span {
   float: left;
   text-shadow: 0 1px #ffffff;
 }
-/* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
+/* line 157, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapagina.scss */
 .search-form input[type='submit']:hover {
   background-color: #e6e6e6;
   cursor: pointer;
