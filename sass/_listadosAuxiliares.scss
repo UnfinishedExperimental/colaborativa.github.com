@@ -96,7 +96,7 @@
 	li{
 		@include box-sizing(border-box);@include box-sizing(border-box);
 		border-bottom: 1px dotted silver;
-		height: 35px;
+		height: 30px;
 		display: table;
 		width: 300px;
 		a:link{
@@ -108,7 +108,7 @@
 			color: #323232;
 			margin: 0;
 			text-align: left;
-			padding: 0;
+			padding: 0px 0px 6px 0px;
 			border-bottom-style: none;
 		}
 		a:visited{
@@ -123,24 +123,42 @@
 		background-color: #d7d7d7;
 	}
 	li span{
-		width: 33px;
-		display: table-cell;
+		//width: 33px;
+		//display: table-cell;
+		//position: relative;
+		//top: 0;
+		//left: 0;
+		//height: 33px;
+	}
+	li a:before{
+		font: 25px "colaborativa-icons";
+		padding-right: 6px;
 		position: relative;
-		top: 0;
-		left: 0;
-		height: 33px;
+		top: 4px;
+	}
+	li.planeamiento-estrategico a:before{
+		content: "\f006";
+	}
+	li.acciones-culturales a:before{
+		content: "\f003";
+	}
+	li.datos-geoposicionados a:before{
+		content: "\f005";
+	}
+	li.visualizacion-informacion a:before{
+		content: "\f004";
 	}
 	li.planeamiento-estrategico span{
-		background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
+		//background: url(/imagenes/iconoEstrategias.png) 0 0px no-repeat;
 	}
 	li.acciones-culturales span{
-		background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
+		//background: url(/imagenes/iconoAcciones.png) 0 0px no-repeat;
 	}
 	li.datos-geoposicionados span{
-		background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
+		//background: url(/imagenes/iconoGeoposicionamiento.png) 0 0px no-repeat;
 	}
 	li.visualizacion-informacion span{
-		background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
+		//background: url(/imagenes/iconoVisualizacion.png) 0 0px no-repeat;
 	}
 }
 
