@@ -20,20 +20,32 @@
 			{% when 1 %}
 				{% if autor == equipo.slug %}
 					{% if equipo.language == page.language %}
-					<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% if equipo.old %}
+							{{ equipo.title }}
+						{% else %}
+							<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+						{% endif %}
 					{% endif %}
 				{% endif %}
 			{% when 2 %}
 				{% if forloop.first %}
 					{% if autor == equipo.slug %}
 						{% if equipo.language == page.language %}
-						<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+							{% if equipo.old %}
+								{{ equipo.title }}
+							{% else %}
+								<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+							{% endif %}
 						{% endif %}
 					{% endif %}
 				{% else %}
 					{% if autor == equipo.slug %}
 						{% if equipo.language == page.language %}
-						{{ site.inline-y.[page.language] }} <a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+							{% if equipo.old %}
+								{{ site.inline-y.[page.language] }} {{ equipo.title }}
+							{% else %}
+								{{ site.inline-y.[page.language] }} <a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+							{% endif %}
 						{% endif %}
 					{% endif %}
 				{% endif %}
@@ -41,20 +53,32 @@
 				{% if forloop.first %}
 					{% if autor == equipo.slug %}
 						{% if equipo.language == page.language %}
-							<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>,
+							{% if equipo.old %}
+								{{ equipo.title }},
+							{% else %}
+									<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>,
+							{% endif %}
 						{% endif %}
 					{% endif %}
 				{% else %}
 					{% if forloop.last %}
 						{% if autor == equipo.slug %}
 							{% if equipo.language == page.language %}
-							{{ site.inline-y.[page.language] }} <a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+								{% if equipo.old %}
+									{{ site.inline-y.[page.language] }} {{ equipo.title }}
+								{% else %}
+									{{ site.inline-y.[page.language] }} <a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+								{% endif %}
 							{% endif %}
 						{% endif %}
 					{% else %}
 						{% if autor == equipo.slug %}
 							{% if equipo.language == page.language %}
-							<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+								{% if equipo.old %}
+									{{ equipo.title }}
+								{% else %}
+									<a class="notranslate" href="{{ equipo.url }}">{{ equipo.title }}</a>
+								{% endif %}
 							{% endif %}
 						{% endif %}
 					{% endif %}

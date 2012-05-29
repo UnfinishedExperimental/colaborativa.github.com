@@ -1,0 +1,8 @@
+---
+language: es
+category: equipo
+title: Curro Crespo
+slug: curro-crespo
+old: true
+
+---
