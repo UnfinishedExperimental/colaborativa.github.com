@@ -24,7 +24,6 @@ relacionados:
 
 enlaces:
 - { type: slideshow, title: the making of localwiz, ID: 120525094716-6522413f77e146a49c4f033c5809c73f }
-- { type: slideshow-flickr, title: "the making of localwiz" , ID: 72157629888458426, User: 50381188@N06 }
 
 ---
 
@@ -36,4 +35,4 @@ Localwiz lleva en el mercado desde Enero de 2011. En nuestra charla decidimos qu
 
 Una de las fases más destacables es el diseño de interfaz. Para explorar y definir la aplicación utilizamos la técnica de prototipado recomendada por "Apple":https://developer.apple.com/videos/wwdc/2011/. El prototipado nos permitió, de forma progresiva y sin escribir una sola línea de código, que diseñador y programador definiesen conjuntamente la experiencia de usuario. Gracias al prototipado pudimos explorar distintas opciones –por ejemplo, pensamos en permitir el diseño de rutas por parte del usuario pero abandonamos la idea ya que complicaba el uso y se alejaba de lo realmente relevante en la aplicación–. Además, los múltiples prototipos nos ahorraron mucho tiempo en la fase de programación, pruebas y testeo generando un interfaz más fluido, consistente y técnicamente asequible del que nos sentimos muy orgullosos.
 
-Nos gustaría agradecer a Manel Miró y Jordi Sans de "STOA":http://www.stoa.es/, y al IAPH por invitarnos. A continuación  compartimos la presentación, fotos y algunos bocetos del interfaz de localwiz.
+Nos gustaría agradecer a Manel Miró y Jordi Sans de "STOA":http://www.stoa.es/, y al IAPH por invitarnos. A continuación  compartimos la presentación, "fotos y algunos bocetos del interfaz de localwiz":http://www.flickr.com//photos/50381188@N06/sets/72157629888458426/show/.
