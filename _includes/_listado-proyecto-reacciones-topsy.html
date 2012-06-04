@@ -1,3 +1,9 @@
+{% comment %}
+Hay un problema con twitter, API search no encuentra cosas antiguas por eso en development seed utilizan la API count para tener un recuento de tweets antiguos http://search.twitter.com/search.json?since_id=205583996288118784&q=developmentseed.org%2Fblog%2F2011%2Fapr%2F12%2Funited-nations-reliefweb-relaunches
+Sin embargo topsy si que mantiene las llamadas antiguas
+http://otter.topsy.com/trackbacks.json?url=
+{% endcomment %}
+
 <section class="listadoReacciones">
 	<hgroup>
 		<h3>{{ site.listado-reacciones-titulo.[page.language] }}</h3>
