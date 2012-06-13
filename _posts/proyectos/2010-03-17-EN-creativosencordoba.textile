@@ -10,7 +10,7 @@ slug: creativosencordoba
 subtitulo: "Visualizando la actividad de los creativos cordobeses"
 imagen: farm7.staticflickr.com/6060/7002394559_a2b5f96d1b
 imagen-cabecera: farm8.staticflickr.com/7130/7099698591_3732f31f6c
-en-cabecera: yes
+en-cabecera: no
 
 colaboradores:
 
