@@ -14,6 +14,7 @@ enlaces:
 - { type: externo, title: Mi perfil en twitter @javiburon, url: http://wwww.twitter.com/javiburon }
 - { type: externo, title: Mi página personal, url: http://www.javierburon.net }
 - { type: externo, title: Mi perfil profesional en linkedIn, url:http://www.linkedin.com/in/javiburon}
+- { type: externo, title: Mi perfil en Google+, url: https://plus.google.com/117604385722899995883?rel=author }
 
 ---
 
