@@ -13,7 +13,6 @@ imagen: farm8.staticflickr.com/7095/6966657654_70582f735b
 enlaces:
  - { type: externo, title: Mi perfil en twitter @msanchezmora, url: http://wwww.twitter.com/msachezmora }
  - { type: externo, title: Mi página personal, url: http://www.magdasanchez.es }
- - { type: externo, title: Mi perfil en Google+, url: https://plus.google.com/102198810722506345852?rel=author }
 
 ---
 

@@ -1,26 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>{{ site.titulo }} | {{ page.title }}</title>
+		<title>Version 1.0 {{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
 		{% include _scripts.html %}
 		{% include _socialmeta-individual.html %}
+		<link href="/css/screen-portfolio.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<script src='/javascripts/navbar.js' type='text/javascript'></script>
+		<script src='/javascripts/bootstrap-scrollspy.js' type='text/javascript'></script>
 	</head>
-	<body>
-		{% include _header.html %}
+	<body data-spy="scroll">
+		{% include _header-proyectos.html %}
 		<section class="cuerpoPagina">
 			<div class="contenedor">
 				<h1 class="big">{{ site.navegacion-proyectos.[page.language] }}</h1>
-				<div class="listadoNodos Portfolio">
-					{% for item in site.categories.proyectos limit:20 %}
-						{% if item.language == page.language %}
-						{% include _nodolista-proyecto.html %}
-						{% endif %}
-					{% endfor %}
+				<div class="subnav">
+					<ul class="nav">
+						<li><a href="#categoria1"><span>Productos y Servicios</span></a></li>
+						<li><a href="#categoria2"><span>Nuestras actividades culturales</span></a></li>
+						<li><a href="#categoria3"><span>Nuestros proyectos</span></a></li>
+					</ul>
 				</div>
+				<section class="seccionProyectos" id="categoria1">
+					<div class="descripcion">
+						<h2 id="categoria1">Productos y Servicios</h2>
+						<p>Promocionados por Colaborativa</p>
+					</div>
+					<div class="proyectos">
+						<div class="listadoNodos Portfolio Destacados">
+							{% for item in site.categories.proyectos limit:6 %}
+								{% if item.language == page.language %}
+								{% include _nodolista-proyecto-destacado.html %}
+								{% endif %}
+							{% endfor %}
+							<div class="contenedorPie"></div>
+						</div>
+						<div class="listadoNodos Portfolio Secundarios">
+							{% for item in site.categories.proyectos limit:6 %}
+								{% if item.language == page.language %}
+								{% include _nodolista-proyecto-secundario.html %}
+								{% endif %}
+							{% endfor %}
+							<div class="contenedorPie"></div>
+						</div>
+					</div>
+					<div class="contenedorPie"></div>
+					<div class="seccionEnd">· · ·</div>
+				</section>
+				<section class="seccionProyectos" id="categoria2">
+					<div class="descripcion">
+						<h2 >Productos y Servicios</h2>
+						<p>Promocionados por Colaborativa</p>
+					</div>
+					<div class="proyectos">
+						<div class="listadoNodos Portfolio Destacados">
+							{% for item in site.categories.proyectos limit:4 offset:6 %}
+								{% if item.language == page.language %}
+								{% include _nodolista-proyecto-destacado.html %}
+								{% endif %}
+							{% endfor %}
+							<div class="contenedorPie"></div>
+						</div>
+						<div class="listadoNodos Portfolio Secundarios">
+							{% for item in site.categories.proyectos limit:8 %}
+								{% if item.language == page.language %}
+								{% include _nodolista-proyecto-secundario.html %}
+								{% endif %}
+							{% endfor %}
+							<div class="contenedorPie"></div>
+						</div>
+					</div>
+					<div class="contenedorPie"></div>
+					<div class="seccionEnd">· · ·</div>
+				</section>
+				<section class="seccionProyectos"  id="categoria3">
+					<div class="descripcion">
+						<h2>Productos y Servicios</h2>
+						<p>Promocionados por Colaborativa</p>
+					</div>
+					<div class="proyectos">
+						<div class="listadoNodos Portfolio Destacados">
+							{% for item in site.categories.proyectos limit:4 offset:10 %}
+								{% if item.language == page.language %}
+								{% include _nodolista-proyecto-destacado.html %}
+								{% endif %}
+							{% endfor %}
+							<div class="contenedorPie"></div>
+						</div>
+						<div class="listadoNodos Portfolio Secundarios">
+							{% for item in site.categories.proyectos limit:12 %}
+								{% if item.language == page.language %}
+								{% include _nodolista-proyecto-secundario.html %}
+								{% endif %}
+							{% endfor %}
+							<div class="contenedorPie"></div>
+						</div>
+					</div>
+					<div class="contenedorPie"></div>
+					<div class="seccionEnd">· · ·</div>
+				</section>
 			</div>
 		</section>
-		<div class="contenedorPie"></div>
-		{% include _footer.html %}
+
+		{% include _footer-proyectos-2.html %}
 	</body>
 </html>

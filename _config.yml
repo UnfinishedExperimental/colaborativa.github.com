@@ -6,9 +6,9 @@ paginate: 10
 titulo: Colaborativa
 subtitulo: { es: Estrategias y herramientas para transformar ciudades, en: Strategies and tools for transforming cities}
 navegacion: { es: Navegación principal, en: Main navigation}
-navegacion-blog: { es: Blog, en: Blog}
+navegacion-blog: { es: Artículos, en: Articles}
 navegacion-proyectos: { es: Proyectos, en: Projects}
-navegacion-equipo: { es: Equipo, en: Team}
+navegacion-equipo: { es: Colaborativos, en: Colaborativos}
 navegacion-herramientas: { es: Herramientas, en: Tools}
 navegacion-codigo: { es: Colaboratorio, en: Colaboratorio}
 
@@ -22,12 +22,13 @@ footer-content-copyleft-url: { url: http://creativecommons.org/licenses/by/3.0/,
 footer-content-codigofuente-url: { url: https://github.com/colaborativa/colaborativa.github.com/, es: El código fuente, en: The source code }
 footer-content-hechocon: { es: Hecho con, en: Made with }
 
-enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Estamos en Facebook, en: We are in Facebook}
-enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Síguenos en Twitter, en: Follow us in Twitter, profile: @colaborativaeu }
-enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Nuestras fotos en Flickr, en: Our pictures in Flickr}
-enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Nuestros videos en YouTube, en: Our videos in YouTube}
-enlaces-sociales-issuu: { url: http://www.issuu.com/colaborativa, es: Nuestros documentos en Issuu, en: Our documents in Issuu}
-enlaces-sociales-github: { url: http://www.github.com/colaborativa, es: Nuestro código en Github, en: Our code in Github}
+enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Facebook, en: Facebook}
+enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Twitter, en: Twitter, profile: @colaborativaeu }
+enlaces-sociales-linkedin: { url: http://www.linkedin.com/company/colaborativa, es: linkedIn, en: linkedIn }
+enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Fotos, en: Pictures}
+enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Videos, en: Videos}
+enlaces-sociales-issuu: { url: http://www.issuu.com/colaborativa, es: Docs, en: Docs}
+enlaces-sociales-github: { url: http://www.github.com/colaborativa, es: Código, en: Code}
 
 listado-colaborativos-titulo: { es: Colaborativos, en: Colaborativos}
 listado-colaborativos-subtitulo: { es: ¿Quiénes somos?, en: Who are we?}

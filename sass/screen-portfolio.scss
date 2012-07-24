@@ -1,0 +1,299 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+@import "_subnav-nueva";
+
+$colorTextoGrisOscuro: #393939;
+$colorTextoGrisClaro: #898989;
+$borderGrey: #BEBEBE;
+$innerborderGrey: #C9C9C9;
+$greyLine: 1px solid #DADADA;
+
+$seccionTitulo: 26px/30px "colaborativaMedium";
+$seccionSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloTitulo: 18px/23px "colaborativasemibold";
+$articuloSubtitulo: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: $colorTextoGrisOscuro;
+}
+
+
+@mixin imagestyle{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin hiddenelement{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+	  clip: rect(1px, 1px, 1px, 1px);
+}
+
+html{
+	height: 100%;
+	body{
+		background-image: url(/imagenes/background.png);
+		background-repeat: repeat;
+		background-color: rgb(250,250,250);
+		.cuerpoPagina{
+			margin-top: 125px;
+			min-height: 400px;
+			min-width:0px;
+			.contenedor{
+				margin-right: auto;
+				margin-left: auto;
+				@include box-sizing (border-box);
+				h1.big{
+					@include hiddenelement;
+				}
+				.seccionProyectos{
+					padding-top: 35px;
+					padding-bottom: 35px;
+					clear: both;
+					.descripcion{
+						height: 70px;
+						h2{
+							margin-top:10px;
+							margin-bottom:14px;
+							font: $seccionTitulo;
+							color: $colorTextoGrisOscuro;
+						}
+						p{
+							font: $seccionSubtitulo;
+							color: $colorTextoGrisOscuro;
+						}
+						border-bottom: $greyLine;
+						padding-bottom: 15px;
+						margin-bottom: 25px;
+					}
+					.proyectos{
+						.listadoNodos.Portfolio.Destacados{
+							overflow: auto;
+							clear:both;
+							padding-top: 0px;
+							margin-top: 15px;
+							.nodoLista{
+								border: none;
+								@include box-sizing (border-box);
+								padding:3px 0px 25px 0px;
+								margin:0px;
+								float: left;
+								border-bottom-style: none;
+								.imagenNodoLista {
+									margin: 0px;
+									img{
+										@include imagestyle;
+									}
+									margin-bottom: 15px;
+								}
+								.infoNodoLista{
+									.cabeceraNodo{
+										h1{
+											font: $articuloTitulo;
+											color: $colorTextoGrisOscuro;
+										}
+										h2{
+											margin-top:10px;
+											font: $articuloSubtitulo;
+											color: $colorTextoGrisOscuro;
+										}
+									}
+								}
+							}
+						}
+						.listadoNodos.Portfolio.Secundarios{
+							overflow: auto;
+							clear:both;
+							margin:0px;
+							.nodoLista{
+								padding:25px 0px 25px 0px;
+								margin:0px;
+								border-top: $greyLine;
+								border-bottom: $greyLine;
+								@include box-sizing (border-box);
+								.infoNodoLista{
+									.cabeceraNodo{
+										h1{
+											font: $articuloTitulo;
+										}
+										h2{
+											margin-top:10px;
+											font: $articuloSubtitulo;
+											color: $colorTextoGrisOscuro;
+										}
+									}
+								}
+							}
+						}
+					}
+					.seccionEnd{
+						padding-top:30px;
+						color: rgb(80,80,80);
+						display:none;
+						font: 40px "colaborativaLight";
+						text-align: center;
+						text-shadow: white 0px 1px 0px;
+					}
+				}
+			}
+		}
+	} 
+}
+
+
+@mixin responsivelayoutFluid($padding){
+	html{
+		body{
+			min-width: 320px;
+			.cuerpoPagina{
+				@include box-sizing (border-box);
+				width: 100%;
+				padding-left: $padding;
+				padding-right: $padding;
+				.contenedor{
+					width: 100%;
+					.subnav{
+						margin-bottom: 60px;
+					}
+					.seccionProyectos{
+						padding-top: 5px;
+						margin-bottom: 0px;
+						padding-bottom: 40px;
+						margin-left:0;
+						.descripcion{
+							margin-left:0;
+						}
+						.proyectos{
+							.listadoNodos.Portfolio.Destacados{
+								width: 100%;
+								height: auto;
+								.nodoLista{
+									width: 100%;
+									height: auto;
+									margin-left:0;
+									.imagenNodoLista {
+										width: 100%;
+										img{
+											max-width: 100%;
+											width: 100%;
+											height: auto;
+										}
+									}
+									.infoNodoLista{
+										.cabeceraNodo{
+											width: 100%;
+										}
+									}
+								}
+							}
+							.listadoNodos.Portfolio.Secundarios{
+								width: 100%;
+								.nodoLista{
+									width: 100%;
+									margin-left:0;
+									.infoNodoLista{
+										.cabeceraNodo{
+										width: 100%;
+										}
+									}
+								}
+							}
+						}
+						.seccionEnd{
+							display:block;
+						}
+					}
+				}
+			}
+		} 
+	}
+}
+
+
+@mixin responsivelayout($totalWidth, $columnWidth, $columnGap, $projectHeight){
+	html{
+		body{
+			.cuerpoPagina{
+				width:100%;
+				.contenedor{
+					@include box-sizing (border-box);
+					width: $totalWidth - $columnGap;
+					.seccionProyectos{
+						margin-left: -$columnGap;
+						.descripcion{
+							margin-left: $columnGap;
+						}
+						.proyectos{
+							.listadoNodos.Portfolio.Destacados{
+								width: $totalWidth;
+								.nodoLista{
+									width:$columnWidth;
+									margin-left: $columnGap;
+									height: $projectHeight;
+									&:hover{
+									};
+									.imagenNodoLista {
+										img{
+											width:$columnWidth;
+											height:$columnWidth/(16/9);
+										}
+									}
+									.infoNodoLista{
+										.cabeceraNodo{
+											width:$columnWidth;
+										}
+									}
+								}
+							}
+							.listadoNodos.Portfolio.Secundarios{
+								width: $totalWidth;
+								.nodoLista{
+									width:$columnWidth;
+									margin-left: $columnGap;
+									.infoNodoLista{
+										.cabeceraNodo{
+											width: $columnWidth;
+										}
+									}
+								}
+							}
+						}
+						.seccionEnd{
+							display:none;
+						}
+					}
+				}
+			}
+		} 
+	}
+}
+
+//
+//Responsive Settings
+//
+//Phone
+@media (max-width: 767px) {
+	@include responsivelayoutFluid(20px);
+}
+//Tablets
+@media (min-width: 768px) and (max-width: 979px) {
+	@include responsivelayout(744px, 228px, 20px, 270px);
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include responsivelayout(960px, 300px, 20px, 270px);
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include responsivelayout(1200px, 370px, 30px, 310px);
+}
+
