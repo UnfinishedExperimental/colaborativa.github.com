@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.language }}">
 	<head>
 		<title>Version 1.0 {{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
@@ -20,106 +20,91 @@
 						<li><a href="#categoria3"><span>Nuestros proyectos</span></a></li>
 					</ul>
 				</div>
-				<section class="seccionProyectos" id="categoria1">
+				<section class="seccionProyectos clearfix" id="categoria1">
 					<div class="descripcion">
 						<h2 id="categoria1">Productos y Servicios</h2>
 						<p>Promocionados por Colaborativa</p>
 					</div>
-					<div class="proyectos">
-						<div class="listadoNodos Portfolio Destacados">
-							{% for item in site.categories.proyectos %}
-								{% if item.language == page.language %}
-									{% if item.categoria == "categoria 1" %}
-										{% if item.categoria-prioridad == "destacado" %}
-											{% include _nodolista-proyecto-destacado.html %}
-										{% endif %}
+					<div class="proyectos Portfolio Destacados clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 1" %}
+									{% if item.categoria-prioridad == "destacado" %}
+										{% include _nodolista-proyecto-destacado.html %}
 									{% endif %}
 								{% endif %}
-							{% endfor %}
-							<div class="contenedorPie"></div>
-						</div>
-						<div class="listadoNodos Portfolio Secundarios">
-							{% for item in site.categories.proyectos %}
-								{% if item.language == page.language %}
-									{% if item.categoria == "categoria 1" %}
-										{% if item.categoria-prioridad == "secundario" %}
-											{% include _nodolista-proyecto-secundario.html %}
-										{% endif %}
-									{% endif %}
-								{% endif %}
-							{% endfor %}
-							<div class="contenedorPie"></div>
-						</div>
+							{% endif %}
+						{% endfor %}
 					</div>
-					<div class="contenedorPie"></div>
+					<div class="proyectos Portfolio Secundarios clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 1" %}
+									{% if item.categoria-prioridad == "secundario" %}
+										{% include _nodolista-proyecto-secundario.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
 					<div class="seccionEnd">· · ·</div>
 				</section>
-				<section class="seccionProyectos" id="categoria2">
+				<section class="seccionProyectos clearfix" id="categoria2">
 					<div class="descripcion">
 						<h2 >Productos y Servicios</h2>
 						<p>Promocionados por Colaborativa</p>
 					</div>
-					<div class="proyectos">
-						<div class="listadoNodos Portfolio Destacados">
-							{% for item in site.categories.proyectos %}
-								{% if item.language == page.language %}
-									{% if item.categoria == "categoria 2" %}
-										{% if item.categoria-prioridad == "destacado" %}
-											{% include _nodolista-proyecto-destacado.html %}
-										{% endif %}
+					<div class="proyectos Portfolio Destacados clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 2" %}
+									{% if item.categoria-prioridad == "destacado" %}
+										{% include _nodolista-proyecto-destacado.html %}
 									{% endif %}
 								{% endif %}
-							{% endfor %}
-							<div class="contenedorPie"></div>
-						</div>
-						<div class="listadoNodos Portfolio Secundarios">
-							{% for item in site.categories.proyectos %}
-								{% if item.language == page.language %}
-									{% if item.categoria == "categoria 2" %}
-										{% if item.categoria-prioridad == "secundario" %}
-											{% include _nodolista-proyecto-secundario.html %}
-										{% endif %}
-									{% endif %}
-								{% endif %}
-							{% endfor %}
-							<div class="contenedorPie"></div>
-						</div>
+							{% endif %}
+						{% endfor %}
 					</div>
-					<div class="contenedorPie"></div>
+					<div class="proyectos Portfolio Secundarios clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 2" %}
+									{% if item.categoria-prioridad == "secundario" %}
+										{% include _nodolista-proyecto-secundario.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
 					<div class="seccionEnd">· · ·</div>
 				</section>
-				<section class="seccionProyectos"  id="categoria3">
+				<section class="seccionProyectos clearfix"  id="categoria3">
 					<div class="descripcion">
 						<h2>Productos y Servicios</h2>
 						<p>Promocionados por Colaborativa</p>
 					</div>
-					<div class="proyectos">
-						<div class="listadoNodos Portfolio Destacados">
-							{% for item in site.categories.proyectos %}
-								{% if item.language == page.language %}
-									{% if item.categoria == "categoria 3" %}
-										{% if item.categoria-prioridad == "destacado" %}
-											{% include _nodolista-proyecto-destacado.html %}
-										{% endif %}
+					<div class="proyectos Portfolio Destacados clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 3" %}
+									{% if item.categoria-prioridad == "destacado" %}
+										{% include _nodolista-proyecto-destacado.html %}
 									{% endif %}
 								{% endif %}
-							{% endfor %}
-							<div class="contenedorPie"></div>
-						</div>
-						<div class="listadoNodos Portfolio Secundarios">
-							{% for item in site.categories.proyectos %}
-								{% if item.language == page.language %}
-									{% if item.categoria == "categoria 3" %}
-										{% if item.categoria-prioridad == "secundario" %}
-											{% include _nodolista-proyecto-secundario.html %}
-										{% endif %}
-									{% endif %}
-								{% endif %}
-							{% endfor %}
-							<div class="contenedorPie"></div>
-						</div>
+							{% endif %}
+						{% endfor %}
 					</div>
-					<div class="contenedorPie"></div>
+					<div class="proyectos Portfolio Secundarios clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 3" %}
+									{% if item.categoria-prioridad == "secundario" %}
+										{% include _nodolista-proyecto-secundario.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
 					<div class="seccionEnd">· · ·</div>
 				</section>
 			</div>

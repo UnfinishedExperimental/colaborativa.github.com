@@ -1,13 +1,11 @@
-<article class="nodoLista">
-	<div class="imagenNodoLista">
+<article class="proyecto clearfix">
+	<div class="imagenProyecto">
 		<img src="/imagenes/proyectos/{{ item.slug }}-portfolio.jpg" alt="">
 	</div>
-	<div class="infoNodoLista">
-		<div class="cabeceraNodo">
-			<hgroup>
-				<h1><a class="titulo" href="{{ item.url }}">{{ item.title }}</a></h2>
-				<h2>{{ item.subtitulo }}</h3>
-			</hgroup>
-		</div>
+	<div class="infoProyecto">
+		<hgroup>
+			<h1><a class="titulo" href="{{ item.url }}">{{ item.title }}</a></h2>
+			<h2>{{ item.subtitulo }}</h3>
+		</hgroup>
 	</div>
 </article>

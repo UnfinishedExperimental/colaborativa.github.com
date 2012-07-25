@@ -4,6 +4,7 @@
 @import "compass/utilities/general/clearfix";
 @import "fonts/fontfaces";
 @import "_cabecerapaginaResponsive";
+@import "_clearfix";
 
 $paginaTitulo: 35px/20px "colaborativaLight";
 $seccionTitulo: 24px/20px "colaborativaMedium";
@@ -380,7 +381,7 @@ body{
 					display: table;
 					margin: 0px auto;
 					ul{
-						padding-top:10px;
+						padding-top:5px;
 						li{
 							display: inline;
 							cursor: pointer;
@@ -420,8 +421,7 @@ body{
 						@include transition( (opacity .5s linear, z-index .5s linear) );
 						display:none;
 						text-align: center;
-						width:100%;
-						height: 40px;
+						margin: 0px auto;
 						z-index: -1;
 						opacity: 0;
 						&.activo{
@@ -430,11 +430,13 @@ body{
 							opacity: 1;
 						}
 						p{
-							font: 15px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+							font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 							color: white;
 							padding: 0px;
 							padding-top:10px;
 							margin: 0px;
+							height: 40px;
+							display:block;
 							vertical-align:middle;
 							display: table-cell;
 						}
@@ -607,6 +609,15 @@ body{
 		.reaccionesProyecto{
 			width: 2*$columnWidth + $gutterWidth;
 			margin-left: 0px;
+		}
+		.imagenesProyecto{
+			.infoImagenesProyecto{
+				.captionImagenes{
+					div{
+						width:$totalWidth;
+					}
+				}
+			}
 		}
 	}
 }
