@@ -8,10 +8,8 @@ url-otro-idioma: /en/projects/espacio-creativo/
 slug: espacio-creativo
 
 subtitulo: Espacios de trabajo para las industrias creativas
-descripcion: Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"
+descripcion: Descripción espacio creativo
 descripcion-link-externo: http://janeswalk.net/
-imagen: farm7.staticflickr.com/6083/6079835568_1067d215a6
-imagen-cabecera: farm8.staticflickr.com/7177/6876467923_c26ed2c84d
 en-cabecera: yes
 inicio: descripcion
 
@@ -23,7 +21,6 @@ colaboradores:
  - dcabo-consultores
  - bella-varsovia
 
-
 categoria: categoria 1
 categoria-prioridad: destacado
 
@@ -34,10 +31,8 @@ enlaces:
 reacciones:
  - { type: prensa, title: "Destripando Córdoba a pie", source: Diario ABC Córdoba, date: May 2012, url: http://www.abc.es/20120503/cordoba/abcp-destripando-cordoba-20120503.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
 
-
 imagenes:
  - { titulo: "Mix and Match - Rosa Colmenarejo", caption: "Mix and Match - Rosa Colmenarejo. Colaborativa 2012 CC BY 3.0" }
- - { titulo: " entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara", caption: "La entrada a 
 
 ---
 

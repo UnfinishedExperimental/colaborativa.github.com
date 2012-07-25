@@ -8,10 +8,8 @@ url-otro-idioma: /en/projects/localwiz/
 slug: localwiz
 
 subtitulo: "Tu guía móvil para descubrir la ciudad"
-descripcion: Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"
+descripcion: Descripción localwiz
 descripcion-link-externo: http://www.cordoba.localwiz.eu
-imagen: farm7.staticflickr.com/6040/6999667353_ed973219f9
-imagen-cabecera: 
 en-cabecera: no
 inicio: descripcion
 

@@ -8,9 +8,7 @@ url-otro-idioma: /en/projects/creativosencordoba/
 slug: creativosencordoba
 
 subtitulo: "Visualizando la actividad de los creativos cordobeses"
-descripcion: Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"
-imagen: farm7.staticflickr.com/6060/7002394559_a2b5f96d1b
-imagen-cabecera: farm8.staticflickr.com/7130/7099698591_3732f31f6c
+descripcion: Descripción creativos en Córdoba
 en-cabecera: yes
 inicio: descripcion
 
