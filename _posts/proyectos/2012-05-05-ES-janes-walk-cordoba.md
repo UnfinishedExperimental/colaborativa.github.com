@@ -14,15 +14,14 @@ descripcion-link-externo: http://janeswalk.net/
 imagen: farm8.staticflickr.com/7235/7170327908_94fc172065
 imagen-cabecera: farm9.staticflickr.com/8147/7171873822_cf0656cc38
 en-cabecera: yes
-inicio: descripcion
+inicio: imagenes
 
 colaboradores:
  - a-pata
  - janes-walk
 
-categorias:
- - acciones-culturales
- - planeamiento-estrategico
+categoria: categoria 2
+categoria-prioridad: destacado
 
 enlaces:
  - { type: externo, title: los Paseos de Jane en Córdoba, url: http://janeswalk.net/cities/landing/category/cordoba/ }
