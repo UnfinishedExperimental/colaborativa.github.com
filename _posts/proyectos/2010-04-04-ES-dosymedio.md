@@ -16,7 +16,7 @@ inicio: descripcion
 colaboradores:
 
 categoria: categoria 2
-categoria-prioridad: secundario
+categoria-prioridad: destacado
 
 enlaces:
 
