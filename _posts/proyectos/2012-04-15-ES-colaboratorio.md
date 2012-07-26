@@ -24,7 +24,11 @@ enlaces:
 reacciones:
 
 imagenes:
- - { titulo: "", caption: "" }
+ - { titulo: "Colaboratorio #1 - Las botas de siete leguas #6", caption: "Colaboratorio #1 - Las botas de siete leguas #6. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Colaboratorio #2 - Montaje RepRap Pro Huxley #1", caption: "Colaboratorio #2 - Montaje RepRap Pro Huxley #1. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Colaboratorio #4 las botas de 7 leguas #7", caption: "Colaboratorio #4 las botas de 7 leguas #7.  Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Colaboratorio #5 - Montaje RepRap Pro Huxley #3", caption: "Colaboratorio #5 - Montaje RepRap Pro Huxley #3. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Colaboratorio #6 - Montaje RepRap Pro Huxley #4", caption: "Imprimiendo la C de colaboratorio con la recién montada RepRap. Toni Castillo CC BY-SA 2.0" }
 
 ---
 

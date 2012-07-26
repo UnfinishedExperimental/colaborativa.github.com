@@ -7,7 +7,7 @@ permalink: /proyectos/que-estas-haciendo/
 url-otro-idioma: /en/projects/que-estas-haciendo/
 slug: que-estas-haciendo
 
-subtitulo: "Una convocatoria anual abierta a creativos locales de todas las disciplinas para que nos cuenten en que están trabajando en ese momento"
+subtitulo: "Una convocatoria anual abierta a creativos locales para que nos cuenten en que están trabajando"
 descripcion: Descripción ¿Qué estás haciendo?
 descripcion-link-externo:
 en-cabecera: no

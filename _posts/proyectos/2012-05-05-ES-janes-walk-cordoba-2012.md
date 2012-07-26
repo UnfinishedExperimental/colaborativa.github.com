@@ -40,7 +40,7 @@ imagenes:
  - { titulo: "La entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde", caption: "Jane's walk 2012 Córdoba - La entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara. Colaborativa 2012 CC BY 3.0" }
  - { titulo: "Historia y carácter del Campo de la Verdad-Fray Albino", caption: "Jane's walk 2012 Córdoba - Historia y carácter del Campo de la Verdad-Fray Albino - Guadalupe Gómez. Colaborativa 2012 CC BY 3.0" }
  - { titulo: "Córdoba Accesible", caption: "Jane's Walk 2012 Córdoba - Córdoba Accesible - Juan Aljama. Colaborativa 2012 CC BY 3.0" }
- - { titulo: "De puerta a puerta, un paseo por el urbanismo histórico cordobés", caption: "Jane's walk 2012 Córdoba - De puerta a puerta, un paseo por el urbanismo histórico cordobés - Xiomara Gómez. Colaborativa 2012 CC BY 3.0"" }
+ - { titulo: "De puerta a puerta, un paseo por el urbanismo histórico cordobés", caption: "Jane's walk 2012 Córdoba - De puerta a puerta, un paseo por el urbanismo histórico cordobés - Xiomara Gómez. Colaborativa 2012 CC BY 3.0" }
 
 ---
 

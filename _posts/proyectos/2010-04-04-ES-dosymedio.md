@@ -7,7 +7,7 @@ permalink: /proyectos/dosymedio/
 url-otro-idioma: /en/projects/dosymedio/
 slug: dosymedio
 
-subtitulo: "Tertulia “gráfica” sobre temas de actualidad urbana en Córdoba"
+subtitulo: "Tertulia gráfica sobre temas de actualidad urbana en Córdoba"
 descripcion: Descripción dosymedio
 descripcion-link-externo:
 en-cabecera: no
