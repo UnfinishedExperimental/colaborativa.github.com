@@ -25,12 +25,12 @@
 					{% endfor %}
 				</ul>
 			</div>
-			<section>
+			<section class="novedades clearfix">
 				<h1>Novedades</h1>
-				<section>
+				<section class="novedadesArticulos">
 					<h2>Últimos tres artículos de nuestro Blog</h2>
 					{% assign numero-de-articulos = 3 %}
-					<div>
+					<div class="articulosLista clearfix">
 					{% assign contador = '' %}
 					{% assign contador = temp %}
 					{% capture temp %}{{ contador }}*{% endcapture %}
@@ -57,19 +57,19 @@
 						{% endif %}
 					{% endfor %}
 					</div>
-					<footer>
-						<p><a>Leer más artículos en nuestro Blog</a></p>
-					</footer>
+					<p><a>Leer más artículos en nuestro Blog</a></p>
 				</section>
-				<section>
+				<section class="novedadesTweets ">
 					<h2>Último tweet</h2>
-					<article>
-						<h2 class="tweetContenido parrafo">RT @<a class="twitter-anywhere-user" href="http://twitter.com/tarquia">tarquia</a>: Asana: Aplicación. The way to work toguether Do Great Things.Asana is the shared task list for your team. The p... http:// ...</h2>
-						<span class="tweetAtributos">
-						<p class="tweetFecha tweet"><a class="tweetFecha-link listadoTitulo" data-timestamp="Thu, Jul 26 2012 11:43:39 +0000" href="http://twitter.com/tarquia/status/228455539082940400" target="_blank" title="Thu Jul 26 2012 13:43:39 GMT+0200 (CEST)">hace 1 hora</a></p>
-						<p class="tweetInfo tweet">Retuiteado por <a class="tweetInfo-retweeter-link listadoTitulo" href="http://twitter.com/colaborativaeu" target="_blank">colaborativaeu</a></p>
-						</span>
-					</article>
+					<div class="tweetsLista clearfix">
+						<article>
+							<h3 class="tweetContenido parrafo">RT @<a class="twitter-anywhere-user" href="http://twitter.com/tarquia">tarquia</a>: Asana: Aplicación. The way to work toguether Do Great Things.Asana is the shared task list for your team. The p... http:// ...</h3>
+							<span class="tweetAtributos">
+							<p class="tweetFecha tweet"><a class="tweetFecha-link listadoTitulo" data-timestamp="Thu, Jul 26 2012 11:43:39 +0000" href="http://twitter.com/tarquia/status/228455539082940400" target="_blank" title="Thu Jul 26 2012 13:43:39 GMT+0200 (CEST)">hace 1 hora</a></p>
+							</span>
+						</article>
+					</div>
+					<p class="tweetInfo tweet">Retuiteado por <a class="tweetInfo-retweeter-link listadoTitulo" href="http://twitter.com/colaborativaeu" target="_blank">colaborativaeu</a></p>
 				</section>
 			</section>
 		</div>
