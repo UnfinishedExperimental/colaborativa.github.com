@@ -31,6 +31,7 @@ a:link, a:visited, a:active{
 	@include box-sizing (border-box);
 	background:white;
 	border: 3px solid white;
+	padding: 3px;
 	@include border-radius(2px, 2px);
 	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
 }
@@ -117,9 +118,20 @@ body{
 							left:20px;
 							font: $articuloSubtitulo;
 						}
-						img{
+						.imagenArticulo{
 							width:  68px * 2 + 40px;
-							@include imagestyle;
+							height: 117px;
+							a{
+								width:  68px * 2 + 40px;
+								height: 117px;
+								border-bottom:3px solid white;
+								@include imagestyle;
+								display: block;
+								margin: 0;
+								padding: 0;
+								overflow:hidden;
+								background-size: cover;
+							}
 						}
 						&:first-child{
 							border-left: none;
@@ -202,8 +214,13 @@ body{
 							h4{
 								left: $columnGap;
 							}
-							img{
-								width: $columnWidth * 2 + ($columnGap * 2);
+							.imagenArticulo{
+								width:  $columnWidth * 2 + ($columnGap * 2);
+								height: ($columnWidth * 2 + ($columnGap * 2))*2/3;
+								a{
+									width:  $columnWidth * 2 + ($columnGap * 2);
+									height: ($columnWidth * 2 + ($columnGap * 2))*2/3;
+								}
 							}
 						}
 					}

@@ -44,7 +44,7 @@
 							{% if an_integer <=  numero-de-articulos %}
 								<article class="articuloBlog">
 									<div class="imagenArticulo">
-										<img src="/imagenes/placeholder_2-3.jpg" alt="">
+										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
 									</div>
 									<div class="textoArticulo">
 										<hgroup>

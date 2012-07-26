@@ -711,16 +711,16 @@ a:link, a:visited, a:active {
   color: #393939;
 }
 
-/* line 38, ../sass/screen-home.scss */
+/* line 39, ../sass/screen-home.scss */
 .selectorProyectos {
   display: table;
   margin: 0px auto;
 }
-/* line 41, ../sass/screen-home.scss */
+/* line 42, ../sass/screen-home.scss */
 .selectorProyectos ul {
   padding-top: 5px;
 }
-/* line 43, ../sass/screen-home.scss */
+/* line 44, ../sass/screen-home.scss */
 .selectorProyectos ul li {
   display: inline;
   cursor: pointer;
@@ -729,11 +729,11 @@ a:link, a:visited, a:active {
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 50, ../sass/screen-home.scss */
+/* line 51, ../sass/screen-home.scss */
 .selectorProyectos ul li a {
   display: none;
 }
-/* line 53, ../sass/screen-home.scss */
+/* line 54, ../sass/screen-home.scss */
 .selectorProyectos ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -747,66 +747,66 @@ a:link, a:visited, a:active {
   -o-transition: color 0.5s;
   transition: color 0.5s false;
 }
-/* line 60, ../sass/screen-home.scss */
+/* line 61, ../sass/screen-home.scss */
 .selectorProyectos ul li:hover:after {
   color: #B6B6B6;
 }
-/* line 63, ../sass/screen-home.scss */
+/* line 64, ../sass/screen-home.scss */
 .selectorProyectos ul li:active:after {
   color: white;
 }
-/* line 66, ../sass/screen-home.scss */
+/* line 67, ../sass/screen-home.scss */
 .selectorProyectos ul li.activo:after {
   color: white;
 }
-/* line 70, ../sass/screen-home.scss */
+/* line 71, ../sass/screen-home.scss */
 .selectorProyectos ul:after {
   clear: both;
   display: table;
   content: "";
 }
 
-/* line 77, ../sass/screen-home.scss */
+/* line 78, ../sass/screen-home.scss */
 body {
   background-image: url(/imagenes/background.png);
   background-repeat: repeat;
   background-color: #fafafa;
 }
-/* line 81, ../sass/screen-home.scss */
+/* line 82, ../sass/screen-home.scss */
 body .contenedor {
   width: 940px;
   margin: 0px auto;
 }
-/* line 84, ../sass/screen-home.scss */
+/* line 85, ../sass/screen-home.scss */
 body .contenedor .novedades {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #bebebe;
 }
-/* line 88, ../sass/screen-home.scss */
+/* line 89, ../sass/screen-home.scss */
 body .contenedor .novedades h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 91, ../sass/screen-home.scss */
+/* line 92, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos {
   width: 608px;
   float: left;
 }
-/* line 92, ../sass/screen-home.scss */
+/* line 93, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 97, ../sass/screen-home.scss */
+/* line 98, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista {
   width: 648px;
 }
-/* line 99, ../sass/screen-home.scss */
+/* line 100, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article {
   position: relative;
   height: 260px;
@@ -816,14 +816,14 @@ body .contenedor .novedades .novedadesArticulos .articulosLista article {
   width: 175px;
   border-left: 1px solid #bebebe;
 }
-/* line 107, ../sass/screen-home.scss */
+/* line 108, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article h3 {
   color: #393939;
   padding-top: 12px;
   font: 18px/20px "colaborativasemibold";
   padding-bottom: 12px;
 }
-/* line 113, ../sass/screen-home.scss */
+/* line 114, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
   color: #393939;
   position: absolute;
@@ -831,14 +831,22 @@ body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
   left: 20px;
   font: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 120, ../sass/screen-home.scss */
-body .contenedor .novedades .novedadesArticulos .articulosLista article img {
+/* line 121, ../sass/screen-home.scss */
+body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
   width: 176px;
+  height: 117px;
+}
+/* line 124, ../sass/screen-home.scss */
+body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
+  width: 176px;
+  height: 117px;
+  border-bottom: 3px solid white;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: white;
   border: 3px solid white;
+  padding: 3px;
   -webkit-border-radius: 2px 2px;
   -moz-border-radius: 2px / 2px;
   -ms-border-radius: 2px / 2px;
@@ -847,44 +855,49 @@ body .contenedor .novedades .novedadesArticulos .articulosLista article img {
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-size: cover;
 }
-/* line 124, ../sass/screen-home.scss */
+/* line 136, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article:first-child {
   border-left: none;
   margin-left: 0px;
   padding-left: 0px;
 }
-/* line 128, ../sass/screen-home.scss */
+/* line 140, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article:first-child h4 {
   left: 0px;
 }
-/* line 134, ../sass/screen-home.scss */
+/* line 146, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos p {
   color: #898989;
   margin-top: 20px;
   clear: left;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 141, ../sass/screen-home.scss */
+/* line 153, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets {
   width: 324px;
   float: left;
 }
-/* line 144, ../sass/screen-home.scss */
+/* line 156, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 147, ../sass/screen-home.scss */
+/* line 159, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista {
   position: relative;
   width: 324px;
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 152, ../sass/screen-home.scss */
+/* line 164, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista article {
   float: left;
   height: 260px;
@@ -893,12 +906,12 @@ body .contenedor .novedades .novedadesTweets .tweetsLista article {
   width: 283px;
   border-left: 1px solid #bebebe;
 }
-/* line 159, ../sass/screen-home.scss */
+/* line 171, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista article h3 {
   font: 24px/30px "colaborativaMedium";
   color: #393939;
 }
-/* line 163, ../sass/screen-home.scss */
+/* line 175, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   position: absolute;
   bottom: 0px;
@@ -907,7 +920,7 @@ body .contenedor .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   text-align: right;
   color: #393939;
 }
-/* line 173, ../sass/screen-home.scss */
+/* line 185, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetInfo {
   margin-top: 20px;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
@@ -916,172 +929,190 @@ body .contenedor .novedades .novedadesTweets .tweetInfo {
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  /* line 186, ../sass/screen-home.scss */
+  /* line 198, ../sass/screen-home.scss */
   body .contenedor {
     width: 728px;
   }
-  /* line 188, ../sass/screen-home.scss */
+  /* line 200, ../sass/screen-home.scss */
   body .contenedor .novedades {
     margin-top: 20px;
     padding-top: 20px;
   }
-  /* line 191, ../sass/screen-home.scss */
+  /* line 203, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos {
     width: 470px;
   }
-  /* line 193, ../sass/screen-home.scss */
+  /* line 205, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista {
     width: 510px;
   }
-  /* line 195, ../sass/screen-home.scss */
+  /* line 207, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 129px;
   }
-  /* line 202, ../sass/screen-home.scss */
+  /* line 214, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
     left: 20px;
   }
-  /* line 205, ../sass/screen-home.scss */
-  body .contenedor .novedades .novedadesArticulos .articulosLista article img {
+  /* line 217, ../sass/screen-home.scss */
+  body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 130px;
+    height: 86.667px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 220, ../sass/screen-home.scss */
+  body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
+    width: 130px;
+    height: 86.667px;
+  }
+  /* line 227, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos p {
     margin-top: 20px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 231, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets {
     width: 255px;
   }
-  /* line 216, ../sass/screen-home.scss */
+  /* line 233, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista {
     width: 255px;
   }
-  /* line 218, ../sass/screen-home.scss */
+  /* line 235, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 214px;
   }
-  /* line 225, ../sass/screen-home.scss */
+  /* line 242, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetInfo {
     margin-top: 20px;
   }
 }
 @media (min-width: 990px) {
-  /* line 186, ../sass/screen-home.scss */
+  /* line 198, ../sass/screen-home.scss */
   body .contenedor {
     width: 940px;
   }
-  /* line 188, ../sass/screen-home.scss */
+  /* line 200, ../sass/screen-home.scss */
   body .contenedor .novedades {
     margin-top: 20px;
     padding-top: 20px;
   }
-  /* line 191, ../sass/screen-home.scss */
+  /* line 203, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos {
     width: 608px;
   }
-  /* line 193, ../sass/screen-home.scss */
+  /* line 205, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista {
     width: 648px;
   }
-  /* line 195, ../sass/screen-home.scss */
+  /* line 207, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 175px;
   }
-  /* line 202, ../sass/screen-home.scss */
+  /* line 214, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
     left: 20px;
   }
-  /* line 205, ../sass/screen-home.scss */
-  body .contenedor .novedades .novedadesArticulos .articulosLista article img {
+  /* line 217, ../sass/screen-home.scss */
+  body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 176px;
+    height: 117.333px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 220, ../sass/screen-home.scss */
+  body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
+    width: 176px;
+    height: 117.333px;
+  }
+  /* line 227, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos p {
     margin-top: 20px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 231, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets {
     width: 324px;
   }
-  /* line 216, ../sass/screen-home.scss */
+  /* line 233, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista {
     width: 324px;
   }
-  /* line 218, ../sass/screen-home.scss */
+  /* line 235, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 283px;
   }
-  /* line 225, ../sass/screen-home.scss */
+  /* line 242, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetInfo {
     margin-top: 20px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 186, ../sass/screen-home.scss */
+  /* line 198, ../sass/screen-home.scss */
   body .contenedor {
     width: 1170px;
   }
-  /* line 188, ../sass/screen-home.scss */
+  /* line 200, ../sass/screen-home.scss */
   body .contenedor .novedades {
     margin-top: 30px;
     padding-top: 30px;
   }
-  /* line 191, ../sass/screen-home.scss */
+  /* line 203, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos {
     width: 756px;
   }
-  /* line 193, ../sass/screen-home.scss */
+  /* line 205, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista {
     width: 816px;
   }
-  /* line 195, ../sass/screen-home.scss */
+  /* line 207, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 211px;
   }
-  /* line 202, ../sass/screen-home.scss */
+  /* line 214, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
     left: 30px;
   }
-  /* line 205, ../sass/screen-home.scss */
-  body .contenedor .novedades .novedadesArticulos .articulosLista article img {
+  /* line 217, ../sass/screen-home.scss */
+  body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 212px;
+    height: 141.333px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 220, ../sass/screen-home.scss */
+  body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
+    width: 212px;
+    height: 141.333px;
+  }
+  /* line 227, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos p {
     margin-top: 30px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 231, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets {
     width: 408px;
   }
-  /* line 216, ../sass/screen-home.scss */
+  /* line 233, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista {
     width: 408px;
   }
-  /* line 218, ../sass/screen-home.scss */
+  /* line 235, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 347px;
   }
-  /* line 225, ../sass/screen-home.scss */
+  /* line 242, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetInfo {
     margin-top: 30px;
   }
