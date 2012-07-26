@@ -10,6 +10,57 @@
 	<body>
 		{% include _header-responsive.html %}
 		<div class="contenedor">
+			<div class="selectorProyectos">
+				<ul>
+					{% for proyecto in site.categories.proyectos %}
+						{% if proyecto.language == page.language %}
+							{% if proyecto.en-cabecera %}
+								{% if forloop.first %}
+								<li class="activo"><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								{% else %}
+								<li><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								{% endif %}
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+			<section>
+				<h1>Novedades 3</h1>
+				<div>
+					<h2>Últimos tres artículos de nuestro Blog</h2>
+					{% assign numero-de-articulos = 3 %}
+
+					{% assign contador = '' %}
+					{% assign contador = temp %}
+					{% capture temp %}{{ contador }}*{% endcapture %}
+					{% assign an_integer = contador.size %}
+					
+					{% for item in site.categories.articulos %}
+						{% if item.language == page.language %}
+							{% capture temp %}{{ contador}}*{% endcapture %}
+							{% assign contador = temp %}
+							{% assign an_integer = contador.size %}
+							{% if an_integer <=  numero-de-articulos %}
+								<article class="articuloBlog">
+									<div class="imagenArticulo">
+										<img src="/imagenes/placeholder_2-3.jpg" alt="">
+									</div>
+									<div class="textoArticulo">
+										<hgroup>
+											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+											<h4>{{ item.subtitulo }} </h4>
+										</hgroup>
+									</div>
+								</article>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</div>
+				<div>
+					<h2>Último tweet</h2>
+				</div>
+			</section>
 		</div>
 		{% include _footer-responsive.html %}
 		{% include _scripts-portfolio-proyectos-bottom.html %}

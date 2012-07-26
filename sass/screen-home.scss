@@ -17,3 +17,43 @@ a:link, a:visited, a:active{
 	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
 	  clip: rect(1px, 1px, 1px, 1px);
 }
+
+.selectorProyectos{
+	display: table;
+	margin: 0px auto;
+	ul{
+		padding-top:5px;
+		li{
+			display: inline;
+			cursor: pointer;
+			float:left;
+			margin-left:5px;
+			margin-right:5px;
+			text-shadow: none;
+			a{
+				display: none;
+			}
+			&:after{
+				@include user-select(none);
+				color:#5A5A5A;
+				content:"\25CF";
+				font-size: 20px;
+				@include single-transition(color, .5s);
+			}
+			&:hover:after{
+				color:#B6B6B6;
+			}
+			&:active:after{
+				color: white;
+			}
+			&.activo:after{
+				color: white;
+			}
+		}
+		&:after{
+			clear:both;
+			display: table;
+			content: "";
+		}
+	}
+}

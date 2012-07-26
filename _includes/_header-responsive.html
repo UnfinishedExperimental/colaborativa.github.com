@@ -1,4 +1,10 @@
-<header class="cabeceraPagina notranslate">
+{% if page.layout == "home" %}
+	{% assign fixed = "" %}
+{% else %}
+	{% assign fixed = "fixed" %}
+{% endif %}
+
+<header class="cabeceraPagina notranslate {{ fixed }}">
 	<div class="funnyline"></div>
 	<div class="contenedor">
 		<div class="tituloMenuBusqueda">

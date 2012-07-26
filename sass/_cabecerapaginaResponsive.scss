@@ -12,6 +12,16 @@ html{
 			border-bottom: 1px solid rgb(215,215,215);
 		}
 		.cabeceraPagina {
+			&.fixed{
+				position: fixed;
+				top:0px;
+				left:0px;
+				.tituloMenuBusqueda{
+					position: absolute;
+					bottom:0px;
+					top:0px;
+				}
+			}
 			h1.hero{
 				color: #343434;
 				text-shadow: 0 1px #ffffff;
@@ -23,13 +33,10 @@ html{
 				font: 18px/23px "colaborativasemibold";
 				color: #929292;
 			}
-			position: fixed;
 			width: 100%;
 			@include user-select(none);
 			@include background(image-url("/imagenes/background.png"), linear-gradient(rgba(220,220,220,1),rgba(250,250,250,1)));
 			@include box-sizing (border-box);
-			top:0px;
-			left:0px;
 			padding:0px;
 			margin: 0px;
 			z-index: 500;
@@ -42,7 +49,7 @@ html{
 				margin-left: auto;
 				.tituloMenuBusqueda{
 					position: absolute;
-					bottom:0px;
+					top:32px;
 					a:link{
 						@include transition(all .1s linear);
 					}
