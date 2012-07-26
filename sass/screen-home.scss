@@ -38,7 +38,8 @@ a:link, a:visited, a:active{
 
 .selectorProyectos{
 	display: table;
-	margin: 0px auto;
+	margin: 330px auto 0px auto;
+	padding: 20px 0px 20px 0px;
 	ul{
 		padding-top:5px;
 		li{
@@ -76,14 +77,21 @@ a:link, a:visited, a:active{
 	}
 }
 body{
-	background-image: url(/imagenes/background.png);
 	background-repeat: repeat;
 	background-color: rgb(250,250,250);
 	.contenedor{
 		width:940px;
 		margin: 0px auto;
+		.posterProyecto{
+			width:1500px;
+			height:1100px;
+			position:absolute;
+			left:50%;
+			top:0px;
+			margin-left:-750px;
+			z-index:-100;
+		}
 		.novedades{
-			margin-top:20px;
 			padding-top:20px;
 			border-top: 1px solid $borderGrey;
 			h1{
@@ -198,7 +206,6 @@ body{
 		.contenedor{
 			width: $totalWidth;
 			.novedades{
-				margin-top: $columnGap;
 				padding-top: $columnGap;
 				.novedadesArticulos{
 					width: ($columnWidth * 6) + ($columnGap * 2 * 5);
@@ -225,7 +232,7 @@ body{
 						}
 					}
 					p{
-						margin-top: $columnGap;
+						margin-top: $columnGap - 1px;
 					}
 				}
 				.novedadesTweets{
@@ -240,7 +247,7 @@ body{
 						}
 					}
 					.tweetInfo{
-						margin-top: $columnGap;
+						margin-top: $columnGap - 1px;
 					}
 				}
 			}

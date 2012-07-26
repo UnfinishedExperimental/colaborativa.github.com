@@ -9,13 +9,15 @@ html{
 		.funnyline{
 			width:100%;
 			height:63px;
-			border-bottom: 1px solid rgb(215,215,215);
+			border-bottom: 1px solid rgb(200,200,200);
 		}
 		.cabeceraPagina {
+			@include background(linear-gradient(rgba(190,190,190,0.7),rgba(190,190,190,0.0)));
 			&.fixed{
 				position: fixed;
 				top:0px;
 				left:0px;
+				@include background(image-url("/imagenes/background.png"), linear-gradient(rgba(220,220,220,1),rgba(250,250,250,0)));
 				.tituloMenuBusqueda{
 					position: absolute;
 					bottom:0px;
@@ -35,7 +37,6 @@ html{
 			}
 			width: 100%;
 			@include user-select(none);
-			@include background(image-url("/imagenes/background.png"), linear-gradient(rgba(220,220,220,1),rgba(250,250,250,1)));
 			@include box-sizing (border-box);
 			padding:0px;
 			margin: 0px;
