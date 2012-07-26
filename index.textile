@@ -1,7 +1,7 @@
 ---
 language: es
-layout: default
-title: Colaborativa | Estrategias y herramientas para transformar ciudades
+layout: home
+title: Colaborativa | diseño y tecnología
 permalink: /
 url-otro-idioma: /en/
 ---

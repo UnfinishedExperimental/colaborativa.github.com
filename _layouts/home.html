@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+	<head>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		{% include _socialmeta-home.html %}
+		<link href="/css/screen-home.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		{% include _scripts-home-top.html %}
+	</head>
+	<body>
+		{% include _header-responsive.html %}
+		<div class="contenedor">
+		</div>
+		{% include _footer-responsive.html %}
+		{% include _scripts-portfolio-proyectos-bottom.html %}
+	</body>
+</html>

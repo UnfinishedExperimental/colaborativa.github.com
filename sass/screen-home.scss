@@ -1,0 +1,19 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+@import "_clearfix";
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: $colorTextoGrisOscuro;
+}
+
+@mixin hiddenelement{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+	  clip: rect(1px, 1px, 1px, 1px);
+}

@@ -1,0 +1,703 @@
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'ColaborativaSemibold';
+  src: url("fonts/colaborativasemibold-webfont.eot");
+  src: url("fonts/colaborativasemibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativasemibold-webfont.woff") format("woff"), url("fonts/colaborativasemibold-webfont.ttf") format("truetype"), url("fonts/colaborativasemibold-webfont.svg#ColaborativaSemiboldRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaBook';
+  src: url("fonts/colaborativabook-webfont.eot");
+  src: url("fonts/colaborativabook-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativabook-webfont.woff") format("woff"), url("fonts/colaborativabook-webfont.ttf") format("truetype"), url("fonts/colaborativabook-webfont.svgz#colaborativaBook") format("svg"), url("fonts/colaborativabook-webfont.svg#colaborativaBook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaMedium';
+  src: url("fonts/colaborativamedium-webfont.eot");
+  src: url("fonts/colaborativamedium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativamedium-webfont.woff") format("woff"), url("fonts/colaborativamedium-webfont.ttf") format("truetype"), url("fonts/colaborativamedium-webfont.svgz#colaborativaMedium") format("svg"), url("fonts/colaborativamedium-webfont.svg#colaborativaMedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaMediumItalic';
+  src: url("fonts/colaborativamediumitalic-webfont.eot");
+  src: url("fonts/colaborativamediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativamediumitalic-webfont.woff") format("woff"), url("fonts/colaborativamediumitalic-webfont.ttf") format("truetype"), url("fonts/colaborativamediumitalic-webfont.svgz#colaborativaMediumItalic") format("svg"), url("fonts/colaborativamediumitalic-webfont.svg#colaborativaMediumItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaLight';
+  src: url("fonts/colaborativa-light-webfont.eot");
+  src: url("fonts/colaborativa-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativa-light-webfont.woff") format("woff"), url("fonts/colaborativa-light-webfont.ttf") format("truetype"), url("fonts/colaborativa-light-webfont.svgz#colaborativa-light") format("svg"), url("fonts/colaborativa-light-webfont.svg#colaborativa-light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativa-icons';
+  src: url("fonts/colaborativa-icons-regular-webfont.eot");
+  src: url("fonts/colaborativa-icons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativa-icons-regular-webfont.woff") format("woff"), url("fonts/colaborativa-icons-regular-webfont.ttf") format("truetype"), url("fonts/colaborativa-icons-regular-webfont.svg#colaborativa-iconsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSansRegular';
+  src: url("fonts/DroidSans-webfont.eot");
+  src: url("fonts/DroidSans-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSans-webfont.woff") format("woff"), url("fonts/DroidSans-webfont.ttf") format("truetype"), url("fonts/DroidSans-webfont.svg#DroidSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSansBold';
+  src: url("fonts/DroidSans-Bold-webfont.eot");
+  src: url("fonts/DroidSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSans-Bold-webfont.woff") format("woff"), url("fonts/DroidSans-Bold-webfont.ttf") format("truetype"), url("fonts/DroidSans-Bold-webfont.svg#DroidSansBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, ../sass/_cabecerapaginaResponsive.scss */
+html body .funnyline {
+  width: 100%;
+  height: 63px;
+  border-bottom: 1px solid #d7d7d7;
+}
+/* line 14, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina {
+  position: fixed;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background: url('/imagenes/background.png?1331221128'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dcdcdc), color-stop(100%, #fafafa));
+  background: url('/imagenes/background.png?1331221128'), -webkit-linear-gradient(#dcdcdc, #fafafa);
+  background: url('/imagenes/background.png?1331221128'), -moz-linear-gradient(#dcdcdc, #fafafa);
+  background: url('/imagenes/background.png?1331221128'), -o-linear-gradient(#dcdcdc, #fafafa);
+  background: url('/imagenes/background.png?1331221128'), -ms-linear-gradient(#dcdcdc, #fafafa);
+  background: url('/imagenes/background.png?1331221128'), linear-gradient(#dcdcdc, #fafafa);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  z-index: 500;
+  height: 90px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 15, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina h1.hero {
+  color: #343434;
+  text-shadow: 0 1px #ffffff;
+  font: 24px/50px "colaborativasemibold";
+}
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina nav h3 {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font: 18px/23px "colaborativasemibold";
+  color: #929292;
+}
+/* line 38, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor {
+  padding-top: 2px;
+  padding-bottom: 4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 43, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda {
+  position: absolute;
+  bottom: 0px;
+  display: table;
+}
+/* line 46, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:link {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 49, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:hover, html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:hover.active {
+  color: #00a9da;
+  text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+/* line 53, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:active {
+  color: #1B70B9;
+}
+/* line 57, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 1px;
+  width: 15%;
+  resize: none;
+}
+/* line 65, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  width: 55%;
+  /* esto sirve para alinear perfectamente el titulo */
+  padding-top: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/* line 74, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 78, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
+  display: inline-block;
+  width: 22%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+/* line 84, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
+  padding: 3px 15px 3px 10px;
+}
+/* line 86, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
+  font: 25px "colaborativa-icons";
+  padding-right: 6px;
+  position: relative;
+  top: 3px;
+}
+/* line 94, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
+  display: inline-block;
+  width: 8%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+/* line 103, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
+  content: "\f011";
+}
+/* line 107, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
+  content: "\f013";
+}
+/* line 111, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
+  content: "\f012";
+}
+/* line 118, ../sass/_cabecerapaginaResponsive.scss */
+html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuContacto:before {
+  content: "\f000";
+}
+
+/* line 132, ../sass/_cabecerapaginaResponsive.scss */
+html .imagenes .cabeceraPagina {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: none;
+}
+/* line 137, ../sass/_cabecerapaginaResponsive.scss */
+html .imagenes .cabeceraPagina .tituloMenuBusqueda .hero a {
+  color: white;
+  text-shadow: none;
+}
+/* line 143, ../sass/_cabecerapaginaResponsive.scss */
+html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
+  color: white;
+  text-shadow: none;
+}
+
+@media (max-width: 767px) {
+  /* line 176, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    height: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dcdcdc), color-stop(100%, rgba(250, 250, 250, 0)));
+    background-image: -webkit-linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
+    background-image: -moz-linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
+    background-image: -o-linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
+    background-image: -ms-linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
+    background-image: linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
+  }
+  /* line 184, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 187, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda {
+    width: 100%;
+    height: auto;
+  }
+  /* line 190, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+    display: block;
+    width: 100%;
+    resize: none;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  /* line 197, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /* esto sirve para alinear perfectamente el titulo */
+  }
+  /* line 204, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+    display: none;
+  }
+  /* line 207, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu {
+    display: block;
+    width: 100%;
+  }
+  /* line 210, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
+    display: block;
+    width: auto;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: #d7d7d7 0 1px 0px, white 0 2px 0px;
+    -moz-box-shadow: #d7d7d7 0 1px 0px, white 0 2px 0px;
+    box-shadow: #d7d7d7 0 1px 0px, white 0 2px 0px;
+  }
+  /* line 217, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li:last-child {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 220, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:link {
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px 15px 10px 0px;
+    -webkit-border-radius: 0px 0px;
+    -moz-border-radius: 0px / 0px;
+    -ms-border-radius: 0px / 0px;
+    -o-border-radius: 0px / 0px;
+    border-radius: 0px / 0px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  /* line 227, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:hover, html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li .cabeceraPagina .menu li a:hover.active {
+    background-color: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  /* line 231, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a.active {
+    background-color: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  /* line 235, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:before {
+    font: 28px "colaborativa-icons";
+    padding-right: 6px;
+    position: relative;
+    top: 3px;
+  }
+}
+@media (min-width: 768px) and (max-width: 989px) {
+  /* line 255, ../sass/_cabecerapaginaResponsive.scss */
+  #menuContacto {
+    display: none;
+  }
+
+  /* line 156, ../sass/_cabecerapaginaResponsive.scss */
+  html body .funnyline {
+    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
+  }
+  /* line 160, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor {
+    width: 724px;
+  }
+}
+@media (min-width: 990px) {
+  /* line 262, ../sass/_cabecerapaginaResponsive.scss */
+  #menuContacto {
+    display: none;
+  }
+
+  /* line 156, ../sass/_cabecerapaginaResponsive.scss */
+  html body .funnyline {
+    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
+  }
+  /* line 160, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor {
+    width: 940px;
+  }
+}
+@media (min-width: 1240px) {
+  /* line 269, ../sass/_cabecerapaginaResponsive.scss */
+  #menuContacto {
+    display: none;
+  }
+
+  /* line 156, ../sass/_cabecerapaginaResponsive.scss */
+  html body .funnyline {
+    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
+  }
+  /* line 160, ../sass/_cabecerapaginaResponsive.scss */
+  html body .cabeceraPagina .contenedor {
+    width: 1170px;
+  }
+}
+/* line 16, ../sass/_footerpaginaResponsive.scss */
+.footerGradient {
+  width: 100%;
+  background: url('/imagenes/background.png?1331221128'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #dcdcdc));
+  background: url('/imagenes/background.png?1331221128'), -webkit-linear-gradient(#fafafa, #dcdcdc);
+  background: url('/imagenes/background.png?1331221128'), -moz-linear-gradient(#fafafa, #dcdcdc);
+  background: url('/imagenes/background.png?1331221128'), -o-linear-gradient(#fafafa, #dcdcdc);
+  background: url('/imagenes/background.png?1331221128'), -ms-linear-gradient(#fafafa, #dcdcdc);
+  background: url('/imagenes/background.png?1331221128'), linear-gradient(#fafafa, #dcdcdc);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  height: 90px;
+  clear: both;
+}
+
+/* line 25, ../sass/_footerpaginaResponsive.scss */
+footer {
+  background: url('/imagenes/background.png?1331221128'), #dcdcdc;
+}
+/* line 27, ../sass/_footerpaginaResponsive.scss */
+footer a:link {
+  color: #393939;
+  border: none;
+}
+/* line 31, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor {
+  margin: auto;
+  padding-bottom: 50px;
+}
+/* line 34, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto {
+  display: table;
+  width: 100%;
+}
+/* line 37, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto .emailTelAddress {
+  display: table-cell;
+}
+/* line 40, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto .anade {
+  display: table-cell;
+}
+/* line 43, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p {
+  font: 18px/23px "colaborativasemibold";
+}
+/* line 45, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a:link, footer .contenedor .datosContacto p a:visited {
+  color: #393939;
+  opacity: 0.8;
+}
+/* line 48, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a:link:hover, footer .contenedor .datosContacto p a:visited:hover {
+  color: #393939;
+  opacity: 1;
+}
+/* line 52, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a:link:active, footer .contenedor .datosContacto p a:visited:active {
+  color: #393939;
+  opacity: 1;
+}
+/* line 57, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a:before, footer .contenedor .datosContacto p a:after {
+  font: 30px "colaborativa-icons";
+  padding-right: 0px;
+  position: relative;
+  top: 4px;
+}
+/* line 63, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a.mail:before {
+  content: "\f002";
+}
+/* line 66, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a.tel:before {
+  content: "\f004";
+}
+/* line 69, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a.address:before {
+  content: "\f001";
+}
+/* line 72, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .datosContacto p a.anade:after {
+  content: "\f041";
+}
+/* line 77, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos {
+  padding: 20px 0px 25px 0px;
+  display: table;
+  margin: auto;
+}
+/* line 81, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 86, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales:first-child {
+  margin-right: 50px;
+}
+/* line 89, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales:last-child {
+  margin-left: 50px;
+}
+/* line 92, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales div {
+  display: inline-block;
+  width: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 99, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a:link, footer .contenedor .enlacesExternos .enlacesSociales a:visited {
+  color: #393939;
+  opacity: 0.6;
+}
+/* line 102, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
+  color: #393939;
+  opacity: 0.8;
+}
+/* line 106, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a:link:active, footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
+  color: #393939;
+  opacity: 0.8;
+}
+/* line 111, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno {
+  font: 14px/14px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  width: 100px;
+  display: block;
+}
+/* line 116, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales {
+  text-align: left;
+}
+/* line 119, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos {
+  text-align: right;
+}
+/* line 122, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales:before, footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos:after {
+  font: 30px "colaborativa-icons";
+  padding-right: 0px;
+  position: relative;
+  top: 4px;
+}
+/* line 128, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='twitter.com']:before {
+  content: "\f028";
+}
+/* line 131, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='facebook.com']:before {
+  content: "\f023";
+}
+/* line 134, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='linkedin.com']:before {
+  content: "\f027";
+}
+/* line 137, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='youtube.com']:after {
+  content: "\f029";
+}
+/* line 140, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='github.com']:after {
+  content: "\f006";
+}
+/* line 143, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='flickr.com']:after {
+  content: "\f024";
+}
+/* line 146, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='issuu.com']:after {
+  content: "\f026";
+}
+/* line 152, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .credits p {
+  font: 12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  text-align: center;
+  color: #393939;
+  opacity: 0.6;
+}
+/* line 157, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .credits p a:link, footer .contenedor .credits p a:visited {
+  color: #393939;
+  opacity: 0.8;
+}
+/* line 160, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .credits p a:link:hover, footer .contenedor .credits p a:visited:hover {
+  color: #393939;
+  opacity: 1;
+}
+/* line 164, ../sass/_footerpaginaResponsive.scss */
+footer .contenedor .credits p a:link:active, footer .contenedor .credits p a:visited:active {
+  color: #393939;
+  opacity: 1;
+}
+
+@media (min-width: 768px) and (max-width: 989px) {
+  /* line 175, ../sass/_footerpaginaResponsive.scss */
+  footer .contenedor {
+    width: 724px;
+  }
+}
+@media (min-width: 990px) {
+  /* line 175, ../sass/_footerpaginaResponsive.scss */
+  footer .contenedor {
+    width: 940px;
+  }
+}
+@media (min-width: 1240px) {
+  /* line 175, ../sass/_footerpaginaResponsive.scss */
+  footer .contenedor {
+    width: 1170px;
+  }
+}
+/* line 3, ../sass/_clearfix.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 4, ../sass/_clearfix.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 5, ../sass/_clearfix.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 10, ../sass/screen-home.scss */
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #393939;
+}
