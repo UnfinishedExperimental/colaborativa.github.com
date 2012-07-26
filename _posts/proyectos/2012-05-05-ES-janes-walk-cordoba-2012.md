@@ -3,9 +3,9 @@ language: es
 layout: portfolio-proyecto
 category: proyectos
 title: Los Paseos de Jane en Córdoba
-permalink: /proyectos/janes-walk-cordoba/
-url-otro-idioma: /en/projects/janes-walk-cordoba/
-slug: janes-walk-cordoba
+permalink: /proyectos/janes-walk-cordoba-2012/
+url-otro-idioma: /en/projects/janes-walk-cordoba-2012/
+slug: janes-walk-cordoba-2012
 published: true
 
 subtitulo: "¡Sal a la calle y anda ya!"
@@ -34,9 +34,13 @@ reacciones:
  - { type: prensa, title: "Una ciudad para pasearla", source: Diario Córdoba, date: May 2012, url: http://www.diariocordoba.com/noticias/opinion/una-ciudad-para-pasearla_714222.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
 
 imagenes:
- - { titulo: "Mix and Match - Rosa Colmenarejo", caption: "Mix and Match - Rosa Colmenarejo. Colaborativa 2012 CC BY 3.0" }
- - { titulo: " entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara", caption: "La entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara. Colaborativa 2012 CC BY 3.0" }
- - { titulo: " entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara", caption: "La entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Mix and Match", caption: "Jane's walk 2012 Córdoba - Mix and Match - Rosa Colmenarejo. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Paseo folclórico-crítico por las entrañas del Casco Histórico", caption: "Jane's walk 2012 Córdoba - Paseo folclórico-crítico por las entrañas del Casco Histórico - Pepe y Miguel Cejas. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Un solo pez en el agua. Hacer pie en la Córdoba escrita", caption: "Jane's walk 2012 Córdoba - Un solo pez en el agua. Hacer pie en la Córdoba escrita - La Bella Varsovia. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "La entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde", caption: "Jane's walk 2012 Córdoba - La entrada a Córdoba: de la Puerta del Puente a la calle Cruz Conde - Pedro Caro y Rosa Lara. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Historia y carácter del Campo de la Verdad-Fray Albino", caption: "Jane's walk 2012 Córdoba - Historia y carácter del Campo de la Verdad-Fray Albino - Guadalupe Gómez. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "Córdoba Accesible", caption: "Jane's Walk 2012 Córdoba - Córdoba Accesible - Juan Aljama. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "De puerta a puerta, un paseo por el urbanismo histórico cordobés", caption: "Jane's walk 2012 Córdoba - De puerta a puerta, un paseo por el urbanismo histórico cordobés - Xiomara Gómez. Colaborativa 2012 CC BY 3.0"" }
 
 ---
 
