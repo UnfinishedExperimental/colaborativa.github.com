@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
 	<head>
-		<title>Version 1.0 {{ site.titulo }} | {{ page.title }}</title>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
 		{% include _socialmeta-portfolio-proyectos.html %}
 		<link href="/css/screen-portfolio.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -15,15 +15,15 @@
 				<h1 class="big">{{ site.navegacion-proyectos.[page.language] }}</h1>
 				<div class="subnav">
 					<ul class="nav">
-						<li><a href="#categoria1"><span>Productos y Servicios</span></a></li>
-						<li><a href="#categoria2"><span>Nuestras actividades culturales</span></a></li>
-						<li><a href="#categoria3"><span>Nuestros proyectos</span></a></li>
+						<li><a href="#categoria1"><span>{{ page.categoria1-titulo }}</span></a></li>
+						<li><a href="#categoria2"><span>{{ page.categoria2-titulo }}</span></a></li>
+						<li><a href="#categoria3"><span>{{ page.categoria3-titulo }}</span></a></li>
 					</ul>
 				</div>
 				<section class="seccionProyectos clearfix" id="categoria1">
 					<div class="descripcion">
-						<h2 id="categoria1">Productos y Servicios</h2>
-						<p>Promocionados por Colaborativa</p>
+						<h2 id="categoria1">{{ page.categoria1-titulo }}</h2>
+						<p>{{ page.categoria1-subtitulo }}</p>
 					</div>
 					<div class="proyectos Portfolio Destacados clearfix">
 						{% for item in site.categories.proyectos %}
@@ -51,8 +51,8 @@
 				</section>
 				<section class="seccionProyectos clearfix" id="categoria2">
 					<div class="descripcion">
-						<h2 >Productos y Servicios</h2>
-						<p>Promocionados por Colaborativa</p>
+						<h2 >{{ page.categoria2-titulo }}</h2>
+						<p>{{ page.categoria2-subtitulo }}</p>
 					</div>
 					<div class="proyectos Portfolio Destacados clearfix">
 						{% for item in site.categories.proyectos %}
@@ -80,8 +80,8 @@
 				</section>
 				<section class="seccionProyectos clearfix"  id="categoria3">
 					<div class="descripcion">
-						<h2>Productos y Servicios</h2>
-						<p>Promocionados por Colaborativa</p>
+						<h2 >{{ page.categoria3-titulo }}</h2>
+						<p>{{ page.categoria3-subtitulo }}</p>
 					</div>
 					<div class="proyectos Portfolio Destacados clearfix">
 						{% for item in site.categories.proyectos %}

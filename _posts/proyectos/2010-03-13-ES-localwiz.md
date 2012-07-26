@@ -27,7 +27,7 @@ reacciones:
  - { type: prensa, title: "Córdoba en pantalla táctil", source: Diario El Mundo, date: Feb 2012, url: http://www.elmundo.es/elmundo/2012/02/18/andalucia/1329589378.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
 
 imagenes:
- - { titulo: "Mix and Match - Rosa Colmenarejo", caption: "Mix and Match - Rosa Colmenarejo. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "", caption: "" }
 
 ---
 

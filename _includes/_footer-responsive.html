@@ -3,11 +3,11 @@
 	<div class="contenedor">
 		<div class="datosContacto" id="contacto">
 			<p class="emailTelAddress">
-				<a class="mail" href="info@colaborativa.eu">info@colaborativa.eu</a>
-				<a class="tel" href="tel:+34 957 78 21 64">+34 957 78 21 64</a>
-				<a href="#" class="address"><span class="vcard"><span class="adr"><span class="street-address">Calle Marroquíes 2</span>, <span class="postal-code">14001</span>, <span class="locality">Córdoba</span> <span class="country">España</span></a>
+				<a class="mail" href="{{ site.colaborativa-datos.email }}">{{ site.colaborativa-datos.email }}</a>
+				<a class="tel" href="tel:{{ site.colaborativa-datos.tel }}">{{ site.colaborativa-datos.tel }}</a>
+				<a href="#" class="address"><span class="vcard"><span class="adr"><span class="street-address">{{ site.colaborativa-datos.street-address }}</span>, <span class="postal-code">{{ site.colaborativa-datos.postal-code }}</span> ·  <span class="locality">{{ site.colaborativa-datos.locality }}</span>, <span class="region">{{ site.colaborativa-datos.region }}</span></a>
 			</p>
-			<p><a href="#" class="anade">Añade tarjeta</a></p>
+			<p><a href="#" class="anade">{{ site.footer-content-anade.[page.language] }}</a></p>
 		</div>
 		<div class="enlacesExternos">
 			<div class="enlacesSociales">
@@ -22,8 +22,8 @@
 			</div>
 		</div>
 		<div class="credits">
-			<p class="copyleft">{{ site.titulo }} 2010­-­{{ site.time | date: "%Y"  }} · <a href="{{ site.footer-content-codigofuente-url.url }}">{{ site.footer-content-codigofuente-url.[page.language] }}</a> {{ site.footer-content-opensource.[page.language] }} <a href="{{ site.footer-content-opensource-url.url }}" rel="copyright">{{ site.footer-content-opensource-url.[page.language] }}</a>, {{ site.footer-content-copyleft.[page.language] }} <a href="{{ site.footer-content-copyleft-url.url }}" rel="copyright">{{ site.footer-content-copyleft-url.[page.language] }}</a></p>
-			<p class="copyleft">Diseñado y hecho en <a href="http://www.openstreetmap.org/?lat=37.86&lon=-4.76&zoom=8&layers=M">Córdoba, Andalucía</a> · {{ site.footer-content-hechocon.[page.language] }} <a href="http://pages.github.com/">github pages</a>, <a href="https://github.com/mojombo/jekyll/wiki">jekyll</a>, <a href="http://sass-lang.com/">SASS</a>, <a href="http://compass-style.org/">Compass</a> {{ site.inline-y.[page.language] }} <a href="http://glyphish.com/">Glyphish icons</a></p>
+			<p class="copyleft">{{ site.titulo }} {{ site.version }} 2010­-­{{ site.time | date: "%Y"  }} · <a href="{{ site.footer-content-codigofuente-url.url }}">{{ site.footer-content-codigofuente-url.[page.language] }}</a> {{ site.footer-content-opensource.[page.language] }} <a href="{{ site.footer-content-opensource-url.url }}" rel="copyright">{{ site.footer-content-opensource-url.[page.language] }}</a>, {{ site.footer-content-copyleft.[page.language] }} <a href="{{ site.footer-content-copyleft-url.url }}" rel="copyright">{{ site.footer-content-copyleft-url.[page.language] }}</a></p>
+			<p class="copyleft">{{ site.footer-content-disenado.[page.language] }} <a href="http://www.openstreetmap.org/?lat=37.86&lon=-4.76&zoom=8&layers=M">{{ site.colaborativa-datos.locality }}, {{ site.colaborativa-datos.region }}</a> · {{ site.footer-content-hechocon.[page.language] }} <a href="{{ site.footer-content-hechocon-tools.github-url }}">{{ site.footer-content-hechocon-tools.github }}</a>, <a href="{{ site.footer-content-hechocon-tools.jekyll-url }}">{{ site.footer-content-hechocon-tools.jekyll }}</a>, <a href="{{ site.footer-content-hechocon-tools.sass-url }}">{{ site.footer-content-hechocon-tools.sass }}</a>, <a href="{{ site.footer-content-hechocon-tools.compass-url }}">{{ site.footer-content-hechocon-tools.compass }}</a> {{ site.inline-y.[page.language] }} <a href="{{ site.footer-content-hechocon-tools.glyphish-url }}">{{ site.footer-content-hechocon-tools.glyphish }}</a></p>
 		</div>
 	</div>
 </footer>

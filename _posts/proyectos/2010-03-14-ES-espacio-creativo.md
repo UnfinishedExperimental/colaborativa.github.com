@@ -32,7 +32,7 @@ reacciones:
  - { type: prensa, title: "Destripando Córdoba a pie", source: Diario ABC Córdoba, date: May 2012, url: http://www.abc.es/20120503/cordoba/abcp-destripando-cordoba-20120503.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
 
 imagenes:
- - { titulo: "Mix and Match - Rosa Colmenarejo", caption: "Mix and Match - Rosa Colmenarejo. Colaborativa 2012 CC BY 3.0" }
+ - { titulo: "", caption: "" }
 
 ---
 

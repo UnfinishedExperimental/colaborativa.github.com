@@ -2,6 +2,7 @@ auto: true
 permalink: /blog/:year/:month/:title/
 url: http://colaborativa.eu
 paginate: 10
+version: 1.0
 
 titulo: Colaborativa
 subtitulo: { es: Estrategias y herramientas para transformar ciudades, en: Strategies and tools for transforming cities}
@@ -20,11 +21,16 @@ footer-content-opensource-url: { url: http://www.opensource.org/licenses/MIT, es
 footer-content-copyleft: { es: los textos e imágenes bajo licencia, en: text and images are licensed under}
 footer-content-copyleft-url: { url: http://creativecommons.org/licenses/by/3.0/, es: CC BY 3.0., en: CC BY 3.0.}
 footer-content-codigofuente-url: { url: https://github.com/colaborativa/colaborativa.github.com/, es: El código fuente, en: The source code }
+footer-content-disenado: { es: "Diseñado y hecho en", en: Design and made }
 footer-content-hechocon: { es: Hecho con, en: Made with }
+footer-content-hechocon-tools: { github: "github pages", github-url: "http://pages.github.com/", jekyll: "jekyll", jekyll-url: "https://github.com/mojombo/jekyll/wiki/", sass: "sass", sass-url: "http://sass-lang.com/", compass: "Compass", compass-url: "http://compass-style.org/", glyphish: "Glyphish icons", glyphish-url: "http://glyphish.com/"  }
+footer-content-anade: { es: Añade tarjeta, en: Add contact }
+colaborativa-datos: { email: "info@colaborativa.eu", tel: "+34 957 78 21 64", street-address: "Calle Marroquíes 2", postal-code: "14001", locality: "Córdoba", region: "Andalucía", country: "España"}
 
 enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Facebook, en: Facebook}
 enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Twitter, en: Twitter, profile: @colaborativaeu }
 enlaces-sociales-linkedin: { url: http://www.linkedin.com/company/colaborativa, es: linkedIn, en: linkedIn }
+enlaces-sociales-pinterest: { url: http://pinterest.com/, es: Pinterest, en: Pinterest }
 enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Fotos, en: Pictures}
 enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Videos, en: Videos}
 enlaces-sociales-issuu: { url: http://www.issuu.com/colaborativa, es: Docs, en: Docs}
@@ -72,3 +78,11 @@ inline-y: { es: y, en: "&"}
 inline-proyectos: { es: proyecto, en: project}
 inline-auto-traduccion: { es: traducción automática, en: automated translation }
 inline-leermas: { es: "<leer más>", en: "<read more>" }
+
+proyectos-descripcion: { es: "Descripción", en: "Description" }
+proyectos-imagenes: { es: "Imágenes", en: "Images" }
+proyectos-reacciones: { es: "Reacciones", en: "Reactions" }
+proyectos-reacciones-redes: { es: "Reacciones en redes sociales", en: "Reactions in social networks" }
+proyectos-reacciones-twitter: { es: "n menciones en Twitter, tres últimos tweets", en: "n mentions in Twitter, three last tweets" }
+proyectos-reacciones-resto: { es: "n menciones en el resto de redes sociales", en: "n mentions in other social networks" }
+proyectos-reacciones-prensa:  { es: "Reacciones en prensa", en: "Reactions in press" }

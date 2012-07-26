@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
 	<head>
-		<title>Version 1.0 {{ site.titulo }} | {{ page.title }}</title>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
 		{% include _socialmeta-portfolio-proyectos.html %}
 		<link href="/css/screen-proyecto.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -20,9 +20,9 @@
 			<header class="resumenProyecto">
 				<div class="navegacion botones3">
 					<ul class='switcher ewf'>
-						<li class="imagenes" id="imagenes"><a href="#imagenes"><span>Imágenes</span></a></li>
-						<li class="descripcion" id="descripcion"><a href="#descripcion"><span>Descripción</span></a></li>
-						<li class="reacciones" id="reacciones"><a href="#reacciones"><span>Reacciones</span></a></li>
+						<li class="imagenes" id="imagenes"><a href="#imagenes"><span>{{ site.proyectos-imagenes.[page.language] }}</span></a></li>
+						<li class="descripcion" id="descripcion"><a href="#descripcion"><span>{{ site.proyectos-descripcion.[page.language] }}</span></a></li>
+						<li class="reacciones" id="reacciones"><a href="#reacciones"><span>{{ site.proyectos-reacciones.[page.language] }}</span></a></li>
 					</ul>
 				</div>
 				<div class="infoProyecto" >
@@ -38,22 +38,22 @@
 					</div>
 				</div>
 			</header>
-			<div class="indexTitle">Reacciones en redes sociales</div>
+			<div class="indexTitle"></div>
 			<section class="descripcionProyecto">
-				<h1>Descripción</h1>
+				<h1>{{ site.proyectos-descripcion.[page.language] }}</h1>
 				<figure>
 					<img src="/imagenes/proyectos/{{ page.slug }}-header.jpg" alt="">
 				</figure>
 				{{ content }}
 			</section>
 			<section class="reaccionesProyecto">
-				<h1>Reacciones</h1>
+				<h1>{{ site.proyectos-reacciones.[page.language] }}</h1>
 				<section>
-					<h2>Reacciones en Redes Sociales</h2>
+					<h2>{{ site.proyectos-reacciones-redes.[page.language] }}</h2>
 					<div>
 					<article class="tweets">
 						<hgroup>
-							<h3>20 menciones en Twitter, tres últimos tweets</h3>
+							<h3>{{ site.proyectos-reacciones-twitter.[page.language] }}</h3>
 						</hgroup>
 						<div class="tweetList">
 							<div class="tweet">
@@ -69,15 +69,15 @@
 					</article>
 					<article>
 						<hgroup>
-							<h3>35 menciones en el resto de redes sociales</h3>
-							<h4>3 en Facebook · 5 en LinkedIn · 7 en Pininterest</h4>
+							<h3>{{ site.proyectos-reacciones-resto.[page.language] }}</h3>
+							<h4>n {{ site.inline-en.[page.language] }} Facebook · n {{ site.inline-en.[page.language] }} LinkedIn · n {{ site.inline-en.[page.language] }} Pininterest</h4>
 						</hgroup>
 					</article>
 					</div>
 				</section>
 				{% if page.reacciones %}
 				<section class="prensa">
-					<h2>Reacciones en prensa</h2>
+					<h2>{{ site.proyectos-reacciones-prensa.[page.language] }}</h2>
 					<div>
 					{% for reaccion in page.reacciones %}
 					<article class="articuloPrensa">
@@ -128,7 +128,7 @@
 								{% if an_integer <=  numero-de-articulos %}
 									<article class="articuloBlog">
 										<div class="imagenArticulo">
-												<img src="/imagenes/placeholder_2-3.jpg" alt="">
+											<img src="/imagenes/placeholder_2-3.jpg" alt="">
 										</div>
 										<div class="textoArticulo">
 											<hgroup>
@@ -150,7 +150,7 @@
 				{% endif %}
 			</section>
 			<section class="imagenesProyecto" >
-				<h1>Imágenes</h1>
+				<h1>{{ site.proyectos-imagenes.[page.language] }}</h1>
 				{% for imagen in page.imagenes %}
 					{% if forloop.first %}
 					<div class="imagenFullScreen activo" id="imagen{{ forloop.index }}" style="background-image: url(/imagenes/proyectos/{{ page.slug }}-{{ forloop.index }}.jpg); ">

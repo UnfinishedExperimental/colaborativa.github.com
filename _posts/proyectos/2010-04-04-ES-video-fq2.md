@@ -23,6 +23,7 @@ enlaces:
 reacciones:
 
 imagenes:
+ - { titulo: "", caption: "" }
 
 ---
 
