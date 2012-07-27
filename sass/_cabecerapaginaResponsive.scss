@@ -1,132 +1,176 @@
+$cabeceraLogo: 24px/50px "colaborativasemibold";
+$cabeceraMenu: 18px/23px "colaborativasemibold";
+$colorTextoGrisOscuro: #393939;
+$colorTextoGrisClaro: #898989;
+
+$whiteLine: 1px solid rgba(210,210,210, 0.2);
+$greyLine: 1px solid rgba(40,40,40, 0.2);
+
+$colorTextoBlanco: #FFFFFF;
+
 @mixin hiddenelement{
 	  position: absolute;
 	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
 	  clip: rect(1px, 1px, 1px, 1px);
 }
 
-html{
-	body{
-		.funnyline{
-			width:100%;
-			height:63px;
-			border-bottom: 1px solid rgb(200,200,200);
+.cabeceraPagina {
+	a:link{
+		@include transition(all .1s linear);
+	}
+	a:hover, a:hover.active{
+		color: #00a9da;
+		text-shadow: rgba(255,255,255,0.1) 0 0 2px, 0 0 10px rgba(255,255,255,0.2), 0 0 30px rgba(255,255,255,0.5);
+	}
+	a:active{
+		color: #1B70B9;
+	}
+}
+
+body.oscuro{
+	.funnyline{
+		border-bottom: $whiteLine;
+	}
+	.cabeceraPagina {
+		@include background(linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.0)));
+		a:link{
+			@include transition(all .1s linear);
 		}
-		.cabeceraPagina {
-			@include background(linear-gradient(rgba(190,190,190,0.7),rgba(190,190,190,0.0)));
-			&.fixed{
-				position: fixed;
-				top:0px;
-				left:0px;
-				@include background(image-url("/imagenes/background.png"), linear-gradient(rgba(220,220,220,1),rgba(250,250,250,0)));
-				.tituloMenuBusqueda{
-					position: absolute;
-					bottom:0px;
-					top:0px;
+		a:hover, a:hover.active{
+			color: $colorTextoBlanco;
+			text-shadow: rgba(255,255,255,0.7) 0 0 2px, 0 0 10px rgba(255,255,255,0.5), 0 0 30px rgba(255,255,255,0.3);
+		}
+		.contenedor{
+			.tituloMenuBusqueda{
+				h1, nav h3{
+					a:link, a:visited, a:active{
+						color: $colorTextoBlanco;
+					}
+				}
+				h1 {
+					color: $colorTextoBlanco;
+					text-shadow: none;
+					font: $cabeceraLogo;
+
+				}
+				nav h3{
+					font: $cabeceraMenu;
+					color: $colorTextoBlanco;
+					text-shadow: none;
 				}
 			}
-			h1.hero{
-				color: #343434;
-				text-shadow: 0 1px #ffffff;
-				font: 24px/50px "colaborativasemibold";
+		}
+	}
+}
+
+body{
+	.funnyline{
+		width:100%;
+		height:63px;
+		border-bottom: $greyLine;
+	}
+	.cabeceraPagina {
+		@include background(linear-gradient(rgba(210,210,210,0.7),rgba(210,210,210,0.0)));
+		&.fixed{
+			position: fixed;
+			top:0px;
+			left:0px;
+			@include background(image-url("/imagenes/background.png"), linear-gradient(rgba(220,220,220,1),rgba(250,250,250,0)));
+			.tituloMenuBusqueda{
+				position: absolute;
+				bottom:0px;
+				top:0px;
 			}
-			nav h3{
-				margin-top:10px;
-				margin-bottom:14px;
-				font: 18px/23px "colaborativasemibold";
-				color: #929292;
-			}
-			width: 100%;
-			@include user-select(none);
-			@include box-sizing (border-box);
-			padding:0px;
-			margin: 0px;
-			z-index: 500;
-			height: 90px;
-			@include transition(all .1s linear);
-			.contenedor{
-				padding-top:2px;
-				padding-bottom:4px;
-				margin-right: auto;
-				margin-left: auto;
-				.tituloMenuBusqueda{
-					position: absolute;
-					top:32px;
-					a:link{
-						@include transition(all .1s linear);
+		}
+		width: 100%;
+		@include user-select(none);
+		@include box-sizing (border-box);
+		padding:0px;
+		margin: 0px;
+		z-index: 500;
+		height: 90px;
+		@include transition(all .1s linear);
+		.contenedor{
+			padding-top:2px;
+			padding-bottom:4px;
+			margin-right: auto;
+			margin-left: auto;
+			.tituloMenuBusqueda{
+				position: absolute;
+				top:32px;
+				display: table;
+				h1{
+					color: $colorTextoGrisOscuro;
+					text-shadow: 0 1px #ffffff;
+					font: $cabeceraLogo;
+					@include box-sizing (border-box);
+					display: table-cell;
+					vertical-align: middle;
+					padding-top:1px;
+					width: 15%;
+					resize: none;
+				}
+				nav{
+					@include box-sizing (border-box);
+					display: table-cell;
+					vertical-align: middle;
+					width: 55%;
+					/* esto sirve para alinear perfectamente el titulo */
+					padding-top: 7px;
+					padding-right: 15px;
+					padding-left: 15px;
+					h2{
+						@include hiddenelement;
 					}
-					a:hover, a:hover.active{
-						color: #00a9da;
-						text-shadow: rgba(255,255,255,0.1) 0 0 2px, 0 0 10px rgba(255,255,255,0.2), 0 0 30px rgba(255,255,255,0.5);
+					h3{
+						margin-top:10px;
+						margin-bottom:14px;
+						font: $cabeceraMenu;
+						color: $colorTextoGrisOscuro;
+						text-shadow: 0 1px #ffffff;
 					}
-					a:active{
-						color: #1B70B9;
-					}
-					display: table;
-					h1{
-						@include box-sizing (border-box);
-						display: table-cell;
-						vertical-align: middle;
-						padding-bottom:1px;
-						width: 15%;
-						resize: none;
-					}
-					nav{
-						@include box-sizing (border-box);
-						display: table-cell;
-						vertical-align: middle;
-						width: 55%;
-						/* esto sirve para alinear perfectamente el titulo */
-						padding-top: 6px;
-						padding-right: 15px;
-						padding-left: 15px;
-						h2{
-							@include hiddenelement;
+					.menu {
+						li{
+							display: inline-block;
+							width: 22%;
+							text-align: center;
+							margin: 0;
+							padding: 0;
+							a{
+								padding: 3px 15px 3px 10px;
+								&::before{
+									font: 25px "colaborativa-icons";
+									padding-right: 6px;
+									position: relative;
+									top: 3px;
+								}
+							}
 						}
-						.menu {
-							li{
-								display: inline-block;
-								width: 22%;
-								text-align: center;
-								margin: 0;
-								padding: 0;
-								a{
-									padding: 3px 15px 3px 10px;
-									&::before{
-										font: 25px "colaborativa-icons";
-										padding-right: 6px;
-										position: relative;
-										top: 3px;
-									}
-								}
-							}
-							li.idioma{
-								display: inline-block;
-								width: 8%;
-								text-align: right;
-								margin: 0;
-								padding: 0;
-								h3{
-								}
-							}
-							.menuBlog:before{
-								content: "\f011";
-								//content: url(/imagenes/menuBlog.png);
-							}
-							.menuProyectos:before{
-								content: "\f013";
-								//content: url(/imagenes/menuProyectos.png);
-							}
-							.menuEquipo:before{
-								content: "\f012";
-								//content: url(/imagenes/menuEquipo.png);
-							}
-							.menuCodigo:before{
-								//content: url(/imagenes/menuCodigo.png);
-							}
-							.menuContacto:before{
-								content: "\f000";
-								//content: url(/imagenes/menuCodigo.png);
-							}
+						li.idioma{
+							display: inline-block;
+							width: 8%;
+							text-align: right;
+							margin: 0;
+							padding: 0;
+						}
+						.menuBlog:before{
+							content: "\f011";
+							//content: url(/imagenes/menuBlog.png);
+						}
+						.menuProyectos:before{
+							content: "\f013";
+							//content: url(/imagenes/menuProyectos.png);
+						}
+						.menuEquipo:before{
+							content: "\f012";
+							//content: url(/imagenes/menuEquipo.png);
+						}
+						.menuCodigo:before{
+							//content: url(/imagenes/menuCodigo.png);
+						}
+						.menuContacto:before{
+							content: "\f000";
+							//content: url(/imagenes/menuCodigo.png);
 						}
 					}
 				}
@@ -135,40 +179,35 @@ html{
 	}
 }
 
-html{
-	.imagenes{
-		.cabeceraPagina{
-			background-color: rgba(0,0,0,0.7);
-			background-image: none;
-			.tituloMenuBusqueda{
-				.hero{
-					a{
-						color: white;
-						text-shadow: none;
-					}
+
+.imagenes{
+	.cabeceraPagina{
+		background-color: rgba(0,0,0,0.7);
+		background-image: none;
+		.tituloMenuBusqueda{
+			.hero{
+				a{
+					color: white;
+					text-shadow: none;
 				}
-				.menu{
-					a{
-						color: white;
-						text-shadow: none;
-					}
+			}
+			.menu{
+				a{
+					color: white;
+					text-shadow: none;
 				}
 			}
 		}
 	}
 }
+
 
 @mixin cabecerapaginaResponsive($totalWidth){
-	html{
-		body{
-			.funnyline{
-				border-bottom: 1px solid rgba(210,210,210, 0.2);
-			}
-			.cabeceraPagina{
-				.contenedor{
-					width: $totalWidth;
-					.tituloMenuBusqueda{
-					}
+	body{
+		.cabeceraPagina{
+			.contenedor{
+				width: $totalWidth;
+				.tituloMenuBusqueda{
 				}
 			}
 		}
@@ -179,73 +218,71 @@ html{
 //
 //Phone
 @media (max-width: 767px) {
-	html{
-		body{
-			.cabeceraPagina {
-				padding-top: 25px;
-				padding-left: 20px;
-				padding-right: 20px;
-				padding-bottom: 25px;
-				height: auto;
-				@include user-select(none);
-				@include background-image(linear-gradient(rgba(220,220,220,1),rgba(250,250,250,0)));
-				.contenedor{
-					margin-right: auto;
-					margin-left: auto;
-					.tituloMenuBusqueda{
+	body{
+		.cabeceraPagina {
+			padding-top: 25px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 25px;
+			height: auto;
+			@include user-select(none);
+			@include background-image(linear-gradient(rgba(220,220,220,1),rgba(250,250,250,0)));
+			.contenedor{
+				margin-right: auto;
+				margin-left: auto;
+				.tituloMenuBusqueda{
+					width: 100%;
+					height: auto;
+					h1{
+						display: block;
+						width: 100%;
+						resize: none;
+						height: auto;
+						padding-bottom: 10px;
+					}
+					nav{
+						display: block;
 						width: 100%;
 						height: auto;
-						h1{
-							display: block;
-							width: 100%;
-							resize: none;
-							height: auto;
-							padding-bottom: 10px;
+						margin: 0;
+						padding: 0;
+						/* esto sirve para alinear perfectamente el titulo */
+						h2{
+							display: none;
 						}
-						nav{
+						.menu{
 							display: block;
 							width: 100%;
-							height: auto;
-							margin: 0;
-							padding: 0;
-							/* esto sirve para alinear perfectamente el titulo */
-							h2{
-								display: none;
-							}
-							.menu{
+							li{
 								display: block;
-								width: 100%;
-								li{
-									display: block;
-									width: auto;
-									text-align: left;
-									margin: 0;
-									padding: 0;
-									@include box-shadow(rgb(215,215,215) 0 1px 0px,white 0 2px 0px);
-									&:last-child{
-										@include box-shadow(none);
-									}
-									a:link{
-										font-size:20px;
-										@include box-sizing (border-box);
-										padding: 5px 15px 10px 0px;
-										@include border-radius(0px, 0px);
-										@include transition(all .2s linear);
-									}
-									a:hover, .cabeceraPagina .menu li a:hover.active{
-										background-color: none;
-										@include transition(all .2s linear);
-									}
-									a.active {
-										background-color: none;
-										@include transition(all .2s linear);
-									}
-									a:before{
-										font: 28px "colaborativa-icons";
-										padding-right: 6px;
-										position: relative;
-										top: 3px;
-									}
+								width: auto;
+								text-align: left;
+								margin: 0;
+								padding: 0;
+								@include box-shadow(rgb(215,215,215) 0 1px 0px,white 0 2px 0px);
+								&:last-child{
+									@include box-shadow(none);
+								}
+								a:link{
+									font-size:20px;
+									@include box-sizing (border-box);
+									padding: 5px 15px 10px 0px;
+									@include border-radius(0px, 0px);
+									@include transition(all .2s linear);
+								}
+								a:hover, .cabeceraPagina .menu li a:hover.active{
+									background-color: none;
+									@include transition(all .2s linear);
+								}
+								a.active {
+									background-color: none;
+									@include transition(all .2s linear);
+								}
+								a:before{
+									font: 28px "colaborativa-icons";
+									padding-right: 6px;
+									position: relative;
+									top: 3px;
 								}
 							}
 						}
@@ -254,7 +291,6 @@ html{
 			}
 		}
 	}
-
 }
 
 

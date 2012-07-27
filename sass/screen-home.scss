@@ -15,11 +15,10 @@ $seccionTitulo: 24px/30px "colaborativaMedium";
 $borderGrey: #BEBEBE;
 $colorTextoGrisOscuro: #393939;
 $colorTextoGrisClaro: #898989;
+$colorTextoBlanco: #FFFFFF;
+$lineaBlanca: 1px solid rgba(255,255,255,0.2);
 
-a:link, a:visited, a:active{
-	text-decoration: none;
-	color: $colorTextoGrisOscuro;
-}
+
 
 @mixin hiddenelement{
 	  position: absolute;
@@ -31,9 +30,16 @@ a:link, a:visited, a:active{
 	@include box-sizing (border-box);
 	background:white;
 	border: 3px solid white;
-	padding: 3px;
 	@include border-radius(2px, 2px);
 	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin imagestyle2{
+	@include box-sizing (border-box);
+	background:silver;
+	border: none;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
 }
 
 .selectorProyectos{
@@ -54,19 +60,19 @@ a:link, a:visited, a:active{
 			}
 			&:after{
 				@include user-select(none);
-				color:#5A5A5A;
+				color:rgba(0,0,0,0.25);
 				content:"\25CF";
 				font-size: 20px;
 				@include single-transition(color, .5s);
 			}
 			&:hover:after{
-				color:#B6B6B6;
+				color:rgba(0,0,0,0.50);
 			}
 			&:active:after{
-				color: white;
+				color: rgba(0,0,0,0.75);
 			}
 			&.activo:after{
-				color: white;
+				color: rgba(0,0,0,0.75);
 			}
 		}
 		&:after{
@@ -76,11 +82,84 @@ a:link, a:visited, a:active{
 		}
 	}
 }
-body{
-	background-repeat: repeat;
-	background-color: rgb(250,250,250);
+
+body.oscuro{
+	a:link, a:visited, a:active{
+		color: $colorTextoBlanco;
+	}
+	background-color: rgb(0,0,0);
 	.contenedor{
-		width:940px;
+		.selectorProyectos{
+			ul{
+				li{
+					&:after{
+						color:rgba(255,255,255,0.5);
+					}
+					&:hover:after{
+						color:rgba(255,255,255,0.75);
+					}
+					&:active:after{
+						color: white;
+					}
+					&.activo:after{
+						color: white;
+					}
+				}
+			}
+		}
+		.novedades{
+			border-top: $lineaBlanca;
+			.novedadesArticulos{
+				.articulosLista{
+					article{
+						border-left: $lineaBlanca;
+						h3{
+							color: $colorTextoBlanco;
+						}
+						h4{
+							color: $colorTextoBlanco;
+						}
+						.imagenArticulo{
+							a{
+								@include imagestyle2;
+							}
+						}
+					}
+				}
+				p{
+					color: $colorTextoBlanco;
+					opacity: 0.8;
+				}
+			}
+			.novedadesTweets{
+				.tweetsLista{
+					article{
+						border-left: $lineaBlanca;
+						h3{
+							color: $colorTextoBlanco
+						}
+						.tweetFecha{
+							color: $colorTextoBlanco
+						}
+					}
+				}
+				.tweetInfo{
+					color: $colorTextoBlanco;
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+}
+
+body{
+	a:link, a:visited, a:active{
+		text-decoration: none;
+		color: $colorTextoGrisOscuro;
+	}
+	background-repeat: repeat;
+	background-color: rgba(210,210,210,0.7);
+	.contenedor{
 		margin: 0px auto;
 		.posterProyecto{
 			width:1500px;
@@ -101,17 +180,11 @@ body{
 				h2{
 					@include hiddenelement;
 				}
-				width: (68px * 6) + (40px * 5);
 				float: left;
 				.articulosLista{
-					width: ((68px * 2) * 3) + ((40px * 2) * 3);
 					article{
 						position: relative;
-						height: 260px;
 						float: left;
-						margin-left: 20px;
-						padding-left: 20px;
-						width: 68px * 2 + 40px - 1px;
 						border-left: 1px solid $borderGrey;
 						h3{
 							color: $colorTextoGrisOscuro;
@@ -123,15 +196,10 @@ body{
 							color: $colorTextoGrisOscuro;
 							position: absolute;
 							bottom:0px;
-							left:20px;
 							font: $articuloSubtitulo;
 						}
 						.imagenArticulo{
-							width:  68px * 2 + 40px;
-							height: 117px;
 							a{
-								width:  68px * 2 + 40px;
-								height: 117px;
 								border-bottom:3px solid white;
 								@include imagestyle;
 								display: block;
@@ -153,28 +221,21 @@ body{
 				}
 				p{
 					color: $colorTextoGrisClaro;
-					margin-top: 20px;
 					clear: left;
 					font: $articuloCaption;
 				}
 			}
 			.novedadesTweets{
-				width: ((68px * 3) * 1) + ((40px * 3) * 1);
 				float: left;
 				h2{
 					@include hiddenelement;
 				}
 				.tweetsLista{
 					position: relative;
-					width: ((68px * 3) * 1) + ((40px * 3) * 1);
 					margin-right:0px;
 					padding-right:0px;
 					article{
 						float:left;
-						height: 260px;
-						margin-left: 20px;
-						padding-left: 20px;
-						width: 68px * 3 + 40px * 2 - 1px;
 						border-left: 1px solid $borderGrey;
 						h3{
 							font: $seccionTitulo;
@@ -191,7 +252,6 @@ body{
 					}
 				}
 				.tweetInfo{
-					margin-top: 20px;
 					font: $articuloCaption;
 					text-align:right;
 					color: $colorTextoGrisClaro;

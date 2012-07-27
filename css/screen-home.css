@@ -1,4 +1,4 @@
-/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -127,20 +127,81 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 9, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .funnyline {
+/* line 18, ../sass/_cabecerapaginaResponsive.scss */
+.cabeceraPagina a:link {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 21, ../sass/_cabecerapaginaResponsive.scss */
+.cabeceraPagina a:hover, .cabeceraPagina a:hover.active {
+  color: #00a9da;
+  text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+/* line 25, ../sass/_cabecerapaginaResponsive.scss */
+.cabeceraPagina a:active {
+  color: #1B70B9;
+}
+
+/* line 31, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .funnyline {
+  border-bottom: 1px solid rgba(210, 210, 210, 0.2);
+}
+/* line 34, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .cabeceraPagina {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.7)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+/* line 36, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .cabeceraPagina a:link {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 39, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .cabeceraPagina a:hover, body.oscuro .cabeceraPagina a:hover.active {
+  color: white;
+  text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
+}
+/* line 46, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda h1 a:link, body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda h1 a:visited, body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda h1 a:active, body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 a:link, body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 a:visited, body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 a:active {
+  color: white;
+}
+/* line 50, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  color: white;
+  text-shadow: none;
+  font: 24px/50px "colaborativasemibold";
+}
+/* line 56, ../sass/_cabecerapaginaResponsive.scss */
+body.oscuro .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+  font: 18px/23px "colaborativasemibold";
+  color: white;
+  text-shadow: none;
+}
+
+/* line 67, ../sass/_cabecerapaginaResponsive.scss */
+body .funnyline {
   width: 100%;
   height: 63px;
-  border-bottom: 1px solid #c8c8c8;
+  border-bottom: 1px solid rgba(40, 40, 40, 0.2);
 }
-/* line 14, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(190, 190, 190, 0.7)), color-stop(100%, rgba(190, 190, 190, 0)));
-  background: -webkit-linear-gradient(rgba(190, 190, 190, 0.7), rgba(190, 190, 190, 0));
-  background: -moz-linear-gradient(rgba(190, 190, 190, 0.7), rgba(190, 190, 190, 0));
-  background: -o-linear-gradient(rgba(190, 190, 190, 0.7), rgba(190, 190, 190, 0));
-  background: -ms-linear-gradient(rgba(190, 190, 190, 0.7), rgba(190, 190, 190, 0));
-  background: linear-gradient(rgba(190, 190, 190, 0.7), rgba(190, 190, 190, 0));
+/* line 72, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0.7)), color-stop(100%, rgba(210, 210, 210, 0)));
+  background: -webkit-linear-gradient(rgba(210, 210, 210, 0.7), rgba(210, 210, 210, 0));
+  background: -moz-linear-gradient(rgba(210, 210, 210, 0.7), rgba(210, 210, 210, 0));
+  background: -o-linear-gradient(rgba(210, 210, 210, 0.7), rgba(210, 210, 210, 0));
+  background: -ms-linear-gradient(rgba(210, 210, 210, 0.7), rgba(210, 210, 210, 0));
+  background: linear-gradient(rgba(210, 210, 210, 0.7), rgba(210, 210, 210, 0));
   width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -158,8 +219,8 @@ html body .cabeceraPagina {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 16, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina.fixed {
+/* line 74, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -170,68 +231,41 @@ html body .cabeceraPagina.fixed {
   background: url('/imagenes/background.png?1331221128'), -ms-linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
   background: url('/imagenes/background.png?1331221128'), linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
 }
-/* line 21, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina.fixed .tituloMenuBusqueda {
+/* line 79, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina h1.hero {
-  color: #343434;
-  text-shadow: 0 1px #ffffff;
-  font: 24px/50px "colaborativasemibold";
-}
-/* line 32, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina nav h3 {
-  margin-top: 10px;
-  margin-bottom: 14px;
-  font: 18px/23px "colaborativasemibold";
-  color: #929292;
-}
-/* line 46, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor {
+/* line 93, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor {
   padding-top: 2px;
   padding-bottom: 4px;
   margin-right: auto;
   margin-left: auto;
 }
-/* line 51, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda {
+/* line 98, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 32px;
   display: table;
 }
-/* line 54, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:link {
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -ms-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:hover, html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:hover.active {
-  color: #00a9da;
-  text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
-}
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda a:active {
-  color: #1B70B9;
-}
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+/* line 102, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  color: #393939;
+  text-shadow: 0 1px #ffffff;
+  font: 24px/50px "colaborativasemibold";
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: table-cell;
   vertical-align: middle;
-  padding-bottom: 1px;
+  padding-top: 1px;
   width: 15%;
   resize: none;
 }
-/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+/* line 113, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -239,80 +273,88 @@ html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   vertical-align: middle;
   width: 55%;
   /* esto sirve para alinear perfectamente el titulo */
-  padding-top: 6px;
+  padding-top: 7px;
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+/* line 122, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
+/* line 125, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font: 18px/23px "colaborativasemibold";
+  color: #393939;
+  text-shadow: 0 1px #ffffff;
+}
+/* line 133, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
   text-align: center;
   margin: 0;
   padding: 0;
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
+/* line 139, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
+/* line 141, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
+/* line 149, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
   text-align: right;
   margin: 0;
   padding: 0;
 }
-/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
+/* line 156, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
+/* line 160, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 119, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
+/* line 164, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
-/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuContacto:before {
+/* line 171, ../sass/_cabecerapaginaResponsive.scss */
+body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuContacto:before {
   content: "\f000";
 }
 
-/* line 140, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html .imagenes .cabeceraPagina {
+/* line 184, ../sass/_cabecerapaginaResponsive.scss */
+.imagenes .cabeceraPagina {
   background-color: rgba(0, 0, 0, 0.7);
   background-image: none;
 }
-/* line 145, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html .imagenes .cabeceraPagina .tituloMenuBusqueda .hero a {
+/* line 189, ../sass/_cabecerapaginaResponsive.scss */
+.imagenes .cabeceraPagina .tituloMenuBusqueda .hero a {
   color: white;
   text-shadow: none;
 }
-/* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
+/* line 195, ../sass/_cabecerapaginaResponsive.scss */
+.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   color: white;
   text-shadow: none;
 }
 
 @media (max-width: 767px) {
-  /* line 184, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina {
+  /* line 222, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina {
     padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -328,26 +370,26 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     background-image: -ms-linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
     background-image: linear-gradient(#dcdcdc, rgba(250, 250, 250, 0));
   }
-  /* line 192, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor {
+  /* line 230, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
     margin-right: auto;
     margin-left: auto;
   }
-  /* line 195, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda {
+  /* line 233, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda {
     width: 100%;
     height: auto;
   }
-  /* line 198, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  /* line 236, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
     display: block;
     width: 100%;
     resize: none;
     height: auto;
     padding-bottom: 10px;
   }
-  /* line 205, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+  /* line 243, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
     display: block;
     width: 100%;
     height: auto;
@@ -355,17 +397,17 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     padding: 0;
     /* esto sirve para alinear perfectamente el titulo */
   }
-  /* line 212, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+  /* line 250, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
     display: none;
   }
-  /* line 215, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu {
+  /* line 253, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu {
     display: block;
     width: 100%;
   }
-  /* line 218, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
+  /* line 256, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
     display: block;
     width: auto;
     text-align: left;
@@ -375,14 +417,14 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     -moz-box-shadow: #d7d7d7 0 1px 0px, white 0 2px 0px;
     box-shadow: #d7d7d7 0 1px 0px, white 0 2px 0px;
   }
-  /* line 225, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li:last-child {
+  /* line 263, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li:last-child {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
-  /* line 228, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:link {
+  /* line 266, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:link {
     font-size: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -399,8 +441,8 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
-  /* line 235, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:hover, html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li .cabeceraPagina .menu li a:hover.active {
+  /* line 273, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:hover, body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li .cabeceraPagina .menu li a:hover.active {
     background-color: none;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -408,8 +450,8 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
-  /* line 239, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a.active {
+  /* line 277, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a.active {
     background-color: none;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -417,8 +459,8 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
-  /* line 243, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:before {
+  /* line 281, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a:before {
     font: 28px "colaborativa-icons";
     padding-right: 6px;
     position: relative;
@@ -426,52 +468,106 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   }
 }
 @media (min-width: 768px) and (max-width: 989px) {
-  /* line 263, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 299, ../sass/_cabecerapaginaResponsive.scss */
   #menuContacto {
     display: none;
   }
 
-  /* line 164, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .funnyline {
-    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
-  }
-  /* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor {
+  /* line 208, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
     width: 724px;
   }
 }
 @media (min-width: 990px) {
-  /* line 270, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 306, ../sass/_cabecerapaginaResponsive.scss */
   #menuContacto {
     display: none;
   }
 
-  /* line 164, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .funnyline {
-    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
-  }
-  /* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor {
+  /* line 208, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 277, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 313, ../sass/_cabecerapaginaResponsive.scss */
   #menuContacto {
     display: none;
   }
 
-  /* line 164, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .funnyline {
-    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
-  }
-  /* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
-  html body .cabeceraPagina .contenedor {
+  /* line 208, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
     width: 1170px;
   }
 }
-/* line 16, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-.footerGradient {
+/* line 22, ../sass/_footerpaginaResponsive.scss */
+body.oscuro .footerGradient {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.7)));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+/* line 25, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* line 27, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer a:link {
+  color: white;
+  border: none;
+}
+/* line 34, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .datosContacto p a:link, body.oscuro footer .contenedor .datosContacto p a:visited {
+  color: white;
+}
+/* line 36, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .datosContacto p a:link:hover, body.oscuro footer .contenedor .datosContacto p a:visited:hover {
+  color: white;
+}
+/* line 39, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .datosContacto p a:link:active, body.oscuro footer .contenedor .datosContacto p a:visited:active {
+  color: white;
+}
+/* line 47, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .enlacesExternos .enlacesSociales a:link, body.oscuro footer .contenedor .enlacesExternos .enlacesSociales a:visited {
+  color: white;
+  opacity: 0.6;
+}
+/* line 50, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, body.oscuro footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
+  color: white;
+  opacity: 0.8;
+}
+/* line 54, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .enlacesExternos .enlacesSociales a:link:active, body.oscuro footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
+  color: white;
+  opacity: 0.8;
+}
+/* line 62, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .credits p {
+  color: white;
+  opacity: 0.6;
+}
+/* line 65, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .credits p a:link, body.oscuro footer .contenedor .credits p a:visited {
+  color: white;
+  opacity: 0.8;
+}
+/* line 68, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .credits p a:link:hover, body.oscuro footer .contenedor .credits p a:visited:hover {
+  color: white;
+  opacity: 1;
+}
+/* line 72, ../sass/_footerpaginaResponsive.scss */
+body.oscuro footer .contenedor .credits p a:link:active, body.oscuro footer .contenedor .credits p a:visited:active {
+  color: white;
+  opacity: 1;
+}
+
+/* line 88, ../sass/_footerpaginaResponsive.scss */
+body .footerGradient {
   width: 100%;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0)), color-stop(100%, rgba(210, 210, 210, 0.7)));
   background: -webkit-linear-gradient(rgba(210, 210, 210, 0), rgba(210, 210, 210, 0.7));
@@ -487,84 +583,83 @@ html .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   height: 90px;
   clear: both;
 }
-
-/* line 25, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer {
+/* line 97, ../sass/_footerpaginaResponsive.scss */
+body footer {
   background-color: rgba(210, 210, 210, 0.7);
 }
-/* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer a:link {
+/* line 99, ../sass/_footerpaginaResponsive.scss */
+body footer a:link {
   color: #393939;
   border: none;
 }
-/* line 31, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor {
+/* line 103, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor {
   margin: auto;
   padding-bottom: 50px;
 }
-/* line 34, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto {
+/* line 106, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto {
   display: table;
   width: 100%;
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto .emailTelAddress {
+/* line 109, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto .emailTelAddress {
   display: table-cell;
 }
-/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto .anade {
+/* line 112, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto .anade {
   display: table-cell;
 }
-/* line 43, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p {
+/* line 115, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p {
   font: 18px/23px "colaborativasemibold";
 }
-/* line 45, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a:link, footer .contenedor .datosContacto p a:visited {
+/* line 117, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a:link, body footer .contenedor .datosContacto p a:visited {
   color: #393939;
   opacity: 0.8;
 }
-/* line 48, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a:link:hover, footer .contenedor .datosContacto p a:visited:hover {
+/* line 120, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a:link:hover, body footer .contenedor .datosContacto p a:visited:hover {
   color: #393939;
   opacity: 1;
 }
-/* line 52, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a:link:active, footer .contenedor .datosContacto p a:visited:active {
+/* line 124, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a:link:active, body footer .contenedor .datosContacto p a:visited:active {
   color: #393939;
   opacity: 1;
 }
-/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a:before, footer .contenedor .datosContacto p a:after {
+/* line 129, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a:before, body footer .contenedor .datosContacto p a:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a.mail:before {
+/* line 135, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a.mail:before {
   content: "\f002";
 }
-/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a.tel:before {
+/* line 138, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a.tel:before {
   content: "\f004";
 }
-/* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a.address:before {
+/* line 141, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a.address:before {
   content: "\f001";
 }
-/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .datosContacto p a.anade:after {
+/* line 144, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .datosContacto p a.anade:after {
   content: "\f041";
 }
-/* line 77, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos {
+/* line 149, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos {
   padding: 20px 0px 24px 0px;
   display: table;
   margin: auto;
 }
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales {
+/* line 153, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales {
   display: inline-block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -572,16 +667,16 @@ footer .contenedor .enlacesExternos .enlacesSociales {
   padding: 0px;
   margin: 0px;
 }
-/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales:first-child {
+/* line 158, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales:first-child {
   margin-right: 50px;
 }
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales:last-child {
+/* line 161, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales:last-child {
   margin-left: 50px;
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales div {
+/* line 164, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales div {
   display: inline-block;
   width: 100px;
   -webkit-box-sizing: border-box;
@@ -590,148 +685,142 @@ footer .contenedor .enlacesExternos .enlacesSociales div {
   padding: 0px;
   margin: 0px;
 }
-/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a:link, footer .contenedor .enlacesExternos .enlacesSociales a:visited {
+/* line 171, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a:link, body footer .contenedor .enlacesExternos .enlacesSociales a:visited {
   color: #393939;
   opacity: 0.6;
 }
-/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
+/* line 174, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, body footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
   color: #393939;
   opacity: 0.8;
 }
-/* line 106, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a:link:active, footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
+/* line 178, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a:link:active, body footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
   color: #393939;
   opacity: 0.8;
 }
-/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno {
+/* line 183, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno {
   font: 14px/14px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   width: 100px;
   display: block;
 }
-/* line 116, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales {
+/* line 188, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales {
   text-align: left;
 }
-/* line 119, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos {
+/* line 191, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos {
   text-align: right;
 }
-/* line 122, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales:before, footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos:after {
+/* line 194, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales:before, body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='twitter.com']:before {
+/* line 200, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='twitter.com']:before {
   content: "\f028";
 }
-/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='facebook.com']:before {
+/* line 203, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='facebook.com']:before {
   content: "\f023";
 }
-/* line 134, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='linkedin.com']:before {
+/* line 206, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='linkedin.com']:before {
   content: "\f027";
 }
-/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='youtube.com']:after {
+/* line 209, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='youtube.com']:after {
   content: "\f029";
 }
-/* line 140, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='github.com']:after {
+/* line 212, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='github.com']:after {
   content: "\f006";
 }
-/* line 143, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='flickr.com']:after {
+/* line 215, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='flickr.com']:after {
   content: "\f024";
 }
-/* line 146, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='issuu.com']:after {
+/* line 218, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='issuu.com']:after {
   content: "\f026";
 }
-/* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .credits {
+/* line 223, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .credits {
   height: 32px;
 }
-/* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .credits p {
+/* line 225, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .credits p {
   font: 12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: center;
   color: #393939;
   opacity: 0.6;
 }
-/* line 158, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .credits p a:link, footer .contenedor .credits p a:visited {
+/* line 230, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .credits p a:link, body footer .contenedor .credits p a:visited {
   color: #393939;
   opacity: 0.8;
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .credits p a:link:hover, footer .contenedor .credits p a:visited:hover {
+/* line 233, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .credits p a:link:hover, body footer .contenedor .credits p a:visited:hover {
   color: #393939;
   opacity: 1;
 }
-/* line 165, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-footer .contenedor .credits p a:link:active, footer .contenedor .credits p a:visited:active {
+/* line 237, ../sass/_footerpaginaResponsive.scss */
+body footer .contenedor .credits p a:link:active, body footer .contenedor .credits p a:visited:active {
   color: #393939;
   opacity: 1;
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  /* line 176, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-  footer .contenedor {
+  /* line 255, ../sass/_footerpaginaResponsive.scss */
+  body footer .contenedor {
     width: 724px;
   }
 }
 @media (min-width: 990px) {
-  /* line 176, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-  footer .contenedor {
+  /* line 255, ../sass/_footerpaginaResponsive.scss */
+  body footer .contenedor {
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 176, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
-  footer .contenedor {
+  /* line 255, ../sass/_footerpaginaResponsive.scss */
+  body footer .contenedor {
     width: 1170px;
   }
 }
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_clearfix.scss */
+/* line 3, ../sass/_clearfix.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_clearfix.scss */
+/* line 4, ../sass/_clearfix.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_clearfix.scss */
+/* line 5, ../sass/_clearfix.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 19, ../sass/screen-home.scss */
-a:link, a:visited, a:active {
-  text-decoration: none;
-  color: #393939;
-}
-
-/* line 39, ../sass/screen-home.scss */
+/* line 45, ../sass/screen-home.scss */
 .selectorProyectos {
   display: table;
   margin: 330px auto 0px auto;
   padding: 20px 0px 20px 0px;
 }
-/* line 43, ../sass/screen-home.scss */
+/* line 49, ../sass/screen-home.scss */
 .selectorProyectos ul {
   padding-top: 5px;
 }
-/* line 45, ../sass/screen-home.scss */
+/* line 51, ../sass/screen-home.scss */
 .selectorProyectos ul li {
   display: inline;
   cursor: pointer;
@@ -740,16 +829,16 @@ a:link, a:visited, a:active {
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 52, ../sass/screen-home.scss */
+/* line 58, ../sass/screen-home.scss */
 .selectorProyectos ul li a {
   display: none;
 }
-/* line 55, ../sass/screen-home.scss */
+/* line 61, ../sass/screen-home.scss */
 .selectorProyectos ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  color: #5A5A5A;
+  color: rgba(0, 0, 0, 0.25);
   content: "\25CF";
   font-size: 20px;
   -webkit-transition: color 0.5s;
@@ -758,36 +847,119 @@ a:link, a:visited, a:active {
   -o-transition: color 0.5s;
   transition: color 0.5s false;
 }
-/* line 62, ../sass/screen-home.scss */
-.selectorProyectos ul li:hover:after {
-  color: #B6B6B6;
-}
-/* line 65, ../sass/screen-home.scss */
-.selectorProyectos ul li:active:after {
-  color: white;
-}
 /* line 68, ../sass/screen-home.scss */
-.selectorProyectos ul li.activo:after {
-  color: white;
+.selectorProyectos ul li:hover:after {
+  color: rgba(0, 0, 0, 0.5);
 }
-/* line 72, ../sass/screen-home.scss */
+/* line 71, ../sass/screen-home.scss */
+.selectorProyectos ul li:active:after {
+  color: rgba(0, 0, 0, 0.75);
+}
+/* line 74, ../sass/screen-home.scss */
+.selectorProyectos ul li.activo:after {
+  color: rgba(0, 0, 0, 0.75);
+}
+/* line 78, ../sass/screen-home.scss */
 .selectorProyectos ul:after {
   clear: both;
   display: table;
   content: "";
 }
 
-/* line 79, ../sass/screen-home.scss */
+/* line 86, ../sass/screen-home.scss */
+body.oscuro {
+  background-color: black;
+}
+/* line 87, ../sass/screen-home.scss */
+body.oscuro a:link, body.oscuro a:visited, body.oscuro a:active {
+  color: white;
+}
+/* line 95, ../sass/screen-home.scss */
+body.oscuro .contenedor .selectorProyectos ul li:after {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 98, ../sass/screen-home.scss */
+body.oscuro .contenedor .selectorProyectos ul li:hover:after {
+  color: rgba(255, 255, 255, 0.75);
+}
+/* line 101, ../sass/screen-home.scss */
+body.oscuro .contenedor .selectorProyectos ul li:active:after {
+  color: white;
+}
+/* line 104, ../sass/screen-home.scss */
+body.oscuro .contenedor .selectorProyectos ul li.activo:after {
+  color: white;
+}
+/* line 110, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 114, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 116, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article h3 {
+  color: white;
+}
+/* line 119, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
+  color: white;
+}
+/* line 123, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: silver;
+  border: none;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 129, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesArticulos p {
+  color: white;
+  opacity: 0.8;
+}
+/* line 136, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesTweets .tweetsLista article {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 138, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesTweets .tweetsLista article h3 {
+  color: white;
+}
+/* line 141, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesTweets .tweetsLista article .tweetFecha {
+  color: white;
+}
+/* line 146, ../sass/screen-home.scss */
+body.oscuro .contenedor .novedades .novedadesTweets .tweetInfo {
+  color: white;
+  opacity: 0.8;
+}
+
+/* line 155, ../sass/screen-home.scss */
 body {
   background-repeat: repeat;
-  background-color: #fafafa;
+  background-color: rgba(210, 210, 210, 0.7);
 }
-/* line 82, ../sass/screen-home.scss */
+/* line 156, ../sass/screen-home.scss */
+body a:link, body a:visited, body a:active {
+  text-decoration: none;
+  color: #393939;
+}
+/* line 162, ../sass/screen-home.scss */
 body .contenedor {
-  width: 940px;
   margin: 0px auto;
 }
-/* line 85, ../sass/screen-home.scss */
+/* line 164, ../sass/screen-home.scss */
 body .contenedor .posterProyecto {
   width: 1500px;
   height: 1100px;
@@ -797,75 +969,57 @@ body .contenedor .posterProyecto {
   margin-left: -750px;
   z-index: -100;
 }
-/* line 94, ../sass/screen-home.scss */
+/* line 173, ../sass/screen-home.scss */
 body .contenedor .novedades {
   padding-top: 20px;
   border-top: 1px solid #bebebe;
 }
-/* line 97, ../sass/screen-home.scss */
+/* line 176, ../sass/screen-home.scss */
 body .contenedor .novedades h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 100, ../sass/screen-home.scss */
+/* line 179, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos {
-  width: 608px;
   float: left;
 }
-/* line 101, ../sass/screen-home.scss */
+/* line 180, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 106, ../sass/screen-home.scss */
-body .contenedor .novedades .novedadesArticulos .articulosLista {
-  width: 648px;
-}
-/* line 108, ../sass/screen-home.scss */
+/* line 185, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article {
   position: relative;
-  height: 260px;
   float: left;
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 175px;
   border-left: 1px solid #bebebe;
 }
-/* line 116, ../sass/screen-home.scss */
+/* line 189, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article h3 {
   color: #393939;
   padding-top: 12px;
   font: 18px/20px "colaborativasemibold";
   padding-bottom: 12px;
 }
-/* line 122, ../sass/screen-home.scss */
+/* line 195, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
   color: #393939;
   position: absolute;
   bottom: 0px;
-  left: 20px;
   font: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 129, ../sass/screen-home.scss */
-body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
-  width: 176px;
-  height: 117px;
-}
-/* line 132, ../sass/screen-home.scss */
+/* line 202, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
-  width: 176px;
-  height: 117px;
   border-bottom: 3px solid white;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: white;
   border: 3px solid white;
-  padding: 3px;
   -webkit-border-radius: 2px 2px;
   -moz-border-radius: 2px / 2px;
   -ms-border-radius: 2px / 2px;
@@ -880,57 +1034,50 @@ body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenA
   overflow: hidden;
   background-size: cover;
 }
-/* line 144, ../sass/screen-home.scss */
+/* line 212, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article:first-child {
   border-left: none;
   margin-left: 0px;
   padding-left: 0px;
 }
-/* line 148, ../sass/screen-home.scss */
+/* line 216, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos .articulosLista article:first-child h4 {
   left: 0px;
 }
-/* line 154, ../sass/screen-home.scss */
+/* line 222, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesArticulos p {
   color: #898989;
-  margin-top: 20px;
   clear: left;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 161, ../sass/screen-home.scss */
+/* line 228, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets {
-  width: 324px;
   float: left;
 }
-/* line 164, ../sass/screen-home.scss */
+/* line 230, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 167, ../sass/screen-home.scss */
+/* line 233, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista {
   position: relative;
-  width: 324px;
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 172, ../sass/screen-home.scss */
+/* line 237, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista article {
   float: left;
-  height: 260px;
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 283px;
   border-left: 1px solid #bebebe;
 }
-/* line 179, ../sass/screen-home.scss */
+/* line 240, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista article h3 {
   font: 24px/30px "colaborativaMedium";
   color: #393939;
 }
-/* line 183, ../sass/screen-home.scss */
+/* line 244, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   position: absolute;
   bottom: 0px;
@@ -939,196 +1086,195 @@ body .contenedor .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   text-align: right;
   color: #393939;
 }
-/* line 193, ../sass/screen-home.scss */
+/* line 254, ../sass/screen-home.scss */
 body .contenedor .novedades .novedadesTweets .tweetInfo {
-  margin-top: 20px;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: right;
   color: #898989;
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  /* line 206, ../sass/screen-home.scss */
+  /* line 266, ../sass/screen-home.scss */
   body .contenedor {
     width: 728px;
   }
-  /* line 208, ../sass/screen-home.scss */
+  /* line 268, ../sass/screen-home.scss */
   body .contenedor .novedades {
     padding-top: 20px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 270, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos {
     width: 470px;
   }
-  /* line 212, ../sass/screen-home.scss */
+  /* line 272, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista {
     width: 510px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 274, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 129px;
   }
-  /* line 221, ../sass/screen-home.scss */
+  /* line 281, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
     left: 20px;
   }
-  /* line 224, ../sass/screen-home.scss */
+  /* line 284, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 130px;
     height: 86.667px;
   }
-  /* line 227, ../sass/screen-home.scss */
+  /* line 287, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
     width: 130px;
     height: 86.667px;
   }
-  /* line 234, ../sass/screen-home.scss */
+  /* line 294, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos p {
     margin-top: 19px;
   }
-  /* line 238, ../sass/screen-home.scss */
+  /* line 298, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets {
     width: 255px;
   }
-  /* line 240, ../sass/screen-home.scss */
+  /* line 300, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista {
     width: 255px;
   }
-  /* line 242, ../sass/screen-home.scss */
+  /* line 302, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 214px;
   }
-  /* line 249, ../sass/screen-home.scss */
+  /* line 309, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetInfo {
     margin-top: 19px;
   }
 }
 @media (min-width: 990px) {
-  /* line 206, ../sass/screen-home.scss */
+  /* line 266, ../sass/screen-home.scss */
   body .contenedor {
     width: 940px;
   }
-  /* line 208, ../sass/screen-home.scss */
+  /* line 268, ../sass/screen-home.scss */
   body .contenedor .novedades {
     padding-top: 20px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 270, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos {
     width: 608px;
   }
-  /* line 212, ../sass/screen-home.scss */
+  /* line 272, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista {
     width: 648px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 274, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 175px;
   }
-  /* line 221, ../sass/screen-home.scss */
+  /* line 281, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
     left: 20px;
   }
-  /* line 224, ../sass/screen-home.scss */
+  /* line 284, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 176px;
     height: 117.333px;
   }
-  /* line 227, ../sass/screen-home.scss */
+  /* line 287, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
     width: 176px;
     height: 117.333px;
   }
-  /* line 234, ../sass/screen-home.scss */
+  /* line 294, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos p {
     margin-top: 19px;
   }
-  /* line 238, ../sass/screen-home.scss */
+  /* line 298, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets {
     width: 324px;
   }
-  /* line 240, ../sass/screen-home.scss */
+  /* line 300, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista {
     width: 324px;
   }
-  /* line 242, ../sass/screen-home.scss */
+  /* line 302, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 283px;
   }
-  /* line 249, ../sass/screen-home.scss */
+  /* line 309, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetInfo {
     margin-top: 19px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 206, ../sass/screen-home.scss */
+  /* line 266, ../sass/screen-home.scss */
   body .contenedor {
     width: 1170px;
   }
-  /* line 208, ../sass/screen-home.scss */
+  /* line 268, ../sass/screen-home.scss */
   body .contenedor .novedades {
     padding-top: 30px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 270, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos {
     width: 756px;
   }
-  /* line 212, ../sass/screen-home.scss */
+  /* line 272, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista {
     width: 816px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 274, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 211px;
   }
-  /* line 221, ../sass/screen-home.scss */
+  /* line 281, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
     left: 30px;
   }
-  /* line 224, ../sass/screen-home.scss */
+  /* line 284, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 212px;
     height: 141.333px;
   }
-  /* line 227, ../sass/screen-home.scss */
+  /* line 287, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
     width: 212px;
     height: 141.333px;
   }
-  /* line 234, ../sass/screen-home.scss */
+  /* line 294, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesArticulos p {
     margin-top: 29px;
   }
-  /* line 238, ../sass/screen-home.scss */
+  /* line 298, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets {
     width: 408px;
   }
-  /* line 240, ../sass/screen-home.scss */
+  /* line 300, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista {
     width: 408px;
   }
-  /* line 242, ../sass/screen-home.scss */
+  /* line 302, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 347px;
   }
-  /* line 249, ../sass/screen-home.scss */
+  /* line 309, ../sass/screen-home.scss */
   body .contenedor .novedades .novedadesTweets .tweetInfo {
     margin-top: 29px;
   }
