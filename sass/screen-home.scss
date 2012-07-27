@@ -153,22 +153,35 @@ body.oscuro{
 }
 
 body{
+	width: 100%;
 	a:link, a:visited, a:active{
 		text-decoration: none;
 		color: $colorTextoGrisOscuro;
 	}
 	background-repeat: repeat;
 	background-color: rgba(210,210,210,0.7);
-	.contenedor{
+	.contenedorHome{
 		margin: 0px auto;
-		.posterProyecto{
-			width:1500px;
+		
+		.contenedorPoster{
+			display:block;
+			overflow: hidden;
+			width:100%;
 			height:1100px;
 			position:absolute;
-			left:50%;
+			left:0px;
 			top:0px;
-			margin-left:-750px;
-			z-index:-100;
+			z-index:-500;
+			.posterProyecto{
+				width:1500px;
+				height:1100px;
+				position:absolute;
+				left:50%;
+				top:0px;
+				margin-left:-750px;
+				z-index:-500;
+			}
+			
 		}
 		.novedades{
 			padding-top:20px;
@@ -263,8 +276,13 @@ body{
 
 @mixin homeResponsive($totalWidth, $columnWidth, $columnGap, $articleHeight){
 	body{
-		.contenedor{
-			width: $totalWidth;
+		.contenedorHome{
+			width: $totalWidth + $columnGap * 2;
+			min-width: $totalWidth + $columnGap * 2;
+			padding-left: $columnGap;
+			.contenedorPoster{
+				min-width: $totalWidth + $columnGap * 2;
+			}
 			.novedades{
 				padding-top: $columnGap;
 				.novedadesArticulos{
@@ -316,7 +334,7 @@ body{
 }
 
 //Tablets
-@media (min-width: 768px) and (max-width: 989px) {
+@media (max-width: 989px) {
 	@include homeResponsive(728px, 45px, 20px, 260px);
 }
 //Normal screens

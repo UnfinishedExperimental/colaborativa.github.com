@@ -623,7 +623,7 @@ body{
 }
 
 //Tablets
-@media (min-width: 768px) and (max-width: 989px) {
+@media (max-width: 989px) {
 	@include mainnaveffect(728px, 228px, 20px);
 	@include contenedor(728px, 228px, 20px);
 	body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {

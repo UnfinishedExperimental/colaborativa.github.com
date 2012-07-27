@@ -141,71 +141,6 @@ html{
 }
 
 
-@mixin responsivelayoutFluid($padding){
-	html{
-		body{
-			min-width: 320px;
-			.cuerpoPagina{
-				@include box-sizing (border-box);
-				width: 100%;
-				padding-left: $padding;
-				padding-right: $padding;
-				.contenedor{
-					width: 100%;
-					.subnav{
-						margin-bottom: 60px;
-					}
-					.seccionProyectos{
-						padding-top: 5px;
-						margin-bottom: 0px;
-						padding-bottom: 40px;
-						margin-left:0;
-						.descripcion{
-							margin-left:0;
-						}
-						.proyectos.Portfolio.Destacados{
-							width: 100%;
-							height: auto;
-							.proyecto{
-								width: 100%;
-								height: auto;
-								margin-left:0;
-								.imagenProyecto{
-									width: 100%;
-									img{
-										max-width: 100%;
-										width: 100%;
-										height: auto;
-									}
-								}
-								.infoProyecto{
-									width: 100%;
-								}
-							}
-						}
-						.proyectos.Portfolio.Secundarios{
-							width: 100%;
-							.proyecto{
-								width: 100%;
-								margin-left:0;
-								.infoProyecto{
-									.cabeceraInfo{
-									width: 100%;
-									}
-								}
-							}
-						}
-						.seccionEnd{
-							display:block;
-						}
-					}
-				}
-			}
-		} 
-	}
-}
-
-
 @mixin responsivelayout($totalWidth, $columnWidth, $columnGap, $projectHeight, $projectHeight2){
 	html{
 		body{
@@ -262,13 +197,9 @@ html{
 //
 //Responsive Settings
 //
-//Phone
-@media (max-width: 767px) {
-	@include responsivelayoutFluid(20px);
-}
 //Tablets
-@media (min-width: 768px) and (max-width: 979px) {
-	@include responsivelayout(744px, 228px, 20px, 310px, 157px);
+@media (max-width: 989px) {
+	@include responsivelayout(728px, 228px, 20px, 310px, 157px);
 }
 //Normal screens
 @media (min-width: 990px) {

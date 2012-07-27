@@ -93,8 +93,10 @@ body{
 		margin: 0px;
 		height: 90px;
 		clear:both;
+		z-index:50;
 	}
 	footer{
+		z-index:50;
 		background-color:rgba(210,210,210,0.7);
 		a:link{
 			color:$colorTextoGrisOscuro;
@@ -249,9 +251,13 @@ body{
 // Mixing para responsive layout //
 //
 
-@mixin footerpaginaResponsive($totalWidth){
+@mixin footerpaginaResponsive($totalWidth, $columnWidth){
 	body{
+		.footerGradient{
+			min-width: $totalWidth + $columnWidth * 2;
+		}
 		footer{
+			min-width: $totalWidth + $columnWidth * 2;
 			.contenedor{
 				width:$totalWidth;
 			}
@@ -261,14 +267,14 @@ body{
 
 
 //Tablets
-@media (min-width: 768px) and (max-width: 989px) {
-	@include footerpaginaResponsive(724px);
+@media (max-width: 989px) {
+	@include footerpaginaResponsive(728px, 20px);
 }
 //Normal screens
 @media (min-width: 990px) {
-	@include footerpaginaResponsive(940px);
+	@include footerpaginaResponsive(940px, 20px);
 }
 //Big screens
 @media (min-width: 1240px) {
-	@include footerpaginaResponsive(1170px);
+	@include footerpaginaResponsive(1170px, 30px);
 }
