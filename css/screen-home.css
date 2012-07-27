@@ -799,39 +799,39 @@ body.oscuro a:link, body.oscuro a:visited, body.oscuro a:active {
   color: white;
 }
 /* line 95, ../sass/screen-home.scss */
-body.oscuro .contenedor .selectorProyectos ul li:after {
+body.oscuro .contenedorHome .selectorProyectos ul li:after {
   color: rgba(255, 255, 255, 0.5);
 }
 /* line 98, ../sass/screen-home.scss */
-body.oscuro .contenedor .selectorProyectos ul li:hover:after {
+body.oscuro .contenedorHome .selectorProyectos ul li:hover:after {
   color: rgba(255, 255, 255, 0.75);
 }
 /* line 101, ../sass/screen-home.scss */
-body.oscuro .contenedor .selectorProyectos ul li:active:after {
+body.oscuro .contenedorHome .selectorProyectos ul li:active:after {
   color: white;
 }
 /* line 104, ../sass/screen-home.scss */
-body.oscuro .contenedor .selectorProyectos ul li.activo:after {
+body.oscuro .contenedorHome .selectorProyectos ul li.activo:after {
   color: white;
 }
 /* line 110, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades {
+body.oscuro .contenedorHome .novedades {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 /* line 114, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article {
+body.oscuro .contenedorHome .novedades .novedadesArticulos .articulosLista article {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 /* line 116, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article h3 {
+body.oscuro .contenedorHome .novedades .novedadesArticulos .articulosLista article h3 {
   color: white;
 }
 /* line 119, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article h4 {
+body.oscuro .contenedorHome .novedades .novedadesArticulos .articulosLista article h4 {
   color: white;
 }
 /* line 123, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
+body.oscuro .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -847,24 +847,24 @@ body.oscuro .contenedor .novedades .novedadesArticulos .articulosLista article .
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 /* line 129, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesArticulos p {
+body.oscuro .contenedorHome .novedades .novedadesArticulos p {
   color: white;
   opacity: 0.8;
 }
 /* line 136, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesTweets .tweetsLista article {
+body.oscuro .contenedorHome .novedades .novedadesTweets .tweetsLista article {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 /* line 138, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesTweets .tweetsLista article h3 {
+body.oscuro .contenedorHome .novedades .novedadesTweets .tweetsLista article h3 {
   color: white;
 }
 /* line 141, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesTweets .tweetsLista article .tweetFecha {
+body.oscuro .contenedorHome .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   color: white;
 }
 /* line 146, ../sass/screen-home.scss */
-body.oscuro .contenedor .novedades .novedadesTweets .tweetInfo {
+body.oscuro .contenedorHome .novedades .novedadesTweets .tweetInfo {
   color: white;
   opacity: 0.8;
 }
