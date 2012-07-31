@@ -30,6 +30,7 @@ colaborativa-datos: { email: "info (at) colaborativa.eu", tel: "+34 957 78 21 64
 enlaces-sociales-facebook: { url: http://www.facebook.com/pages/Colaborativa/129415973823832, es: Facebook, en: Facebook}
 enlaces-sociales-twitter: { url: http://twitter.com/colaborativaeu, es: Twitter, en: Twitter, profile: @colaborativaeu }
 enlaces-sociales-linkedin: { url: http://www.linkedin.com/company/colaborativa, es: linkedIn, en: linkedIn }
+enlaces-sociales-google: { url: https://plus.google.com/114949886506494087353, es: Google+, en: Google+ }
 enlaces-sociales-pinterest: { url: http://pinterest.com/, es: Pinterest, en: Pinterest }
 enlaces-sociales-flickr: { url: http://www.flickr.com/photos/50381188@N06/, es: Fotos, en: Pictures}
 enlaces-sociales-youtube: { url: http://www.youtube.com/user/colaborativaeu, es: Videos, en: Videos}
