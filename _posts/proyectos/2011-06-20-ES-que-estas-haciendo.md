@@ -12,6 +12,7 @@ descripcion: Descripción ¿Qué estás haciendo?
 descripcion-link-externo:
 en-cabecera: no
 inicio: descripcion
+extension: gif
 
 colaboradores:
 

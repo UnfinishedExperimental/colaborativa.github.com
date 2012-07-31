@@ -1,6 +1,6 @@
 <article class="proyecto clearfix">
 	<div class="imagenProyecto">
-		<img src="/imagenes/proyectos/{{ item.slug }}-portfolio.jpg" alt="">
+		<img src="/imagenes/proyectos/{{ item.slug }}-portfolio.{% if item.extension %}{{ item.extension }}{% else %}jpg{% endif %}" alt="">
 	</div>
 	<div class="infoProyecto">
 		<hgroup>

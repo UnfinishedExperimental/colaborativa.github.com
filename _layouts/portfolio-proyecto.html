@@ -42,7 +42,7 @@
 			<section class="descripcionProyecto">
 				<h1>{{ site.proyectos-descripcion.[page.language] }}</h1>
 				<figure>
-					<img src="/imagenes/proyectos/{{ page.slug }}-header.jpg" alt="">
+					<img src="/imagenes/proyectos/{{ page.slug }}-header.{% if page.extension %}{{ page.extension }}{% else %}jpg{% endif %}" alt="">
 				</figure>
 				{{ content }}
 			</section>
