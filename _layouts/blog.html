@@ -3,9 +3,8 @@
 	<head>
 		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
-		{% include _socialmeta-portfolio-proyectos.html %}
-		<link href="/css/screen-portfolio.css" media="screen, projection" rel="stylesheet" type="text/css" />
-		{% include _scripts-portfolio-proyectos-top.html %}
+		<link href="/css/screen-blog.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		{% include _scripts-blog-top.html %}
 		<script src='/javascripts/libs/bootstrap-scrollspy.js' type='text/javascript'></script>
 	</head>
 	<body data-spy="scroll">
@@ -21,161 +20,188 @@
 						<li><a href="#categoria4"><span>Nuestras noticias</span></a></li>
 					</ul>
 				</div>
+				<section class="portada clearfix" id="categoria1">
+					<h1>{{ page.portada }}</h1>
+					<div>
+						{% assign numero-de-articulos = 4 %}
+						<div class="articulosLista clearfix">
+						{% assign contador = '' %}
+						{% assign contador = temp %}
+						{% capture temp %}{{ contador }}*{% endcapture %}
+						{% assign an_integer = contador.size %}
+						{% for item in site.categories.articulos %}
+							{% if item.language == page.language %}
+								{% capture temp %}{{ contador}}*{% endcapture %}
+								{% assign contador = temp %}
+								{% assign an_integer = contador.size %}
+								{% case an_integer %}
+								{% when 1 %}
+									<article class="articuloBlog primero clearfix">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }}</h4>
+											</hgroup>
+											<p>{{ item.content | truncatewords: 30 }}</p>
+										</div>
+									</article>
+								{% when 2 or 3 or 4 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }} </h4>
+											</hgroup>
+										</div>
+									</article>
+								{% else %}
+								{% endcase %}
+							{% endif %}
+						{% endfor %}
+						</div>
+					</div>
+				</section>
+				<section class="categoria clearfix" id="categoria2">
+					<div class="categoriaDescripcion">
+						<div class="descripcion clearfix">
+							<hgroup>
+								<h1>Cultura y tecnología libre</h1>
+								<h2>subitulo y hashtag</h2>
+							</hgroup>
+							<p>Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"</p>
+						</div>
+					</div>
+					<div class="categoriaArticulos">
+						{% assign numero-de-articulos2 = 3 %}
+						<div class="articulosLista clearfix">
+						{% assign contador2 = '' %}
+						{% assign contador2 = temp2 %}
+						{% capture temp2 %}{{ contador2 }}*{% endcapture %}
+						{% assign an_integer2 = contador2.size %}
+						{% for item in site.categories.articulos %}
+							{% if item.language == page.language %}
+								{% capture temp2 %}{{ contador2 }}*{% endcapture %}
+								{% assign contador2 = temp2 %}
+								{% assign an_integer2 = contador2.size %}
+								{% if an_integer2 <=  numero-de-articulos2 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }} </h4>
+											</hgroup>
+										</div>
+									</article>
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+						</div>
+					</div>
+					<div class="categoriaPie">
+						<div class="linkSubscripcion">Subscribirse a #categoria1</div>
+						<div class="linkResto">Ver los otros 24 artículos</div>
+					</div>
+				</section>
+				<section class="categoria clearfix" id="categoria3">
+					<div class="categoriaDescripcion">
+						<div class="descripcion clearfix">
+							<hgroup>
+								<h1>Ciudades para todos</h1>
+								<h2>subitulo y hashtag</h2>
+							</hgroup>
+							<p>Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"</p>
+						</div>
+					</div>
+					<div class="categoriaArticulos">
+						{% assign numero-de-articulos3 = 3 %}
+						<div class="articulosLista clearfix">
+						{% assign contador3 = '' %}
+						{% assign contador3 = temp3 %}
+						{% capture temp3 %}{{ contador3 }}*{% endcapture %}
+						{% assign an_integer3 = contador3.size %}
+						{% for item in site.categories.articulos %}
+							{% if item.language == page.language %}
+								{% capture temp3 %}{{ contador3 }}*{% endcapture %}
+								{% assign contador3 = temp3 %}
+								{% assign an_integer3 = contador3.size %}
+								{% if an_integer3 <=  numero-de-articulos3 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }} </h4>
+											</hgroup>
+										</div>
+									</article>
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+						</div>
+					</div>
+					<div class="categoriaPie">
+						<div class="linkSubscripcion">Subscribirse a #categoria1</div>
+						<div class="linkResto">Ver los otros 24 artículos</div>
+					</div>
+				</section>
+				<section class="categoria clearfix" id="categoria4">
+					<div class="categoriaDescripcion">
+						<div class="descripcion clearfix">
+							<hgroup>
+								<h1>Nuestras noticias</h1>
+								<h2>subitulo y hashtag</h2>
+							</hgroup>
+							<p>Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"</p>
+						</div>
+					</div>
+					<div class="categoriaArticulos">
+						{% assign numero-de-articulos4 = 3 %}
+						<div class="articulosLista clearfix">
+						{% assign contador4 = '' %}
+						{% assign contador4 = temp4 %}
+						{% capture temp4 %}{{ contador4 }}*{% endcapture %}
+						{% assign an_integer4 = contador4.size %}
+						{% for item in site.categories.articulos %}
+							{% if item.language == page.language %}
+								{% capture temp4 %}{{ contador4 }}*{% endcapture %}
+								{% assign contador4 = temp4 %}
+								{% assign an_integer4 = contador4.size %}
+								{% if an_integer4 <=  numero-de-articulos4 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }} </h4>
+											</hgroup>
+										</div>
+									</article>
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+						</div>
+					</div>
+					<div class="categoriaPie">
+						<div class="linkSubscripcion">Subscribirse a #categoria1</div>
+						<div class="linkResto">Ver los otros 24 artículos</div>
+					</div>
+				</section>
 			</div>
-			<section class="portada" id="categoria1">
-				<h1>{{ page.portada }}</h1>
-				<div>
-					{% assign numero-de-articulos = 4 %}
-					<div class="articulosLista clearfix">
-					{% assign contador = '' %}
-					{% assign contador = temp %}
-					{% capture temp %}{{ contador }}*{% endcapture %}
-					{% assign an_integer = contador.size %}
-					{% for item in site.categories.articulos %}
-						{% if item.language == page.language %}
-							{% capture temp %}{{ contador}}*{% endcapture %}
-							{% assign contador = temp %}
-							{% assign an_integer = contador.size %}
-							{% if an_integer <=  numero-de-articulos %}
-								<article class="articuloBlog">
-									<div class="imagenArticulo">
-										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-									</div>
-									<div class="textoArticulo">
-										<hgroup>
-											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-											<h4>{{ item.subtitulo }} </h4>
-										</hgroup>
-									</div>
-								</article>
-							{% endif %}
-						{% endif %}
-					{% endfor %}
-					</div>
-				</div>
-			</section>
-			<section class="categoria" id="categoria2">
-				<div class="categoriaDescripcion">
-					<div class="descripcion">
-						<hgroup>
-							<h1>Cultura y tecnología libre</h1>
-							<h2>subitulo y hashtag</h2>
-						</hgroup>
-						<p>Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"</p>
-					</div>
-				</div>
-				<div class="categoriaArticulos">
-					{% assign numero-de-articulos2 = 3 %}
-					<div class="articulosLista clearfix">
-					{% assign contador2 = '' %}
-					{% assign contador2 = temp2 %}
-					{% capture temp2 %}{{ contador2 }}*{% endcapture %}
-					{% assign an_integer2 = contador2.size %}
-					{% for item in site.categories.articulos %}
-						{% if item.language == page.language %}
-							{% capture temp2 %}{{ contador2 }}*{% endcapture %}
-							{% assign contador2 = temp2 %}
-							{% assign an_integer2 = contador2.size %}
-							{% if an_integer2 <=  numero-de-articulos2 %}
-								<article class="articuloBlog">
-									<div class="imagenArticulo">
-										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-									</div>
-									<div class="textoArticulo">
-										<hgroup>
-											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-											<h4>{{ item.subtitulo }} </h4>
-										</hgroup>
-									</div>
-								</article>
-							{% endif %}
-						{% endif %}
-					{% endfor %}
-					</div>
-				</div>
-			</section>
-			<section class="categoria" id="categoria3">
-				<div class="categoriaDescripcion">
-					<div class="descripcion">
-						<hgroup>
-							<h1>Ciudades para todos</h1>
-							<h2>subitulo y hashtag</h2>
-						</hgroup>
-						<p>Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"</p>
-					</div>
-				</div>
-				<div class="categoriaArticulos">
-					{% assign numero-de-articulos3 = 3 %}
-					<div class="articulosLista clearfix">
-					{% assign contador3 = '' %}
-					{% assign contador3 = temp3 %}
-					{% capture temp3 %}{{ contador3 }}*{% endcapture %}
-					{% assign an_integer3 = contador3.size %}
-					{% for item in site.categories.articulos %}
-						{% if item.language == page.language %}
-							{% capture temp3 %}{{ contador3 }}*{% endcapture %}
-							{% assign contador3 = temp3 %}
-							{% assign an_integer3 = contador3.size %}
-							{% if an_integer3 <=  numero-de-articulos3 %}
-								<article class="articuloBlog">
-									<div class="imagenArticulo">
-										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-									</div>
-									<div class="textoArticulo">
-										<hgroup>
-											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-											<h4>{{ item.subtitulo }} </h4>
-										</hgroup>
-									</div>
-								</article>
-							{% endif %}
-						{% endif %}
-					{% endfor %}
-					</div>
-				</div>
-			</section>
-			<section class="categoria" id="categoria4">
-				<div class="categoriaDescripcion">
-					<div class="descripcion">
-						<hgroup>
-							<h1>Nuestras noticias</h1>
-							<h2>subitulo y hashtag</h2>
-						</hgroup>
-						<p>Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"</p>
-					</div>
-				</div>
-				<div class="categoriaArticulos">
-					{% assign numero-de-articulos4 = 3 %}
-					<div class="articulosLista clearfix">
-					{% assign contador4 = '' %}
-					{% assign contador4 = temp4 %}
-					{% capture temp4 %}{{ contador4 }}*{% endcapture %}
-					{% assign an_integer4 = contador4.size %}
-					{% for item in site.categories.articulos %}
-						{% if item.language == page.language %}
-							{% capture temp4 %}{{ contador4 }}*{% endcapture %}
-							{% assign contador4 = temp4 %}
-							{% assign an_integer4 = contador4.size %}
-							{% if an_integer4 <=  numero-de-articulos4 %}
-								<article class="articuloBlog">
-									<div class="imagenArticulo">
-										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-									</div>
-									<div class="textoArticulo">
-										<hgroup>
-											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-											<h4>{{ item.subtitulo }} </h4>
-										</hgroup>
-									</div>
-								</article>
-							{% endif %}
-						{% endif %}
-					{% endfor %}
-					</div>
-				</div>
-			</section>
 		</section>
 		{% include _footer-responsive.html %}
-		{% include _scripts-portfolio-proyectos-bottom.html %}
+		{% include _scripts-blog-bottom.html %}
 	</body>
 </html>

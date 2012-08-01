@@ -1,0 +1,339 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+@import "_subnav-nueva";
+@import "_clearfix";
+
+$colorTextoGrisOscuro: #393939;
+$colorTextoGrisClaro: #898989;
+$borderGrey: #BEBEBE;
+$innerborderGrey: #C9C9C9;
+$greyLine: 1px solid #DADADA;
+
+$categoriaTitulo: 26px/30px "colaborativaMedium";
+$categoriaSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$categoriaBlurb: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$articuloTitulo: 18px/20px "colaborativasemibold";
+$articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloCaption: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$seccionTitulo: 24px/30px "colaborativaMedium";
+
+$seccionTitulo: 26px/30px "colaborativaMedium";
+$seccionSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloTitulo: 18px/23px "colaborativasemibold";
+$articuloSubtitulo: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+
+$portadaFirstTitulo: 24px/30px "colaborativasemibold";
+$portadaFirstSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$portadaFirstBlurb: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$portadaTitulo: 20px/24px "colaborativasemibold";
+$portadaSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: $colorTextoGrisOscuro;
+}
+
+
+@mixin imagestyle{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin hiddenelement{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+	  clip: rect(1px, 1px, 1px, 1px);
+}
+
+html{
+	height: 100%;
+	body{
+		background-image: url(/imagenes/background.png);
+		background-repeat: repeat;
+		background-color: rgb(250,250,250);
+		.cuerpoPagina{
+			margin-top: 125px;
+			min-height: 400px;
+			min-width:0px;
+			.contenedor{
+				margin-right: auto;
+				margin-left: auto;
+				@include box-sizing (border-box);
+				h1.big{
+					@include hiddenelement;
+				}
+				.portada{
+					h1{
+						@include hiddenelement;
+					}
+					margin-top:60px;
+					margin-bottom:60px;
+					.articulosLista{
+						.primero{
+							border-left: none;
+							margin-left: 0px;
+							padding-left: 0px;
+							border-bottom: 1px solid $borderGrey;
+							.textoArticulo{
+								hgroup{
+									padding-bottom:25px;
+									margin-bottom:25px;
+									border-bottom: 1px solid $borderGrey;
+									h3{
+										padding-top: 0px;
+										color: $colorTextoGrisOscuro;
+										font: $portadaFirstTitulo;
+										padding-bottom: 25px;
+									}
+									h4{
+										position: relative;
+										color: $colorTextoGrisOscuro;
+										font: $portadaFirstSubtitulo;
+									}
+								}
+								p{
+									color: $colorTextoGrisOscuro;
+									font: $portadaFirstBlurb;
+								}
+							}
+						}
+						article{
+							position: relative;
+							float: left;
+							border-left: 1px solid $borderGrey;
+							&:nth-child(2){
+								border-left: none;
+								margin-left: 0px;
+								padding-left: 0px;
+							}
+							&:last-child{
+								margin-right: 0px;
+								padding-right: 0px;
+							}
+							.textoArticulo{
+								h3{
+									color: $colorTextoGrisOscuro;
+									padding-top: 12px;
+									font: $portadaTitulo;
+									padding-bottom: 12px;
+								}
+								h4{
+									position: absolute;
+									bottom:0px;
+									color: $colorTextoGrisOscuro;
+									font: $portadaSubtitulo;
+								}
+							}
+							.imagenArticulo{
+								@include box-sizing (border-box);
+								margin: 0;
+								padding: 0;
+								a{
+									border-bottom:3px solid white;
+									@include imagestyle;
+									display: block;
+									margin: 0;
+									padding: 0;
+									overflow:hidden;
+									background-size: cover;
+								}
+							}
+						}
+					}
+				}
+				.categoria{
+					border-top: 1px solid $borderGrey;
+					&:last-child{
+						border-bottom: 1px solid $borderGrey;
+					}
+					.categoriaDescripcion{
+						float: left;
+						.descripcion{
+							position: relative;
+							margin-right:0px;
+							padding-right:0px;
+							hgroup{
+								margin-bottom:25px;
+								h1{
+									font: $categoriaTitulo;
+									color: $colorTextoGrisOscuro;
+									padding-bottom:25px;
+								}
+								h2{
+									font: $categoriaSubtitulo;
+									color: $colorTextoGrisOscuro;
+								}
+								border-bottom: 1px solid $borderGrey;
+							}
+							p{
+								font: $categoriaBlurb;
+								color: $colorTextoGrisOscuro;
+							}
+						}
+					}
+					.categoriaArticulos{
+						float: left;
+						.articulosLista{
+							article{
+								position: relative;
+								float: left;
+								border-left: 1px solid $borderGrey;
+								h3{
+									color: $colorTextoGrisOscuro;
+									padding-top: 12px;
+									font: $articuloTitulo;
+									padding-bottom: 12px;
+								}
+								h4{
+									color: $colorTextoGrisOscuro;
+									position: absolute;
+									bottom:0px;
+									font: $articuloSubtitulo;
+								}
+								.imagenArticulo{
+									@include box-sizing (border-box);
+									a{
+										border-bottom:3px solid white;
+										@include imagestyle;
+										display: block;
+										margin: 0;
+										padding: 0;
+										overflow:hidden;
+										background-size: cover;
+									}
+								}
+								&:first-child{
+									border-left: none;
+								}
+								&:last-child{
+									margin-right: 0px;
+									padding-right: 0px;
+								}
+							}
+						}
+					}
+					.categoriaPie{
+						width:100%;
+						display: table;
+						font: $articuloCaption;
+						color: $colorTextoGrisClaro;
+						.linkSubscripcion{
+							display: table-cell;
+							text-align: left;
+						}
+						.linkResto{
+							display: table-cell;
+							text-align: right;
+						}
+					}
+				}
+			}
+		}
+	} 
+}
+@mixin blogResponsive($totalWidth, $descriptionWidth, $columnWidth, $columnGap, $articleHeight){
+	body{
+		min-width: $totalWidth + $columnGap;
+		.contenedor{
+			width: $totalWidth;
+			
+			.portada{
+				width: $totalWidth;
+				.articulosLista{
+					width: $totalWidth;
+					.primero{
+						width: $totalWidth;
+						.textoArticulo{
+							width: ($totalWidth - $columnGap * 2)/3;
+							float:left;
+						}
+						.imagenArticulo{
+							float:right;
+							width:  (($totalWidth - $columnGap * 2) * 2/3) + $columnGap;
+							height: $articleHeight + $columnGap;
+							a{
+								width:  (($totalWidth - $columnGap * 2) * 2/3) + $columnGap;
+								height: $articleHeight + $columnGap;
+							}
+						}
+					}
+					article{
+						height: $articleHeight + $columnGap;
+						width: ($totalWidth - $columnGap * 2)/3 - 1px;
+						margin-left: $columnGap/2;
+						padding-left: $columnGap/2;
+						padding-top:$columnGap/2;
+						padding-bottom:$columnGap/2;
+						.imagenArticulo{
+							width:  ($totalWidth - $columnGap * 2)/3;
+							height: (($totalWidth - $columnGap * 2)/3) * 9/16;
+							a{
+								width:  ($totalWidth - $columnGap * 2)/3;
+								height: (($totalWidth - $columnGap * 2)/3) * 9/16;
+							}
+						}
+					}
+				}
+			}
+			.categoria{
+				width: $totalWidth;
+				padding-top: $columnGap;
+				.categoriaDescripcion{
+					.descripcion{
+						width: $descriptionWidth;
+						hgroup{
+							height: ($columnWidth)*2/3;
+						}
+					}
+				}
+				.categoriaArticulos{
+					width: ($columnWidth * 3) + ($columnGap * 3);
+					.articulosLista{
+						width: ($columnWidth * 3) + ($columnGap * 3);
+						article{
+							height: $articleHeight;
+							margin-left: $columnGap/2;
+							padding-left: $columnGap/2;
+							width: $columnWidth - 1px;
+							.imagenArticulo{
+								width:  $columnWidth;
+								height: ($columnWidth) *2/3;
+								a{
+									width:  $columnWidth;
+									height: ($columnWidth) *2/3;
+								}
+							}
+						}
+					}
+				}
+				.categoriaPie{
+					padding-top: $columnGap/2;
+					padding-bottom: $columnGap/2;
+				}
+			}
+		}
+	}
+}
+
+//Tablets
+@media (max-width: 989px) {
+	@include blogResponsive(728px, 200px, 140px, 36px, 260px);
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include blogResponsive(940px, 280px, 180px, 40px, 260px);
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include blogResponsive(1170px, 330px, 220px, 60px, 260px);
+}

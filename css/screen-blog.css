@@ -1,4 +1,4 @@
-/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -900,29 +900,29 @@ body footer .contenedor .credits p a:link:active, body footer .contenedor .credi
   zoom: 1;
 }
 
-/* line 22, ../sass/screen-portfolio.scss */
+/* line 38, ../sass/screen-blog.scss */
 a:link, a:visited, a:active {
   text-decoration: none;
   color: #393939;
 }
 
-/* line 42, ../sass/screen-portfolio.scss */
+/* line 58, ../sass/screen-blog.scss */
 html {
   height: 100%;
 }
-/* line 44, ../sass/screen-portfolio.scss */
+/* line 60, ../sass/screen-blog.scss */
 html body {
   background-image: url(/imagenes/background.png);
   background-repeat: repeat;
   background-color: #fafafa;
 }
-/* line 48, ../sass/screen-portfolio.scss */
+/* line 64, ../sass/screen-blog.scss */
 html body .cuerpoPagina {
   margin-top: 125px;
   min-height: 400px;
   min-width: 0px;
 }
-/* line 52, ../sass/screen-portfolio.scss */
+/* line 68, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor {
   margin-right: auto;
   margin-left: auto;
@@ -930,60 +930,98 @@ html body .cuerpoPagina .contenedor {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 56, ../sass/screen-portfolio.scss */
+/* line 72, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor h1.big {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 59, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos {
-  padding-top: 35px;
-  padding-bottom: 35px;
+/* line 75, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-/* line 62, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
-  height: 70px;
-  border-bottom: 1px solid #dadada;
-  padding-bottom: 15px;
+/* line 76, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 82, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista .primero {
+  border-left: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-bottom: 1px solid #bebebe;
+}
+/* line 88, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo hgroup {
+  padding-bottom: 25px;
   margin-bottom: 25px;
+  border-bottom: 1px solid #bebebe;
 }
-/* line 64, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .descripcion h2 {
-  margin-top: 10px;
-  margin-bottom: 14px;
-  font: 26px/30px "colaborativaMedium";
-  color: #393939;
-}
-/* line 70, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .descripcion p {
-  font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
-  color: #393939;
-}
-/* line 78, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
+/* line 92, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo hgroup h3 {
   padding-top: 0px;
-  margin-top: 15px;
+  color: #393939;
+  font: 24px/30px "colaborativasemibold";
+  padding-bottom: 25px;
 }
-/* line 81, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
-  border: none;
+/* line 98, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo hgroup h4 {
+  position: relative;
+  color: #393939;
+  font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 104, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo p {
+  color: #393939;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 110, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article {
+  position: relative;
+  float: left;
+  border-left: 1px solid #bebebe;
+}
+/* line 114, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article:nth-child(2) {
+  border-left: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+/* line 119, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+/* line 124, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article .textoArticulo h3 {
+  color: #393939;
+  padding-top: 12px;
+  font: 20px/24px "colaborativasemibold";
+  padding-bottom: 12px;
+}
+/* line 130, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article .textoArticulo h4 {
+  position: absolute;
+  bottom: 0px;
+  color: #393939;
+  font: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 137, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article .imagenArticulo {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 3px 0px 25px 0px;
-  margin: 0px;
-  float: left;
-  border-bottom-style: none;
+  margin: 0;
+  padding: 0;
 }
-/* line 88, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto {
-  margin: 0px;
-  margin-bottom: 15px;
-}
-/* line 90, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
+/* line 141, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .articulosLista article .imagenArticulo a {
+  border-bottom: 3px solid white;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -997,203 +1035,427 @@ html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Desta
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-size: cover;
 }
-/* line 96, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto h1 {
-  font: 18px/23px "colaborativasemibold";
+/* line 154, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria {
+  border-top: 1px solid #bebebe;
+}
+/* line 156, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria:last-child {
+  border-bottom: 1px solid #bebebe;
+}
+/* line 159, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion {
+  float: left;
+}
+/* line 161, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion {
+  position: relative;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+/* line 165, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #bebebe;
+}
+/* line 167, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion hgroup h1 {
+  font: 26px/30px "colaborativaMedium";
+  color: #393939;
+  padding-bottom: 25px;
+}
+/* line 172, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion hgroup h2 {
+  font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 100, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto h2 {
-  margin-top: 10px;
+/* line 178, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion p {
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 108, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
-  margin: 0px;
-}
-/* line 110, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
-  padding: 25px 0px 25px 0px;
-  margin: 0px;
-  border-top: 1px solid #dadada;
-  border-bottom: 1px solid #dadada;
+/* line 184, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos {
   float: left;
+}
+/* line 187, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article {
+  position: relative;
+  float: left;
+  border-left: 1px solid #bebebe;
+}
+/* line 191, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article h3 {
+  color: #393939;
+  padding-top: 12px;
+  font: 18px/23px "colaborativasemibold";
+  padding-bottom: 12px;
+}
+/* line 197, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article h4 {
+  color: #393939;
+  position: absolute;
+  bottom: 0px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 203, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 118, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto h1 {
-  font: 18px/23px "colaborativasemibold";
+/* line 205, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
+  border-bottom: 3px solid white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+  border: 3px solid white;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-size: cover;
 }
-/* line 121, ../sass/screen-portfolio.scss */
-html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto h2 {
-  margin-top: 10px;
-  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
-  color: #393939;
+/* line 215, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article:first-child {
+  border-left: none;
+}
+/* line 218, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+/* line 225, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaPie {
+  width: 100%;
+  display: table;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #898989;
+}
+/* line 230, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkSubscripcion {
+  display: table-cell;
+  text-align: left;
+}
+/* line 234, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkResto {
+  display: table-cell;
+  text-align: right;
 }
 
 @media (max-width: 989px) {
-  /* line 139, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina {
-    width: 100%;
+  /* line 245, ../sass/screen-blog.scss */
+  body {
+    min-width: 764px;
   }
-  /* line 141, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 708px;
-  }
-  /* line 144, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos {
-    margin-left: -20px;
-  }
-  /* line 146, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
-    margin-left: 20px;
-  }
-  /* line 149, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
+  /* line 247, ../sass/screen-blog.scss */
+  body .contenedor {
     width: 728px;
   }
-  /* line 151, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
-    width: 228px;
-    margin-left: 20px;
-    height: 310px;
-  }
-  /* line 158, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
-    width: 228px;
-    height: 128.25px;
-  }
-  /* line 163, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto {
-    width: 228px;
-  }
-  /* line 168, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
+  /* line 250, ../sass/screen-blog.scss */
+  body .contenedor .portada {
     width: 728px;
   }
-  /* line 170, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
-    width: 228px;
-    margin-left: 20px;
-    height: 157px;
+  /* line 252, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista {
+    width: 728px;
   }
-  /* line 174, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto {
-    width: 228px;
+  /* line 254, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero {
+    width: 728px;
+  }
+  /* line 256, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .textoArticulo {
+    width: 218.667px;
+    float: left;
+  }
+  /* line 260, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .imagenArticulo {
+    float: right;
+    width: 473.333px;
+    height: 296px;
+  }
+  /* line 264, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .imagenArticulo a {
+    width: 473.333px;
+    height: 296px;
+  }
+  /* line 270, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article {
+    height: 296px;
+    width: 217.667px;
+    margin-left: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  /* line 277, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article .imagenArticulo {
+    width: 218.667px;
+    height: 123px;
+  }
+  /* line 280, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article .imagenArticulo a {
+    width: 218.667px;
+    height: 123px;
+  }
+  /* line 288, ../sass/screen-blog.scss */
+  body .contenedor .categoria {
+    width: 728px;
+    padding-top: 36px;
+  }
+  /* line 292, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaDescripcion .descripcion {
+    width: 200px;
+  }
+  /* line 294, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
+    height: 93.333px;
+  }
+  /* line 299, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos {
+    width: 528px;
+  }
+  /* line 301, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista {
+    width: 528px;
+  }
+  /* line 303, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article {
+    height: 260px;
+    margin-left: 18px;
+    padding-left: 18px;
+    width: 139px;
+  }
+  /* line 308, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
+    width: 140px;
+    height: 93.333px;
+  }
+  /* line 311, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
+    width: 140px;
+    height: 93.333px;
+  }
+  /* line 319, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaPie {
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
 }
 @media (min-width: 990px) {
-  /* line 139, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina {
-    width: 100%;
+  /* line 245, ../sass/screen-blog.scss */
+  body {
+    min-width: 980px;
   }
-  /* line 141, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  /* line 247, ../sass/screen-blog.scss */
+  body .contenedor {
     width: 940px;
   }
-  /* line 144, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos {
-    margin-left: -20px;
+  /* line 250, ../sass/screen-blog.scss */
+  body .contenedor .portada {
+    width: 940px;
   }
-  /* line 146, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
+  /* line 252, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista {
+    width: 940px;
+  }
+  /* line 254, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero {
+    width: 940px;
+  }
+  /* line 256, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .textoArticulo {
+    width: 286.667px;
+    float: left;
+  }
+  /* line 260, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .imagenArticulo {
+    float: right;
+    width: 613.333px;
+    height: 300px;
+  }
+  /* line 264, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .imagenArticulo a {
+    width: 613.333px;
+    height: 300px;
+  }
+  /* line 270, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article {
+    height: 300px;
+    width: 285.667px;
     margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  /* line 149, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
-    width: 960px;
+  /* line 277, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article .imagenArticulo {
+    width: 286.667px;
+    height: 161.25px;
   }
-  /* line 151, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
-    width: 300px;
+  /* line 280, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article .imagenArticulo a {
+    width: 286.667px;
+    height: 161.25px;
+  }
+  /* line 288, ../sass/screen-blog.scss */
+  body .contenedor .categoria {
+    width: 940px;
+    padding-top: 40px;
+  }
+  /* line 292, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaDescripcion .descripcion {
+    width: 280px;
+  }
+  /* line 294, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
+    height: 120px;
+  }
+  /* line 299, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos {
+    width: 660px;
+  }
+  /* line 301, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista {
+    width: 660px;
+  }
+  /* line 303, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article {
+    height: 260px;
     margin-left: 20px;
-    height: 310px;
+    padding-left: 20px;
+    width: 179px;
   }
-  /* line 158, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
-    width: 300px;
-    height: 168.75px;
+  /* line 308, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
+    width: 180px;
+    height: 120px;
   }
-  /* line 163, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto {
-    width: 300px;
+  /* line 311, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
+    width: 180px;
+    height: 120px;
   }
-  /* line 168, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
-    width: 960px;
-  }
-  /* line 170, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
-    width: 300px;
-    margin-left: 20px;
-    height: 157px;
-  }
-  /* line 174, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto {
-    width: 300px;
+  /* line 319, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaPie {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 139, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina {
-    width: 100%;
+  /* line 245, ../sass/screen-blog.scss */
+  body {
+    min-width: 1230px;
   }
-  /* line 141, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  /* line 247, ../sass/screen-blog.scss */
+  body .contenedor {
     width: 1170px;
   }
-  /* line 144, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos {
-    margin-left: -30px;
+  /* line 250, ../sass/screen-blog.scss */
+  body .contenedor .portada {
+    width: 1170px;
   }
-  /* line 146, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
+  /* line 252, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista {
+    width: 1170px;
+  }
+  /* line 254, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero {
+    width: 1170px;
+  }
+  /* line 256, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .textoArticulo {
+    width: 350px;
+    float: left;
+  }
+  /* line 260, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .imagenArticulo {
+    float: right;
+    width: 760px;
+    height: 320px;
+  }
+  /* line 264, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista .primero .imagenArticulo a {
+    width: 760px;
+    height: 320px;
+  }
+  /* line 270, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article {
+    height: 320px;
+    width: 349px;
     margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-  /* line 149, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
-    width: 1200px;
+  /* line 277, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article .imagenArticulo {
+    width: 350px;
+    height: 196.875px;
   }
-  /* line 151, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
-    width: 370px;
+  /* line 280, ../sass/screen-blog.scss */
+  body .contenedor .portada .articulosLista article .imagenArticulo a {
+    width: 350px;
+    height: 196.875px;
+  }
+  /* line 288, ../sass/screen-blog.scss */
+  body .contenedor .categoria {
+    width: 1170px;
+    padding-top: 60px;
+  }
+  /* line 292, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaDescripcion .descripcion {
+    width: 330px;
+  }
+  /* line 294, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
+    height: 146.667px;
+  }
+  /* line 299, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos {
+    width: 840px;
+  }
+  /* line 301, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista {
+    width: 840px;
+  }
+  /* line 303, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article {
+    height: 260px;
     margin-left: 30px;
-    height: 350px;
+    padding-left: 30px;
+    width: 219px;
   }
-  /* line 158, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
-    width: 370px;
-    height: 208.125px;
+  /* line 308, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
+    width: 220px;
+    height: 146.667px;
   }
-  /* line 163, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto {
-    width: 370px;
+  /* line 311, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
+    width: 220px;
+    height: 146.667px;
   }
-  /* line 168, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
-    width: 1200px;
-  }
-  /* line 170, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
-    width: 370px;
-    margin-left: 30px;
-    height: 157px;
-  }
-  /* line 174, ../sass/screen-portfolio.scss */
-  html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto {
-    width: 370px;
+  /* line 319, ../sass/screen-blog.scss */
+  body .contenedor .categoria .categoriaPie {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
