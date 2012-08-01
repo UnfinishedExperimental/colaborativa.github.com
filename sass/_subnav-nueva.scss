@@ -82,28 +82,10 @@ $navbar-button-pressed: #d8d8d8;
 		}
 	}
 }
-/* changes aspect on phone screen */
 
-@media (max-width: 767px) {
-	.subnav{
-		.nav {
-			li{
-				width:100%;
-				float: none;
-				a{
-					border-right: 0px;
-					&:link, &:visited, &:active{
-					}
-				}
-				&:last-child > a {
-					border-bottom: 0px;
-				}
-			}
-		}
-	}
-}
-/* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
-@media (min-width: 980px) {
+
+/* Fixed subnav on scroll, but only for 990px and up (sorry IE!) */
+@media (min-width: 990px) {
 	.subnav.fixed {
 		position: fixed;
 		top: 50px;

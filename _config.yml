@@ -7,7 +7,7 @@ version: 1.0
 titulo: Colaborativa
 subtitulo: { es: Estrategias y herramientas para transformar ciudades, en: Strategies and tools for transforming cities}
 navegacion: { es: Navegación principal, en: Main navigation}
-navegacion-blog: { es: Artículos, en: Articles}
+navegacion-blog: { es: Artículos, en: Articles, url: blog }
 navegacion-proyectos: { es: Proyectos, en: Projects}
 navegacion-equipo: { es: Colaborativos, en: Colaborativos}
 navegacion-herramientas: { es: Herramientas, en: Tools}
