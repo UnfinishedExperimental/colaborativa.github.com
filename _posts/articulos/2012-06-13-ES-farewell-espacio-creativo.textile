@@ -14,8 +14,9 @@ autores:
  - javi-buron
 
 categorias:
- - espacio-creativo-cordoba
  - ciudad-para-todos
+ - espacio-creativo-cordoba
+
 
 
 relacionados:

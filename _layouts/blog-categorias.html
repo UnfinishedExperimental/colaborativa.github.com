@@ -3,11 +3,44 @@
 	<head>
 		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
-		<link href="/css/screen-blog.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<link href="/css/screen-blog-categorias.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	</head>
-	<body>
-		{{ page.title.es }}
-		{{ page.subtitulo.es }}
-		{{ page.descripcion.es }}
+	<body class="{{ page.template }}">
+		{% include _header-responsive.html %}
+		<section class="cuerpoPagina">
+			<div class="contenedor">
+				<div class="contenedorPoster">
+					<div class="posterProyecto" style="background: url(/imagenes/proyectos/{{ page.slug }}-poster.jpg) center center no-repeat"></div>
+				</div>
+				<div class="categoria clearfix">
+					<div class="descripcion">
+						<hgroup>
+							<h1>{{ page.title.es }}</h1>
+							<h2>{{ page.subtitulo.es }}</h2>
+							<h3>{{ page.subscripcion.es }}</h3>
+						</hgroup>
+						<p>{{ page.descripcion.es }}</p>
+					</div>
+					<div>
+					{% for item in site.categories.articulos %}
+							{% if item.categorias.[0] == page.slug %}
+								<article class="articuloBlog">
+									<div class="imagenArticulo">
+										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+									</div>
+									<div class="textoArticulo">
+										<hgroup>
+											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+											<h4>{{ item.subtitulo }} </h4>
+										</hgroup>
+									</div>
+								</article>
+						{% endif %}
+					{% endfor %}
+					</div>
+				</div>
+			</div>
+		</section>
+		{% include _footer-responsive.html %}
 	</body>
 </html>
