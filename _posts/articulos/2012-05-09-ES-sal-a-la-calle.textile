@@ -14,9 +14,9 @@ autores:
  - javi-buron
 
 categorias:
- - dosymedio
- - colaborativa
+ - ciudad-para-todos
  - janes-walk-cordoba
+ - colaborativa
 
 relacionados:
  - janes-city

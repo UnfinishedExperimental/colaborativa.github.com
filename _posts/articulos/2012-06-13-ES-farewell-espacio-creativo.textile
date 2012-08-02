@@ -14,8 +14,9 @@ autores:
  - javi-buron
 
 categorias:
- - espacio-creativo
  - espacio-creativo-cordoba
+ - ciudad-para-todos
+
 
 relacionados:
  - cambio-prioridades

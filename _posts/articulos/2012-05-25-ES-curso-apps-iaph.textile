@@ -14,8 +14,9 @@ autores:
  - magda-sanchez
 
 categorias:
- - localwiz
  - colaborativa
+ - localwiz
+
 
 relacionados:
  - presentacion-localwiz
