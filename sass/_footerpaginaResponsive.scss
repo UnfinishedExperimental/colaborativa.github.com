@@ -14,231 +14,169 @@ $textoEnlaces: 14px/14px "DroidSansRegular", Arial, Helvetica, Geneva, sans-seri
 $iconosEnlaces: 30px "colaborativa-icons";
 $textoCreditos:12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 
-//
-// Version del pie de pagina para fondos oscuros //
-//
-
-body.oscuro{
-	.footerGradient{
-		@include background(linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.7)));
-	}
-	footer{
-		background-color:rgba(0,0,0,0.7);
-			a:link{
-			color:$colorTextoBlanco;
-			border:none;
-		}
-		.contenedor {
-			.datosContacto{
-				p{
-					a:link, a:visited{
-						color:$colorTextoBlanco;
-						&:hover{
-							color:$colorTextoBlanco;
-						}
-						&:active{
-							color:$colorTextoBlanco;
-						}
-					}
-				}
-			}
-			.enlacesExternos{
-				.enlacesSociales {
-					a:link, a:visited{
-						color:$colorTextoBlanco;
-						opacity:0.6;
-						&:hover{
-							color:$colorTextoBlanco;
-							opacity:0.8;
-						}
-						&:active{
-							color:$colorTextoBlanco;
-							opacity:0.8;
-						}
-					}
-				}
-			}
-			.credits{
-				p{
-					color:$colorTextoBlanco;
-					opacity:0.6;
-					a:link, a:visited{
-						color:$colorTextoBlanco;
-						opacity:0.8;
-						&:hover{
-							color:$colorTextoBlanco;
-							opacity:1;
-						}
-						&:active{
-							color:$colorTextoBlanco;
-							opacity:1;
-						}
-					}
-				}
-			}
-		}
-	}
-}
 
 //
 // Version del pie general //
 //
-
-body{
-	.footerGradient{
-		width:100%;
-		@include background(linear-gradient(rgba(210,210,210,0.0),rgba(210,210,210,0.7)));
-		@include box-sizing (border-box);
-		padding:0px;
-		margin: 0px;
-		height: 90px;
-		clear:both;
-		z-index:50;
-	}
-	footer{
-		z-index:50;
-		background-color:rgba(210,210,210,0.7);
-		a:link{
-			color:$colorTextoGrisOscuro;
-			border:none;
-		}
-		.contenedor{
-			margin: auto;
-			padding-bottom:50px;
-			.datosContacto{
-				display: table;
+@mixin templateFooter($templateNombre, $colorTexto, $colorFondoInicio, $colorFondoFin){
+	html{	
+		body.#{$templateNombre}{
+			.footerGradient{
 				width:100%;
-				.emailTelAddress{
-					display:table-cell;
-				}
-				.anade{
-					display:table-cell;
-				}
-				p{
-					font: $textoContacto;
-					a:link, a:visited{
-						color:$colorTextoGrisOscuro;
-						opacity:0.8;
-						&:hover{
-							color:$colorTextoGrisOscuro;
-							opacity:1;
-						}
-						&:active{
-							color:$colorTextoGrisOscuro;
-							opacity:1;
-						}
-					}
-					a:before, a:after{
-						font: $iconosContacto;
-						padding-right: 0px;
-						position: relative;
-						top: 4px;
-					}
-					a.mail:before{
-						content: "\f002";
-					}
-					a.tel:before{
-						content: "\f004";
-					}
-					a.address:before{
-						content: "\f001";
-					}
-					a.anade:after{
-						content: "\f041";
-					}
-				}
+				@include background(linear-gradient($colorFondoInicio, $colorFondoFin));
+				@include box-sizing (border-box);
+				padding:0px;
+				margin: 0px;
+				height: 90px;
+				clear:both;
+				z-index:50;
 			}
-			.enlacesExternos{
-				padding:20px 0px 24px 0px;
-				display:table;
-				margin: auto;
-				.enlacesSociales {
-					display: inline-block;
-					@include box-sizing (border-box);
-					padding:0px;
-					margin:0px;
-					&:first-child{
-					margin-right:50px;
-					}
-					&:last-child{
-					margin-left:50px;
-					}
-					 div{
-						display: inline-block;
-						width: 100px;
-						@include box-sizing (border-box);
-						padding:0px;
-						margin:0px;
-					}
-					a:link, a:visited{
-						color:$colorTextoGrisOscuro;
-						opacity:0.6;
-						&:hover{
-							color:$colorTextoGrisOscuro;
-							opacity:0.8;
-						}
-						&:active{
-							color:$colorTextoGrisOscuro;
-							opacity:0.8;
-						}
-					}
-					a.enlaceExterno{
-						font: $textoEnlaces;
-						width:100px;
-						display:block;
-					}
-					a.enlaceExterno.sociales{
-						text-align: left;
-					}
-					a.enlaceExterno.recursos{
-						text-align: right;
-					}
-					a.enlaceExterno.sociales:before, a.enlaceExterno.recursos:after{
-						font: $iconosEnlaces;
-						padding-right: 0px;
-						position: relative;
-						top: 4px;
-					}
-					a.enlaceExterno[href*='twitter.com']:before{
-						content: "\f028";
-					}
-					a.enlaceExterno[href*='facebook.com']:before{
-						content: "\f023";
-					}
-					a.enlaceExterno[href*='linkedin.com']:before{
-						content: "\f027";
-					}
-					a.enlaceExterno[href*='youtube.com']:after{
-						content: "\f029";
-					}
-					a.enlaceExterno[href*='github.com']:after{
-						content: "\f006";
-					}
-					a.enlaceExterno[href*='flickr.com']:after{
-						content: "\f024";
-					}
-					a.enlaceExterno[href*='issuu.com']:after{
-						content: "\f026";
-					}
+			footer{
+				z-index:50;
+				background-color: $colorFondoFin;
+				a:link, a:visited, a:active {
+					color:$colorTexto;
+					text-decoration:none;
 				}
-			}
-			.credits{
-				height:32px;
-				p{
-					font: $textoCreditos;
-					text-align: center;
-					color:$colorTextoGrisOscuro;
-					opacity:0.6;
-					a:link, a:visited{
-						color:$colorTextoGrisOscuro;
-						opacity:0.8;
-						&:hover{
-							color:$colorTextoGrisOscuro;
-							opacity:1;
+				.contenedor{
+					margin: auto;
+					padding-bottom:50px;
+					.datosContacto{
+						display: table;
+						width:100%;
+						.emailTelAddress{
+							display:table-cell;
 						}
-						&:active{
-							color:$colorTextoGrisOscuro;
-							opacity:1;
+						.anade{
+							display:table-cell;
+						}
+						p{
+							font: $textoContacto;
+							a:link, a:visited{
+								color:$colorTexto;
+								opacity:0.8;
+								&:hover{
+									color:$colorTexto;
+									opacity:1;
+								}
+								&:active{
+									color:$colorTexto;
+									opacity:1;
+								}
+							}
+							a:before, a:after{
+								font: $iconosContacto;
+								padding-right: 0px;
+								position: relative;
+								top: 4px;
+							}
+							a.mail:before{
+								content: "\f002";
+							}
+							a.tel:before{
+								content: "\f004";
+							}
+							a.address:before{
+								content: "\f001";
+							}
+							a.anade:after{
+								content: "\f041";
+							}
+						}
+					}
+					.enlacesExternos{
+						padding:20px 0px 24px 0px;
+						display:table;
+						margin: auto;
+						.enlacesSociales {
+							display: inline-block;
+							@include box-sizing (border-box);
+							padding:0px;
+							margin:0px;
+							&:first-child{
+							margin-right:50px;
+							}
+							&:last-child{
+							margin-left:50px;
+							}
+							 div{
+								display: inline-block;
+								width: 100px;
+								@include box-sizing (border-box);
+								padding:0px;
+								margin:0px;
+							}
+							a:link, a:visited{
+								color:$colorTexto;
+								opacity:0.6;
+								&:hover{
+									color:$colorTexto;
+									opacity:0.8;
+								}
+								&:active{
+									color:$colorTexto;
+									opacity:0.8;
+								}
+							}
+							a.enlaceExterno{
+								font: $textoEnlaces;
+								width:100px;
+								display:block;
+							}
+							a.enlaceExterno.sociales{
+								text-align: left;
+							}
+							a.enlaceExterno.recursos{
+								text-align: right;
+							}
+							a.enlaceExterno.sociales:before, a.enlaceExterno.recursos:after{
+								font: $iconosEnlaces;
+								padding-right: 0px;
+								position: relative;
+								top: 4px;
+							}
+							a.enlaceExterno[href*='twitter.com']:before{
+								content: "\f028";
+							}
+							a.enlaceExterno[href*='facebook.com']:before{
+								content: "\f023";
+							}
+							a.enlaceExterno[href*='linkedin.com']:before{
+								content: "\f027";
+							}
+							a.enlaceExterno[href*='youtube.com']:after{
+								content: "\f029";
+							}
+							a.enlaceExterno[href*='github.com']:after{
+								content: "\f006";
+							}
+							a.enlaceExterno[href*='flickr.com']:after{
+								content: "\f024";
+							}
+							a.enlaceExterno[href*='issuu.com']:after{
+								content: "\f026";
+							}
+						}
+					}
+					.credits{
+						height:32px;
+						p{
+							font: $textoCreditos;
+							text-align: center;
+							color:$colorTexto;
+							opacity:0.6;
+							a:link, a:visited{
+								color:$colorTexto;
+								opacity:0.8;
+								&:hover{
+									color:$colorTexto;
+									opacity:1;
+								}
+								&:active{
+									color:$colorTexto;
+									opacity:1;
+								}
+							}
 						}
 					}
 				}
@@ -246,6 +184,10 @@ body{
 		}
 	}
 }
+
+
+@include templateFooter(light, #393939, rgba(210,210,210,0.0), rgba(210,210,210,0.7));
+@include templateFooter(dark, white, rgba(0,0,0,0.0), rgba(0,0,0,0.7));
 
 //
 // Mixing para responsive layout //

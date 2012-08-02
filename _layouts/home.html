@@ -7,7 +7,7 @@
 		<link href="/css/screen-home.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		{% include _scripts-home-top.html %}
 	</head>
-	<body class="">
+	<body class="light">
 		{% include _header-responsive.html %}
 		<div class="contenedorHome">
 			<div class="contenedorPoster">
@@ -19,9 +19,9 @@
 						{% if proyecto.language == page.language %}
 							{% if proyecto.en-cabecera %}
 								{% if forloop.first %}
-								<li class="activo"><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								<li class="activo"><a template="{{ proyecto.template }}" href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
 								{% else %}
-								<li><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								<li><a template="{{ proyecto.template }}" href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
 								{% endif %}
 							{% endif %}
 						{% endif %}
