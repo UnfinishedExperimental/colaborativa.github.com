@@ -1124,18 +1124,18 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
     width: 1170px;
   }
 }
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_clearfix.scss */
+/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_clearfix.scss */
+/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_clearfix.scss */
+/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
 .clearfix {
   zoom: 1;
 }
@@ -1146,23 +1146,23 @@ a:link, a:visited, a:active {
   color: #393939;
 }
 
-/* line 42, ../sass/screen-portfolio.scss */
+/* line 36, ../sass/screen-portfolio.scss */
 html {
   height: 100%;
 }
-/* line 44, ../sass/screen-portfolio.scss */
+/* line 38, ../sass/screen-portfolio.scss */
 html body {
   background-image: url(/imagenes/background.png);
   background-repeat: repeat;
   background-color: #fafafa;
 }
-/* line 48, ../sass/screen-portfolio.scss */
+/* line 42, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina {
   margin-top: 125px;
   min-height: 400px;
   min-width: 0px;
 }
-/* line 52, ../sass/screen-portfolio.scss */
+/* line 46, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor {
   margin-right: auto;
   margin-left: auto;
@@ -1170,43 +1170,43 @@ html body .cuerpoPagina .contenedor {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 56, ../sass/screen-portfolio.scss */
+/* line 50, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor h1.big {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 59, ../sass/screen-portfolio.scss */
+/* line 53, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-/* line 62, ../sass/screen-portfolio.scss */
+/* line 56, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
   height: 70px;
   border-bottom: 1px solid #dadada;
   padding-bottom: 15px;
   margin-bottom: 25px;
 }
-/* line 64, ../sass/screen-portfolio.scss */
+/* line 58, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .descripcion h2 {
   margin-top: 10px;
   margin-bottom: 14px;
   font: 26px/30px "colaborativaMedium";
   color: #393939;
 }
-/* line 70, ../sass/screen-portfolio.scss */
+/* line 64, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .descripcion p {
   font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 78, ../sass/screen-portfolio.scss */
+/* line 72, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
   padding-top: 0px;
   margin-top: 15px;
 }
-/* line 81, ../sass/screen-portfolio.scss */
+/* line 75, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
   border: none;
   -webkit-box-sizing: border-box;
@@ -1217,12 +1217,12 @@ html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Desta
   float: left;
   border-bottom-style: none;
 }
-/* line 88, ../sass/screen-portfolio.scss */
+/* line 82, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto {
   margin: 0px;
   margin-bottom: 15px;
 }
-/* line 90, ../sass/screen-portfolio.scss */
+/* line 84, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1238,22 +1238,22 @@ html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Desta
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
-/* line 96, ../sass/screen-portfolio.scss */
+/* line 90, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto h1 {
   font: 18px/23px "colaborativasemibold";
   color: #393939;
 }
-/* line 100, ../sass/screen-portfolio.scss */
+/* line 94, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto h2 {
   margin-top: 10px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 108, ../sass/screen-portfolio.scss */
+/* line 102, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
   margin: 0px;
 }
-/* line 110, ../sass/screen-portfolio.scss */
+/* line 104, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
   padding: 25px 0px 25px 0px;
   margin: 0px;
@@ -1264,11 +1264,11 @@ html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secun
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 118, ../sass/screen-portfolio.scss */
+/* line 112, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto h1 {
   font: 18px/23px "colaborativasemibold";
 }
-/* line 121, ../sass/screen-portfolio.scss */
+/* line 115, ../sass/screen-portfolio.scss */
 html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto h2 {
   margin-top: 10px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
@@ -1276,163 +1276,163 @@ html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secun
 }
 
 @media (max-width: 989px) {
-  /* line 139, ../sass/screen-portfolio.scss */
+  /* line 133, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina {
     width: 100%;
   }
-  /* line 141, ../sass/screen-portfolio.scss */
+  /* line 135, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 708px;
   }
-  /* line 144, ../sass/screen-portfolio.scss */
+  /* line 138, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos {
     margin-left: -20px;
   }
-  /* line 146, ../sass/screen-portfolio.scss */
+  /* line 140, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
     margin-left: 20px;
   }
-  /* line 149, ../sass/screen-portfolio.scss */
+  /* line 143, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
     width: 728px;
   }
-  /* line 151, ../sass/screen-portfolio.scss */
+  /* line 145, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
     width: 228px;
     margin-left: 20px;
     height: 310px;
   }
-  /* line 158, ../sass/screen-portfolio.scss */
+  /* line 152, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
     width: 228px;
     height: 128.25px;
   }
-  /* line 163, ../sass/screen-portfolio.scss */
+  /* line 157, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto {
     width: 228px;
   }
-  /* line 168, ../sass/screen-portfolio.scss */
+  /* line 162, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
     width: 728px;
   }
-  /* line 170, ../sass/screen-portfolio.scss */
+  /* line 164, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
     width: 228px;
     margin-left: 20px;
     height: 157px;
   }
-  /* line 174, ../sass/screen-portfolio.scss */
+  /* line 168, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto {
     width: 228px;
   }
 }
 @media (min-width: 990px) {
-  /* line 139, ../sass/screen-portfolio.scss */
+  /* line 133, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina {
     width: 100%;
   }
-  /* line 141, ../sass/screen-portfolio.scss */
+  /* line 135, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 940px;
   }
-  /* line 144, ../sass/screen-portfolio.scss */
+  /* line 138, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos {
     margin-left: -20px;
   }
-  /* line 146, ../sass/screen-portfolio.scss */
+  /* line 140, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
     margin-left: 20px;
   }
-  /* line 149, ../sass/screen-portfolio.scss */
+  /* line 143, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
     width: 960px;
   }
-  /* line 151, ../sass/screen-portfolio.scss */
+  /* line 145, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
     width: 300px;
     margin-left: 20px;
     height: 310px;
   }
-  /* line 158, ../sass/screen-portfolio.scss */
+  /* line 152, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
     width: 300px;
     height: 168.75px;
   }
-  /* line 163, ../sass/screen-portfolio.scss */
+  /* line 157, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto {
     width: 300px;
   }
-  /* line 168, ../sass/screen-portfolio.scss */
+  /* line 162, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
     width: 960px;
   }
-  /* line 170, ../sass/screen-portfolio.scss */
+  /* line 164, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
     width: 300px;
     margin-left: 20px;
     height: 157px;
   }
-  /* line 174, ../sass/screen-portfolio.scss */
+  /* line 168, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto {
     width: 300px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 139, ../sass/screen-portfolio.scss */
+  /* line 133, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina {
     width: 100%;
   }
-  /* line 141, ../sass/screen-portfolio.scss */
+  /* line 135, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 1170px;
   }
-  /* line 144, ../sass/screen-portfolio.scss */
+  /* line 138, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos {
     margin-left: -30px;
   }
-  /* line 146, ../sass/screen-portfolio.scss */
+  /* line 140, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .descripcion {
     margin-left: 30px;
   }
-  /* line 149, ../sass/screen-portfolio.scss */
+  /* line 143, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados {
     width: 1200px;
   }
-  /* line 151, ../sass/screen-portfolio.scss */
+  /* line 145, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto {
     width: 370px;
     margin-left: 30px;
     height: 350px;
   }
-  /* line 158, ../sass/screen-portfolio.scss */
+  /* line 152, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .imagenProyecto img {
     width: 370px;
     height: 208.125px;
   }
-  /* line 163, ../sass/screen-portfolio.scss */
+  /* line 157, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Destacados .proyecto .infoProyecto {
     width: 370px;
   }
-  /* line 168, ../sass/screen-portfolio.scss */
+  /* line 162, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios {
     width: 1200px;
   }
-  /* line 170, ../sass/screen-portfolio.scss */
+  /* line 164, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto {
     width: 370px;
     margin-left: 30px;
     height: 157px;
   }
-  /* line 174, ../sass/screen-portfolio.scss */
+  /* line 168, ../sass/screen-portfolio.scss */
   html body .cuerpoPagina .contenedor .seccionProyectos .proyectos.Portfolio.Secundarios .proyecto .infoProyecto {
     width: 370px;
   }

@@ -4,7 +4,7 @@
 @import "compass/utilities/general/clearfix";
 @import "fonts/fontfaces";
 @import "_cabecerapaginaResponsive";
-@import "_clearfix";
+@import "_general";
 
 $paginaTitulo: 35px/20px "colaborativaLight";
 $seccionTitulo: 24px/20px "colaborativaMedium";
@@ -40,11 +40,7 @@ a:link, a:visited, a:active{
 	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
 }
 
-@mixin hiddenelement{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
-	  clip: rect(1px, 1px, 1px, 1px);
-}
+
 
 
 a{

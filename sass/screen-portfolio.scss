@@ -6,7 +6,7 @@
 @import "_cabecerapaginaResponsive";
 @import "_footerpaginaResponsive";
 @import "_subnav-nueva";
-@import "_clearfix";
+@import "_general";
 
 $colorTextoGrisOscuro: #393939;
 $colorTextoGrisClaro: #898989;
@@ -31,12 +31,6 @@ a:link, a:visited, a:active{
 	border: 3px solid white;
 	@include border-radius(2px, 2px);
 	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
-}
-
-@mixin hiddenelement{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
-	  clip: rect(1px, 1px, 1px, 1px);
 }
 
 html{

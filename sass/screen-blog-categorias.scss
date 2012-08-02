@@ -6,7 +6,7 @@
 @import "_cabecerapaginaResponsive";
 @import "_footerpaginaResponsive";
 @import "_subnav-nueva";
-@import "_clearfix";
+@import "_general";
 
 $categoriaTitulo: 26px/30px "colaborativaMedium";
 $categoriaSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
@@ -33,7 +33,6 @@ $articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans
 }
 
 @mixin templateSite($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
-
 	html{
 		height: 100%;
 		body.#{$templateNombre} {
