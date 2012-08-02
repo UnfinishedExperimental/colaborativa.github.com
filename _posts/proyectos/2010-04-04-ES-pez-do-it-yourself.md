@@ -11,6 +11,7 @@ subtitulo: "Diseño participativo a través de una App Web que construye diversi
 descripcion: Pez do-it-yourself Scalae
 descripcion-link-externo:
 en-cabecera: no
+template: light
 inicio: descripcion
 
 colaboradores:

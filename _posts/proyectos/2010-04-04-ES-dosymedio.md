@@ -11,6 +11,7 @@ subtitulo: "Tertulia gráfica sobre temas de actualidad urbana en Córdoba"
 descripcion: Descripción dosymedio
 descripcion-link-externo:
 en-cabecera: no
+template: light
 inicio: descripcion
 
 colaboradores:

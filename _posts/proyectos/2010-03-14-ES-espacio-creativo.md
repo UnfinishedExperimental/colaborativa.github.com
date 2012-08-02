@@ -11,6 +11,7 @@ subtitulo: Espacios de trabajo para las industrias creativas
 descripcion: Descripción espacio creativo
 descripcion-link-externo: http://janeswalk.net/
 en-cabecera: yes
+template: dark
 inicio: descripcion
 
 colaboradores:

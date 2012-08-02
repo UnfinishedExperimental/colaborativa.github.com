@@ -12,6 +12,7 @@ subtitulo: "¡Sal a la calle y anda ya!"
 descripcion: Los paseos urbanos Jane’s Walk surgieron como homenaje a la figura e ideas de la escritora y activista estadounidense "Jane Jacobs"
 descripcion-link-externo: http://janeswalk.net/
 en-cabecera: yes
+template: light
 inicio: imagenes
 
 colaboradores:

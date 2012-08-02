@@ -11,6 +11,7 @@ subtitulo: "Una convocatoria anual abierta a creativos locales para que nos cuen
 descripcion: Descripción ¿Qué estás haciendo?
 descripcion-link-externo:
 en-cabecera: no
+template: light
 inicio: descripcion
 extension: gif
 

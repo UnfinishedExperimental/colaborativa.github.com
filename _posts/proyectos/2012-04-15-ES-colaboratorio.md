@@ -11,6 +11,7 @@ subtitulo: "Espacio de cultura abierta en torno al arte la ciencia y la tecnolog
 descripcion: Descripción colaboratorio
 descripcion-link-externo: http://www.colaboratorio.colaborativa.eu
 en-cabecera: yes
+template: dark
 inicio: descripcion
 
 colaboradores:

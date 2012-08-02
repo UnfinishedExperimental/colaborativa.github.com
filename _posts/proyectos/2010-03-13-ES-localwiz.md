@@ -11,6 +11,7 @@ subtitulo: "Tu guía móvil para descubrir la ciudad"
 descripcion: Descripción localwiz
 descripcion-link-externo: http://www.cordoba.localwiz.eu
 en-cabecera: no
+template: light
 inicio: descripcion
 
 colaboradores:
