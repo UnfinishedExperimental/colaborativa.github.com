@@ -71,7 +71,6 @@ html{
 						@include hiddenelement;
 					}
 					margin-top:60px;
-					margin-bottom:60px;
 					.articulosLista{
 						.primero{
 							border-left: none;
@@ -142,6 +141,22 @@ html{
 									background-size: cover;
 								}
 							}
+						}
+					}
+					.portadaPie{
+						margin-top:60px;
+						margin-bottom:30px;
+						width:100%;
+						display: table;
+						font: $articuloCaption;
+						color: $colorTextoGrisClaro;
+						.linkSubscripcion{
+							display: table-cell;
+							text-align: left;
+						}
+						.linkResto{
+							display: table-cell;
+							text-align: right;
 						}
 					}
 				}

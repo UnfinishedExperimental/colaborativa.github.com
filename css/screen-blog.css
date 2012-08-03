@@ -1180,7 +1180,6 @@ html body .cuerpoPagina .contenedor h1.big {
 /* line 69, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada {
   margin-top: 60px;
-  margin-bottom: 60px;
 }
 /* line 70, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada h1 {
@@ -1189,69 +1188,69 @@ html body .cuerpoPagina .contenedor .portada h1 {
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 76, ../sass/screen-blog.scss */
+/* line 75, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista .primero {
   border-left: none;
   margin-left: 0px;
   padding-left: 0px;
   border-bottom: 1px solid #bebebe;
 }
-/* line 82, ../sass/screen-blog.scss */
+/* line 81, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo hgroup {
   padding-bottom: 25px;
   margin-bottom: 25px;
   border-bottom: 1px solid #bebebe;
 }
-/* line 86, ../sass/screen-blog.scss */
+/* line 85, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo hgroup h3 {
   padding-top: 0px;
   color: #393939;
   font: 24px/30px "colaborativasemibold";
   padding-bottom: 25px;
 }
-/* line 92, ../sass/screen-blog.scss */
+/* line 91, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo hgroup h4 {
   position: relative;
   color: #393939;
   font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 98, ../sass/screen-blog.scss */
+/* line 97, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista .primero .textoArticulo p {
   color: #393939;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 104, ../sass/screen-blog.scss */
+/* line 103, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article {
   position: relative;
   float: left;
   border-left: 1px solid #bebebe;
 }
-/* line 108, ../sass/screen-blog.scss */
+/* line 107, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article:nth-child(2) {
   border-left: none;
   margin-left: 0px;
   padding-left: 0px;
 }
-/* line 113, ../sass/screen-blog.scss */
+/* line 112, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article:last-child {
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 118, ../sass/screen-blog.scss */
+/* line 117, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article .textoArticulo h3 {
   color: #393939;
   padding-top: 12px;
   font: 20px/24px "colaborativasemibold";
   padding-bottom: 12px;
 }
-/* line 124, ../sass/screen-blog.scss */
+/* line 123, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article .textoArticulo h4 {
   position: absolute;
   bottom: 0px;
   color: #393939;
   font: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 131, ../sass/screen-blog.scss */
+/* line 130, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article .imagenArticulo {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1259,7 +1258,7 @@ html body .cuerpoPagina .contenedor .portada .articulosLista article .imagenArti
   margin: 0;
   padding: 0;
 }
-/* line 135, ../sass/screen-blog.scss */
+/* line 134, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .portada .articulosLista article .imagenArticulo a {
   border-bottom: 3px solid white;
   -webkit-box-sizing: border-box;
@@ -1281,76 +1280,95 @@ html body .cuerpoPagina .contenedor .portada .articulosLista article .imagenArti
   overflow: hidden;
   background-size: cover;
 }
-/* line 148, ../sass/screen-blog.scss */
+/* line 146, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .portadaPie {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: table;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #898989;
+}
+/* line 153, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .portadaPie .linkSubscripcion {
+  display: table-cell;
+  text-align: left;
+}
+/* line 157, ../sass/screen-blog.scss */
+html body .cuerpoPagina .contenedor .portada .portadaPie .linkResto {
+  display: table-cell;
+  text-align: right;
+}
+/* line 163, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria {
   border-top: 1px solid #bebebe;
 }
-/* line 150, ../sass/screen-blog.scss */
+/* line 165, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria:last-child {
   border-bottom: 1px solid #bebebe;
 }
-/* line 153, ../sass/screen-blog.scss */
+/* line 168, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion {
   float: left;
 }
-/* line 155, ../sass/screen-blog.scss */
+/* line 170, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion {
   position: relative;
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 159, ../sass/screen-blog.scss */
+/* line 174, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
   margin-bottom: 25px;
   border-bottom: 1px solid #bebebe;
 }
-/* line 161, ../sass/screen-blog.scss */
+/* line 176, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion hgroup h1 {
   font: 26px/30px "colaborativaMedium";
   color: #393939;
   padding-bottom: 25px;
 }
-/* line 166, ../sass/screen-blog.scss */
+/* line 181, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion hgroup h2 {
   font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 172, ../sass/screen-blog.scss */
+/* line 187, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaDescripcion .descripcion p {
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 178, ../sass/screen-blog.scss */
+/* line 193, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos {
   float: left;
 }
-/* line 181, ../sass/screen-blog.scss */
+/* line 196, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article {
   position: relative;
   float: left;
   border-left: 1px solid #bebebe;
 }
-/* line 185, ../sass/screen-blog.scss */
+/* line 200, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article h3 {
   color: #393939;
   padding-top: 12px;
   font: 18px/23px "colaborativasemibold";
   padding-bottom: 12px;
 }
-/* line 191, ../sass/screen-blog.scss */
+/* line 206, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article h4 {
   color: #393939;
   position: absolute;
   bottom: 0px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 197, ../sass/screen-blog.scss */
+/* line 212, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 199, ../sass/screen-blog.scss */
+/* line 214, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
   border-bottom: 3px solid white;
   -webkit-box-sizing: border-box;
@@ -1372,71 +1390,71 @@ html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLis
   overflow: hidden;
   background-size: cover;
 }
-/* line 209, ../sass/screen-blog.scss */
+/* line 224, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article:first-child {
   border-left: none;
 }
-/* line 212, ../sass/screen-blog.scss */
+/* line 227, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaArticulos .articulosLista article:last-child {
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 219, ../sass/screen-blog.scss */
+/* line 234, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaPie {
   width: 100%;
   display: table;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #898989;
 }
-/* line 224, ../sass/screen-blog.scss */
+/* line 239, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkSubscripcion {
   display: table-cell;
   text-align: left;
 }
-/* line 228, ../sass/screen-blog.scss */
+/* line 243, ../sass/screen-blog.scss */
 html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkResto {
   display: table-cell;
   text-align: right;
 }
 
 @media (max-width: 989px) {
-  /* line 239, ../sass/screen-blog.scss */
+  /* line 254, ../sass/screen-blog.scss */
   body {
     min-width: 764px;
   }
-  /* line 241, ../sass/screen-blog.scss */
+  /* line 256, ../sass/screen-blog.scss */
   body .contenedor {
     width: 728px;
   }
-  /* line 244, ../sass/screen-blog.scss */
+  /* line 259, ../sass/screen-blog.scss */
   body .contenedor .portada {
     width: 728px;
   }
-  /* line 246, ../sass/screen-blog.scss */
+  /* line 261, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista {
     width: 728px;
   }
-  /* line 248, ../sass/screen-blog.scss */
+  /* line 263, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero {
     width: 728px;
   }
-  /* line 250, ../sass/screen-blog.scss */
+  /* line 265, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .textoArticulo {
     width: 218.667px;
     float: left;
   }
-  /* line 254, ../sass/screen-blog.scss */
+  /* line 269, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .imagenArticulo {
     float: right;
     width: 473.333px;
     height: 296px;
   }
-  /* line 258, ../sass/screen-blog.scss */
+  /* line 273, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .imagenArticulo a {
     width: 473.333px;
     height: 296px;
   }
-  /* line 264, ../sass/screen-blog.scss */
+  /* line 279, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article {
     height: 296px;
     width: 217.667px;
@@ -1445,98 +1463,98 @@ html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkResto {
     padding-top: 18px;
     padding-bottom: 18px;
   }
-  /* line 271, ../sass/screen-blog.scss */
+  /* line 286, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article .imagenArticulo {
     width: 218.667px;
     height: 123px;
   }
-  /* line 274, ../sass/screen-blog.scss */
+  /* line 289, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article .imagenArticulo a {
     width: 218.667px;
     height: 123px;
   }
-  /* line 282, ../sass/screen-blog.scss */
+  /* line 297, ../sass/screen-blog.scss */
   body .contenedor .categoria {
     width: 728px;
     padding-top: 36px;
   }
-  /* line 286, ../sass/screen-blog.scss */
+  /* line 301, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaDescripcion .descripcion {
     width: 200px;
   }
-  /* line 288, ../sass/screen-blog.scss */
+  /* line 303, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
     height: 93.333px;
   }
-  /* line 293, ../sass/screen-blog.scss */
+  /* line 308, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos {
     width: 528px;
   }
-  /* line 295, ../sass/screen-blog.scss */
+  /* line 310, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista {
     width: 528px;
   }
-  /* line 297, ../sass/screen-blog.scss */
+  /* line 312, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article {
     height: 260px;
     margin-left: 18px;
     padding-left: 18px;
     width: 139px;
   }
-  /* line 302, ../sass/screen-blog.scss */
+  /* line 317, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
     width: 140px;
     height: 93.333px;
   }
-  /* line 305, ../sass/screen-blog.scss */
+  /* line 320, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
     width: 140px;
     height: 93.333px;
   }
-  /* line 313, ../sass/screen-blog.scss */
+  /* line 328, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaPie {
     padding-top: 18px;
     padding-bottom: 18px;
   }
 }
 @media (min-width: 990px) {
-  /* line 239, ../sass/screen-blog.scss */
+  /* line 254, ../sass/screen-blog.scss */
   body {
     min-width: 980px;
   }
-  /* line 241, ../sass/screen-blog.scss */
+  /* line 256, ../sass/screen-blog.scss */
   body .contenedor {
     width: 940px;
   }
-  /* line 244, ../sass/screen-blog.scss */
+  /* line 259, ../sass/screen-blog.scss */
   body .contenedor .portada {
     width: 940px;
   }
-  /* line 246, ../sass/screen-blog.scss */
+  /* line 261, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista {
     width: 940px;
   }
-  /* line 248, ../sass/screen-blog.scss */
+  /* line 263, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero {
     width: 940px;
   }
-  /* line 250, ../sass/screen-blog.scss */
+  /* line 265, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .textoArticulo {
     width: 286.667px;
     float: left;
   }
-  /* line 254, ../sass/screen-blog.scss */
+  /* line 269, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .imagenArticulo {
     float: right;
     width: 613.333px;
     height: 300px;
   }
-  /* line 258, ../sass/screen-blog.scss */
+  /* line 273, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .imagenArticulo a {
     width: 613.333px;
     height: 300px;
   }
-  /* line 264, ../sass/screen-blog.scss */
+  /* line 279, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article {
     height: 300px;
     width: 285.667px;
@@ -1545,98 +1563,98 @@ html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkResto {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  /* line 271, ../sass/screen-blog.scss */
+  /* line 286, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article .imagenArticulo {
     width: 286.667px;
     height: 161.25px;
   }
-  /* line 274, ../sass/screen-blog.scss */
+  /* line 289, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article .imagenArticulo a {
     width: 286.667px;
     height: 161.25px;
   }
-  /* line 282, ../sass/screen-blog.scss */
+  /* line 297, ../sass/screen-blog.scss */
   body .contenedor .categoria {
     width: 940px;
     padding-top: 40px;
   }
-  /* line 286, ../sass/screen-blog.scss */
+  /* line 301, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaDescripcion .descripcion {
     width: 280px;
   }
-  /* line 288, ../sass/screen-blog.scss */
+  /* line 303, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
     height: 120px;
   }
-  /* line 293, ../sass/screen-blog.scss */
+  /* line 308, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos {
     width: 660px;
   }
-  /* line 295, ../sass/screen-blog.scss */
+  /* line 310, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista {
     width: 660px;
   }
-  /* line 297, ../sass/screen-blog.scss */
+  /* line 312, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 179px;
   }
-  /* line 302, ../sass/screen-blog.scss */
+  /* line 317, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
     width: 180px;
     height: 120px;
   }
-  /* line 305, ../sass/screen-blog.scss */
+  /* line 320, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
     width: 180px;
     height: 120px;
   }
-  /* line 313, ../sass/screen-blog.scss */
+  /* line 328, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaPie {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 239, ../sass/screen-blog.scss */
+  /* line 254, ../sass/screen-blog.scss */
   body {
     min-width: 1230px;
   }
-  /* line 241, ../sass/screen-blog.scss */
+  /* line 256, ../sass/screen-blog.scss */
   body .contenedor {
     width: 1170px;
   }
-  /* line 244, ../sass/screen-blog.scss */
+  /* line 259, ../sass/screen-blog.scss */
   body .contenedor .portada {
     width: 1170px;
   }
-  /* line 246, ../sass/screen-blog.scss */
+  /* line 261, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista {
     width: 1170px;
   }
-  /* line 248, ../sass/screen-blog.scss */
+  /* line 263, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero {
     width: 1170px;
   }
-  /* line 250, ../sass/screen-blog.scss */
+  /* line 265, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .textoArticulo {
     width: 350px;
     float: left;
   }
-  /* line 254, ../sass/screen-blog.scss */
+  /* line 269, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .imagenArticulo {
     float: right;
     width: 760px;
     height: 320px;
   }
-  /* line 258, ../sass/screen-blog.scss */
+  /* line 273, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista .primero .imagenArticulo a {
     width: 760px;
     height: 320px;
   }
-  /* line 264, ../sass/screen-blog.scss */
+  /* line 279, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article {
     height: 320px;
     width: 349px;
@@ -1645,55 +1663,55 @@ html body .cuerpoPagina .contenedor .categoria .categoriaPie .linkResto {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 271, ../sass/screen-blog.scss */
+  /* line 286, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article .imagenArticulo {
     width: 350px;
     height: 196.875px;
   }
-  /* line 274, ../sass/screen-blog.scss */
+  /* line 289, ../sass/screen-blog.scss */
   body .contenedor .portada .articulosLista article .imagenArticulo a {
     width: 350px;
     height: 196.875px;
   }
-  /* line 282, ../sass/screen-blog.scss */
+  /* line 297, ../sass/screen-blog.scss */
   body .contenedor .categoria {
     width: 1170px;
     padding-top: 60px;
   }
-  /* line 286, ../sass/screen-blog.scss */
+  /* line 301, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaDescripcion .descripcion {
     width: 330px;
   }
-  /* line 288, ../sass/screen-blog.scss */
+  /* line 303, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaDescripcion .descripcion hgroup {
     height: 146.667px;
   }
-  /* line 293, ../sass/screen-blog.scss */
+  /* line 308, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos {
     width: 840px;
   }
-  /* line 295, ../sass/screen-blog.scss */
+  /* line 310, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista {
     width: 840px;
   }
-  /* line 297, ../sass/screen-blog.scss */
+  /* line 312, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 219px;
   }
-  /* line 302, ../sass/screen-blog.scss */
+  /* line 317, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo {
     width: 220px;
     height: 146.667px;
   }
-  /* line 305, ../sass/screen-blog.scss */
+  /* line 320, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaArticulos .articulosLista article .imagenArticulo a {
     width: 220px;
     height: 146.667px;
   }
-  /* line 313, ../sass/screen-blog.scss */
+  /* line 328, ../sass/screen-blog.scss */
   body .contenedor .categoria .categoriaPie {
     padding-top: 30px;
     padding-bottom: 30px;
