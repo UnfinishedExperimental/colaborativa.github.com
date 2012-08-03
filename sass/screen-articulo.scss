@@ -1,0 +1,276 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_cabecerapaginaResponsive";
+@import "_general";
+
+$articuloTitulo: 26px/30px "colaborativaMedium";
+$articuloSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloSmall: 12px/18px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$articuloCategoriaTitulo: 24px/20px "colaborativaMedium";
+$articuloCategoriaSubtitulo: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$articuloDescripcionTitulo: 26px/32px "colaborativaBook";
+$articuloDescripcionTexto: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloDescripcionCaption: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+
+@mixin imageStyleLight{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin imageStyleDark{
+	@include box-sizing (border-box);
+	background:silver;
+	border: none;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
+}
+
+@mixin templateArticulo($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
+	html{
+		body.#{$templateNombre} {
+			background-color: $colorFondo;
+			.cabeceraPagina{
+				.contenedor{
+					#fading{
+						@if $templateNombre == light {
+							border-top: 1px solid white;
+						} @else {
+							border-top: 1px solid rgba(250,250,250,0.5);
+						}
+					}
+				}
+			}
+			.cuerpoPagina{
+				a:link, a:visited, a:active{
+					text-decoration: none;
+					color: $colorTexto;
+				}
+				.contenedor{
+					margin-left: auto;
+					margin-right: auto;
+
+					.indexTitle{
+						font: $articuloTitulo;
+						color: $colorTexto;
+						@include box-sizing (border-box);
+						padding-top:40px;
+						position:fixed;
+						top:80px;
+						height:70px;
+						background-color: $colorFondo;
+					}
+					.resumenArticulo{
+						@include box-sizing (border-box);
+						position:fixed;
+						top:105px;
+						left:50%;
+						.resumen{
+							padding-bottom:30px;
+							border-bottom: $estiloBorde;
+							margin-bottom:25px;
+							hgroup{
+								h1{
+									font: $articuloTitulo;
+									color: $colorTexto;
+									padding-bottom:20px;
+								}
+								h2{
+									font: $articuloSubtitulo;
+									color: $colorTexto;
+									padding-bottom:20px;
+								}
+							}
+							p{
+								font: $articuloSmall;
+								color: $colorTexto;
+							}
+						}
+						.tweetList{
+							border-bottom: $estiloBorde;
+							h1{
+								font: $articuloSubtitulo;
+								color: $colorTexto;
+							}
+							.tweet{
+								@include box-sizing (border-box);
+								display: table;
+								height: 40px;
+								padding:15px 0px 20px 0px;
+								margin:0px;
+								.twitterImagenPerfil{
+									@include box-sizing (border-box);
+									display:table-cell;
+									vertical-align: middle;
+									padding:5px 8px 0px 0px;
+									margin:0px;
+									height: 40px;
+									img{
+										padding:0px;
+										margin:0px;
+									}
+								}
+								p.tweetTexto{
+									display:table-cell;
+									padding:0px;
+									margin:0px;
+									vertical-align: middle;
+									font: $articuloSmall;
+									color: rgba($colorTexto,0.9);
+									.twitterNombre{
+										color: $colorTexto;
+									}
+									.tiempo{
+										color: rgba($colorTexto,0.7);
+									}
+								}
+							}
+						}
+						.categoriaArticulo{
+							padding-top:25px;
+							h1{
+								@include hiddenelement;
+							}
+							hgroup{
+								h2{
+									font: $articuloCategoriaTitulo;
+									color: $colorTexto;
+									padding-bottom:25px;
+								}
+								h3{
+									font: $articuloCategoriaSubtitulo;
+									color: $colorTexto;
+								}
+								h4{
+									padding-top: 5px;
+									font: $articuloDescripcionCaption;
+									color: $colorTexto;
+								}
+							}
+						}
+					}
+					.descripcionArticulo{
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						color: $colorTexto;
+						margin-top: 170px;
+						margin-bottom: 80px;
+						padding-bottom: 20px;
+						@include box-sizing (border-box);
+						border-bottom: $estiloBorde;
+						cite{
+							font: $articuloDescripcionCaption;
+						}
+						.imagen{
+							@include box-sizing (border-box);
+							display: block;
+							margin: 0;
+							padding: 0;
+							overflow:hidden;
+							background-size: cover;
+							@if $templateNombre == light {
+								@include imageStyleLight;
+							} @else {
+								@include imageStyleDark;
+							}
+						}
+						h1{
+							@include hiddenelement;
+						}
+						h2{
+							font: $articuloDescripcionTitulo;
+							margin-top: 20px;
+							margin-bottom: 10px;
+							color: $colorTexto;
+						}
+						p{
+							margin-top: 30px;
+							margin-bottom: 30px;
+							font: $articuloDescripcionTexto;
+							color: $colorTexto;
+						}
+					}
+				}
+			}	
+		}
+	}
+}
+
+
+@mixin mainnaveffect($totalWidth, $columnWidth, $gutterWidth) {
+	body {
+		.cabeceraPagina{
+			.contenedor{
+				width: $totalWidth +  2*$gutterWidth;
+				#fading{
+					position:absolute;
+					top:149px;
+					margin-left: - $gutterWidth;
+					left: $columnWidth + $gutterWidth;
+					height: 10px;
+					opacity:0;
+					width: 2*$columnWidth + 3*$gutterWidth;
+				}
+			}
+		}
+	}	
+}
+
+@mixin responsiveArticulo($totalWidth, $columnWidth, $gutterWidth){
+	.contenedor{
+		width: $totalWidth;
+		.indexTitle{
+			margin-left: $columnWidth + $gutterWidth - 2;
+			width: $columnWidth*2 + $gutterWidth + 2;
+		}
+		.resumenArticulo{
+			width: $columnWidth + 2*$gutterWidth;
+			margin-left: -($totalWidth/2 + $gutterWidth);
+			padding: $gutterWidth $gutterWidth $gutterWidth*3/2 $gutterWidth;
+		}
+		.descripcionArticulo{
+			width: 2*$columnWidth + $gutterWidth;
+			margin-left: $columnWidth + $gutterWidth;
+			.imagen{
+				width:  2*$columnWidth + $gutterWidth - 2;
+				height: (2*$columnWidth + $gutterWidth - 2)*2/3;
+			}
+		}
+	}
+}
+
+@include templateArticulo(light, rgb(250,250,250), #393939, 1px solid #DADADA);
+@include templateArticulo(dark, #393939, white, 1px solid rgba(250,250,250,0.6));
+
+//Tablets
+@media (max-width: 989px) {
+	@include responsiveArticulo(728px, 228px, 20px);
+	@include mainnaveffect(728px, 228px, 20px);
+	#fading{
+		background-image: url(../imagenes/sombra-516.png);
+	}
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include responsiveArticulo(940px, 300px, 20px);
+	@include mainnaveffect(940px, 300px, 20px);
+	#fading{
+		background-image: url(../imagenes/sombra-660.png);
+	}
+
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include responsiveArticulo(1170px, 370px, 30px);
+	@include mainnaveffect(1170px, 370px, 30px);
+	#fading{
+		background-image: url(../imagenes/sombra-830.png);
+	}
+}

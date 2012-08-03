@@ -1,0 +1,58 @@
+{% for item in site.categories.articulos-categorias %}
+	{% if item.slug == page.categorias.[0] %}
+		{% assign template = item.template %}
+	{% endif %}
+{% endfor %}
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+	<head>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		<link href="/css/screen-articulo.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		{% include _scripts-portfolio-proyectos-top.html %}
+	</head>
+	<body class="{{ template }}">
+		{% include _header-responsive.html %}
+		<div class="cuerpoPagina">
+			<div class="contenedor">
+				<div class="resumenArticulo">
+					<div class="resumen">
+						<hgroup>
+							<h1>{{ page.title }}</h1>
+							<h2>{{ page.subtitulo }}</h2>
+						</hgroup>
+						<p>Por Javier Burón y Magda Sánchez</p>
+						<p>Hace tres días</p>
+					</div>
+					<section class="tweetList">
+						<h1>N menciones en Twitter, último tweet</h1>
+						<div class="tweet">
+							<span class="twitterImagenPerfil"><img src="/imagenes/placeholder_profile.jpg"></span><p class="tweetTexto"><span class="twitterNombre">TwitterUserName</span> This is the text of the tweet, of course no more than 140 characters.<span class="tiempo">Tweet timestamp</span></p>
+						</div>
+					</section>
+					<section class="categoriaArticulo">
+						<h1>Categoría</h1>
+						{% for item in site.categories.articulos-categorias %}
+							{% if item.slug == page.categorias.[0] %}
+								<hgroup>
+									<h2>{{ item.title.es }}</h2>
+									<h3>{{ item.subtitulo.es }}</h3>
+									<h4><a href="{{ item.url }}">Ver más artículos sobre este tema</a></h4>
+								</hgroup>
+							{% endif %}
+						{% endfor %}
+					</section>
+				</div>
+				<div class="indexTitle"></div>
+				<section class="descripcionArticulo">
+					<h1>{{ site.proyectos-descripcion.[page.language] }}</h1>
+					<div class="imagen" style="background: url(http://{{ page.imagen }}_c.jpg) center center no-repeat"></div>
+					{{ content }}
+				</section>
+			</div>
+		</div>
+		<script src='/javascripts/cabecera-sombra.js' type='text/javascript'></script>
+		{% include _scripts-portfolio-proyectos-bottom.html %}
+	</body>
+</html>
+

@@ -17,8 +17,6 @@ categorias:
  - ciudad-para-todos
  - espacio-creativo-cordoba
 
-
-
 relacionados:
  - cambio-prioridades
 
