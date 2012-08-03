@@ -1,0 +1,135 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+@import "_subnav-nueva";
+@import "_general";
+
+$categoriaTitulo: 26px/30px "colaborativaMedium";
+$categoriaSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$categoriaBlurb: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$categoriaSmall: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$articuloTitulo: 18px/20px "colaborativasemibold";
+$articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+@mixin imageStyleLight{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin imageStyleDark{
+	@include box-sizing (border-box);
+	background:silver;
+	border: none;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
+}
+
+@mixin templateSite($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
+	html{
+		height: 100%;
+		body.#{$templateNombre} {
+			background-color: $colorFondo;
+			.cuerpoPagina{
+				a:link, a:visited, a:active{
+					text-decoration: none;
+					color: $colorTexto;
+				}
+				margin-top: 125px;
+				min-height: 400px;
+				min-width:0px;
+				.contenedor{
+					margin-right: auto;
+					margin-left: auto;
+					@include box-sizing (border-box);
+					.categoria{
+						article{
+							position: relative;
+							float: left;
+							border-left: $estiloBorde;
+							h3{
+								color: $colorTexto;
+								padding-top: 12px;
+								font: $articuloTitulo;
+								padding-bottom: 12px;
+							}
+							h4{
+								color: $colorTexto;
+								font: $articuloSubtitulo;
+							}
+							.imagenArticulo{
+								@include box-sizing (border-box);
+								a{
+									display: block;
+									margin: 0;
+									padding: 0;
+									overflow:hidden;
+									background-size: cover;
+									@if $templateNombre == light {
+										@include imageStyleLight;
+									} @else {
+										@include imageStyleDark;
+									}
+								}
+							}
+							&:nth-child(4n+1) {
+								border-left: none;
+								margin-left: 0px;
+								padding-left: 0px;
+							}
+						}
+					}
+				}
+			}
+		} 
+	}
+}
+
+@mixin blogResponsive($totalWidth, $columnWidth, $columnGap, $articleHeight){
+	body{
+		min-width: $totalWidth + $columnGap;
+		.contenedor{
+			width: $totalWidth;
+			.categoria{
+				padding-top: $columnGap/2;
+				article{
+					height: $articleHeight;
+					margin-left: $columnGap/2;
+					padding-left: $columnGap/2;
+					width: $columnWidth - 1px;
+					.imagenArticulo{
+						width:  $columnWidth;
+						height: ($columnWidth) *2/3;
+						a{
+							width:  $columnWidth;
+							height: ($columnWidth) *2/3;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include templateSite(dark, black, white, 1px solid rgba(255,255,255,0.5));
+@include templateSite(light, rgb(250,250,250), #393939, 1px solid #C9C9C9);
+
+//Tablets
+@media (max-width: 989px) {
+	@include blogResponsive(728px, 155px, 36px, 260px);
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include blogResponsive(940px, 205px, 40px, 260px);
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include blogResponsive(1170px, 255px, 50px, 260px);
+}
