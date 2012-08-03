@@ -4,6 +4,9 @@ category: colaboradores
 title: Asociación Peatonal Cordobesa A Pata
 slug: a-pata
 
+subtitulo:
+ es: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
+ en: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
 link: https://sites.google.com/site/asociacionpeatonalapata
 imagen: farm8.staticflickr.com/7101/7159286080_aba1d526f6
 ---

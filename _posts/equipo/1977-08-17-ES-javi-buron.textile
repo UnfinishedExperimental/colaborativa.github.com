@@ -7,7 +7,7 @@ permalink: /equipo/javi-buron/
 url-otro-idioma: /en/team/javi-buron/
 slug: javi-buron
 
-cargo: Co-fundador
+subtitulo: Aquí ponemos algo un poco más largo sobre nosotros
 imagen: farm8.staticflickr.com/7271/7112735339_cac7d0ddc5
 
 enlaces:

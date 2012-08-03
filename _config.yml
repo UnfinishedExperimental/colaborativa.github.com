@@ -9,7 +9,7 @@ subtitulo: { es: Estrategias y herramientas para transformar ciudades, en: Strat
 navegacion: { es: Navegación principal, en: Main navigation}
 navegacion-blog: { es: Artículos, en: Articles, url: blog }
 navegacion-proyectos: { es: Proyectos, en: Projects}
-navegacion-equipo: { es: Colaborativos, en: Colaborativos}
+navegacion-equipo: { es: Colaborativos, en: Colaborativos, url: equipo }
 navegacion-herramientas: { es: Herramientas, en: Tools}
 navegacion-codigo: { es: Colaboratorio, en: Colaboratorio}
 

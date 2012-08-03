@@ -1,9 +1,0 @@
----
-layout: none
-category: colaboradores
-title: Urban Space
-slug: urban-space
-
-link: http://urbanspace.org/
-imagen: farm9.staticflickr.com/8164/7112130941_985fd683eb
----

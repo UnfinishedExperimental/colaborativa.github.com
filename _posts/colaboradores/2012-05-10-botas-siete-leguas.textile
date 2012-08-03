@@ -4,6 +4,9 @@ category: colaboradores
 title: Programa botas de siete leguas
 slug: botas-siete-leguas
 
+subtitulo:
+ es: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
+ en: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
 link: http://programabotasdesieteleguas.blogspot.com.es/
 imagen: farm9.staticflickr.com/8163/7240615878_32c8516088
 ---

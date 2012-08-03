@@ -1,9 +1,0 @@
----
-layout: none
-category: colaboradores
-title: Center for Social Innovation
-slug: csi
-
-link: http://socialinnovation.ca/
-imagen: farm8.staticflickr.com/7273/6966055092_0c55abf127
----

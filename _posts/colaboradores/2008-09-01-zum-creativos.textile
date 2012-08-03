@@ -4,6 +4,9 @@ category: colaboradores
 title: Zum Creativos
 slug: zum-creativos
 
+subtitulo:
+ es: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
+ en: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
 link: http://www.zum.es
 imagen: farm8.staticflickr.com/7117/6966055322_df3aa41f4a
 ---

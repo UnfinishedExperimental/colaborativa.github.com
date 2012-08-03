@@ -4,6 +4,9 @@ category: colaboradores
 title: La Bella Varsovia
 slug: bella-varsovia
 
+subtitulo:
+ es: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
+ en: Este es el subtitulo del colaborador en castellano en el que contamos sin detalle
 link: http://www.labellavarsovia.com/
 imagen: farm8.staticflickr.com/7252/6966054860_d37bc92d17
 ---
