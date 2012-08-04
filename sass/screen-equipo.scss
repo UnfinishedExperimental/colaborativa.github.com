@@ -7,6 +7,7 @@
 @import "_footerpaginaResponsive";
 @import "_subnav-nueva";
 @import "_general";
+@import "_popover";
 
 $colorTextoGrisOscuro: #393939;
 $colorTextoGrisClaro: #898989;
@@ -64,6 +65,14 @@ html{
 						margin-bottom:20px;
 						border-bottom: $greyLine;
 					}
+					&#categoria1{
+						article{
+							@include column-count(3);
+							font: $articuloDescripcion;
+							color:$colorTextoGrisOscuro;
+						}
+						
+					}
 					.listadoColaborativos, .listadoColaboradores{
 						article{
 							font: $articuloDescripcion;
@@ -107,6 +116,13 @@ html{
 					width: $totalWidth;
 					section{
 						width:$totalWidth;
+						&#categoria1{
+							article{
+								@include column-count(3);
+								@include column-gap($columnWidth);
+								@include column-gap($columnGap);
+							}
+						}
 						.listadoColaborativos, .listadoColaboradores{
 							margin-left: -$columnGap;
 							article{

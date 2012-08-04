@@ -1,7 +1,7 @@
 ---
 layout: none
 category: colaboradores
-title: Asociación Peatonal Cordobesa A Pata
+title: A Pata
 slug: a-pata
 
 subtitulo:

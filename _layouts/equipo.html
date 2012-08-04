@@ -7,6 +7,8 @@
 		<link href="/css/screen-equipo.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		{% include _scripts-portfolio-proyectos-top.html %}
 		<script src='/javascripts/libs/bootstrap-scrollspy.js' type='text/javascript'></script>
+		<script src='/javascripts/libs/bootstrap-tooltip.js' type='text/javascript'></script>
+		<script src='/javascripts/libs/bootstrap-popover.js' type='text/javascript'></script>
 	</head>
 	<body class="{{ page.template }}" data-spy="scroll">
 		{% include _header-responsive.html %}
@@ -51,12 +53,12 @@
 						<article>{{ page.capitulo3-descripcion }}</article>
 						{% for item in site.categories.colaboradores %}
 							<article class="colaborador">
-								<div class="imagenColaborador">
-									<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+								<div class="imagenColaborador" >
+									<a href="#" rel="popover"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
 								</div>
 								<div class="textoColaborador">
 									<hgroup>
-										<h2><a href="">{{ item.title }}</a></h2>
+										<h2>{{ item.title }}</h2>
 										<h3>{{ item.subtitulo.[page.language] }} </h3>
 									</hgroup>
 								</div>
@@ -67,5 +69,14 @@
 		</section>
 		{% include _footer-responsive.html %}
 		{% include _scripts-portfolio-proyectos-bottom.html %}
+		<script type="text/javascript">
+			 $(function(){
+				$("a[rel=popover]")
+				.popover({trigger: 'focus'})
+				.click(function(e) {
+					e.preventDefault()
+				})
+			});
+		</script>
 	</body>
 </html>

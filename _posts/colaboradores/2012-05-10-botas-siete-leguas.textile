@@ -1,7 +1,7 @@
 ---
 layout: none
 category: colaboradores
-title: Programa botas de siete leguas
+title: Botas de 7 leguas
 slug: botas-siete-leguas
 
 subtitulo:
