@@ -54,7 +54,7 @@
 						{% for item in site.categories.colaboradores %}
 							<article class="colaborador">
 								<div class="imagenColaborador" >
-									<a href="#" rel="popover"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="{{ item.link }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+									<a href="#" rel="popover"  data-content="{% include _inline-colaboradores-proyectos.html %}" data-original-title="{{ item.link }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
 								</div>
 								<div class="textoColaborador">
 									<hgroup>

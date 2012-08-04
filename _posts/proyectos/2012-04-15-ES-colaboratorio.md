@@ -15,6 +15,7 @@ template: dark
 inicio: descripcion
 
 colaboradores:
+ - botas-siete-leguas
 
 categoria: categoria 1
 categoria-prioridad: destacado

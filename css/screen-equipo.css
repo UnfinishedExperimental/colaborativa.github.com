@@ -1140,7 +1140,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   zoom: 1;
 }
 
-/* line 51, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover {
   position: absolute;
   top: 0;
@@ -1149,23 +1149,23 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   display: none;
   padding: 5px;
 }
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.top {
   margin-top: -5px;
 }
-/* line 59, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.right {
   margin-left: 5px;
 }
-/* line 60, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.bottom {
   margin-top: 5px;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.left {
   margin-left: -5px;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.top .arrow {
   bottom: 0;
   left: 50%;
@@ -1174,7 +1174,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   border-right: 5px solid transparent;
   border-top: 5px solid #393939;
 }
-/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.right .arrow {
   top: 50%;
   left: 0;
@@ -1183,7 +1183,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   border-bottom: 5px solid transparent;
   border-right: 5px solid #393939;
 }
-/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 68, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.bottom .arrow {
   top: 0;
   left: 50%;
@@ -1192,7 +1192,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   border-right: 5px solid transparent;
   border-bottom: 5px solid #393939;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 69, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.left .arrow {
   top: 50%;
   right: 0;
@@ -1201,17 +1201,17 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   border-bottom: 5px solid transparent;
   border-left: 5px solid #393939;
 }
-/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 70, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover .arrow {
   position: absolute;
   width: 0;
   height: 0;
 }
 
-/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-inner {
+  text-overflow: ellipsis;
   padding: 3px;
-  width: 305px;
   overflow: hidden;
   background: #393939;
   background: rgba(0, 0, 0, 0.8);
@@ -1225,8 +1225,10 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 }
 
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 85, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
   padding: 9px 15px;
@@ -1240,7 +1242,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   border-radius: 3px 3px 0 0;
 }
 
-/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 96, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-content {
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: rgba(57, 57, 57, 0.7);
@@ -1255,7 +1257,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 97, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 103, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-content p, .popover-content ul, .popover-content ol {
   margin-bottom: 0;
 }
@@ -1361,22 +1363,26 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
 }
 
 @media (max-width: 989px) {
-  /* line 112, ../sass/screen-equipo.scss */
+  /* line 113, ../sass/screen-equipo.scss */
+  html body .popover-inner {
+    width: 238px;
+  }
+  /* line 116, ../sass/screen-equipo.scss */
   html body .cuerpoPagina {
     width: 100%;
   }
-  /* line 114, ../sass/screen-equipo.scss */
+  /* line 118, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 728px;
   }
-  /* line 117, ../sass/screen-equipo.scss */
+  /* line 121, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section {
     width: 728px;
   }
-  /* line 120, ../sass/screen-equipo.scss */
+  /* line 124, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section#categoria1 article {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -1391,11 +1397,11 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
     -o-column-gap: 20px;
     column-gap: 20px;
   }
-  /* line 126, ../sass/screen-equipo.scss */
+  /* line 130, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos, html body .cuerpoPagina .contenedor section .listadoColaboradores {
     margin-left: -20px;
   }
-  /* line 128, ../sass/screen-equipo.scss */
+  /* line 132, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article, html body .cuerpoPagina .contenedor section .listadoColaboradores article {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1403,39 +1409,43 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
     width: 228px;
     margin-left: 20px;
   }
-  /* line 134, ../sass/screen-equipo.scss */
+  /* line 138, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborativo, html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborador, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborativo, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborador {
     width: 100px;
     height: 100px;
   }
-  /* line 137, ../sass/screen-equipo.scss */
+  /* line 141, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborativo a, html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborador a, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborativo a, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborador a {
     width: 100px;
     height: 100px;
   }
-  /* line 142, ../sass/screen-equipo.scss */
+  /* line 146, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .textoColaborativo, html body .cuerpoPagina .contenedor section .listadoColaborativos article .textoColaborador, html body .cuerpoPagina .contenedor section .listadoColaboradores article .textoColaborativo, html body .cuerpoPagina .contenedor section .listadoColaboradores article .textoColaborador {
     width: 128px;
     margin-left: 110px;
   }
 }
 @media (min-width: 990px) {
-  /* line 112, ../sass/screen-equipo.scss */
+  /* line 113, ../sass/screen-equipo.scss */
+  html body .popover-inner {
+    width: 310px;
+  }
+  /* line 116, ../sass/screen-equipo.scss */
   html body .cuerpoPagina {
     width: 100%;
   }
-  /* line 114, ../sass/screen-equipo.scss */
+  /* line 118, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 940px;
   }
-  /* line 117, ../sass/screen-equipo.scss */
+  /* line 121, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section {
     width: 940px;
   }
-  /* line 120, ../sass/screen-equipo.scss */
+  /* line 124, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section#categoria1 article {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -1450,11 +1460,11 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
     -o-column-gap: 20px;
     column-gap: 20px;
   }
-  /* line 126, ../sass/screen-equipo.scss */
+  /* line 130, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos, html body .cuerpoPagina .contenedor section .listadoColaboradores {
     margin-left: -20px;
   }
-  /* line 128, ../sass/screen-equipo.scss */
+  /* line 132, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article, html body .cuerpoPagina .contenedor section .listadoColaboradores article {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1462,39 +1472,43 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
     width: 300px;
     margin-left: 20px;
   }
-  /* line 134, ../sass/screen-equipo.scss */
+  /* line 138, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborativo, html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborador, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborativo, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborador {
     width: 100px;
     height: 100px;
   }
-  /* line 137, ../sass/screen-equipo.scss */
+  /* line 141, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborativo a, html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborador a, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborativo a, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborador a {
     width: 100px;
     height: 100px;
   }
-  /* line 142, ../sass/screen-equipo.scss */
+  /* line 146, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .textoColaborativo, html body .cuerpoPagina .contenedor section .listadoColaborativos article .textoColaborador, html body .cuerpoPagina .contenedor section .listadoColaboradores article .textoColaborativo, html body .cuerpoPagina .contenedor section .listadoColaboradores article .textoColaborador {
     width: 200px;
     margin-left: 110px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 112, ../sass/screen-equipo.scss */
+  /* line 113, ../sass/screen-equipo.scss */
+  html body .popover-inner {
+    width: 385px;
+  }
+  /* line 116, ../sass/screen-equipo.scss */
   html body .cuerpoPagina {
     width: 100%;
   }
-  /* line 114, ../sass/screen-equipo.scss */
+  /* line 118, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 1170px;
   }
-  /* line 117, ../sass/screen-equipo.scss */
+  /* line 121, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section {
     width: 1170px;
   }
-  /* line 120, ../sass/screen-equipo.scss */
+  /* line 124, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section#categoria1 article {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -1509,11 +1523,11 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
     -o-column-gap: 30px;
     column-gap: 30px;
   }
-  /* line 126, ../sass/screen-equipo.scss */
+  /* line 130, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos, html body .cuerpoPagina .contenedor section .listadoColaboradores {
     margin-left: -30px;
   }
-  /* line 128, ../sass/screen-equipo.scss */
+  /* line 132, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article, html body .cuerpoPagina .contenedor section .listadoColaboradores article {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1521,17 +1535,17 @@ html body .cuerpoPagina .contenedor section .listadoColaborativos article .image
     width: 370px;
     margin-left: 30px;
   }
-  /* line 134, ../sass/screen-equipo.scss */
+  /* line 138, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborativo, html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborador, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborativo, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborador {
     width: 100px;
     height: 100px;
   }
-  /* line 137, ../sass/screen-equipo.scss */
+  /* line 141, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborativo a, html body .cuerpoPagina .contenedor section .listadoColaborativos article .imagenColaborador a, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborativo a, html body .cuerpoPagina .contenedor section .listadoColaboradores article .imagenColaborador a {
     width: 100px;
     height: 100px;
   }
-  /* line 142, ../sass/screen-equipo.scss */
+  /* line 146, ../sass/screen-equipo.scss */
   html body .cuerpoPagina .contenedor section .listadoColaborativos article .textoColaborativo, html body .cuerpoPagina .contenedor section .listadoColaborativos article .textoColaborador, html body .cuerpoPagina .contenedor section .listadoColaboradores article .textoColaborativo, html body .cuerpoPagina .contenedor section .listadoColaboradores article .textoColaborador {
     width: 270px;
     margin-left: 115px;

@@ -109,6 +109,10 @@ html{
 @mixin responsivelayout($totalWidth, $columnWidth, $columnGap, $articleHeight){
 	html{
 		body{
+			//estoviene del elemento popover de twitter bootstrap
+			.popover-inner{
+				width:$columnWidth + $columnGap/2;
+			}
 			.cuerpoPagina{
 				width:100%;
 				.contenedor{
