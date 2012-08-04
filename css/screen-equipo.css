@@ -1140,7 +1140,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   zoom: 1;
 }
 
-/* line 49, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 51, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover {
   position: absolute;
   top: 0;
@@ -1149,71 +1149,71 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   display: none;
   padding: 5px;
 }
-/* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.top {
   margin-top: -5px;
 }
-/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 59, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.right {
   margin-left: 5px;
 }
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 60, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.bottom {
   margin-top: 5px;
 }
-/* line 59, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.left {
   margin-left: -5px;
 }
-/* line 60, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.top .arrow {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid black;
+  border-top: 5px solid #393939;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.right .arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-right: 5px solid black;
+  border-right: 5px solid #393939;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.bottom .arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #393939;
 }
-/* line 63, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover.left .arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-left: 5px solid black;
+  border-left: 5px solid #393939;
 }
-/* line 64, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover .arrow {
   position: absolute;
   width: 0;
   height: 0;
 }
 
-/* line 70, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-inner {
   padding: 3px;
-  width: 280px;
+  width: 305px;
   overflow: hidden;
-  background: black;
+  background: #393939;
   background: rgba(0, 0, 0, 0.8);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -1225,8 +1225,10 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 }
 
-/* line 79, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-title {
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #393939;
   padding: 9px 15px;
   line-height: 1;
   background-color: #f5f5f5;
@@ -1238,8 +1240,10 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   border-radius: 3px 3px 0 0;
 }
 
-/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-content {
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: rgba(57, 57, 57, 0.7);
   padding: 14px;
   background-color: white;
   -webkit-border-radius: 0 0 3px 3px;
@@ -1251,7 +1255,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
+/* line 97, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_popover.scss */
 .popover-content p, .popover-content ul, .popover-content ol {
   margin-bottom: 0;
 }

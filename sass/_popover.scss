@@ -1,4 +1,4 @@
-$black:                 #000 !default;
+$black:                 #393939 !default;
 $grayDarker:            #222 !default;
 $grayDark:              #333 !default;
 $gray:                  #555 !default;
@@ -6,6 +6,8 @@ $grayLight:             #999 !default;
 $grayLighter:           #eee !default;
 $white:                 #fff !default;
 $zindexPopover:           1010 !default;
+$popoverFuente: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$colorTextoGrisOscuro: #393939;
 
 // Popover arrows
 // -------------------------
@@ -69,7 +71,7 @@ $zindexPopover:           1010 !default;
 }
 .popover-inner {
   padding: 3px;
-  width: 280px;
+  width: 305px;
   overflow: hidden;
   background: $black; // has to be full background declaration for IE fallback
   background: rgba(0,0,0,.8);
@@ -77,6 +79,8 @@ $zindexPopover:           1010 !default;
   @include box-shadow(0 3px 7px rgba(0,0,0,0.3));
 }
 .popover-title {
+  font:$popoverFuente;
+  color: rgba($colorTextoGrisOscuro,1);
   padding: 9px 15px;
   line-height: 1;
   background-color: #f5f5f5;
@@ -84,6 +88,8 @@ $zindexPopover:           1010 !default;
   @include border-radius(3px 3px 0 0);
 }
 .popover-content {
+  font:$popoverFuente;
+  color: rgba($colorTextoGrisOscuro,0.7);
   padding: 14px;
   background-color: $white;
   @include border-radius(0 0 3px 3px);

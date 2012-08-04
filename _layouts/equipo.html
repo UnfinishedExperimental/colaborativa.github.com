@@ -54,7 +54,7 @@
 						{% for item in site.categories.colaboradores %}
 							<article class="colaborador">
 								<div class="imagenColaborador" >
-									<a href="#" rel="popover"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+									<a href="#" rel="popover"  data-content="And here's some amazing content. It's very engaging. right?" data-original-title="{{ item.link }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
 								</div>
 								<div class="textoColaborador">
 									<hgroup>
@@ -71,8 +71,18 @@
 		{% include _scripts-portfolio-proyectos-bottom.html %}
 		<script type="text/javascript">
 			 $(function(){
-				$("a[rel=popover]")
-				.popover({trigger: 'focus'})
+				$("article:nth-child(3n+3) a[rel=popover]")
+				.popover({placement:'left'})
+				.click(function(e) {
+					e.preventDefault()
+				})
+				$("article:nth-child(3n+2) a[rel=popover]")
+				.popover({placement:'left'})
+				.click(function(e) {
+					e.preventDefault()
+				})
+				$("article:nth-child(3n+1) a[rel=popover]")
+				.popover({placement:'right'})
 				.click(function(e) {
 					e.preventDefault()
 				})
