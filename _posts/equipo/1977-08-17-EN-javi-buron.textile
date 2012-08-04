@@ -9,11 +9,14 @@ slug: javi-buron
 
 subtitulo: Aquí ponemos algo un poco más largo sobre nosotros
 imagen: farm8.staticflickr.com/7271/7112735339_cac7d0ddc5
+template: dark
 
 enlaces:
-- { type: externo, title: My twitter profile @javiburon, url: http://wwww.twitter.com/javiburon }
+- { type: social, title: My twitter profile @javiburon, url: http://wwww.twitter.com/javiburon }
+- { type: social, title: Mi perfil profesional en linkedIn, url: http://www.linkedin.com/in/javiburon}
+- { type: social, title: Mi perfil profesional en Flickr, url: http://www.flickr.com/}
 - { type: externo, title: Mi personal webpage, url: http://www.javierburon.net }
-- { type: externo, title: Mi perfil profesional en linkedIn, url:http://www.linkedin.com/in/javiburon}
+- { type: externo, title: Mi personal webpage, url: http://www.saul.javierburon.net }
 
 ---
 
