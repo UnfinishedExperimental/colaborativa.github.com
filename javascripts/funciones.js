@@ -1,7 +1,10 @@
 jQuery(document).ready(function () {
+	var imagesDelay = 2000; // 2 seconds for slideshow in VISTA imagenes
+	var slideShowInterval = false;
 	/* La variable "botonInicial" se actualiza con la vista inicial */
 	$(botonInicial).find('a').trigger('click'); 	// hacer click
 	$(botonInicial).find('a').addClass('activo'); 	// seleccionar
+	var n_images = $('.imagenesProyecto').find('div.imagenFullScreen').length; // number of images in VISTA imagenes
 	/* 
 	Seleccionar imagen de fondo asociada a la vista IMAGENES.
 	*/
@@ -26,14 +29,48 @@ jQuery(document).ready(function () {
 	*/
 	$('.switcher.ewf a').live('click',function(){
 		var idRemove = $('.switcher.ewf a.activo').attr('href').split('#').pop();
-		console.log("Remove from " + idRemove);
 		$('body').removeClass(idRemove); 
 		$('.switcher.ewf a.activo').removeClass('activo'); // Eliminar activo de actual 
 		//
 		$(this).addClass('activo');
 	    var idAdd = $(this).attr('href').split('#').pop();
-	    console.log(idAdd);
 		$('body').addClass(idAdd); // Cambio la clase del Body
+		if (idAdd == 'imagenes'){
+			slideShowInterval= setInterval(slideShow,imagesDelay);
+		}else{
+			clearInterval(slideShowInterval);
+		}
 		return false;
 	});
+	/*
+		Stop SlideShow in VISTA imágenes when cursor over infoImagenes Proyecto 
+	*/
+	$('.infoImagenesProyecto').hover(
+		  function () { // Mouse pointer enters the element.
+			clearInterval(slideShowInterval);
+		  },
+		  function () { // Mouse pointer leaves the element.
+			slideShowInterval= setInterval(slideShow,imagesDelay);
+		  }
+	);
+
+	var slideShow =	function() {
+		var el, el_id; 			 // Activo Imagen
+		var next_el, next_el_id; // Next Activo Imagen
+	    el = $('.imagenesProyecto').find('div.imagenFullScreen.activo');
+		el_id = (el).attr('id').split('imagen').pop(); // me da el número de imagen
+		if( el_id < n_images){
+			next_el_id = Number(el_id) + Number(1);
+		}else{
+			next_el_id = 1;
+		}
+		next_el= $('.imagenesProyecto').children('div[id=imagen'+next_el_id+']');
+		(el).removeClass("activo");
+	    (next_el).addClass("activo");	
+		$('.selectorImagenes li a[href=#'+el_id+']').parent().removeClass('activo');
+		$('.captionImagenes div[id=caption'+el_id+']').removeClass('activo');
+		$('.selectorImagenes li a[href=#'+next_el_id+']').parent().addClass('activo');
+		$('.captionImagenes div[id=caption'+next_el_id+']').addClass('activo');
+	};
+
 });
