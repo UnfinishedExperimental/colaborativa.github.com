@@ -7,12 +7,20 @@ permalink_otro_idioma: /blog/
 template: light
 
 articulos: articles
-portada: Portada
+portada: Cover stories
 portada_subscripcion: Subscribe to our blog
-portada_todos: See all the articles
+portada_todos: 
+ texto: See all the articles
+ url: /en/blog/all/
 categoria_subscripcion: Subscribe to
 categoria_otros: View the other
-categoria2_slug: cultura-libre
-categoria3_slug: ciudades-para-todos
-categoria4_slug: colaborativa
+categoria2: 
+ slug: cultura-libre
+ texto: Free culture
+categoria3:
+ slug: ciudades-para-todos
+ texto: Cities for all
+categoria4:
+ slug: colaborativa
+ texto: Colaborativa
 ---

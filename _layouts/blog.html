@@ -14,10 +14,10 @@
 				<h1 class="big">{{ site.navegacion-blog.[page.language] }}</h1>
 				<div class="subnav">
 					<ul class="nav">
-						<li><a href="#categoria1"><span>Portada</span></a></li>
-						<li><a href="#categoria2"><span>Cultura y tecnología libre</span></a></li>
-						<li><a href="#categoria3"><span>Ciudades para todos</span></a></li>
-						<li><a href="#categoria4"><span>Nuestras noticias</span></a></li>
+						<li><a href="#categoria1"><span>{{ page.portada }}</span></a></li>
+						<li><a href="#categoria2"><span>{{ page.categoria2.texto }}</span></a></li>
+						<li><a href="#categoria3"><span>{{ page.categoria3.texto }}</span></a></li>
+						<li><a href="#categoria4"><span>{{ page.categoria4.texto }}</span></a></li>
 					</ul>
 				</div>
 				<section class="portada clearfix" id="categoria1">
@@ -65,7 +65,7 @@
 						</div>
 						<div class="portadaPie">
 							<div class="linkSubscripcion">{{ page.portada_subscripcion }}</div>
-							<div class="linkResto"><a href="/blog/todos/">{{ page.portada_todos }}</a></div>
+							<div class="linkResto"><a href="{{ page.portada_todos.url }}">{{ page.portada_todos.texto }}</a></div>
 						</div>
 					</div>
 				</section>
@@ -74,7 +74,7 @@
 						<div class="descripcion clearfix">
 							{% for item in site.categories.articulos-categorias %}
 								{% if item.language == page.language %}
-									{% if item.slug == page.categoria2_slug %}
+									{% if item.slug == page.categoria2.slug %}
 										{% assign categoria2_subtitulo = item.subtitulo %}
 										{% assign categoria2_url = item.url %}
 										<hgroup>
@@ -95,7 +95,7 @@
 						{% capture temp2 %}{{ contador2 }}*{% endcapture %}
 						{% assign an_integer2 = contador2.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.categorias.[0] == page.categoria2_slug %}
+							{% if item.categorias.[0] == page.categoria2.slug %}
 								{% capture temp2 %}{{ contador2 }}*{% endcapture %}
 								{% assign contador2 = temp2 %}
 								{% assign an_integer2 = contador2.size %}
@@ -117,7 +117,7 @@
 						</div>
 					</div>
 					<div class="categoriaPie">
-						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria2_slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria2_subtitulo }}</a></div>
+						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria2.slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria2_subtitulo }}</a></div>
 						<div class="linkResto"><a href="{{ categoria2_url }}">{{ page.categoria_otros }} {{ an_integer2 }} {{ page.articulos }}</a></div>
 					</div>
 				</section>
@@ -126,7 +126,7 @@
 						<div class="descripcion clearfix">
 							{% for item in site.categories.articulos-categorias %}
 								{% if item.language == page.language %}
-									{% if item.slug == page.categoria3_slug %}
+									{% if item.slug == page.categoria3.slug %}
 										{% assign categoria3_subtitulo = item.subtitulo %}
 										{% assign categoria3_url = item.url %}
 										<hgroup>
@@ -147,7 +147,7 @@
 						{% capture temp3 %}{{ contador3 }}*{% endcapture %}
 						{% assign an_integer3 = contador3.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.categorias.[0] == page.categoria3_slug %}
+							{% if item.categorias.[0] == page.categoria3.slug %}
 								{% capture temp3 %}{{ contador3 }}*{% endcapture %}
 								{% assign contador3 = temp3 %}
 								{% assign an_integer3 = contador3.size %}
@@ -169,7 +169,7 @@
 						</div>
 					</div>
 					<div class="categoriaPie">
-						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria3_slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria3_subtitulo }}</a></div>
+						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria3.slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria3_subtitulo }}</a></div>
 						<div class="linkResto"><a href="{{ categoria3_url }}">{{ page.categoria_otros }} {{ an_integer3 }} {{ page.articulos }}</a></div>
 					</div>
 				</section>
@@ -178,7 +178,7 @@
 						<div class="descripcion clearfix">
 							{% for item in site.categories.articulos-categorias %}
 								{% if item.language == page.language %}
-									{% if item.slug == page.categoria4_slug %}
+									{% if item.slug == page.categoria4.slug %}
 										{% assign categoria4_subtitulo = item.subtitulo %}
 										{% assign categoria4_url = item.url %}
 										<hgroup>
@@ -199,7 +199,7 @@
 						{% capture temp4 %}{{ contador4 }}*{% endcapture %}
 						{% assign an_integer4 = contador4.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.categorias.[0] == page.categoria4_slug %}
+							{% if item.categorias.[0] == page.categoria4.slug %}
 								{% capture temp4 %}{{ contador4 }}*{% endcapture %}
 								{% assign contador4 = temp4 %}
 								{% assign an_integer4 = contador4.size %}
@@ -221,7 +221,7 @@
 						</div>
 					</div>
 					<div class="categoriaPie">
-						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria4_slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria4_subtitulo }}</a></div>
+						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria4.slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria4_subtitulo }}</a></div>
 						<div class="linkResto"><a href="{{ categoria4_url }}">{{ page.categoria_otros }} {{ an_integer4 }} {{ page.articulos }}</a></div>
 					</div>
 				</section>

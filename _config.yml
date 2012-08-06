@@ -12,6 +12,7 @@ navegacion-proyectos: { es: Proyectos, en: Projects}
 navegacion-equipo: { es: Colaborativos, en: Colaborativos, url: equipo }
 navegacion-herramientas: { es: Herramientas, en: Tools}
 navegacion-codigo: { es: Colaboratorio, en: Colaboratorio}
+navegacion-blog-todos: { es: /blog/todos/, en: /es/blog/all/}
 
 footer-mapa: { es: Mapa, en: Map}
 footer-content-somos-opensource: { es: Somos una empresa de código abierto , en: We are an open source company }
