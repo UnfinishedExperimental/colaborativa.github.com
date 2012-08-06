@@ -4,7 +4,7 @@ layout: blog-articulo
 category: articulos
 title: ¡Sal a la calle y anda!
 permalink: /blog/2012/05/sal-a-la-calle/
-url-otro-idioma: /en/blog/2012/05/sal-a-la-calle/
+permalink_otro_idioma: /en/blog/2012/05/sal-a-la-calle/
 slug: sal-a-la-calle
 published: true
 

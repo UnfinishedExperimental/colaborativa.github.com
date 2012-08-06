@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: Los Paseos de Jane en Córdoba
 permalink: /proyectos/janes-walk-cordoba-2012/
-url-otro-idioma: /en/projects/janes-walk-cordoba-2012/
+permalink_otro_idioma: /en/projects/janes-walk-cordoba-2012/
 slug: janes-walk-cordoba-2012
 published: true
 

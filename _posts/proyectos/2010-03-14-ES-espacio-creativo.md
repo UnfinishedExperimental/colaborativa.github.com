@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: Espacio Creativo Independiente
 permalink: /proyectos/espacio-creativo/
-url-otro-idioma: /en/projects/espacio-creativo/
+permalink_otro_idioma: /en/projects/espacio-creativo/
 slug: espacio-creativo
 
 subtitulo: Espacios de trabajo para las industrias creativas

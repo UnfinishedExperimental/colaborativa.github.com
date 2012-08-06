@@ -29,9 +29,9 @@
 				</ul>
 			</div>
 			<section class="novedades clearfix">
-				<h1>Novedades</h1>
+				<h1>{{ page.home_novedades }}</h1>
 				<section class="novedadesArticulos">
-					<h2>Últimos tres artículos de nuestro Blog</h2>
+					<h2>{{ page.home_novedades_ultimos }}</h2>
 					{% assign numero-de-articulos = 3 %}
 					<div class="articulosLista clearfix">
 					{% assign contador = '' %}
@@ -60,10 +60,10 @@
 						{% endif %}
 					{% endfor %}
 					</div>
-					<p><a>Leer más artículos en nuestro Blog</a></p>
+					<p><a>{{ page.home_novedades_leermas }}</a></p>
 				</section>
 				<section class="novedadesTweets ">
-					<h2>Último tweet</h2>
+					<h2>{{ page.home_novedades_tweet }}</h2>
 					<div class="tweetsLista clearfix">
 						<article>
 							<h3 class="tweetContenido parrafo">RT @<a class="twitter-anywhere-user" href="http://twitter.com/tarquia">tarquia</a>: Asana: Aplicación. The way to work toguether Do Great Things.Asana is the shared task list for your team. The p... http:// ...</h3>

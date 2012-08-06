@@ -4,7 +4,7 @@ layout: equipo-colaborativo
 category: equipo
 title: Javi Burón
 permalink: /equipo/javi-buron/
-url-otro-idioma: /en/team/javi-buron/
+permalink_otro_idioma: /en/team/javi-buron/
 slug: javi-buron
 
 subtitulo: Aquí ponemos algo un poco más largo sobre nosotros

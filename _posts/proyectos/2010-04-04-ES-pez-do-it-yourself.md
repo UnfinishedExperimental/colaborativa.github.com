@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: Pez do-it-yourself Scalae
 permalink: /proyectos/pez-do-it-yourself/
-url-otro-idioma: /en/projects/pez-do-it-yourself/
+permalink_otro_idioma: /en/projects/pez-do-it-yourself/
 slug: pez-do-it-yourself
 
 subtitulo: "Diseño participativo a través de una App Web que construye diversidad y riqueza a partir de la suma de individualidades"

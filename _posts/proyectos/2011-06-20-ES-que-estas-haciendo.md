@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: ¿Qué estás haciendo?
 permalink: /proyectos/que-estas-haciendo/
-url-otro-idioma: /en/projects/que-estas-haciendo/
+permalink_otro_idioma: /en/projects/que-estas-haciendo/
 slug: que-estas-haciendo
 
 subtitulo: "Una convocatoria anual abierta a creativos locales para que nos cuenten en que están trabajando"

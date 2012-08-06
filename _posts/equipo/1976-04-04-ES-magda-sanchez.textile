@@ -4,7 +4,7 @@ layout: equipo-colaborativo
 category: equipo
 title: Magda Sánchez
 permalink: /equipo/magda-sanchez/
-url-otro-idioma: /en/team/magda-sanchez/
+permalink_otro_idioma: /en/team/magda-sanchez/
 slug: magda-sanchez
 
 subtitulo: Aquí ponemos algo un poco más largo sobre nosotros
