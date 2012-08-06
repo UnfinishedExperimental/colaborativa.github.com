@@ -4,12 +4,15 @@ layout: blog
 title: Artículos
 permalink: /blog/
 permalink_otro_idioma: /en/blog/
-
-portada: Portada
 template: light
-portada-subscripcion: Subscríbete a nuestro blog
-portada-linkatodos: Ve todos los artículos
-categoria2-slug: cultura-libre
-categoria3-slug: ciudad-para-todos
-categoria4-slug: colaborativa
+
+articulos: artículos
+portada: Portada
+portada_subscripcion: Subscríbete a nuestro blog
+portada_todos: Ver todos los artículos
+categoria_subscripcion: Subscríbete a
+categoria_otros: Ver los otros
+categoria2_slug: cultura-libre
+categoria3_slug: ciudades-para-todos
+categoria4_slug: colaborativa
 ---

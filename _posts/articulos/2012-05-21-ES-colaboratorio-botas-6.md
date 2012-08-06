@@ -4,7 +4,6 @@ layout: blog-articulo
 category: articulos
 title: "Colaboratorio - Las botas de siete leguas #6"
 permalink: /blog/2012/05/colaboratorio-botas-6/
-permalink_otro_idioma: /en/blog/2012/05/colaboratorio-botas-6/
 slug: colaboratorio-botas-1
 published: true
 
