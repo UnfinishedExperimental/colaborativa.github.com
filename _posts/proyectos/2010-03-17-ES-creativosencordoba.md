@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: Creativos en Córdoba
 permalink: /proyectos/creativosencordoba/
-url-otro-idioma: /en/projects/creativosencordoba/
+permalink_otro_idioma: /en/projects/creativosencordoba/
 slug: creativosencordoba
 
 subtitulo: "Visualizando la actividad de los creativos cordobeses"

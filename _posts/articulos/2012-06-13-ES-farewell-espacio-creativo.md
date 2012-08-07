@@ -1,10 +1,9 @@
 ---
-language: es
+language: en
 layout: blog-articulo
 category: articulos
 title: Farewell Espacio Creativo
-permalink: /blog/2012/06/farewell-espacio-creativo/
-url-otro-idioma: /en/blog/2012/06/farewell-espacio-creativo/
+permalink: /en/blog/2012/06/farewell-espacio-creativo/
 slug: farewell-espacio-creativo
 published: true
 
@@ -14,7 +13,7 @@ autores:
  - javi-buron
 
 categorias:
- - ciudad-para-todos
+ - ciudades-para-todos
  - espacio-creativo-cordoba
 
 relacionados:

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
 	<head>
-		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<title> {{ site.titulo }} | {{ page.title }}</title>
 		<meta charset='UTF-8'/>
 		<link href="/css/screen-blog.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		{% include _scripts-blog-top.html %}
@@ -14,10 +14,10 @@
 				<h1 class="big">{{ site.navegacion-blog.[page.language] }}</h1>
 				<div class="subnav">
 					<ul class="nav">
-						<li><a href="#categoria1"><span>Portada</span></a></li>
-						<li><a href="#categoria2"><span>Cultura y tecnología libre</span></a></li>
-						<li><a href="#categoria3"><span>Ciudades para todos</span></a></li>
-						<li><a href="#categoria4"><span>Nuestras noticias</span></a></li>
+						<li><a href="#categoria1"><span>{{ page.portada }}</span></a></li>
+						<li><a href="#categoria2"><span>{{ page.categoria2.texto }}</span></a></li>
+						<li><a href="#categoria3"><span>{{ page.categoria3.texto }}</span></a></li>
+						<li><a href="#categoria4"><span>{{ page.categoria4.texto }}</span></a></li>
 					</ul>
 				</div>
 				<section class="portada clearfix" id="categoria1">
@@ -30,44 +30,42 @@
 						{% capture temp %}{{ contador }}*{% endcapture %}
 						{% assign an_integer = contador.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.language == page.language %}
-								{% capture temp %}{{ contador}}*{% endcapture %}
-								{% assign contador = temp %}
-								{% assign an_integer = contador.size %}
-								{% case an_integer %}
-								{% when 1 %}
-									<article class="articuloBlog primero clearfix">
-										<div class="imagenArticulo">
-											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-										</div>
-										<div class="textoArticulo">
-											<hgroup>
-												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-												<h4>{{ item.subtitulo }}</h4>
-											</hgroup>
-											<p>{{ item.content | truncatewords: 30 }}</p>
-										</div>
-									</article>
-								{% when 2 or 3 or 4 %}
-									<article class="articuloBlog">
-										<div class="imagenArticulo">
-											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-										</div>
-										<div class="textoArticulo">
-											<hgroup>
-												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-												<h4>{{ item.subtitulo }} </h4>
-											</hgroup>
-										</div>
-									</article>
-								{% else %}
-								{% endcase %}
-							{% endif %}
+							{% capture temp %}{{ contador}}*{% endcapture %}
+							{% assign contador = temp %}
+							{% assign an_integer = contador.size %}
+							{% case an_integer %}
+							{% when 1 %}
+								<article class="articuloBlog primero clearfix">
+									<div class="imagenArticulo">
+										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+									</div>
+									<div class="textoArticulo">
+										<hgroup>
+											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+											<h4>{{ item.subtitulo }}</h4>
+										</hgroup>
+										<p>{{ item.content | truncatewords: 30 }}</p>
+									</div>
+								</article>
+							{% when 2 or 3 or 4 %}
+								<article class="articuloBlog">
+									<div class="imagenArticulo">
+										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+									</div>
+									<div class="textoArticulo">
+										<hgroup>
+											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+											<h4>{{ item.subtitulo }} </h4>
+										</hgroup>
+									</div>
+								</article>
+							{% else %}
+							{% endcase %}
 						{% endfor %}
 						</div>
 						<div class="portadaPie">
-							<div class="linkSubscripcion">Subscribirse a nuestro Blog</div>
-							<div class="linkResto"><a href="/blog/todos/">Ver los otros {{ an_integer }} artículos</a></div>
+							<div class="linkSubscripcion">{{ page.portada_subscripcion }}</div>
+							<div class="linkResto"><a href="{{ page.portada_todos.url }}">{{ page.portada_todos.texto }}</a></div>
 						</div>
 					</div>
 				</section>
@@ -75,12 +73,16 @@
 					<div class="categoriaDescripcion">
 						<div class="descripcion clearfix">
 							{% for item in site.categories.articulos-categorias %}
-								{% if item.slug == page.categoria2-slug %}
-									<hgroup>
-										<h1>{{ item.title.[page.language] }}</h1>
-										<h2>{{ item.subtitulo.[page.language] }}</h2>
-									</hgroup>
-									<p>{{ item.descripcion.[page.language] }}</p>
+								{% if item.language == page.language %}
+									{% if item.slug == page.categoria2.slug %}
+										{% assign categoria2_subtitulo = item.subtitulo %}
+										{% assign categoria2_url = item.url %}
+										<hgroup>
+											<h1>{{ item.title }}</h1>
+											<h2>{{ item.subtitulo }}</h2>
+										</hgroup>
+										<p>{{ item.descripcion }}</p>
+									{% endif %}
 								{% endif %}
 							{% endfor %}
 						</div>
@@ -93,44 +95,46 @@
 						{% capture temp2 %}{{ contador2 }}*{% endcapture %}
 						{% assign an_integer2 = contador2.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.language == page.language %}
-								{% if item.categorias.[0] == page.categoria2-slug %}
-									{% capture temp2 %}{{ contador2 }}*{% endcapture %}
-									{% assign contador2 = temp2 %}
-									{% assign an_integer2 = contador2.size %}
-									{% if an_integer2 <=  numero-de-articulos2 %}
-										<article class="articuloBlog">
-											<div class="imagenArticulo">
-												<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-											</div>
-											<div class="textoArticulo">
-												<hgroup>
-													<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-													<h4>{{ item.subtitulo }} </h4>
-												</hgroup>
-											</div>
-										</article>
-									{% endif %}
+							{% if item.categorias.[0] == page.categoria2.slug %}
+								{% capture temp2 %}{{ contador2 }}*{% endcapture %}
+								{% assign contador2 = temp2 %}
+								{% assign an_integer2 = contador2.size %}
+								{% if an_integer2 <=  numero-de-articulos2 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }} </h4>
+											</hgroup>
+										</div>
+									</article>
 								{% endif %}
 							{% endif %}
 						{% endfor %}
 						</div>
 					</div>
 					<div class="categoriaPie">
-						<div class="linkSubscripcion">Subscribirse a #categoria1</div>
-						<div class="linkResto"><a href="/blog/{{ page.categoria2-slug }}/">Ver los otros {{ an_integer2 }} artículos</a></div>
+						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria2.slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria2_subtitulo }}</a></div>
+						<div class="linkResto"><a href="{{ categoria2_url }}">{{ page.categoria_otros }} {{ an_integer2 }} {{ page.articulos }}</a></div>
 					</div>
 				</section>
 				<section class="categoria clearfix" id="categoria3">
 					<div class="categoriaDescripcion">
 						<div class="descripcion clearfix">
 							{% for item in site.categories.articulos-categorias %}
-								{% if item.slug == page.categoria3-slug %}
-									<hgroup>
-										<h1>{{ item.title.[page.language] }}</h1>
-										<h2>{{ item.subtitulo.[page.language] }}</h2>
-									</hgroup>
-									<p>{{ item.descripcion.[page.language] }}</p>
+								{% if item.language == page.language %}
+									{% if item.slug == page.categoria3.slug %}
+										{% assign categoria3_subtitulo = item.subtitulo %}
+										{% assign categoria3_url = item.url %}
+										<hgroup>
+											<h1>{{ item.title }}</h1>
+											<h2>{{ item.subtitulo }}</h2>
+										</hgroup>
+										<p>{{ item.descripcion }}</p>
+									{% endif %}
 								{% endif %}
 							{% endfor %}
 						</div>
@@ -143,44 +147,46 @@
 						{% capture temp3 %}{{ contador3 }}*{% endcapture %}
 						{% assign an_integer3 = contador3.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.language == page.language %}
-								{% if item.categorias.[0] == page.categoria3-slug %}
-									{% capture temp3 %}{{ contador3 }}*{% endcapture %}
-									{% assign contador3 = temp3 %}
-									{% assign an_integer3 = contador3.size %}
-									{% if an_integer3 <=  numero-de-articulos3 %}
-										<article class="articuloBlog">
-											<div class="imagenArticulo">
-												<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-											</div>
-											<div class="textoArticulo">
-												<hgroup>
-													<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-													<h4>{{ item.subtitulo }} </h4>
-												</hgroup>
-											</div>
-										</article>
-									{% endif %}
+							{% if item.categorias.[0] == page.categoria3.slug %}
+								{% capture temp3 %}{{ contador3 }}*{% endcapture %}
+								{% assign contador3 = temp3 %}
+								{% assign an_integer3 = contador3.size %}
+								{% if an_integer3 <=  numero-de-articulos3 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }} </h4>
+											</hgroup>
+										</div>
+									</article>
 								{% endif %}
 							{% endif %}
 						{% endfor %}
 						</div>
 					</div>
 					<div class="categoriaPie">
-						<div class="linkSubscripcion">Subscribirse a #categoria1</div>
-						<div class="linkResto"><a href="/blog/{{ page.categoria3-slug }}/">Ver los otros {{ an_integer3 }} artículos</a></div>
+						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria3.slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria3_subtitulo }}</a></div>
+						<div class="linkResto"><a href="{{ categoria3_url }}">{{ page.categoria_otros }} {{ an_integer3 }} {{ page.articulos }}</a></div>
 					</div>
 				</section>
 				<section class="categoria clearfix" id="categoria4">
 					<div class="categoriaDescripcion">
 						<div class="descripcion clearfix">
 							{% for item in site.categories.articulos-categorias %}
-								{% if item.slug == page.categoria4-slug %}
-									<hgroup>
-										<h1>{{ item.title.[page.language] }}</h1>
-										<h2>{{ item.subtitulo.[page.language] }}</h2>
-									</hgroup>
-									<p>{{ item.descripcion.[page.language] }}</p>
+								{% if item.language == page.language %}
+									{% if item.slug == page.categoria4.slug %}
+										{% assign categoria4_subtitulo = item.subtitulo %}
+										{% assign categoria4_url = item.url %}
+										<hgroup>
+											<h1>{{ item.title }}</h1>
+											<h2>{{ item.subtitulo }}</h2>
+										</hgroup>
+										<p>{{ item.descripcion }}</p>
+									{% endif %}
 								{% endif %}
 							{% endfor %}
 						</div>
@@ -193,32 +199,30 @@
 						{% capture temp4 %}{{ contador4 }}*{% endcapture %}
 						{% assign an_integer4 = contador4.size %}
 						{% for item in site.categories.articulos %}
-							{% if item.language == page.language %}
-								{% if item.categorias.[0] == page.categoria4-slug %}
-									{% capture temp4 %}{{ contador4 }}*{% endcapture %}
-									{% assign contador4 = temp4 %}
-									{% assign an_integer4 = contador4.size %}
-									{% if an_integer4 <=  numero-de-articulos4 %}
-										<article class="articuloBlog">
-											<div class="imagenArticulo">
-												<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
-											</div>
-											<div class="textoArticulo">
-												<hgroup>
-													<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-													<h4>{{ item.subtitulo }} </h4>
-												</hgroup>
-											</div>
-										</article>
-									{% endif %}
+							{% if item.categorias.[0] == page.categoria4.slug %}
+								{% capture temp4 %}{{ contador4 }}*{% endcapture %}
+								{% assign contador4 = temp4 %}
+								{% assign an_integer4 = contador4.size %}
+								{% if an_integer4 <=  numero-de-articulos4 %}
+									<article class="articuloBlog">
+										<div class="imagenArticulo">
+											<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+										</div>
+										<div class="textoArticulo">
+											<hgroup>
+												<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+												<h4>{{ item.subtitulo }}</h4>
+											</hgroup>
+										</div>
+									</article>
 								{% endif %}
 							{% endif %}
 						{% endfor %}
 						</div>
 					</div>
 					<div class="categoriaPie">
-						<div class="linkSubscripcion">Subscribirse a #categoria1</div>
-						<div class="linkResto"><a href="/blog/{{ page.categoria4-slug }}/">Ver los otros {{ an_integer4 }} artículos</a></div>
+						<div class="linkSubscripcion"><a href="/rss/{{ page.categoria4.slug }}.rss">{{ page.categoria_subscripcion }} {{ categoria4_subtitulo }}</a></div>
+						<div class="linkResto"><a href="{{ categoria4_url }}">{{ page.categoria_otros }} {{ an_integer4 }} {{ page.articulos }}</a></div>
 					</div>
 				</section>
 			</div>

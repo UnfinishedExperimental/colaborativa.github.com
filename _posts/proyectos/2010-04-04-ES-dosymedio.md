@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: dosymedio
 permalink: /proyectos/dosymedio/
-url-otro-idioma: /en/projects/dosymedio/
+permalink_otro_idioma: /en/projects/dosymedio/
 slug: dosymedio
 
 subtitulo: "Tertulia gráfica sobre temas de actualidad urbana en Córdoba"

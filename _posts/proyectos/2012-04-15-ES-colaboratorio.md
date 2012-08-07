@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: Colaboratorio
 permalink: /proyectos/colaboratorio/
-url-otro-idioma: /en/projects/colaboratorio/
+permalink_otro_idioma: /en/projects/colaboratorio/
 slug: colaboratorio
 
 subtitulo: "Espacio de cultura abierta en torno al arte la ciencia y la tecnología"

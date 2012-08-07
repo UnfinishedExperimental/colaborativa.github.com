@@ -4,7 +4,6 @@ layout: blog-articulo
 category: articulos
 title: the making of localwiz
 permalink: /blog/2012/05/curso-apps-iaph/
-url-otro-idioma: /en/blog/2012/05/curso-apps-iaph/
 slug: curso-apps-iaph
 published: true
 

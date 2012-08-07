@@ -4,7 +4,7 @@ layout: portfolio-proyecto
 category: proyectos
 title: Localwiz
 permalink: /proyectos/localwiz/
-url-otro-idioma: /en/projects/localwiz/
+permalink_otro_idioma: /en/projects/localwiz/
 slug: localwiz
 
 subtitulo: "Tu guía móvil para descubrir la ciudad"

@@ -12,7 +12,6 @@ $articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans
 $articuloCaption: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 $seccionTitulo: 24px/30px "colaborativaMedium";
 
-
 @mixin imageStyleLight{
 	@include box-sizing (border-box);
 	background:white;
@@ -28,7 +27,6 @@ $seccionTitulo: 24px/30px "colaborativaMedium";
 	@include border-radius(2px, 2px);
 	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
 }
-
 
 @mixin templateHome($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
 	html{
@@ -98,9 +96,14 @@ $seccionTitulo: 24px/30px "colaborativaMedium";
 						left:50%;
 						top:0px;
 						margin-left:-750px;
-						z-index:-500;
+						opacity: 0;
+						z-index: -1000;
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						&.activo{
+							opacity: 1;
+							z-index: -500;
+						}
 					}
-			
 				}
 				.novedades{
 					padding-top:20px;
