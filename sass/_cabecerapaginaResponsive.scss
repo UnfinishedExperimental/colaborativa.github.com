@@ -32,8 +32,7 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 										image-url("/imagenes/background.png"),
 										$colorFondo);
 				} @else {
-					@include background(linear-gradient(rgba($colorFondoOscuro, 0.8), rgba($colorFondoOscuro, 0.0)),
-										$colorFondo);
+					@include background(linear-gradient(rgba($colorFondoOscuro, 0.8), rgba($colorFondoOscuro, 0.0)));
 				}
 				&.fixed{
 					position: fixed;

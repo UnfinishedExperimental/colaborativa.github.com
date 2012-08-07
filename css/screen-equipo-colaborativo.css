@@ -193,19 +193,19 @@ html body.neutral .cabeceraPagina a:hover, html body.neutral .cabeceraPagina a:h
   color: #393939;
   text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
 }
-/* line 38, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 42, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -213,13 +213,13 @@ html body.neutral .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: #393939;
   font: 24px/50px "colaborativasemibold";
@@ -233,7 +233,7 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: none;
 }
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -246,14 +246,14 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 93, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -261,7 +261,7 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: #393939;
   text-shadow: none;
 }
-/* line 105, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -269,18 +269,18 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 121, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -288,15 +288,15 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.i
   margin: 0;
   padding: 0;
 }
-/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 134, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
@@ -310,12 +310,12 @@ html body.light .funnyline {
 /* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina {
   position: relative;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0.8)), color-stop(100%, rgba(210, 210, 210, 0))), #fafafa;
-  background: -webkit-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0)), #fafafa;
-  background: -moz-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0)), #fafafa;
-  background: -o-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0)), #fafafa;
-  background: -ms-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0)), #fafafa;
-  background: linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0)), #fafafa;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0.8)), color-stop(100%, rgba(210, 210, 210, 0)));
+  background: -webkit-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0));
+  background: -moz-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0));
+  background: -o-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0));
+  background: -ms-linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0));
+  background: linear-gradient(rgba(210, 210, 210, 0.8), rgba(210, 210, 210, 0));
   width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -351,19 +351,19 @@ html body.light .cabeceraPagina a:hover, html body.light .cabeceraPagina a:hover
   color: #00a9da;
   text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
 }
-/* line 38, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 42, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -371,13 +371,13 @@ html body.light .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: #393939;
   font: 24px/50px "colaborativasemibold";
@@ -391,7 +391,7 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: 0 1px #ffffff;
 }
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -404,14 +404,14 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 93, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -419,7 +419,7 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: #393939;
   text-shadow: 0 1px #ffffff;
 }
-/* line 105, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -427,18 +427,18 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 121, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -446,15 +446,15 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idi
   margin: 0;
   padding: 0;
 }
-/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 134, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
@@ -468,12 +468,12 @@ html body.dark .funnyline {
 /* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina {
   position: relative;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(100%, rgba(0, 0, 0, 0))), #393939;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), #393939;
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), #393939;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), #393939;
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), #393939;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), #393939;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
   width: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -509,19 +509,19 @@ html body.dark .cabeceraPagina a:hover, html body.dark .cabeceraPagina a:hover.a
   color: white;
   text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
 }
-/* line 38, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 42, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -529,13 +529,13 @@ html body.dark .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: white;
   font: 24px/50px "colaborativasemibold";
@@ -549,7 +549,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: none;
 }
-/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -562,14 +562,14 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 93, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -577,7 +577,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: white;
   text-shadow: none;
 }
-/* line 105, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -585,18 +585,18 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 113, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 121, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -604,71 +604,71 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idio
   margin: 0;
   padding: 0;
 }
-/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 134, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
 
-/* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 167, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina {
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 170, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 169, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .funnyline {
   border-bottom: 1px solid rgba(210, 210, 210, 0.4);
 }
-/* line 174, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 173, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:link, html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:visited, html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:active {
   color: white;
   text-decoration: none;
 }
-/* line 179, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 178, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .tituloMenuBusqueda h1 a {
   color: white;
   text-shadow: none;
 }
-/* line 185, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 184, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   color: white;
   text-shadow: none;
 }
 
 @media (max-width: 989px) {
-  /* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 768px;
   }
-  /* line 154, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -364px;
     width: 728px;
   }
 }
 @media (min-width: 990px) {
-  /* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 980px;
   }
-  /* line 154, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -470px;
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 1230px;
   }
-  /* line 154, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -585px;
     width: 1170px;
@@ -692,7 +692,7 @@ html body.neutral .footerGradient {
   clear: both;
   z-index: 50;
 }
-/* line 28, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer {
   z-index: 50;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(230, 230, 230, 0.8)), color-stop(100%, rgba(230, 230, 230, 0.8))), url('/imagenes/background.png?1331221128'), #fafafa;
@@ -702,78 +702,78 @@ html body.neutral footer {
   background: -ms-linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0.8)), url('/imagenes/background.png?1331221128'), #fafafa;
   background: linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0.8)), url('/imagenes/background.png?1331221128'), #fafafa;
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer a:link, html body.neutral footer a:visited, html body.neutral footer a:active {
   color: #393939;
   text-decoration: none;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor {
   margin: auto;
   padding-bottom: 50px;
 }
-/* line 44, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 43, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto {
   display: table;
   width: 100%;
 }
-/* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 46, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto .emailTelAddress {
   display: table-cell;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 49, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto .anade {
   display: table-cell;
 }
-/* line 53, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 52, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p {
   font: 18px/23px "colaborativasemibold";
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 54, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a:link, html body.neutral footer .contenedor .datosContacto p a:visited {
   color: #393939;
   opacity: 0.8;
 }
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a:link:hover, html body.neutral footer .contenedor .datosContacto p a:visited:hover {
   color: #393939;
   opacity: 1;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a:link:active, html body.neutral footer .contenedor .datosContacto p a:visited:active {
   color: #393939;
   opacity: 1;
 }
-/* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a:before, html body.neutral footer .contenedor .datosContacto p a:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a.mail:before {
   content: "\f002";
 }
-/* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 75, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a.tel:before {
   content: "\f004";
 }
-/* line 79, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 78, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a.address:before {
   content: "\f001";
 }
-/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .datosContacto p a.anade:after {
   content: "\f041";
 }
-/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos {
   padding: 20px 0px 24px 0px;
   display: table;
   margin: auto;
 }
-/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales {
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -782,15 +782,15 @@ html body.neutral footer .contenedor .enlacesExternos .enlacesSociales {
   padding: 0px;
   margin: 0px;
 }
-/* line 96, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 95, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales:first-child {
   margin-right: 50px;
 }
-/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales:last-child {
   margin-left: 50px;
 }
-/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 101, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales div {
   display: inline-block;
   width: 100px;
@@ -800,92 +800,92 @@ html body.neutral footer .contenedor .enlacesExternos .enlacesSociales div {
   padding: 0px;
   margin: 0px;
 }
-/* line 109, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 108, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a:link, html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a:visited {
   color: #393939;
   opacity: 0.6;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
   color: #393939;
   opacity: 0.8;
 }
-/* line 116, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a:link:active, html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
   color: #393939;
   opacity: 0.8;
 }
-/* line 121, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno {
   font: 14px/14px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   width: 100px;
   display: block;
 }
-/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 125, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales {
   text-align: left;
 }
-/* line 129, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos {
   text-align: right;
 }
-/* line 132, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales:before, html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 138, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='twitter.com']:before {
   content: "\f028";
 }
-/* line 141, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 140, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='facebook.com']:before {
   content: "\f023";
 }
-/* line 144, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 143, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='linkedin.com']:before {
   content: "\f027";
 }
-/* line 147, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 146, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='youtube.com']:after {
   content: "\f029";
 }
-/* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 149, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='github.com']:after {
   content: "\f006";
 }
-/* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='flickr.com']:after {
   content: "\f024";
 }
-/* line 156, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 155, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='issuu.com']:after {
   content: "\f026";
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 160, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .credits {
   height: 32px;
 }
-/* line 163, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 162, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .credits p {
   font: 12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: center;
   color: #393939;
   opacity: 0.6;
 }
-/* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 167, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .credits p a:link, html body.neutral footer .contenedor .credits p a:visited {
   color: #393939;
   opacity: 0.8;
 }
-/* line 171, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 170, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .credits p a:link:hover, html body.neutral footer .contenedor .credits p a:visited:hover {
   color: #393939;
   opacity: 1;
 }
-/* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 174, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.neutral footer .contenedor .credits p a:link:active, html body.neutral footer .contenedor .credits p a:visited:active {
   color: #393939;
   opacity: 1;
@@ -894,12 +894,12 @@ html body.neutral footer .contenedor .credits p a:link:active, html body.neutral
 /* line 11, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light .footerGradient {
   width: 100%;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0)), color-stop(100%, rgba(210, 210, 210, 0.8))), #fafafa;
-  background: -webkit-linear-gradient(rgba(210, 210, 210, 0), rgba(210, 210, 210, 0.8)), #fafafa;
-  background: -moz-linear-gradient(rgba(210, 210, 210, 0), rgba(210, 210, 210, 0.8)), #fafafa;
-  background: -o-linear-gradient(rgba(210, 210, 210, 0), rgba(210, 210, 210, 0.8)), #fafafa;
-  background: -ms-linear-gradient(rgba(210, 210, 210, 0), rgba(210, 210, 210, 0.8)), #fafafa;
-  background: linear-gradient(rgba(210, 210, 210, 0), rgba(210, 210, 210, 0.8)), #fafafa;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0)), color-stop(100%, #d2d2d2));
+  background: -webkit-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
+  background: -moz-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
+  background: -o-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
+  background: -ms-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
+  background: linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -909,83 +909,88 @@ html body.light .footerGradient {
   clear: both;
   z-index: 50;
 }
-/* line 28, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer {
   z-index: 50;
-  background: #d2d2d2;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d2d2d2), color-stop(100%, #d2d2d2));
+  background: -webkit-linear-gradient(#d2d2d2, #d2d2d2);
+  background: -moz-linear-gradient(#d2d2d2, #d2d2d2);
+  background: -o-linear-gradient(#d2d2d2, #d2d2d2);
+  background: -ms-linear-gradient(#d2d2d2, #d2d2d2);
+  background: linear-gradient(#d2d2d2, #d2d2d2);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer a:link, html body.light footer a:visited, html body.light footer a:active {
   color: #393939;
   text-decoration: none;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor {
   margin: auto;
   padding-bottom: 50px;
 }
-/* line 44, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 43, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto {
   display: table;
   width: 100%;
 }
-/* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 46, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto .emailTelAddress {
   display: table-cell;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 49, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto .anade {
   display: table-cell;
 }
-/* line 53, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 52, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p {
   font: 18px/23px "colaborativasemibold";
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 54, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a:link, html body.light footer .contenedor .datosContacto p a:visited {
   color: #393939;
   opacity: 0.8;
 }
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a:link:hover, html body.light footer .contenedor .datosContacto p a:visited:hover {
   color: #393939;
   opacity: 1;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a:link:active, html body.light footer .contenedor .datosContacto p a:visited:active {
   color: #393939;
   opacity: 1;
 }
-/* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a:before, html body.light footer .contenedor .datosContacto p a:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a.mail:before {
   content: "\f002";
 }
-/* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 75, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a.tel:before {
   content: "\f004";
 }
-/* line 79, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 78, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a.address:before {
   content: "\f001";
 }
-/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .datosContacto p a.anade:after {
   content: "\f041";
 }
-/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos {
   padding: 20px 0px 24px 0px;
   display: table;
   margin: auto;
 }
-/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales {
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -994,15 +999,15 @@ html body.light footer .contenedor .enlacesExternos .enlacesSociales {
   padding: 0px;
   margin: 0px;
 }
-/* line 96, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 95, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales:first-child {
   margin-right: 50px;
 }
-/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales:last-child {
   margin-left: 50px;
 }
-/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 101, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales div {
   display: inline-block;
   width: 100px;
@@ -1012,92 +1017,92 @@ html body.light footer .contenedor .enlacesExternos .enlacesSociales div {
   padding: 0px;
   margin: 0px;
 }
-/* line 109, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 108, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a:link, html body.light footer .contenedor .enlacesExternos .enlacesSociales a:visited {
   color: #393939;
   opacity: 0.6;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, html body.light footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
   color: #393939;
   opacity: 0.8;
 }
-/* line 116, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a:link:active, html body.light footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
   color: #393939;
   opacity: 0.8;
 }
-/* line 121, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno {
   font: 14px/14px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   width: 100px;
   display: block;
 }
-/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 125, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales {
   text-align: left;
 }
-/* line 129, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos {
   text-align: right;
 }
-/* line 132, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales:before, html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 138, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='twitter.com']:before {
   content: "\f028";
 }
-/* line 141, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 140, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='facebook.com']:before {
   content: "\f023";
 }
-/* line 144, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 143, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='linkedin.com']:before {
   content: "\f027";
 }
-/* line 147, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 146, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='youtube.com']:after {
   content: "\f029";
 }
-/* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 149, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='github.com']:after {
   content: "\f006";
 }
-/* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='flickr.com']:after {
   content: "\f024";
 }
-/* line 156, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 155, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='issuu.com']:after {
   content: "\f026";
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 160, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .credits {
   height: 32px;
 }
-/* line 163, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 162, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .credits p {
   font: 12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: center;
   color: #393939;
   opacity: 0.6;
 }
-/* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 167, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .credits p a:link, html body.light footer .contenedor .credits p a:visited {
   color: #393939;
   opacity: 0.8;
 }
-/* line 171, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 170, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .credits p a:link:hover, html body.light footer .contenedor .credits p a:visited:hover {
   color: #393939;
   opacity: 1;
 }
-/* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 174, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer .contenedor .credits p a:link:active, html body.light footer .contenedor .credits p a:visited:active {
   color: #393939;
   opacity: 1;
@@ -1106,12 +1111,12 @@ html body.light footer .contenedor .credits p a:link:active, html body.light foo
 /* line 11, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark .footerGradient {
   width: 100%;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.8))), #393939;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), #393939;
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), #393939;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), #393939;
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), #393939;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), #393939;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: linear-gradient(rgba(0, 0, 0, 0), #000000);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1121,83 +1126,88 @@ html body.dark .footerGradient {
   clear: both;
   z-index: 50;
 }
-/* line 28, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer {
   z-index: 50;
-  background: black;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(#000000, #000000);
+  background: -moz-linear-gradient(#000000, #000000);
+  background: -o-linear-gradient(#000000, #000000);
+  background: -ms-linear-gradient(#000000, #000000);
+  background: linear-gradient(#000000, #000000);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer a:link, html body.dark footer a:visited, html body.dark footer a:active {
   color: white;
   text-decoration: none;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor {
   margin: auto;
   padding-bottom: 50px;
 }
-/* line 44, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 43, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto {
   display: table;
   width: 100%;
 }
-/* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 46, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto .emailTelAddress {
   display: table-cell;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 49, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto .anade {
   display: table-cell;
 }
-/* line 53, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 52, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p {
   font: 18px/23px "colaborativasemibold";
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 54, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a:link, html body.dark footer .contenedor .datosContacto p a:visited {
   color: white;
   opacity: 0.8;
 }
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 57, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a:link:hover, html body.dark footer .contenedor .datosContacto p a:visited:hover {
   color: white;
   opacity: 1;
 }
-/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a:link:active, html body.dark footer .contenedor .datosContacto p a:visited:active {
   color: white;
   opacity: 1;
 }
-/* line 67, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a:before, html body.dark footer .contenedor .datosContacto p a:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 72, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a.mail:before {
   content: "\f002";
 }
-/* line 76, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 75, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a.tel:before {
   content: "\f004";
 }
-/* line 79, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 78, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a.address:before {
   content: "\f001";
 }
-/* line 82, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 81, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .datosContacto p a.anade:after {
   content: "\f041";
 }
-/* line 87, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 86, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos {
   padding: 20px 0px 24px 0px;
   display: table;
   margin: auto;
 }
-/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 90, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales {
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -1206,15 +1216,15 @@ html body.dark footer .contenedor .enlacesExternos .enlacesSociales {
   padding: 0px;
   margin: 0px;
 }
-/* line 96, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 95, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales:first-child {
   margin-right: 50px;
 }
-/* line 99, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales:last-child {
   margin-left: 50px;
 }
-/* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 101, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales div {
   display: inline-block;
   width: 100px;
@@ -1224,135 +1234,135 @@ html body.dark footer .contenedor .enlacesExternos .enlacesSociales div {
   padding: 0px;
   margin: 0px;
 }
-/* line 109, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 108, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a:link, html body.dark footer .contenedor .enlacesExternos .enlacesSociales a:visited {
   color: white;
   opacity: 0.6;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 111, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a:link:hover, html body.dark footer .contenedor .enlacesExternos .enlacesSociales a:visited:hover {
   color: white;
   opacity: 0.8;
 }
-/* line 116, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a:link:active, html body.dark footer .contenedor .enlacesExternos .enlacesSociales a:visited:active {
   color: white;
   opacity: 0.8;
 }
-/* line 121, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno {
   font: 14px/14px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   width: 100px;
   display: block;
 }
-/* line 126, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 125, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales {
   text-align: left;
 }
-/* line 129, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos {
   text-align: right;
 }
-/* line 132, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 131, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.sociales:before, html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno.recursos:after {
   font: 30px "colaborativa-icons";
   padding-right: 0px;
   position: relative;
   top: 4px;
 }
-/* line 138, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 137, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='twitter.com']:before {
   content: "\f028";
 }
-/* line 141, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 140, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='facebook.com']:before {
   content: "\f023";
 }
-/* line 144, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 143, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='linkedin.com']:before {
   content: "\f027";
 }
-/* line 147, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 146, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='youtube.com']:after {
   content: "\f029";
 }
-/* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 149, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='github.com']:after {
   content: "\f006";
 }
-/* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 152, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='flickr.com']:after {
   content: "\f024";
 }
-/* line 156, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 155, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .enlacesExternos .enlacesSociales a.enlaceExterno[href*='issuu.com']:after {
   content: "\f026";
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 160, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .credits {
   height: 32px;
 }
-/* line 163, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 162, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .credits p {
   font: 12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: center;
   color: white;
   opacity: 0.6;
 }
-/* line 168, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 167, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .credits p a:link, html body.dark footer .contenedor .credits p a:visited {
   color: white;
   opacity: 0.8;
 }
-/* line 171, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 170, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .credits p a:link:hover, html body.dark footer .contenedor .credits p a:visited:hover {
   color: white;
   opacity: 1;
 }
-/* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+/* line 174, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer .contenedor .credits p a:link:active, html body.dark footer .contenedor .credits p a:visited:active {
   color: white;
   opacity: 1;
 }
 
 @media (max-width: 989px) {
-  /* line 198, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 197, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body .footerGradient {
     min-width: 768px;
   }
-  /* line 201, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 200, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body footer {
     min-width: 768px;
   }
-  /* line 203, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 202, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body footer .contenedor {
     width: 728px;
   }
 }
 @media (min-width: 990px) {
-  /* line 198, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 197, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body .footerGradient {
     min-width: 980px;
   }
-  /* line 201, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 200, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body footer {
     min-width: 980px;
   }
-  /* line 203, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 202, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body footer .contenedor {
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 198, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 197, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body .footerGradient {
     min-width: 1230px;
   }
-  /* line 201, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 200, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body footer {
     min-width: 1230px;
   }
-  /* line 203, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
+  /* line 202, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
   body footer .contenedor {
     width: 1170px;
   }
