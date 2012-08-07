@@ -974,32 +974,32 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   zoom: 1;
 }
 
-/* line 35, ../sass/screen-home.scss */
+/* line 33, ../sass/screen-home.scss */
 html body.light {
   width: 100%;
   background-repeat: repeat;
   background-color: #d2d2d2;
 }
-/* line 39, ../sass/screen-home.scss */
+/* line 37, ../sass/screen-home.scss */
 html body.light .contenedorHome {
   margin: 0px auto;
 }
-/* line 40, ../sass/screen-home.scss */
+/* line 38, ../sass/screen-home.scss */
 html body.light .contenedorHome a:link, html body.light .contenedorHome a:visited, html body.light .contenedorHome a:active {
   text-decoration: none;
   color: #393939;
 }
-/* line 45, ../sass/screen-home.scss */
+/* line 43, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos {
   display: table;
   margin: 330px auto 0px auto;
   padding: 20px 0px 20px 0px;
 }
-/* line 49, ../sass/screen-home.scss */
+/* line 47, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul {
   padding-top: 5px;
 }
-/* line 51, ../sass/screen-home.scss */
+/* line 49, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul li {
   display: inline;
   cursor: pointer;
@@ -1008,11 +1008,11 @@ html body.light .contenedorHome .selectorProyectos ul li {
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 58, ../sass/screen-home.scss */
+/* line 56, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul li a {
   display: none;
 }
-/* line 61, ../sass/screen-home.scss */
+/* line 59, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1026,25 +1026,25 @@ html body.light .contenedorHome .selectorProyectos ul li:after {
   -o-transition: color 0.5s;
   transition: color 0.5s false;
 }
-/* line 68, ../sass/screen-home.scss */
+/* line 66, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul li:hover:after {
   color: rgba(57, 57, 57, 0.5);
 }
-/* line 71, ../sass/screen-home.scss */
+/* line 69, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul li:active:after {
   color: rgba(57, 57, 57, 0.75);
 }
-/* line 74, ../sass/screen-home.scss */
+/* line 72, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul li.activo:after {
   color: rgba(57, 57, 57, 0.75);
 }
-/* line 78, ../sass/screen-home.scss */
+/* line 76, ../sass/screen-home.scss */
 html body.light .contenedorHome .selectorProyectos ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 85, ../sass/screen-home.scss */
+/* line 83, ../sass/screen-home.scss */
 html body.light .contenedorHome .contenedorPoster {
   display: block;
   overflow: hidden;
@@ -1055,7 +1055,7 @@ html body.light .contenedorHome .contenedorPoster {
   top: 0px;
   z-index: -500;
 }
-/* line 94, ../sass/screen-home.scss */
+/* line 92, ../sass/screen-home.scss */
 html body.light .contenedorHome .contenedorPoster .posterProyecto {
   width: 1500px;
   height: 1100px;
@@ -1063,52 +1063,63 @@ html body.light .contenedorHome .contenedorPoster .posterProyecto {
   left: 50%;
   top: 0px;
   margin-left: -750px;
+  opacity: 0;
+  z-index: -1000;
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+}
+/* line 102, ../sass/screen-home.scss */
+html body.light .contenedorHome .contenedorPoster .posterProyecto.activo {
+  opacity: 1;
   z-index: -500;
 }
-/* line 105, ../sass/screen-home.scss */
+/* line 108, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades {
   padding-top: 20px;
   border-top: 1px solid #c9c9c9;
 }
-/* line 108, ../sass/screen-home.scss */
+/* line 111, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 111, ../sass/screen-home.scss */
+/* line 114, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos {
   float: left;
 }
-/* line 112, ../sass/screen-home.scss */
+/* line 115, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 117, ../sass/screen-home.scss */
+/* line 120, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista article {
   position: relative;
   float: left;
   border-left: 1px solid #c9c9c9;
 }
-/* line 121, ../sass/screen-home.scss */
+/* line 124, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista article h3 {
   color: #393939;
   padding-top: 12px;
   font: 18px/20px "colaborativasemibold";
   padding-bottom: 12px;
 }
-/* line 127, ../sass/screen-home.scss */
+/* line 130, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista article h4 {
   color: #393939;
   position: absolute;
   bottom: 0px;
   font: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 134, ../sass/screen-home.scss */
+/* line 137, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1129,50 +1140,50 @@ html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista a
   overflow: hidden;
   background-size: cover;
 }
-/* line 147, ../sass/screen-home.scss */
+/* line 150, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista article:first-child {
   border-left: none;
   margin-left: 0px;
   padding-left: 0px;
 }
-/* line 151, ../sass/screen-home.scss */
+/* line 154, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos .articulosLista article:first-child h4 {
   left: 0px;
 }
-/* line 157, ../sass/screen-home.scss */
+/* line 160, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesArticulos p {
   color: rgba(57, 57, 57, 0.7);
   clear: left;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 163, ../sass/screen-home.scss */
+/* line 166, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets {
   float: left;
 }
-/* line 165, ../sass/screen-home.scss */
+/* line 168, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 168, ../sass/screen-home.scss */
+/* line 171, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets .tweetsLista {
   position: relative;
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 172, ../sass/screen-home.scss */
+/* line 175, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets .tweetsLista article {
   float: left;
   border-left: 1px solid #c9c9c9;
 }
-/* line 175, ../sass/screen-home.scss */
+/* line 178, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets .tweetsLista article h3 {
   font: 24px/30px "colaborativaMedium";
   color: #393939;
 }
-/* line 179, ../sass/screen-home.scss */
+/* line 182, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   position: absolute;
   bottom: 0px;
@@ -1181,39 +1192,39 @@ html body.light .contenedorHome .novedades .novedadesTweets .tweetsLista article
   text-align: right;
   color: #393939;
 }
-/* line 189, ../sass/screen-home.scss */
+/* line 192, ../sass/screen-home.scss */
 html body.light .contenedorHome .novedades .novedadesTweets .tweetInfo {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: right;
   color: rgba(57, 57, 57, 0.7);
 }
 
-/* line 35, ../sass/screen-home.scss */
+/* line 33, ../sass/screen-home.scss */
 html body.dark {
   width: 100%;
   background-repeat: repeat;
   background-color: black;
 }
-/* line 39, ../sass/screen-home.scss */
+/* line 37, ../sass/screen-home.scss */
 html body.dark .contenedorHome {
   margin: 0px auto;
 }
-/* line 40, ../sass/screen-home.scss */
+/* line 38, ../sass/screen-home.scss */
 html body.dark .contenedorHome a:link, html body.dark .contenedorHome a:visited, html body.dark .contenedorHome a:active {
   text-decoration: none;
   color: white;
 }
-/* line 45, ../sass/screen-home.scss */
+/* line 43, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos {
   display: table;
   margin: 330px auto 0px auto;
   padding: 20px 0px 20px 0px;
 }
-/* line 49, ../sass/screen-home.scss */
+/* line 47, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul {
   padding-top: 5px;
 }
-/* line 51, ../sass/screen-home.scss */
+/* line 49, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul li {
   display: inline;
   cursor: pointer;
@@ -1222,11 +1233,11 @@ html body.dark .contenedorHome .selectorProyectos ul li {
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 58, ../sass/screen-home.scss */
+/* line 56, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul li a {
   display: none;
 }
-/* line 61, ../sass/screen-home.scss */
+/* line 59, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1240,25 +1251,25 @@ html body.dark .contenedorHome .selectorProyectos ul li:after {
   -o-transition: color 0.5s;
   transition: color 0.5s false;
 }
-/* line 68, ../sass/screen-home.scss */
+/* line 66, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul li:hover:after {
   color: rgba(255, 255, 255, 0.5);
 }
-/* line 71, ../sass/screen-home.scss */
+/* line 69, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul li:active:after {
   color: rgba(255, 255, 255, 0.75);
 }
-/* line 74, ../sass/screen-home.scss */
+/* line 72, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul li.activo:after {
   color: rgba(255, 255, 255, 0.75);
 }
-/* line 78, ../sass/screen-home.scss */
+/* line 76, ../sass/screen-home.scss */
 html body.dark .contenedorHome .selectorProyectos ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 85, ../sass/screen-home.scss */
+/* line 83, ../sass/screen-home.scss */
 html body.dark .contenedorHome .contenedorPoster {
   display: block;
   overflow: hidden;
@@ -1269,7 +1280,7 @@ html body.dark .contenedorHome .contenedorPoster {
   top: 0px;
   z-index: -500;
 }
-/* line 94, ../sass/screen-home.scss */
+/* line 92, ../sass/screen-home.scss */
 html body.dark .contenedorHome .contenedorPoster .posterProyecto {
   width: 1500px;
   height: 1100px;
@@ -1277,52 +1288,63 @@ html body.dark .contenedorHome .contenedorPoster .posterProyecto {
   left: 50%;
   top: 0px;
   margin-left: -750px;
+  opacity: 0;
+  z-index: -1000;
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+}
+/* line 102, ../sass/screen-home.scss */
+html body.dark .contenedorHome .contenedorPoster .posterProyecto.activo {
+  opacity: 1;
   z-index: -500;
 }
-/* line 105, ../sass/screen-home.scss */
+/* line 108, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades {
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
-/* line 108, ../sass/screen-home.scss */
+/* line 111, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 111, ../sass/screen-home.scss */
+/* line 114, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos {
   float: left;
 }
-/* line 112, ../sass/screen-home.scss */
+/* line 115, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 117, ../sass/screen-home.scss */
+/* line 120, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista article {
   position: relative;
   float: left;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
-/* line 121, ../sass/screen-home.scss */
+/* line 124, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista article h3 {
   color: white;
   padding-top: 12px;
   font: 18px/20px "colaborativasemibold";
   padding-bottom: 12px;
 }
-/* line 127, ../sass/screen-home.scss */
+/* line 130, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista article h4 {
   color: white;
   position: absolute;
   bottom: 0px;
   font: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 134, ../sass/screen-home.scss */
+/* line 137, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1343,50 +1365,50 @@ html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista ar
   overflow: hidden;
   background-size: cover;
 }
-/* line 147, ../sass/screen-home.scss */
+/* line 150, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista article:first-child {
   border-left: none;
   margin-left: 0px;
   padding-left: 0px;
 }
-/* line 151, ../sass/screen-home.scss */
+/* line 154, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos .articulosLista article:first-child h4 {
   left: 0px;
 }
-/* line 157, ../sass/screen-home.scss */
+/* line 160, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesArticulos p {
   color: rgba(255, 255, 255, 0.7);
   clear: left;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 163, ../sass/screen-home.scss */
+/* line 166, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets {
   float: left;
 }
-/* line 165, ../sass/screen-home.scss */
+/* line 168, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 168, ../sass/screen-home.scss */
+/* line 171, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets .tweetsLista {
   position: relative;
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 172, ../sass/screen-home.scss */
+/* line 175, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets .tweetsLista article {
   float: left;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
-/* line 175, ../sass/screen-home.scss */
+/* line 178, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets .tweetsLista article h3 {
   font: 24px/30px "colaborativaMedium";
   color: white;
 }
-/* line 179, ../sass/screen-home.scss */
+/* line 182, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets .tweetsLista article .tweetFecha {
   position: absolute;
   bottom: 0px;
@@ -1395,7 +1417,7 @@ html body.dark .contenedorHome .novedades .novedadesTweets .tweetsLista article 
   text-align: right;
   color: white;
 }
-/* line 189, ../sass/screen-home.scss */
+/* line 192, ../sass/screen-home.scss */
 html body.dark .contenedorHome .novedades .novedadesTweets .tweetInfo {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   text-align: right;
@@ -1403,205 +1425,205 @@ html body.dark .contenedorHome .novedades .novedadesTweets .tweetInfo {
 }
 
 @media (max-width: 989px) {
-  /* line 203, ../sass/screen-home.scss */
+  /* line 206, ../sass/screen-home.scss */
   body .contenedorHome {
     width: 768px;
     min-width: 768px;
     padding-left: 20px;
   }
-  /* line 207, ../sass/screen-home.scss */
+  /* line 210, ../sass/screen-home.scss */
   body .contenedorHome .contenedorPoster {
     min-width: 768px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 213, ../sass/screen-home.scss */
   body .contenedorHome .novedades {
     padding-top: 20px;
   }
-  /* line 212, ../sass/screen-home.scss */
+  /* line 215, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos {
     width: 470px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 217, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista {
     width: 510px;
   }
-  /* line 216, ../sass/screen-home.scss */
+  /* line 219, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 129px;
   }
-  /* line 223, ../sass/screen-home.scss */
+  /* line 226, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article h4 {
     left: 20px;
   }
-  /* line 226, ../sass/screen-home.scss */
+  /* line 229, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 130px;
     height: 86.667px;
   }
-  /* line 229, ../sass/screen-home.scss */
+  /* line 232, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
     width: 130px;
     height: 86.667px;
   }
-  /* line 236, ../sass/screen-home.scss */
+  /* line 239, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos p {
     margin-top: 19px;
   }
-  /* line 240, ../sass/screen-home.scss */
+  /* line 243, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets {
     width: 255px;
   }
-  /* line 242, ../sass/screen-home.scss */
+  /* line 245, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetsLista {
     width: 255px;
   }
-  /* line 244, ../sass/screen-home.scss */
+  /* line 247, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 214px;
   }
-  /* line 251, ../sass/screen-home.scss */
+  /* line 254, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetInfo {
     margin-top: 19px;
   }
 }
 @media (min-width: 990px) {
-  /* line 203, ../sass/screen-home.scss */
+  /* line 206, ../sass/screen-home.scss */
   body .contenedorHome {
     width: 980px;
     min-width: 980px;
     padding-left: 20px;
   }
-  /* line 207, ../sass/screen-home.scss */
+  /* line 210, ../sass/screen-home.scss */
   body .contenedorHome .contenedorPoster {
     min-width: 980px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 213, ../sass/screen-home.scss */
   body .contenedorHome .novedades {
     padding-top: 20px;
   }
-  /* line 212, ../sass/screen-home.scss */
+  /* line 215, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos {
     width: 608px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 217, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista {
     width: 648px;
   }
-  /* line 216, ../sass/screen-home.scss */
+  /* line 219, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 175px;
   }
-  /* line 223, ../sass/screen-home.scss */
+  /* line 226, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article h4 {
     left: 20px;
   }
-  /* line 226, ../sass/screen-home.scss */
+  /* line 229, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 176px;
     height: 117.333px;
   }
-  /* line 229, ../sass/screen-home.scss */
+  /* line 232, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
     width: 176px;
     height: 117.333px;
   }
-  /* line 236, ../sass/screen-home.scss */
+  /* line 239, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos p {
     margin-top: 19px;
   }
-  /* line 240, ../sass/screen-home.scss */
+  /* line 243, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets {
     width: 324px;
   }
-  /* line 242, ../sass/screen-home.scss */
+  /* line 245, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetsLista {
     width: 324px;
   }
-  /* line 244, ../sass/screen-home.scss */
+  /* line 247, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 20px;
     padding-left: 20px;
     width: 283px;
   }
-  /* line 251, ../sass/screen-home.scss */
+  /* line 254, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetInfo {
     margin-top: 19px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 203, ../sass/screen-home.scss */
+  /* line 206, ../sass/screen-home.scss */
   body .contenedorHome {
     width: 1230px;
     min-width: 1230px;
     padding-left: 30px;
   }
-  /* line 207, ../sass/screen-home.scss */
+  /* line 210, ../sass/screen-home.scss */
   body .contenedorHome .contenedorPoster {
     min-width: 1230px;
   }
-  /* line 210, ../sass/screen-home.scss */
+  /* line 213, ../sass/screen-home.scss */
   body .contenedorHome .novedades {
     padding-top: 30px;
   }
-  /* line 212, ../sass/screen-home.scss */
+  /* line 215, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos {
     width: 756px;
   }
-  /* line 214, ../sass/screen-home.scss */
+  /* line 217, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista {
     width: 816px;
   }
-  /* line 216, ../sass/screen-home.scss */
+  /* line 219, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 211px;
   }
-  /* line 223, ../sass/screen-home.scss */
+  /* line 226, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article h4 {
     left: 30px;
   }
-  /* line 226, ../sass/screen-home.scss */
+  /* line 229, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo {
     width: 212px;
     height: 141.333px;
   }
-  /* line 229, ../sass/screen-home.scss */
+  /* line 232, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos .articulosLista article .imagenArticulo a {
     width: 212px;
     height: 141.333px;
   }
-  /* line 236, ../sass/screen-home.scss */
+  /* line 239, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesArticulos p {
     margin-top: 29px;
   }
-  /* line 240, ../sass/screen-home.scss */
+  /* line 243, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets {
     width: 408px;
   }
-  /* line 242, ../sass/screen-home.scss */
+  /* line 245, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetsLista {
     width: 408px;
   }
-  /* line 244, ../sass/screen-home.scss */
+  /* line 247, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetsLista article {
     height: 260px;
     margin-left: 30px;
     padding-left: 30px;
     width: 347px;
   }
-  /* line 251, ../sass/screen-home.scss */
+  /* line 254, ../sass/screen-home.scss */
   body .contenedorHome .novedades .novedadesTweets .tweetInfo {
     margin-top: 29px;
   }

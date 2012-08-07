@@ -7,11 +7,30 @@
 		<link href="/css/screen-home.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		{% include _scripts-home-top.html %}
 	</head>
-	<body class="{{ page.template }}">
+	{% for proyecto in site.categories.proyectos %}
+		{% if proyecto.language == page.language %}
+			{% if proyecto.en-cabecera %}
+				{% if forloop.first %}
+					{% assign plantilla = proyecto.template %}
+				{% endif %}
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	<body class="{{ plantilla }}">
 		{% include _header-responsive.html %}
 		<div class="contenedorHome">
 			<div class="contenedorPoster">
-				<div class="posterProyecto" style="background: url(/imagenes/proyectos/janes-walk-cordoba-2012-poster.jpg) center center no-repeat"></div>
+			{% for proyecto in site.categories.proyectos %}
+				{% if proyecto.language == page.language %}
+					{% if proyecto.en-cabecera %}
+						{% if forloop.first %}
+						<div class="posterProyecto activo" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						{% else %}
+						<div class="posterProyecto" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						{% endif %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
 			</div>
 			<div class="selectorProyectos">
 				<ul>
@@ -19,9 +38,9 @@
 						{% if proyecto.language == page.language %}
 							{% if proyecto.en-cabecera %}
 								{% if forloop.first %}
-								<li class="activo"><a template="{{ proyecto.template }}" href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								<li class="activo"><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
 								{% else %}
-								<li><a template="{{ proyecto.template }}" href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								<li><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
 								{% endif %}
 							{% endif %}
 						{% endif %}
