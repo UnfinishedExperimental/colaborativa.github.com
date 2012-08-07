@@ -92,7 +92,7 @@ $greyLine: 1px solid #DADADA;
 						hgroup{
 							padding-bottom:30px;
 							margin-bottom:25px;
-							border-bottom: $greyLine;
+							border-bottom: $estiloBorde;
 						}
 						h1{
 							font: $proyectoTitulo;
@@ -209,7 +209,9 @@ $greyLine: 1px solid #DADADA;
 						font: $seccionTexto;
 						color: $colorTexto;
 						margin-top: 185px;
-						margin-bottom: 80px;
+						border-bottom: $estiloBorde;
+						padding-bottom: 50px;
+						margin-bottom: 150px;
 						@include box-sizing (border-box);
 						cite{
 							font: $articuloCaption;

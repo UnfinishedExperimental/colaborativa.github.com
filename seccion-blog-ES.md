@@ -4,7 +4,7 @@ layout: blog
 title: Artículos
 permalink: /blog/
 permalink_otro_idioma: /en/blog/
-template: light
+template: neutral
 
 articulos: artículos
 portada: Portada

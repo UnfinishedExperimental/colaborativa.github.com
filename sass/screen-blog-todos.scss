@@ -37,7 +37,10 @@ $articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans
 	html{
 		height: 100%;
 		body.#{$templateNombre} {
-			background-color: $colorFondo;
+			@if $templateNombre == neutral {
+				@include background(image-url("/imagenes/background.png"),
+									rgb(250,250,250));
+			}
 			.cuerpoPagina{
 				a:link, a:visited, a:active{
 					text-decoration: none;
@@ -73,7 +76,7 @@ $articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans
 									padding: 0;
 									overflow:hidden;
 									background-size: cover;
-									@if $templateNombre == light {
+									@if $templateNombre == light OR $templateNombre == neutral {
 										@include imageStyleLight;
 									} @else {
 										@include imageStyleDark;
@@ -119,8 +122,9 @@ $articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans
 	}
 }
 
-@include templateSite(dark, black, white, 1px solid rgba(255,255,255,0.5));
+@include templateSite(neutral, rgb(250,250,250), #393939, 1px solid #C9C9C9);
 @include templateSite(light, rgb(250,250,250), #393939, 1px solid #C9C9C9);
+@include templateSite(dark, black, white, 1px solid rgba(255,255,255,0.5));
 
 //Tablets
 @media (max-width: 989px) {
