@@ -1,8 +1,12 @@
 jQuery(document).ready(function () {
+	/*******************************************************************************************************************
+		Functions for PROYECTOS VISTA DETALLE (imagenes, descripción, reacciones)
+	
+	*******************************************************************************************************************/
 	var imagesDelay = 3000; // 2 seconds for slideshow in VISTA imagenes
-	var slideShowInterval;  // variable for clearing interval
-	var n_images = $('.imagenesProyecto').find('div.imagenFullScreen').length; // number of images in VISTA imagenes
-	var slideShow =	function() {
+	var slideShowProyectosInterval;  // variable for clearing interval
+	var n_images    = $('.imagenesProyecto').find('div.imagenFullScreen').length; // number of images in VISTA imagenes PROYECTOS
+	var slideShowProyectos = function() {
 		var el, el_id; 			 // Activo Imagen
 		var next_el, next_el_id; // Next Activo Imagen
 	    el = $('.imagenesProyecto').find('div.imagenFullScreen.activo'); // Current Image
@@ -26,7 +30,7 @@ jQuery(document).ready(function () {
 	$(botonInicial).find('a').trigger('click'); 	// hacer click
 	$(botonInicial).find('a').addClass('activo'); 	// seleccionar
 	if (botonInicial == '#imagenes'){
-		slideShowInterval= setInterval(slideShow,imagesDelay);
+		slideShowProyectosInterval= setInterval(slideShowProyectos,imagesDelay);
 	}
 	/* 
 	Seleccionar imagen de fondo asociada a la vista IMAGENES.
@@ -59,10 +63,10 @@ jQuery(document).ready(function () {
 	    var idAdd = $(this).attr('href').split('#').pop();
 		$('body').addClass(idAdd); // Cambio la clase del Body
 		if (idAdd == 'imagenes'){
-			clearInterval(slideShowInterval);
-			slideShowInterval= setInterval(slideShow,imagesDelay);
+			clearInterval(slideShowProyectosInterval);
+			slideShowProyectosInterval= setInterval(slideShowProyectos,imagesDelay);
 		}else{
-			clearInterval(slideShowInterval);
+			clearInterval(slideShowProyectosInterval);
 		}
 		return false;
 	});
@@ -71,10 +75,10 @@ jQuery(document).ready(function () {
 	*/
 	$('.infoImagenesProyecto').hover(
 		  function () { // Mouse pointer enters the element.
-			clearInterval(slideShowInterval);
+			clearInterval(slideShowProyectosInterval);
 		  },
 		  function () { // Mouse pointer leaves the element.
-			slideShowInterval= setInterval(slideShow,imagesDelay);
+			slideShowProyectosInterval= setInterval(slideShowProyectos,imagesDelay);
 		  }
 	);
 	/*

@@ -20,13 +20,20 @@
 		{% include _header-responsive.html %}
 		<div class="contenedorHome">
 			<div class="contenedorPoster">
+			{% assign contadorProyecto = '' %}
+			{% assign contadorProyecto = tempProyecto %}
+			{% capture tempProyecto %}{{ contadorProyecto }}*{% endcapture %}
+			{% assign indexProyecto = contadorProyecto.size %}
 			{% for proyecto in site.categories.proyectos %}
 				{% if proyecto.language == page.language %}
 					{% if proyecto.en-cabecera %}
+						{% capture tempProyecto %}{{ contadorProyecto }}*{% endcapture %}
+						{% assign contadorProyecto = tempProyecto %}
+						{% assign indexProyecto = contadorProyecto.size %}
 						{% if forloop.first %}
-						<div class="posterProyecto activo" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						<div class="posterProyecto activo" id="proyecto{{ indexProyecto }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
 						{% else %}
-						<div class="posterProyecto" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						<div class="posterProyecto" id="proyecto{{ indexProyecto }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
 						{% endif %}
 					{% endif %}
 				{% endif %}
@@ -34,13 +41,20 @@
 			</div>
 			<div class="selectorProyectos">
 				<ul>
+					{% assign contadorSelProyecto = '' %}
+					{% assign contadorSelProyecto = tempSelProyecto %}
+					{% capture tempSelProyecto %}{{ contadorSelProyecto }}*{% endcapture %}
+					{% assign indexSelProyecto = contadorSelProyecto.size %}
 					{% for proyecto in site.categories.proyectos %}
 						{% if proyecto.language == page.language %}
 							{% if proyecto.en-cabecera %}
+							{% capture tempSelProyecto %}{{ contadorSelProyecto }}*{% endcapture %}
+							{% assign contadorSelProyecto = tempSelProyecto %}
+							{% assign indexSelProyecto = contadorSelProyecto.size %}
 								{% if forloop.first %}
-								<li class="activo"><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								<li class="activo"><a href="#{{ indexSelProyecto }}">{{ proyecto.slug }}</a></li>
 								{% else %}
-								<li><a href="#{{ proyecto.slug }}">{{ proyecto.slug }}</a></li>
+								<li><a href="#{{ indexSelProyecto }}">{{ proyecto.slug }}</a></li>
 								{% endif %}
 							{% endif %}
 						{% endif %}
@@ -95,7 +109,8 @@
 				</section>
 			</section>
 		</div>
+		<script src='/javascripts/libs/jquery-1.7.2.min.js' type='text/javascript'></script>
+		<script src='/javascripts/funciones-home.js' type='text/javascript'></script>
 		{% include _footer-responsive.html %}
-		{% include _scripts-portfolio-proyectos-bottom.html %}
 	</body>
 </html>
