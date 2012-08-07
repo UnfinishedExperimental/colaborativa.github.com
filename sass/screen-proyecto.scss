@@ -477,9 +477,25 @@ body{
 			opacity: 1;
 			@include border-radius( 5px,  5px);
 			@include box-shadow( #404040 0 2px 5px);
+			.navegacion, .infoProyecto{
+				@include transition( (opacity .5s linear, z-index .5s linear, border .5s linear) );
+			}
 			.infoAdicionalProyecto{
 				z-index: 100;
 				opacity: 1;
+			}
+			&.fade{
+				background: none;
+				@include box-shadow(none);
+				border: 2px dotted white;
+				.navegacion{
+					z-index: -1;
+					opacity:0;
+				}
+				.infoProyecto{
+					z-index: -1;
+					opacity:0;
+				}
 			}
 		}
 		.descripcionProyecto{
