@@ -82,11 +82,14 @@ jQuery(document).ready(function () {
 	*/
 	$('.resumenProyecto').hover(
 		function () { // Mouse pointer enters the element.
-		
-			$('.resumenProyecto').addClass("fade");
+			if ($('body').hasClass('imagenes')){
+				$('.resumenProyecto').removeClass("fade");
+			}
 		},
 		function () { // Mouse pointer leaves the element.
-			$('.resumenProyecto').removeClass("fade");		
+			if ($('body').hasClass('imagenes')){
+				$('.resumenProyecto').addClass("fade");		
+			}
 		}
 	);	
 });
