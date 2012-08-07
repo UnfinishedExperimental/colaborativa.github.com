@@ -127,29 +127,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 150, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 150, ../sass/_cabecerapaginaResponsive.scss */
 .imagenes .cabeceraPagina {
   background-color: rgba(0, 0, 0, 0.7);
   background-image: none;
 }
-/* line 155, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 155, ../sass/_cabecerapaginaResponsive.scss */
 .imagenes .cabeceraPagina .tituloMenuBusqueda .hero a {
   color: white;
   text-shadow: none;
 }
-/* line 161, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 161, ../sass/_cabecerapaginaResponsive.scss */
 .imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   color: white;
   text-shadow: none;
 }
 
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .funnyline {
   width: 100%;
   height: 63px;
   border-bottom: 1px solid rgba(40, 40, 40, 0.2);
 }
-/* line 18, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 18, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina {
   position: relative;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0.7)), color-stop(100%, rgba(210, 210, 210, 0)));
@@ -175,12 +175,12 @@ html body.light .cabeceraPagina {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 19, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 19, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina a:link, html body.light .cabeceraPagina a:visited, html body.light .cabeceraPagina a:active {
   color: #393939;
   text-decoration: none;
 }
-/* line 23, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 23, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina a:link {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -188,24 +188,24 @@ html body.light .cabeceraPagina a:link {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 26, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 26, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina a:hover, html body.light .cabeceraPagina a:hover.active {
   color: #00a9da;
   text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -213,13 +213,13 @@ html body.light .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: #393939;
   font: 24px/50px "colaborativasemibold";
@@ -233,7 +233,7 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: 0 1px #ffffff;
 }
-/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -246,14 +246,14 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -261,7 +261,7 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: #393939;
   text-shadow: 0 1px #ffffff;
 }
-/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -269,18 +269,18 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -288,26 +288,26 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idi
   margin: 0;
   padding: 0;
 }
-/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
 
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .funnyline {
   width: 100%;
   height: 63px;
   border-bottom: 1px solid rgba(210, 210, 210, 0.4);
 }
-/* line 18, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 18, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina {
   position: relative;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.7)), color-stop(100%, rgba(0, 0, 0, 0)));
@@ -333,12 +333,12 @@ html body.dark .cabeceraPagina {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 19, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 19, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina a:link, html body.dark .cabeceraPagina a:visited, html body.dark .cabeceraPagina a:active {
   color: white;
   text-decoration: none;
 }
-/* line 23, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 23, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina a:link {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -346,24 +346,24 @@ html body.dark .cabeceraPagina a:link {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 26, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 26, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina a:hover, html body.dark .cabeceraPagina a:hover.active {
   color: white;
   text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -371,13 +371,13 @@ html body.dark .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: white;
   font: 24px/50px "colaborativasemibold";
@@ -391,7 +391,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: none;
 }
-/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -404,14 +404,14 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -419,7 +419,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: white;
   text-shadow: none;
 }
-/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -427,18 +427,18 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -446,64 +446,64 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idio
   margin: 0;
   padding: 0;
 }
-/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
 
 @media (max-width: 989px) {
-  /* line 173, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 173, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 768px;
   }
-  /* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 175, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -364px;
     width: 728px;
   }
 }
 @media (min-width: 990px) {
-  /* line 173, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 173, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 980px;
   }
-  /* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 175, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -470px;
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 173, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 173, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 1230px;
   }
-  /* line 175, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 175, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -585px;
     width: 1170px;
   }
 }
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
+/* line 3, ../sass/_general.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
+/* line 4, ../sass/_general.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
+/* line 5, ../sass/_general.scss */
 .clearfix {
   zoom: 1;
 }
@@ -1117,71 +1117,97 @@ body.imagenes .resumenProyecto {
   box-shadow: #404040 0 2px 5px;
 }
 /* line 480, ../sass/screen-proyecto.scss */
+body.imagenes .resumenProyecto .navegacion, body.imagenes .resumenProyecto .infoProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear, border 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear border 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear border 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear border 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear, border 0.5s linear;
+}
+/* line 483, ../sass/screen-proyecto.scss */
 body.imagenes .resumenProyecto .infoAdicionalProyecto {
   z-index: 100;
   opacity: 1;
 }
-/* line 485, ../sass/screen-proyecto.scss */
+/* line 487, ../sass/screen-proyecto.scss */
+body.imagenes .resumenProyecto.fade {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 2px dotted white;
+}
+/* line 491, ../sass/screen-proyecto.scss */
+body.imagenes .resumenProyecto.fade .navegacion {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 495, ../sass/screen-proyecto.scss */
+body.imagenes .resumenProyecto.fade .infoProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 501, ../sass/screen-proyecto.scss */
 body.imagenes .descripcionProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 490, ../sass/screen-proyecto.scss */
+/* line 506, ../sass/screen-proyecto.scss */
 body.imagenes .imagenesProyecto {
   z-index: 100;
   opacity: 1;
 }
-/* line 493, ../sass/screen-proyecto.scss */
+/* line 509, ../sass/screen-proyecto.scss */
 body.imagenes .imagenesProyecto .imagenFullScreen {
   z-index: -1;
   opacity: 0;
 }
-/* line 496, ../sass/screen-proyecto.scss */
+/* line 512, ../sass/screen-proyecto.scss */
 body.imagenes .imagenesProyecto .imagenFullScreen.activo {
   z-index: 100;
   opacity: 1;
 }
-/* line 502, ../sass/screen-proyecto.scss */
+/* line 518, ../sass/screen-proyecto.scss */
 body.imagenes .reaccionesProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 509, ../sass/screen-proyecto.scss */
+/* line 525, ../sass/screen-proyecto.scss */
 body.reacciones .resumenProyecto {
   z-index: 110;
   opacity: 1;
 }
-/* line 512, ../sass/screen-proyecto.scss */
+/* line 528, ../sass/screen-proyecto.scss */
 body.reacciones .resumenProyecto .infoAdicionalProyecto {
   z-index: -1;
   opacity: 0;
 }
-/* line 517, ../sass/screen-proyecto.scss */
+/* line 533, ../sass/screen-proyecto.scss */
 body.reacciones .descripcionProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 522, ../sass/screen-proyecto.scss */
+/* line 538, ../sass/screen-proyecto.scss */
 body.reacciones .imagenesProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 527, ../sass/screen-proyecto.scss */
+/* line 543, ../sass/screen-proyecto.scss */
 body.reacciones .reaccionesProyecto {
   z-index: 100;
   opacity: 1;
 }
 
 @media (max-width: 989px) {
-  /* line 536, ../sass/screen-proyecto.scss */
+  /* line 552, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor {
     width: 768px;
   }
-  /* line 538, ../sass/screen-proyecto.scss */
+  /* line 554, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor #fading {
     position: absolute;
     top: 156px;
@@ -1191,46 +1217,46 @@ body.reacciones .reaccionesProyecto {
     width: 516px;
   }
 
-  /* line 551, ../sass/screen-proyecto.scss */
+  /* line 567, ../sass/screen-proyecto.scss */
   .contenedor {
     width: 728px;
   }
-  /* line 553, ../sass/screen-proyecto.scss */
+  /* line 569, ../sass/screen-proyecto.scss */
   .contenedor .indexTitle {
     margin-left: -366px;
     width: 478px;
   }
-  /* line 557, ../sass/screen-proyecto.scss */
+  /* line 573, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto {
     width: 268px;
     margin-left: 114px;
     padding: 20px 20px 30px 20px;
   }
-  /* line 563, ../sass/screen-proyecto.scss */
+  /* line 579, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul {
     width: 228px;
   }
-  /* line 565, ../sass/screen-proyecto.scss */
+  /* line 581, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul li {
     width: 76px;
   }
-  /* line 568, ../sass/screen-proyecto.scss */
+  /* line 584, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
     width: 74px;
   }
-  /* line 574, ../sass/screen-proyecto.scss */
+  /* line 590, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul {
     width: 228px;
   }
-  /* line 576, ../sass/screen-proyecto.scss */
+  /* line 592, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul li {
     width: 114px;
   }
-  /* line 579, ../sass/screen-proyecto.scss */
+  /* line 595, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
     width: 112px;
   }
-  /* line 585, ../sass/screen-proyecto.scss */
+  /* line 601, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .infoAdicionalProyecto {
     width: 228px;
     margin-left: 0px;
@@ -1238,48 +1264,48 @@ body.reacciones .reaccionesProyecto {
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 591, ../sass/screen-proyecto.scss */
+  /* line 607, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
     width: 268px;
     margin-left: -20px;
     padding: 5px 20px 0px 20px;
   }
-  /* line 598, ../sass/screen-proyecto.scss */
+  /* line 614, ../sass/screen-proyecto.scss */
   .contenedor .descripcionProyecto {
     width: 476px;
     margin-left: 0px;
   }
-  /* line 601, ../sass/screen-proyecto.scss */
+  /* line 617, ../sass/screen-proyecto.scss */
   .contenedor .descripcionProyecto img {
     width: 474px;
   }
-  /* line 605, ../sass/screen-proyecto.scss */
+  /* line 621, ../sass/screen-proyecto.scss */
   .contenedor .reaccionesProyecto {
     width: 476px;
     margin-left: 0px;
   }
-  /* line 612, ../sass/screen-proyecto.scss */
+  /* line 628, ../sass/screen-proyecto.scss */
   .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
     width: 728px;
   }
 
-  /* line 625, ../sass/screen-proyecto.scss */
+  /* line 641, ../sass/screen-proyecto.scss */
   body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
     width: 84%;
   }
 
-  /* line 628, ../sass/screen-proyecto.scss */
+  /* line 644, ../sass/screen-proyecto.scss */
   #fading {
     margin-left: -20px;
     background-image: url(../imagenes/sombra-516.png);
   }
 }
 @media (min-width: 990px) {
-  /* line 536, ../sass/screen-proyecto.scss */
+  /* line 552, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor {
     width: 980px;
   }
-  /* line 538, ../sass/screen-proyecto.scss */
+  /* line 554, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor #fading {
     position: absolute;
     top: 156px;
@@ -1289,57 +1315,57 @@ body.reacciones .reaccionesProyecto {
     width: 660px;
   }
 
-  /* line 636, ../sass/screen-proyecto.scss */
+  /* line 652, ../sass/screen-proyecto.scss */
   body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
     width: 80%;
   }
 
-  /* line 639, ../sass/screen-proyecto.scss */
+  /* line 655, ../sass/screen-proyecto.scss */
   #fading {
     margin-left: -20px;
     background-image: url(../imagenes/sombra-660.png);
   }
 
-  /* line 551, ../sass/screen-proyecto.scss */
+  /* line 567, ../sass/screen-proyecto.scss */
   .contenedor {
     width: 940px;
   }
-  /* line 553, ../sass/screen-proyecto.scss */
+  /* line 569, ../sass/screen-proyecto.scss */
   .contenedor .indexTitle {
     margin-left: -472px;
     width: 622px;
   }
-  /* line 557, ../sass/screen-proyecto.scss */
+  /* line 573, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto {
     width: 340px;
     margin-left: 150px;
     padding: 20px 20px 30px 20px;
   }
-  /* line 563, ../sass/screen-proyecto.scss */
+  /* line 579, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul {
     width: 300px;
   }
-  /* line 565, ../sass/screen-proyecto.scss */
+  /* line 581, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul li {
     width: 100px;
   }
-  /* line 568, ../sass/screen-proyecto.scss */
+  /* line 584, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
     width: 98px;
   }
-  /* line 574, ../sass/screen-proyecto.scss */
+  /* line 590, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul {
     width: 300px;
   }
-  /* line 576, ../sass/screen-proyecto.scss */
+  /* line 592, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul li {
     width: 150px;
   }
-  /* line 579, ../sass/screen-proyecto.scss */
+  /* line 595, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
     width: 148px;
   }
-  /* line 585, ../sass/screen-proyecto.scss */
+  /* line 601, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .infoAdicionalProyecto {
     width: 300px;
     margin-left: 0px;
@@ -1347,37 +1373,37 @@ body.reacciones .reaccionesProyecto {
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 591, ../sass/screen-proyecto.scss */
+  /* line 607, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
     width: 340px;
     margin-left: -20px;
     padding: 5px 20px 0px 20px;
   }
-  /* line 598, ../sass/screen-proyecto.scss */
+  /* line 614, ../sass/screen-proyecto.scss */
   .contenedor .descripcionProyecto {
     width: 620px;
     margin-left: 0px;
   }
-  /* line 601, ../sass/screen-proyecto.scss */
+  /* line 617, ../sass/screen-proyecto.scss */
   .contenedor .descripcionProyecto img {
     width: 618px;
   }
-  /* line 605, ../sass/screen-proyecto.scss */
+  /* line 621, ../sass/screen-proyecto.scss */
   .contenedor .reaccionesProyecto {
     width: 620px;
     margin-left: 0px;
   }
-  /* line 612, ../sass/screen-proyecto.scss */
+  /* line 628, ../sass/screen-proyecto.scss */
   .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 536, ../sass/screen-proyecto.scss */
+  /* line 552, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor {
     width: 1230px;
   }
-  /* line 538, ../sass/screen-proyecto.scss */
+  /* line 554, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor #fading {
     position: absolute;
     top: 156px;
@@ -1387,57 +1413,57 @@ body.reacciones .reaccionesProyecto {
     width: 830px;
   }
 
-  /* line 648, ../sass/screen-proyecto.scss */
+  /* line 664, ../sass/screen-proyecto.scss */
   #fading {
     margin-left: -30px;
     background-image: url(../imagenes/sombra-830.png);
   }
 
-  /* line 652, ../sass/screen-proyecto.scss */
+  /* line 668, ../sass/screen-proyecto.scss */
   body .contenedor .resumenProyecto {
     top: 95px;
   }
 
-  /* line 551, ../sass/screen-proyecto.scss */
+  /* line 567, ../sass/screen-proyecto.scss */
   .contenedor {
     width: 1170px;
   }
-  /* line 553, ../sass/screen-proyecto.scss */
+  /* line 569, ../sass/screen-proyecto.scss */
   .contenedor .indexTitle {
     margin-left: -587px;
     width: 772px;
   }
-  /* line 557, ../sass/screen-proyecto.scss */
+  /* line 573, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto {
     width: 430px;
     margin-left: 185px;
     padding: 30px 30px 45px 30px;
   }
-  /* line 563, ../sass/screen-proyecto.scss */
+  /* line 579, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul {
     width: 369px;
   }
-  /* line 565, ../sass/screen-proyecto.scss */
+  /* line 581, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul li {
     width: 123px;
   }
-  /* line 568, ../sass/screen-proyecto.scss */
+  /* line 584, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
     width: 121px;
   }
-  /* line 574, ../sass/screen-proyecto.scss */
+  /* line 590, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul {
     width: 370px;
   }
-  /* line 576, ../sass/screen-proyecto.scss */
+  /* line 592, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul li {
     width: 185px;
   }
-  /* line 579, ../sass/screen-proyecto.scss */
+  /* line 595, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
     width: 183px;
   }
-  /* line 585, ../sass/screen-proyecto.scss */
+  /* line 601, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .infoAdicionalProyecto {
     width: 370px;
     margin-left: 0px;
@@ -1445,27 +1471,27 @@ body.reacciones .reaccionesProyecto {
     margin-right: 30px;
     margin-top: 30px;
   }
-  /* line 591, ../sass/screen-proyecto.scss */
+  /* line 607, ../sass/screen-proyecto.scss */
   .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
     width: 430px;
     margin-left: -30px;
     padding: 5px 30px 0px 30px;
   }
-  /* line 598, ../sass/screen-proyecto.scss */
+  /* line 614, ../sass/screen-proyecto.scss */
   .contenedor .descripcionProyecto {
     width: 770px;
     margin-left: 0px;
   }
-  /* line 601, ../sass/screen-proyecto.scss */
+  /* line 617, ../sass/screen-proyecto.scss */
   .contenedor .descripcionProyecto img {
     width: 768px;
   }
-  /* line 605, ../sass/screen-proyecto.scss */
+  /* line 621, ../sass/screen-proyecto.scss */
   .contenedor .reaccionesProyecto {
     width: 770px;
     margin-left: 0px;
   }
-  /* line 612, ../sass/screen-proyecto.scss */
+  /* line 628, ../sass/screen-proyecto.scss */
   .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
     width: 1170px;
   }
