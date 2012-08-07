@@ -3,10 +3,11 @@
 @import "compass/css3/user-interface";
 @import "compass/utilities/general/clearfix";
 @import "fonts/fontfaces";
+@import "_general";
 @import "_cabecerapaginaResponsive";
 @import "_footerpaginaResponsive";
 @import "_subnav-nueva";
-@import "_general";
+
 
 $colorTextoGrisOscuro: #393939;
 $colorTextoGrisClaro: #898989;

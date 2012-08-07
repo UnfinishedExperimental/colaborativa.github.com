@@ -1,13 +1,7 @@
 $cabeceraLogo: 24px/50px "colaborativasemibold";
 $cabeceraMenu: 18px/23px "colaborativasemibold";
 
-@mixin hiddenelement{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
-	  clip: rect(1px, 1px, 1px, 1px);
-}
-
-@mixin templateHeader($templateNombre, $colorTexto, $estiloLinea, $colorFondoInicio, $colorFondoFin){
+@mixin templateHeader($templateNombre, $colorTexto, $estiloLinea, $colorFondoInicio, $colorFondoFin, $colorFondo){
 	html{
 		body.#{$templateNombre}{
 			.funnyline{
@@ -33,7 +27,8 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 					}
 				}
 				position:relative;
-				@include background(linear-gradient($colorFondoInicio,$colorFondoFin));
+				@include background(linear-gradient($colorFondoInicio,$colorFondoFin),
+									$colorFondo);
 				&.fixed{
 					position: fixed;
 					top:0px;
@@ -146,28 +141,6 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 	}
 }
 
-.imagenes{
-	.cabeceraPagina{
-		background-color: rgba(0,0,0,0.7);
-		background-image: none;
-		.tituloMenuBusqueda{
-			.hero{
-				a{
-					color: white;
-					text-shadow: none;
-				}
-			}
-			.menu{
-				a{
-					color: white;
-					text-shadow: none;
-				}
-			}
-		}
-	}
-}
-
-
 @mixin cabecerapaginaResponsive($totalWidth, $columnWidth){
 	body{
 		.cabeceraPagina{
@@ -180,8 +153,37 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 	}
 }
 
-@include templateHeader(light, #393939, 1px solid rgba(40,40,40, 0.2), rgba(210,210,210,0.7), rgba(210,210,210,0.0));
-@include templateHeader(dark, white, 1px solid rgba(210,210,210, 0.4), rgba(0,0,0,0.7), rgba(0,0,0,0.0));
+@include templateHeader(light, #393939, 1px solid rgba(40,40,40, 0.2), rgba(210,210,210,0.7), rgba(210,210,210,0.0), rgb(250,250,250));
+@include templateHeader(dark, white, 1px solid rgba(210,210,210, 0.4), rgba(0,0,0,0.7), rgba(0,0,0,0.0), #393939);
+
+html{
+	body.imagenes{
+		.cabeceraPagina{
+			background: rgba(0,0,0,0.7);
+			.funnyline{
+				border-bottom: 1px solid rgba(210,210,210, 0.4);
+			}
+			.tituloMenuBusqueda{
+				a:link, a:visited, a:active {
+					color:white;
+					text-decoration:none;
+				}
+				h1{
+					a{
+						color: white;
+						text-shadow: none;
+					}
+				}
+				.menu{
+					a{
+						color: white;
+						text-shadow: none;
+					}
+				}
+			}
+		}
+	}
+}
 
 //Tablets
 @media (max-width: 989px) {

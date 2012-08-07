@@ -3,9 +3,10 @@
 @import "compass/css3/user-interface";
 @import "compass/utilities/general/clearfix";
 @import "fonts/fontfaces";
+@import "_general";
 @import "_cabecerapaginaResponsive";
 @import "_footerpaginaResponsive";
-@import "_general";
+
 
 $iconosEnlaces: 48px "colaborativa-icons";
 $datosSmall: 12px/18px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;

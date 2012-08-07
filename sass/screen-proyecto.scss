@@ -3,8 +3,9 @@
 @import "compass/css3/user-interface";
 @import "compass/utilities/general/clearfix";
 @import "fonts/fontfaces";
-@import "_cabecerapaginaResponsive";
 @import "_general";
+@import "_cabecerapaginaResponsive";
+
 
 $paginaTitulo: 35px/20px "colaborativaLight";
 $seccionTitulo: 24px/20px "colaborativaMedium";
@@ -495,9 +496,6 @@ html{
 			}
 		}
 		&.imagenes{
-			.cabeceraPagina{
-				background: rgba(0,0,0,0.7);
-			}
 			.resumenProyecto{
 				z-index: 110;
 				opacity: 1;
