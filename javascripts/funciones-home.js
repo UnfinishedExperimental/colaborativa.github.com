@@ -14,7 +14,6 @@ jQuery(document).ready(function () {
 		var el, el_id; 			 // Activo Proyecto
 		var next_el, next_el_id; // Next Activo Proyecto
 	    el = $('.contenedorPoster').find('div.posterProyecto.activo'); // Current Image
-	    console.log(el);
 		el_id = (el).attr('id').split('proyecto').pop(); // me da el número de imagen
 		if( el_id < n_home){
 			next_el_id = Number(el_id) + Number(1);
@@ -26,6 +25,7 @@ jQuery(document).ready(function () {
 		$('.selectorProyectos ul li a[href=#'+next_el_id+']').parent().addClass('activo');
 		(el).removeClass("activo");
 		$('.selectorProyectos ul li a[href=#'+el_id+']').parent().removeClass('activo');
+		$('body').attr('class',next_el.attr('template'));
 	};
 	slideShowHomeInterval = setInterval(slideShowHome,homeDelay);
 	/*
@@ -50,6 +50,7 @@ jQuery(document).ready(function () {
 		// Project
 		$('.contenedorPoster div').removeClass('activo');
 		$('.contenedorPoster').children('div[id=proyecto'+id+']').addClass('activo');
+		$('body').attr('class',$('.contenedorPoster').children('div[id=proyecto'+id+']').attr('template'));
 		return false;
 	});
 });
