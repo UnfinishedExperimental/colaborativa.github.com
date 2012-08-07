@@ -44,7 +44,6 @@ $greyLine: 1px solid #DADADA;
 	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
 }
 
-
 @mixin templateProyecto($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
 	html{
 		body.#{$templateNombre} {
@@ -53,6 +52,22 @@ $greyLine: 1px solid #DADADA;
 				color: $colorTexto;
 			}
 			background-color: $colorFondo;
+			.cabeceraPagina{
+				.contenedor{
+					#fading{
+						position:absolute;
+						left:0px;
+						top:156px;
+						@if $templateNombre == light {
+							border-top: 1px solid white;
+						} @else {
+							border-top: 1px solid rgba(250,250,250,0.5);
+						}
+						height: 10px;
+						opacity:0;
+					}
+				}
+			}
 			.cuerpoPagina{
 				.contenedor{
 					margin-left: auto;
@@ -77,7 +92,7 @@ $greyLine: 1px solid #DADADA;
 						hgroup{
 							padding-bottom:30px;
 							margin-bottom:25px;
-							border-bottom: $greyLine;
+							border-bottom: $estiloBorde;
 						}
 						h1{
 							font: $proyectoTitulo;
@@ -194,7 +209,9 @@ $greyLine: 1px solid #DADADA;
 						font: $seccionTexto;
 						color: $colorTexto;
 						margin-top: 185px;
-						margin-bottom: 80px;
+						border-bottom: $estiloBorde;
+						padding-bottom: 50px;
+						margin-bottom: 150px;
 						@include box-sizing (border-box);
 						cite{
 							font: $articuloCaption;
@@ -580,87 +597,85 @@ html{
 		}
 	}
 }
-
-@mixin mainnaveffect($totalWidth, $columnWidth, $gutterWidth) {
-	.cabeceraPagina{
-		.contenedor{
-			width: $totalWidth +  2*$gutterWidth;
-			#fading{
-				position:absolute;
-				top:156px;
-				border-top: 1px solid white;
-				height: 10px;
-				opacity:0;
-				width: 2*$columnWidth + 3*$gutterWidth;
-			}
-		}
-	}
-}
-
 @mixin responsiveProyecto($totalWidth, $columnWidth, $gutterWidth){
-	.contenedor{
-		width: $totalWidth;
-		.indexTitle{
-			margin-left: - $totalWidth/2 - 2;
-			width: $columnWidth*2 + $gutterWidth + 2;
-		}
-		.resumenProyecto{
-			width: $columnWidth + 2*$gutterWidth;
-			margin-left: $columnWidth/2;
-			padding: $gutterWidth $gutterWidth $gutterWidth*3/2 $gutterWidth;
-			.navegacion{
-				&.botones3{
-					ul{
-						width: floor($columnWidth/3) * 3;
-						 li{
-							width: floor($columnWidth/3);
-						}
-						li:last-child {
-							width: - 2px + floor($columnWidth/3);
-						}
-					}
-				}
-				&.botones2{
-					ul{
-						width: floor($columnWidth/2) * 2;
-						 li{
-							width: floor($columnWidth/2);
-						}
-						li:last-child {
-							width: - 2px + floor($columnWidth/2);
-						}
+	html{
+		body{
+			.cabeceraPagina{
+				.contenedor{
+					width: $totalWidth +  2*$gutterWidth;
+					#fading{
+						margin-left: - $gutterWidth/2;
+						width: 2*$columnWidth + 2 * $gutterWidth;
 					}
 				}
 			}
-			.infoAdicionalProyecto{
-				width: $columnWidth;
-				margin-left: 0px;
-				padding: 0px;
-				margin-right: $gutterWidth;
-				margin-top: $gutterWidth;
-				.infoImagenesProyecto{
-					width: $columnWidth + 2*$gutterWidth;
-					margin-left: -$gutterWidth;
-					padding: 5px $gutterWidth 0px $gutterWidth;
-				}
-			}
-		}
-		.descripcionProyecto{
-			width: 2*$columnWidth + $gutterWidth;
-			margin-left: 0px;
-			img{
-				width:  2*$columnWidth + $gutterWidth - 2;
-			}
-		}
-		.reaccionesProyecto{
-			width: 2*$columnWidth + $gutterWidth;
-			margin-left: 0px;
-		}
-		.imagenesProyecto{
-			.infoImagenesProyecto{
-				.captionImagenes{
-					div{
-						width:$totalWidth;
+			.cuerpoPagina{
+				.contenedor{
+					width: $totalWidth;
+					.indexTitle{
+						margin-left: - $totalWidth/2 - 2;
+						width: $columnWidth*2 + $gutterWidth + 2;
+					}
+					.resumenProyecto{
+						width: $columnWidth + 2*$gutterWidth;
+						margin-left: $columnWidth/2;
+						padding: $gutterWidth $gutterWidth $gutterWidth*3/2 $gutterWidth;
+						.navegacion{
+							&.botones3{
+								ul{
+									width: floor($columnWidth/3) * 3;
+									 li{
+										width: floor($columnWidth/3);
+									}
+									li:last-child {
+										width: - 2px + floor($columnWidth/3);
+									}
+								}
+							}
+							&.botones2{
+								ul{
+									width: floor($columnWidth/2) * 2;
+									 li{
+										width: floor($columnWidth/2);
+									}
+									li:last-child {
+										width: - 2px + floor($columnWidth/2);
+									}
+								}
+							}
+						}
+						.infoAdicionalProyecto{
+							width: $columnWidth;
+							margin-left: 0px;
+							padding: 0px;
+							margin-right: $gutterWidth;
+							margin-top: $gutterWidth;
+							.infoImagenesProyecto{
+								width: $columnWidth + 2*$gutterWidth;
+								margin-left: -$gutterWidth;
+								padding: 5px $gutterWidth 0px $gutterWidth;
+							}
+						}
+					}
+					.descripcionProyecto{
+						width: 2*$columnWidth + $gutterWidth;
+						margin-left: 0px;
+						img{
+							width:  2*$columnWidth + $gutterWidth - 2;
+						}
+					}
+					.reaccionesProyecto{
+						width: 2*$columnWidth + $gutterWidth;
+						margin-left: 0px;
+					}
+					.imagenesProyecto{
+						.infoImagenesProyecto{
+							.captionImagenes{
+								div{
+									width:$totalWidth;
+								}
+							}
+						}
 					}
 				}
 			}
@@ -674,38 +689,31 @@ html{
 //Tablets
 @media (max-width: 989px) {
 	@include responsiveProyecto(728px, 228px, 20px);
-	@include mainnaveffect(728px, 228px, 20px);
-
 	body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
 		width:84%;
 	}
 	#fading{
-		margin-left: -20px;
-		background-image: url(../imagenes/sombra-516.png);
+		background-image: url(../imagenes/sombra-496.png);
 	}
 }
 //Normal screens
 @media (min-width: 990px) {
 	@include responsiveProyecto(940px, 300px, 20px);
-	@include mainnaveffect(940px, 300px, 20px);
 	body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
 		width:80%;
 	}
 	#fading{
-		margin-left: -20px;
-		background-image: url(../imagenes/sombra-660.png);
+		background-image: url(../imagenes/sombra-640.png);
 	}
 
 }
 //Big screens
 @media (min-width: 1240px) {
 	@include responsiveProyecto(1170px, 370px, 30px);
-	@include mainnaveffect(1170px, 370px, 30px);
-	#fading{
-		margin-left: -30px;
-		background-image: url(../imagenes/sombra-830.png);
-	}
 	body .contenedor .resumenProyecto{
 		top: 95px;
+	}
+	#fading{
+		background-image: url(../imagenes/sombra-800.png);
 	}
 }

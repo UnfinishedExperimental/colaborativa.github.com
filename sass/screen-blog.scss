@@ -9,6 +9,7 @@
 @import "_subnav-nueva";
 
 
+$colorFondo: rgb(250,250,250);
 $colorTextoGrisOscuro: #393939;
 $colorTextoGrisClaro: #898989;
 $borderGrey: #BEBEBE;
@@ -53,9 +54,8 @@ a:link, a:visited, a:active{
 html{
 	height: 100%;
 	body{
-		background-image: url(/imagenes/background.png);
-		background-repeat: repeat;
-		background-color: rgb(250,250,250);
+		@include background(image-url("/imagenes/background.png"),
+							$colorFondo);
 		.cuerpoPagina{
 			margin-top: 125px;
 			min-height: 400px;

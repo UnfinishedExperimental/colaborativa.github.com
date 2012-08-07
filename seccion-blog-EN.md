@@ -4,7 +4,7 @@ layout: blog
 title: Articles
 permalink: /en/blog/
 permalink_otro_idioma: /blog/
-template: light
+template: neutral
 
 articulos: articles
 portada: Cover stories

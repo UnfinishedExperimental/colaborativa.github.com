@@ -12,6 +12,7 @@
 
 $colorTextoGrisOscuro: #393939;
 $colorTextoGrisClaro: #898989;
+$colorFondo: rgb(250,250,250);
 $borderGrey: #BEBEBE;
 $innerborderGrey: #C9C9C9;
 $greyLine: 1px solid #DADADA;
@@ -42,9 +43,8 @@ a:link, a:visited, a:active{
 html{
 	height: 100%;
 	body{
-		background-image: url(/imagenes/background.png);
-		background-repeat: repeat;
-		background-color: rgb(250,250,250);
+		@include background(image-url("/imagenes/background.png"),
+							$colorFondo);
 		.cuerpoPagina{
 			margin-top: 125px;
 			min-height: 400px;

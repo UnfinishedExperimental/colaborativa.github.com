@@ -4,7 +4,7 @@ layout: portfolio
 title: Projects
 permalink: /en/projects/
 permalink_otro_idioma: /proyectos/
-template: light
+template: neutral
 
 categoria1-titulo: Our products and services
 categoria1-subtitulo: Nos apasionan el potencial creativo de las ciudades y las nuevas formas de participación
