@@ -77,6 +77,16 @@ jQuery(document).ready(function () {
 			slideShowInterval= setInterval(slideShow,imagesDelay);
 		  }
 	);
-
-
+	/*
+	
+	*/
+	$('.resumenProyecto').hover(
+		function () { // Mouse pointer enters the element.
+		
+			$('.resumenProyecto').addClass("fade");
+		},
+		function () { // Mouse pointer leaves the element.
+			$('.resumenProyecto').removeClass("fade");		
+		}
+	);	
 });
