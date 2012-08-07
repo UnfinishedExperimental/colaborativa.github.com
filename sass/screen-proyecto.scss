@@ -341,7 +341,7 @@ body{
 			}
 		}
 		.imagenesProyecto{
-			@include transition( (opacity .5s linear, z-index .5s linear) );
+			@include transition( (opacity 1.0s linear, z-index 1.0s linear) );
 			background-color: black;
 			position: fixed;
 			width: 100%;
@@ -352,7 +352,7 @@ body{
 			bottom: 0px;
 			z-index: -100;
 			.imagenFullScreen{
-				@include transition( (opacity .5s linear, z-index .5s linear) );
+				@include transition( (opacity 1.0s linear, z-index 1.0s linear) );
 				h2{
 					@include hiddenelement;
 				}
@@ -393,7 +393,7 @@ body{
 								color:#5A5A5A;
 								content:"\25CF";
 								font-size: 20px;
-								@include single-transition(color, .5s);
+								@include single-transition(color, 1.0s);
 							}
 							&:hover:after{
 								color:#B6B6B6;
@@ -414,7 +414,7 @@ body{
 				}
 				.captionImagenes{
 					div{
-						@include transition( (opacity .5s linear, z-index .5s linear) );
+						@include transition( (opacity 1.0s linear, z-index 1.0s linear) );
 						display:none;
 						text-align: center;
 						margin: 0px auto;
@@ -473,21 +473,21 @@ body{
 	}
 	&.imagenes{
 		.resumenProyecto{
+			@include transition( (opacity .5s linear) );
 			z-index: 110;
 			opacity: 1;
 			@include border-radius( 5px,  5px);
 			@include box-shadow( #404040 0 2px 5px);
 			.navegacion, .infoProyecto{
-				@include transition( (opacity .5s linear, z-index .5s linear, border .5s linear) );
+				@include transition( (opacity .5s linear, z-index .5s linear) );
 			}
 			.infoAdicionalProyecto{
 				z-index: 100;
 				opacity: 1;
 			}
 			&.fade{
-				background: none;
+				opacity: 0.2;
 				@include box-shadow(none);
-				border: 2px dotted white;
 				.navegacion{
 					z-index: -1;
 					opacity:0;

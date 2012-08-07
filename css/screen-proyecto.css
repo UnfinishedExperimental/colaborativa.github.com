@@ -938,11 +938,11 @@ body .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticu
 }
 /* line 343, ../sass/screen-proyecto.scss */
 body .contenedor .imagenesProyecto {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear;
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
   background-color: black;
   position: fixed;
   width: 100%;
@@ -955,11 +955,11 @@ body .contenedor .imagenesProyecto {
 }
 /* line 354, ../sass/screen-proyecto.scss */
 body .contenedor .imagenesProyecto .imagenFullScreen {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear;
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1018,11 +1018,11 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li
   color: #5A5A5A;
   content: "\25CF";
   font-size: 20px;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -ms-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  transition: color 0.5s false;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s false;
 }
 /* line 398, ../sass/screen-proyecto.scss */
 body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
@@ -1044,11 +1044,11 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:af
 }
 /* line 416, ../sass/screen-proyecto.scss */
 body .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear;
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
   display: none;
   text-align: center;
   margin: 0px auto;
@@ -1105,6 +1105,11 @@ body.descripcion .reaccionesProyecto {
 }
 /* line 475, ../sass/screen-proyecto.scss */
 body.imagenes .resumenProyecto {
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
   z-index: 110;
   opacity: 1;
   -webkit-border-radius: 5px 5px;
@@ -1116,26 +1121,25 @@ body.imagenes .resumenProyecto {
   -moz-box-shadow: #404040 0 2px 5px;
   box-shadow: #404040 0 2px 5px;
 }
-/* line 480, ../sass/screen-proyecto.scss */
+/* line 481, ../sass/screen-proyecto.scss */
 body.imagenes .resumenProyecto .navegacion, body.imagenes .resumenProyecto .infoProyecto {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear, border 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear border 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear border 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear border 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear, border 0.5s linear;
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
 }
-/* line 483, ../sass/screen-proyecto.scss */
+/* line 484, ../sass/screen-proyecto.scss */
 body.imagenes .resumenProyecto .infoAdicionalProyecto {
   z-index: 100;
   opacity: 1;
 }
-/* line 487, ../sass/screen-proyecto.scss */
+/* line 488, ../sass/screen-proyecto.scss */
 body.imagenes .resumenProyecto.fade {
-  background: none;
+  opacity: 0.2;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border: 2px dotted white;
 }
 /* line 491, ../sass/screen-proyecto.scss */
 body.imagenes .resumenProyecto.fade .navegacion {
