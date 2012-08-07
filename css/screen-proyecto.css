@@ -508,41 +508,174 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEq
   zoom: 1;
 }
 
-/* line 30, ../sass/screen-proyecto.scss */
-a:link, a:visited, a:active {
+/* Definicion de los distintos estados de visualización en funcion del modo seleccionado*/
+/* Tres modos: descripcion, imagenes y reacciones */
+/* line 470, ../sass/screen-proyecto.scss */
+html body.descripcion .resumenProyecto {
+  z-index: 110;
+  opacity: 1;
+}
+/* line 473, ../sass/screen-proyecto.scss */
+html body.descripcion .resumenProyecto .infoAdicionalProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 478, ../sass/screen-proyecto.scss */
+html body.descripcion .indexTitle {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 482, ../sass/screen-proyecto.scss */
+html body.descripcion .descripcionProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 486, ../sass/screen-proyecto.scss */
+html body.descripcion .imagenesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 491, ../sass/screen-proyecto.scss */
+html body.descripcion .reaccionesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 498, ../sass/screen-proyecto.scss */
+html body.imagenes .cabeceraPagina {
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 501, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto {
+  z-index: 110;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  -ms-border-radius: 5px / 5px;
+  -o-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+  -webkit-box-shadow: #404040 0 2px 5px;
+  -moz-box-shadow: #404040 0 2px 5px;
+  box-shadow: #404040 0 2px 5px;
+}
+/* line 507, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto .navegacion, html body.imagenes .resumenProyecto .infoProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+}
+/* line 510, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto .infoAdicionalProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 514, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto.fade {
+  opacity: 0.2;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 517, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto.fade .navegacion {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 521, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto.fade .infoProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 527, ../sass/screen-proyecto.scss */
+html body.imagenes .indexTitle {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 532, ../sass/screen-proyecto.scss */
+html body.imagenes .descripcionProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 537, ../sass/screen-proyecto.scss */
+html body.imagenes .imagenesProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 540, ../sass/screen-proyecto.scss */
+html body.imagenes .imagenesProyecto .imagenFullScreen {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 543, ../sass/screen-proyecto.scss */
+html body.imagenes .imagenesProyecto .imagenFullScreen.activo {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 549, ../sass/screen-proyecto.scss */
+html body.imagenes .reaccionesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 556, ../sass/screen-proyecto.scss */
+html body.reacciones .resumenProyecto {
+  z-index: 110;
+  opacity: 1;
+}
+/* line 559, ../sass/screen-proyecto.scss */
+html body.reacciones .resumenProyecto .infoAdicionalProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 564, ../sass/screen-proyecto.scss */
+html body.reacciones .indexTitle {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 568, ../sass/screen-proyecto.scss */
+html body.reacciones .descripcionProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 573, ../sass/screen-proyecto.scss */
+html body.reacciones .imagenesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 578, ../sass/screen-proyecto.scss */
+html body.reacciones .reaccionesProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+
+/* line 49, ../sass/screen-proyecto.scss */
+html body.light {
+  background-color: #fafafa;
+}
+/* line 50, ../sass/screen-proyecto.scss */
+html body.light a:link, html body.light a:visited, html body.light a:active {
   text-decoration: none;
   color: #393939;
 }
-
-/* line 46, ../sass/screen-proyecto.scss */
-a {
-  color: #505050;
-  text-decoration: none;
-}
-/* line 49, ../sass/screen-proyecto.scss */
-a:link {
-  color: #505050;
-  text-decoration: none;
-}
-/* line 53, ../sass/screen-proyecto.scss */
-a:hover, a:active, a:visited {
-  color: #6e6e6e;
-}
-
-/* todos los estilos de la página */
-/* line 59, ../sass/screen-proyecto.scss */
-body {
-  background-image: url(/imagenes/background.png);
-  background-repeat: repeat;
-  background-color: #fafafa;
-}
-/* line 63, ../sass/screen-proyecto.scss */
-body .contenedor {
+/* line 56, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 66, ../sass/screen-proyecto.scss */
-body .contenedor .indexTitle {
+/* line 59, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .indexTitle {
   font: 26px/32px "colaborativaBook";
   color: #393939;
   -webkit-box-sizing: border-box;
@@ -553,52 +686,48 @@ body .contenedor .indexTitle {
   top: 80px;
   left: 50%;
   height: 77px;
-  background-image: url(/imagenes/background.png);
-  background-repeat: repeat;
   background-color: #fafafa;
 }
-/* line 79, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto {
+/* line 70, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: fixed;
   top: 105px;
   left: 50%;
-  background: #fafafa;
-  background-image: url(/imagenes/background.png);
-  background-repeat: repeat;
+  background-color: #fafafa;
 }
-/* line 87, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto hgroup {
+/* line 76, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto hgroup {
   padding-bottom: 30px;
   margin-bottom: 25px;
   border-bottom: 1px solid #dadada;
 }
-/* line 92, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto h1 {
+/* line 81, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto h1 {
   font: 26px/30px "colaborativaMedium";
   color: #393939;
   padding-bottom: 25px;
 }
-/* line 97, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto h2 {
+/* line 86, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto h2 {
   font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 101, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto p {
+/* line 90, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto p {
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
   margin-bottom: 15px;
 }
-/* line 106, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion {
+/* line 95, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion {
   display: block;
   margin-bottom: 25px;
 }
-/* line 115, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul {
+/* line 104, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -613,8 +742,8 @@ body .contenedor .resumenProyecto .navegacion ul {
   box-shadow: white 0 1px 0px;
   font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 121, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li {
+/* line 114, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li {
   display: inline;
   float: left;
   border-right: 1px solid #c9c9c9;
@@ -623,8 +752,8 @@ body .contenedor .resumenProyecto .navegacion ul li {
   box-sizing: border-box;
   height: 30px;
 }
-/* line 127, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li a {
+/* line 120, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -638,11 +767,11 @@ body .contenedor .resumenProyecto .navegacion ul li a {
   height: 30px;
   padding-top: 8px;
   padding-bottom: 5px;
+  color: #6c6c6c;
   text-shadow: 0px 1px rgba(255, 255, 255, 0.75);
-  color: gray;
 }
-/* line 139, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li a:link, body .contenedor .resumenProyecto .navegacion ul li a:visited, body .contenedor .resumenProyecto .navegacion ul li a:active, body .contenedor .resumenProyecto .navegacion ul li a:hover {
+/* line 137, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:link, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:visited, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -651,60 +780,50 @@ body .contenedor .resumenProyecto .navegacion ul li a:link, body .contenedor .re
   transition: all 0.5s false;
   border-bottom: none;
 }
-/* line 144, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li a:hover {
+/* line 142, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
+  background: #E5E5E5;
+}
+/* line 153, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
   text-shadow: 0px 1px rgba(255, 255, 255, 0.5);
   background: #D8D8D8;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: all 0s;
-  -moz-transition: all 0s;
-  -ms-transition: all 0s;
-  -o-transition: all 0s;
-  transition: all 0s false;
 }
-/* line 152, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li a:active {
+/* line 164, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
   background: #CFCFCF;
-  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
-/* line 159, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li a.activo {
-  background: #E5E5E5;
-  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px rgba(129, 127, 127, 0.3);
-  -webkit-box-shadow: inset 0px 0px 5px rgba(129, 127, 127, 0.3);
-  box-shadow: inset 0px 0px 5px rgba(129, 127, 127, 0.3);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s false;
-}
-/* line 168, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul li:last-child {
+/* line 176, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li:last-child {
   border-right: none;
 }
-/* line 172, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .navegacion ul:after {
+/* line 180, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 179, ../sass/screen-proyecto.scss */
-body .contenedor .resumenProyecto .infoAdicionalProyecto {
+/* line 187, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
   -ms-transition: opacity 0.5s linear z-index 0.5s linear;
   -o-transition: opacity 0.5s linear z-index 0.5s linear;
   transition: opacity 0.5s linear, z-index 0.5s linear;
 }
-/* line 184, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto {
+/* line 191, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
   -ms-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -718,12 +837,12 @@ body .contenedor .descripcionProyecto {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 191, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto cite {
+/* line 198, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto cite {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 194, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto img {
+/* line 201, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -738,35 +857,35 @@ body .contenedor .descripcionProyecto img {
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
-/* line 198, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto figure figcaption {
+/* line 209, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto figure figcaption {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   margin-top: 5px;
   margin-bottom: 15px;
 }
-/* line 204, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto h1 {
+/* line 215, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 207, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto h2 {
+/* line 218, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto h2 {
   font: 26px/32px "colaborativaBook";
   margin-top: 20px;
   margin-bottom: 10px;
   color: #393939;
 }
-/* line 213, ../sass/screen-proyecto.scss */
-body .contenedor .descripcionProyecto p {
+/* line 224, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto p {
   margin-top: 30px;
   margin-bottom: 30px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 220, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto {
+/* line 231, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
   -ms-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -780,69 +899,69 @@ body .contenedor .reaccionesProyecto {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 227, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto h1 {
+/* line 238, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 231, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section h2 {
+/* line 242, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
   font: 26px/32px "colaborativaBook";
   color: #393939;
   padding-top: 30px;
   padding-bottom: 25px;
   margin: 0px;
 }
-/* line 238, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article {
+/* line 249, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article {
   margin: 0px;
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #dadada;
 }
-/* line 243, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article h3 {
+/* line 254, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h3 {
   font: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   padding-bottom: 10px;
   color: #393939;
 }
-/* line 247, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article h3 a {
+/* line 258, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h3 a {
   border-bottom: none;
   color: #393939;
 }
-/* line 252, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article h4 {
+/* line 263, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4 {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
   padding-bottom: 12px;
 }
-/* line 256, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article h4:first-child {
+/* line 267, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4:first-child {
   padding-bottom: 0px;
 }
-/* line 259, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article h4:last-child {
+/* line 270, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4:last-child {
   padding-bottom: 0px;
 }
-/* line 263, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article p {
+/* line 274, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article p {
   padding-top: 8px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 268, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article:first-child {
+/* line 279, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article:first-child {
   border-top: 1px solid #dadada;
 }
-/* line 271, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets {
+/* line 282, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets {
   padding-bottom: 22px;
 }
-/* line 273, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet {
+/* line 284, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -851,12 +970,12 @@ body .contenedor .reaccionesProyecto section article.tweets .tweet {
   padding: 0px 0px 8px 0px;
   margin: 0px;
 }
-/* line 279, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
+/* line 290, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
   padding: 0px 0px 0px 0px;
 }
-/* line 282, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
+/* line 293, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -866,13 +985,13 @@ body .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImage
   margin: 0px;
   height: 40px;
 }
-/* line 289, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
+/* line 300, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
   padding: 0px;
   margin: 0px;
 }
-/* line 294, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+/* line 305, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
   display: table-cell;
   width: 70%;
   padding: 0px;
@@ -880,31 +999,31 @@ body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto 
   vertical-align: middle;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 301, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
+/* line 312, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
   color: black;
 }
-/* line 305, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
+/* line 316, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
   display: table-cell;
   width: 30%;
   text-align: right;
   vertical-align: top;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
-  color: #898989;
+  color: rgba(57, 57, 57, 0.8);
 }
-/* line 315, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.articuloPrensa, body .contenedor .reaccionesProyecto section article.articuloBlog {
+/* line 326, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog {
   overflow: auto;
   width: 100%;
 }
-/* line 318, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, body .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
+/* line 329, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
   float: left;
   clear: both;
 }
-/* line 319, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, body .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
+/* line 330, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -919,25 +1038,25 @@ body .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArtic
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
-/* line 325, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, body .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
+/* line 340, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
   margin-left: 170px;
   margin-top: 4px;
 }
-/* line 328, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, body .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
+/* line 343, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
   overflow: hidden;
   line-height: 24px;
   height: 48px;
 }
-/* line 333, ../sass/screen-proyecto.scss */
-body .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, body .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
+/* line 348, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 343, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto {
+/* line 358, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
   -ms-transition: opacity 1s linear z-index 1s linear;
@@ -953,8 +1072,8 @@ body .contenedor .imagenesProyecto {
   bottom: 0px;
   z-index: -100;
 }
-/* line 354, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .imagenFullScreen {
+/* line 369, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
   -ms-transition: opacity 1s linear z-index 1s linear;
@@ -968,15 +1087,15 @@ body .contenedor .imagenesProyecto .imagenFullScreen {
   width: 100%;
   height: 100%;
 }
-/* line 356, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .imagenFullScreen h2 {
+/* line 371, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 367, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto {
+/* line 382, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -988,17 +1107,17 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto {
   bottom: 0px;
   position: fixed;
 }
-/* line 376, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
+/* line 391, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
   display: table;
   margin: 0px auto;
 }
-/* line 379, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
+/* line 394, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
   padding-top: 5px;
 }
-/* line 381, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
+/* line 396, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
   display: inline;
   cursor: pointer;
   float: left;
@@ -1006,12 +1125,12 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 388, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
+/* line 403, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
   display: none;
 }
-/* line 391, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
+/* line 406, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -1024,26 +1143,26 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li
   -o-transition: color 1s;
   transition: color 1s false;
 }
-/* line 398, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
+/* line 413, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
   color: #B6B6B6;
 }
-/* line 401, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
+/* line 416, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
   color: white;
 }
-/* line 404, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
+/* line 419, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
   color: white;
 }
-/* line 408, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
+/* line 423, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 416, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+/* line 431, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
   -ms-transition: opacity 1s linear z-index 1s linear;
@@ -1055,14 +1174,14 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
   z-index: -1;
   opacity: 0;
 }
-/* line 423, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
+/* line 438, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
   display: table;
   z-index: 100;
   opacity: 1;
 }
-/* line 428, ../sass/screen-proyecto.scss */
-body .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
+/* line 443, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
   font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
   padding: 0px;
@@ -1074,144 +1193,617 @@ body .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p 
   display: table-cell;
 }
 
-/* Definicion de los distintos estados de visualización en funcion del modo seleccionado*/
-/* Tres modos: descripcion, imagenes y reacciones */
-/* line 451, ../sass/screen-proyecto.scss */
-body.descripcion .resumenProyecto {
-  z-index: 110;
-  opacity: 1;
+/* line 49, ../sass/screen-proyecto.scss */
+html body.dark {
+  background-color: #393939;
 }
-/* line 454, ../sass/screen-proyecto.scss */
-body.descripcion .resumenProyecto .infoAdicionalProyecto {
-  z-index: -1;
-  opacity: 0;
+/* line 50, ../sass/screen-proyecto.scss */
+html body.dark a:link, html body.dark a:visited, html body.dark a:active {
+  text-decoration: none;
+  color: white;
 }
-/* line 459, ../sass/screen-proyecto.scss */
-body.descripcion .descripcionProyecto {
-  z-index: 100;
-  opacity: 1;
+/* line 56, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor {
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 463, ../sass/screen-proyecto.scss */
-body.descripcion .imagenesProyecto {
-  z-index: -1;
-  opacity: 0;
-  display: none;
+/* line 59, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .indexTitle {
+  font: 26px/32px "colaborativaBook";
+  color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 40px;
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  height: 77px;
+  background-color: #393939;
 }
-/* line 468, ../sass/screen-proyecto.scss */
-body.descripcion .reaccionesProyecto {
-  z-index: -1;
-  opacity: 0;
-  display: none;
+/* line 70, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  top: 105px;
+  left: 50%;
+  background-color: #393939;
 }
-/* line 475, ../sass/screen-proyecto.scss */
-body.imagenes .resumenProyecto {
-  -webkit-transition: opacity 0.5s linear;
-  -moz-transition: opacity 0.5s linear;
-  -ms-transition: opacity 0.5s linear;
-  -o-transition: opacity 0.5s linear;
-  transition: opacity 0.5s linear;
-  z-index: 110;
-  opacity: 1;
-  -webkit-border-radius: 5px 5px;
-  -moz-border-radius: 5px / 5px;
-  -ms-border-radius: 5px / 5px;
-  -o-border-radius: 5px / 5px;
-  border-radius: 5px / 5px;
-  -webkit-box-shadow: #404040 0 2px 5px;
-  -moz-box-shadow: #404040 0 2px 5px;
-  box-shadow: #404040 0 2px 5px;
+/* line 76, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto hgroup {
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dadada;
 }
-/* line 481, ../sass/screen-proyecto.scss */
-body.imagenes .resumenProyecto .navegacion, body.imagenes .resumenProyecto .infoProyecto {
+/* line 81, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto h1 {
+  font: 26px/30px "colaborativaMedium";
+  color: white;
+  padding-bottom: 25px;
+}
+/* line 86, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto h2 {
+  font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+}
+/* line 90, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto p {
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  margin-bottom: 15px;
+}
+/* line 95, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion {
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 104, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #bebebe;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  -ms-border-radius: 4px / 4px;
+  -o-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 114, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #c9c9c9;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+}
+/* line 120, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-align: center;
+  line-height: 30px;
+  font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  color: #cccccc;
+  text-shadow: none;
+}
+/* line 137, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:link, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:visited, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s false;
+  border-bottom: none;
+}
+/* line 142, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: #5f5f5f;
+}
+/* line 153, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: #6c6c6c;
+}
+/* line 164, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: #535353;
+}
+/* line 176, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li:last-child {
+  border-right: none;
+}
+/* line 180, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+/* line 187, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
   -ms-transition: opacity 0.5s linear z-index 0.5s linear;
   -o-transition: opacity 0.5s linear z-index 0.5s linear;
   transition: opacity 0.5s linear, z-index 0.5s linear;
 }
-/* line 484, ../sass/screen-proyecto.scss */
-body.imagenes .resumenProyecto .infoAdicionalProyecto {
+/* line 191, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+  font: 14px/20px "lucida Grande", Geneva, sans-serif;
+  color: white;
+  margin-top: 185px;
+  margin-bottom: 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 198, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto cite {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 201, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: silver;
+  border: none;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 209, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto figure figcaption {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+/* line 215, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 218, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto h2 {
+  font: 26px/32px "colaborativaBook";
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+/* line 224, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+}
+/* line 231, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+  font: 14px/20px "lucida Grande", Geneva, sans-serif;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 238, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 242, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
+  font: 26px/32px "colaborativaBook";
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin: 0px;
+}
+/* line 249, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dadada;
+}
+/* line 254, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h3 {
+  font: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  padding-bottom: 10px;
+  color: white;
+}
+/* line 258, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h3 a {
+  border-bottom: none;
+  color: white;
+}
+/* line 263, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4 {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  padding-bottom: 12px;
+}
+/* line 267, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4:first-child {
+  padding-bottom: 0px;
+}
+/* line 270, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4:last-child {
+  padding-bottom: 0px;
+}
+/* line 274, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article p {
+  padding-top: 8px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+}
+/* line 279, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article:first-child {
+  border-top: 1px solid #dadada;
+}
+/* line 282, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets {
+  padding-bottom: 22px;
+}
+/* line 284, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  margin: 0px;
+}
+/* line 290, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
+  padding: 0px 0px 0px 0px;
+}
+/* line 293, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 8px 0px 0px;
+  margin: 0px;
+  height: 40px;
+}
+/* line 300, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 305, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+  display: table-cell;
+  width: 70%;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 312, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
+  color: black;
+}
+/* line 316, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
+  display: table-cell;
+  width: 30%;
+  text-align: right;
+  vertical-align: top;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 326, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog {
+  overflow: auto;
+  width: 100%;
+}
+/* line 329, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
+  float: left;
+  clear: both;
+}
+/* line 330, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: silver;
+  border: none;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 340, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
+  margin-left: 170px;
+  margin-top: 4px;
+}
+/* line 343, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
+  overflow: hidden;
+  line-height: 24px;
+  height: 48px;
+}
+/* line 348, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 358, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -100;
+}
+/* line 369, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  z-index: -90;
+  width: 100%;
+  height: 100%;
+}
+/* line 371, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 382, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: none;
+  width: 100%;
+  height: 90px;
+  z-index: 500;
+  bottom: 0px;
+  position: fixed;
+}
+/* line 391, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
+  display: table;
+  margin: 0px auto;
+}
+/* line 394, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
+  padding-top: 5px;
+}
+/* line 396, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
+  display: inline;
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-shadow: none;
+}
+/* line 403, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
+  display: none;
+}
+/* line 406, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: #5A5A5A;
+  content: "\25CF";
+  font-size: 20px;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s false;
+}
+/* line 413, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
+  color: #B6B6B6;
+}
+/* line 416, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
+  color: white;
+}
+/* line 419, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
+  color: white;
+}
+/* line 423, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+/* line 431, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  display: none;
+  text-align: center;
+  margin: 0px auto;
+  z-index: -1;
+  opacity: 0;
+}
+/* line 438, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
+  display: table;
   z-index: 100;
   opacity: 1;
 }
-/* line 488, ../sass/screen-proyecto.scss */
-body.imagenes .resumenProyecto.fade {
-  opacity: 0.2;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-/* line 491, ../sass/screen-proyecto.scss */
-body.imagenes .resumenProyecto.fade .navegacion {
-  z-index: -1;
-  opacity: 0;
-}
-/* line 495, ../sass/screen-proyecto.scss */
-body.imagenes .resumenProyecto.fade .infoProyecto {
-  z-index: -1;
-  opacity: 0;
-}
-/* line 501, ../sass/screen-proyecto.scss */
-body.imagenes .descripcionProyecto {
-  z-index: -1;
-  opacity: 0;
-  display: none;
-}
-/* line 506, ../sass/screen-proyecto.scss */
-body.imagenes .imagenesProyecto {
-  z-index: 100;
-  opacity: 1;
-}
-/* line 509, ../sass/screen-proyecto.scss */
-body.imagenes .imagenesProyecto .imagenFullScreen {
-  z-index: -1;
-  opacity: 0;
-}
-/* line 512, ../sass/screen-proyecto.scss */
-body.imagenes .imagenesProyecto .imagenFullScreen.activo {
-  z-index: 100;
-  opacity: 1;
-}
-/* line 518, ../sass/screen-proyecto.scss */
-body.imagenes .reaccionesProyecto {
-  z-index: -1;
-  opacity: 0;
-  display: none;
-}
-/* line 525, ../sass/screen-proyecto.scss */
-body.reacciones .resumenProyecto {
-  z-index: 110;
-  opacity: 1;
-}
-/* line 528, ../sass/screen-proyecto.scss */
-body.reacciones .resumenProyecto .infoAdicionalProyecto {
-  z-index: -1;
-  opacity: 0;
-}
-/* line 533, ../sass/screen-proyecto.scss */
-body.reacciones .descripcionProyecto {
-  z-index: -1;
-  opacity: 0;
-  display: none;
-}
-/* line 538, ../sass/screen-proyecto.scss */
-body.reacciones .imagenesProyecto {
-  z-index: -1;
-  opacity: 0;
-  display: none;
-}
-/* line 543, ../sass/screen-proyecto.scss */
-body.reacciones .reaccionesProyecto {
-  z-index: 100;
-  opacity: 1;
+/* line 443, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
+  font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  padding: 0px;
+  padding-top: 10px;
+  margin: 0px;
+  height: 40px;
+  display: block;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 @media (max-width: 989px) {
-  /* line 552, ../sass/screen-proyecto.scss */
+  /* line 603, ../sass/screen-proyecto.scss */
+  .contenedor {
+    width: 728px;
+  }
+  /* line 605, ../sass/screen-proyecto.scss */
+  .contenedor .indexTitle {
+    margin-left: -366px;
+    width: 478px;
+  }
+  /* line 609, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto {
+    width: 268px;
+    margin-left: 114px;
+    padding: 20px 20px 30px 20px;
+  }
+  /* line 615, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul {
+    width: 228px;
+  }
+  /* line 617, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul li {
+    width: 76px;
+  }
+  /* line 620, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
+    width: 74px;
+  }
+  /* line 626, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul {
+    width: 228px;
+  }
+  /* line 628, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul li {
+    width: 114px;
+  }
+  /* line 631, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
+    width: 112px;
+  }
+  /* line 637, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .infoAdicionalProyecto {
+    width: 228px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  /* line 643, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
+    width: 268px;
+    margin-left: -20px;
+    padding: 5px 20px 0px 20px;
+  }
+  /* line 650, ../sass/screen-proyecto.scss */
+  .contenedor .descripcionProyecto {
+    width: 476px;
+    margin-left: 0px;
+  }
+  /* line 653, ../sass/screen-proyecto.scss */
+  .contenedor .descripcionProyecto img {
+    width: 474px;
+  }
+  /* line 657, ../sass/screen-proyecto.scss */
+  .contenedor .reaccionesProyecto {
+    width: 476px;
+    margin-left: 0px;
+  }
+  /* line 664, ../sass/screen-proyecto.scss */
+  .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+    width: 728px;
+  }
+
+  /* line 588, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor {
     width: 768px;
   }
-  /* line 554, ../sass/screen-proyecto.scss */
+  /* line 590, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor #fading {
     position: absolute;
     top: 156px;
@@ -1221,95 +1813,95 @@ body.reacciones .reaccionesProyecto {
     width: 516px;
   }
 
-  /* line 567, ../sass/screen-proyecto.scss */
-  .contenedor {
-    width: 728px;
-  }
-  /* line 569, ../sass/screen-proyecto.scss */
-  .contenedor .indexTitle {
-    margin-left: -366px;
-    width: 478px;
-  }
-  /* line 573, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto {
-    width: 268px;
-    margin-left: 114px;
-    padding: 20px 20px 30px 20px;
-  }
-  /* line 579, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul {
-    width: 228px;
-  }
-  /* line 581, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul li {
-    width: 76px;
-  }
-  /* line 584, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
-    width: 74px;
-  }
-  /* line 590, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul {
-    width: 228px;
-  }
-  /* line 592, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul li {
-    width: 114px;
-  }
-  /* line 595, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
-    width: 112px;
-  }
-  /* line 601, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .infoAdicionalProyecto {
-    width: 228px;
-    margin-left: 0px;
-    padding: 0px;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-  /* line 607, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
-    width: 268px;
-    margin-left: -20px;
-    padding: 5px 20px 0px 20px;
-  }
-  /* line 614, ../sass/screen-proyecto.scss */
-  .contenedor .descripcionProyecto {
-    width: 476px;
-    margin-left: 0px;
-  }
-  /* line 617, ../sass/screen-proyecto.scss */
-  .contenedor .descripcionProyecto img {
-    width: 474px;
-  }
-  /* line 621, ../sass/screen-proyecto.scss */
-  .contenedor .reaccionesProyecto {
-    width: 476px;
-    margin-left: 0px;
-  }
-  /* line 628, ../sass/screen-proyecto.scss */
-  .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
-    width: 728px;
-  }
-
-  /* line 641, ../sass/screen-proyecto.scss */
+  /* line 681, ../sass/screen-proyecto.scss */
   body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
     width: 84%;
   }
 
-  /* line 644, ../sass/screen-proyecto.scss */
+  /* line 684, ../sass/screen-proyecto.scss */
   #fading {
     margin-left: -20px;
     background-image: url(../imagenes/sombra-516.png);
   }
 }
 @media (min-width: 990px) {
-  /* line 552, ../sass/screen-proyecto.scss */
+  /* line 603, ../sass/screen-proyecto.scss */
+  .contenedor {
+    width: 940px;
+  }
+  /* line 605, ../sass/screen-proyecto.scss */
+  .contenedor .indexTitle {
+    margin-left: -472px;
+    width: 622px;
+  }
+  /* line 609, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto {
+    width: 340px;
+    margin-left: 150px;
+    padding: 20px 20px 30px 20px;
+  }
+  /* line 615, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul {
+    width: 300px;
+  }
+  /* line 617, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul li {
+    width: 100px;
+  }
+  /* line 620, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
+    width: 98px;
+  }
+  /* line 626, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul {
+    width: 300px;
+  }
+  /* line 628, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul li {
+    width: 150px;
+  }
+  /* line 631, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
+    width: 148px;
+  }
+  /* line 637, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .infoAdicionalProyecto {
+    width: 300px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  /* line 643, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
+    width: 340px;
+    margin-left: -20px;
+    padding: 5px 20px 0px 20px;
+  }
+  /* line 650, ../sass/screen-proyecto.scss */
+  .contenedor .descripcionProyecto {
+    width: 620px;
+    margin-left: 0px;
+  }
+  /* line 653, ../sass/screen-proyecto.scss */
+  .contenedor .descripcionProyecto img {
+    width: 618px;
+  }
+  /* line 657, ../sass/screen-proyecto.scss */
+  .contenedor .reaccionesProyecto {
+    width: 620px;
+    margin-left: 0px;
+  }
+  /* line 664, ../sass/screen-proyecto.scss */
+  .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+    width: 940px;
+  }
+
+  /* line 588, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor {
     width: 980px;
   }
-  /* line 554, ../sass/screen-proyecto.scss */
+  /* line 590, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor #fading {
     position: absolute;
     top: 156px;
@@ -1319,95 +1911,95 @@ body.reacciones .reaccionesProyecto {
     width: 660px;
   }
 
-  /* line 652, ../sass/screen-proyecto.scss */
+  /* line 693, ../sass/screen-proyecto.scss */
   body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
     width: 80%;
   }
 
-  /* line 655, ../sass/screen-proyecto.scss */
+  /* line 696, ../sass/screen-proyecto.scss */
   #fading {
     margin-left: -20px;
     background-image: url(../imagenes/sombra-660.png);
   }
-
-  /* line 567, ../sass/screen-proyecto.scss */
-  .contenedor {
-    width: 940px;
-  }
-  /* line 569, ../sass/screen-proyecto.scss */
-  .contenedor .indexTitle {
-    margin-left: -472px;
-    width: 622px;
-  }
-  /* line 573, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto {
-    width: 340px;
-    margin-left: 150px;
-    padding: 20px 20px 30px 20px;
-  }
-  /* line 579, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul {
-    width: 300px;
-  }
-  /* line 581, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul li {
-    width: 100px;
-  }
-  /* line 584, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
-    width: 98px;
-  }
-  /* line 590, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul {
-    width: 300px;
-  }
-  /* line 592, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul li {
-    width: 150px;
-  }
-  /* line 595, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
-    width: 148px;
-  }
-  /* line 601, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .infoAdicionalProyecto {
-    width: 300px;
-    margin-left: 0px;
-    padding: 0px;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-  /* line 607, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
-    width: 340px;
-    margin-left: -20px;
-    padding: 5px 20px 0px 20px;
-  }
-  /* line 614, ../sass/screen-proyecto.scss */
-  .contenedor .descripcionProyecto {
-    width: 620px;
-    margin-left: 0px;
-  }
-  /* line 617, ../sass/screen-proyecto.scss */
-  .contenedor .descripcionProyecto img {
-    width: 618px;
-  }
-  /* line 621, ../sass/screen-proyecto.scss */
-  .contenedor .reaccionesProyecto {
-    width: 620px;
-    margin-left: 0px;
-  }
-  /* line 628, ../sass/screen-proyecto.scss */
-  .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
-    width: 940px;
-  }
 }
 @media (min-width: 1240px) {
-  /* line 552, ../sass/screen-proyecto.scss */
+  /* line 603, ../sass/screen-proyecto.scss */
+  .contenedor {
+    width: 1170px;
+  }
+  /* line 605, ../sass/screen-proyecto.scss */
+  .contenedor .indexTitle {
+    margin-left: -587px;
+    width: 772px;
+  }
+  /* line 609, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto {
+    width: 430px;
+    margin-left: 185px;
+    padding: 30px 30px 45px 30px;
+  }
+  /* line 615, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul {
+    width: 369px;
+  }
+  /* line 617, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul li {
+    width: 123px;
+  }
+  /* line 620, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
+    width: 121px;
+  }
+  /* line 626, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul {
+    width: 370px;
+  }
+  /* line 628, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul li {
+    width: 185px;
+  }
+  /* line 631, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
+    width: 183px;
+  }
+  /* line 637, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .infoAdicionalProyecto {
+    width: 370px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  /* line 643, ../sass/screen-proyecto.scss */
+  .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
+    width: 430px;
+    margin-left: -30px;
+    padding: 5px 30px 0px 30px;
+  }
+  /* line 650, ../sass/screen-proyecto.scss */
+  .contenedor .descripcionProyecto {
+    width: 770px;
+    margin-left: 0px;
+  }
+  /* line 653, ../sass/screen-proyecto.scss */
+  .contenedor .descripcionProyecto img {
+    width: 768px;
+  }
+  /* line 657, ../sass/screen-proyecto.scss */
+  .contenedor .reaccionesProyecto {
+    width: 770px;
+    margin-left: 0px;
+  }
+  /* line 664, ../sass/screen-proyecto.scss */
+  .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+    width: 1170px;
+  }
+
+  /* line 588, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor {
     width: 1230px;
   }
-  /* line 554, ../sass/screen-proyecto.scss */
+  /* line 590, ../sass/screen-proyecto.scss */
   .cabeceraPagina .contenedor #fading {
     position: absolute;
     top: 156px;
@@ -1417,86 +2009,14 @@ body.reacciones .reaccionesProyecto {
     width: 830px;
   }
 
-  /* line 664, ../sass/screen-proyecto.scss */
+  /* line 706, ../sass/screen-proyecto.scss */
   #fading {
     margin-left: -30px;
     background-image: url(../imagenes/sombra-830.png);
   }
 
-  /* line 668, ../sass/screen-proyecto.scss */
+  /* line 710, ../sass/screen-proyecto.scss */
   body .contenedor .resumenProyecto {
     top: 95px;
-  }
-
-  /* line 567, ../sass/screen-proyecto.scss */
-  .contenedor {
-    width: 1170px;
-  }
-  /* line 569, ../sass/screen-proyecto.scss */
-  .contenedor .indexTitle {
-    margin-left: -587px;
-    width: 772px;
-  }
-  /* line 573, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto {
-    width: 430px;
-    margin-left: 185px;
-    padding: 30px 30px 45px 30px;
-  }
-  /* line 579, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul {
-    width: 369px;
-  }
-  /* line 581, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul li {
-    width: 123px;
-  }
-  /* line 584, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
-    width: 121px;
-  }
-  /* line 590, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul {
-    width: 370px;
-  }
-  /* line 592, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul li {
-    width: 185px;
-  }
-  /* line 595, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
-    width: 183px;
-  }
-  /* line 601, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .infoAdicionalProyecto {
-    width: 370px;
-    margin-left: 0px;
-    padding: 0px;
-    margin-right: 30px;
-    margin-top: 30px;
-  }
-  /* line 607, ../sass/screen-proyecto.scss */
-  .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
-    width: 430px;
-    margin-left: -30px;
-    padding: 5px 30px 0px 30px;
-  }
-  /* line 614, ../sass/screen-proyecto.scss */
-  .contenedor .descripcionProyecto {
-    width: 770px;
-    margin-left: 0px;
-  }
-  /* line 617, ../sass/screen-proyecto.scss */
-  .contenedor .descripcionProyecto img {
-    width: 768px;
-  }
-  /* line 621, ../sass/screen-proyecto.scss */
-  .contenedor .reaccionesProyecto {
-    width: 770px;
-    margin-left: 0px;
-  }
-  /* line 628, ../sass/screen-proyecto.scss */
-  .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
-    width: 1170px;
   }
 }
