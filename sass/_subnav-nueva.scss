@@ -1,12 +1,7 @@
-/* navbar */
-
-
-$borderGrey: #BEBEBE;
-$innerborderGrey: #C9C9C9;
-
-$navbar-button-active: #eeeeee;
-$navbar-button-hover: #e9e9e9;
-$navbar-button-pressed: #d8d8d8;
+$borderGrey: lighten(#BEBEBE, 8%);
+$innerborderGrey: lighten(#C9C9C9, 8%);
+$colorFondoOscuro: rgb(230,230,230);
+$colorFondo: rgb(250,250,250);
 
 .subnav {
 	width: 100%;
@@ -47,28 +42,21 @@ $navbar-button-pressed: #d8d8d8;
 					@include single-transition(all, 0.5s);
 					border-bottom:none;
 				}
+				&.activo {
+					@include single-box-shadow(rgba(0,0,0,0.1), 0px, 0px, 5px, false, true);
+					text-shadow: 0px 1px rgba(255,255,255,0.3);
+					background: #E5E5E5;
+					@include single-transition(all, 0.5s);
+				}
 				&:hover {
+					@include single-box-shadow(rgba(0,0,0,0.2), 0px, 0px, 5px, false, true);
 					text-shadow: 0px 1px rgba(255,255,255,0.5);
 					background: #D8D8D8;
-					-moz-box-shadow:    none;
-					-webkit-box-shadow: none;
-					box-shadow:         none;
-					@include single-transition(all, 0s);
 				}
 				&:active {
+					@include single-box-shadow(rgba(0,0,0,0.2), 0px, 0px, 5px, false, true);
+					text-shadow: 0px 1px rgba(255,255,255,0.3);
 					background: #CFCFCF;
-					text-shadow: 0px 1px rgba(255,255,255,0.3);
-					-moz-box-shadow:    none;
-					-webkit-box-shadow: none;
-					box-shadow:         none;
-				}
-				&.activo {
-					background: #E5E5E5;
-					text-shadow: 0px 1px rgba(255,255,255,0.3);
-					-moz-box-shadow:    inset 0px 0px 5px rgba(129,127,127,0.30);
-					-webkit-box-shadow: inset 0px 0px 5px rgba(129,127,127,0.30);
-					box-shadow:         inset 0px 0px 5px rgba(129,127,127,0.30);
-					@include single-transition(all, 0.5s);
 				}
 			}
 			&:last-child {
@@ -82,49 +70,53 @@ $navbar-button-pressed: #d8d8d8;
 		}
 	}
 }
-
-
-/* Fixed subnav on scroll, but only for 990px and up (sorry IE!) */
-@media (min-width: 990px) {
-	.subnav.fixed {
-		position: fixed;
-		top: 50px;
-		left: 0;
-		right: 0;
-		margin-top: 35px;
-		z-index: 450; /* 10 less than .navbar-fixed to prevent any overlap */
-		background-image: url(/imagenes/background.png);
-		background-repeat: repeat;
-		background-color: rgb(250,250,250);
+.subnav.fixed {
+	@include background(image-url("/imagenes/background.png"),
+						$colorFondo);
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin-top: 15px;
+	z-index: 450;
+	border-bottom: 1px solid $borderGrey;
+	@include single-box-shadow(rgba(0,0,0,0.2), 0px, 1px, 4px, false, false);
+	.nav {
 		border-top: 1px solid $innerborderGrey;
-		border-bottom: 1px solid $borderGrey;
-		@include single-box-shadow(rgba(0,0,0,0.2), 0px, 1px, 4px, false, false);
-		.nav {
-			@include single-box-shadow(none);
-			@include border-radius( 0px,  0px);
-			width: 938px;
-			margin: 0 auto;
-			padding: 0;
-			border: none;
-			li:first-child > a, li:first-child > a:hover {
-				-webkit-border-radius: 0;
-				-moz-border-radius: 0;
-				border-radius: 0;
-			}
+		@include single-box-shadow(none);
+		@include border-radius( 0px,  0px);
+		margin: 0 auto;
+		padding: 0;
+		border: none;
+		li:first-child {
+			border-left: 1px solid $innerborderGrey;
 		}
-		&:before{
-			width:100%;
-			height:40px;
-			display: table;
-			content: "";
-			background-image: url(/imagenes/background.png);
-			background-repeat: repeat;
-			background-color: rgb(250,250,250);
-			border-bottom: 1px solid $borderGrey;
+		li:first-child > a, li:first-child > a:hover {
+			@include border-radius( 0px, 0px );
 		}
 	}
+	&:before{
+		@include background(image-url("/imagenes/background.png"),
+							$colorFondo);
+		width:100%;
+		height:40px;
+		display: table;
+		content: "";
+		border-bottom: 1px solid $borderGrey;
+	}
 }
-@media (min-width: 1200px){
+
+@media (max-width: 989px) {
+	.subnav.fixed .nav {
+		width: 728px;
+	}
+}
+@media (min-width: 990px) {
+	.subnav.fixed .nav {
+		width: 940px;
+	}
+}
+@media (min-width: 1240px){
 	.subnav.fixed .nav {
 		width: 1170px;
 	}

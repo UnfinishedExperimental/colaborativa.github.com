@@ -1357,18 +1357,17 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
     width: 1170px;
   }
 }
-/* navbar */
-/* line 11, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 6, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav {
   width: 100%;
   display: block;
 }
-/* line 19, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 14, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #bebebe;
+  border: 1px solid #d2d2d2;
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px / 4px;
   -ms-border-radius: 4px / 4px;
@@ -1379,17 +1378,17 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   box-shadow: white 0 1px 0px;
   font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 25, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 20, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul li {
   display: inline;
   float: left;
-  border-right: 1px solid #c9c9c9;
+  border-right: 1px solid #dddddd;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 30px;
 }
-/* line 31, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 26, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul li a {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1409,7 +1408,7 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   text-shadow: 0px 1px rgba(255, 255, 255, 0.75);
   color: gray;
 }
-/* line 45, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 40, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul li a:link, .subnav ul li a:visited, .subnav ul li a:active, .subnav ul li a:hover {
   text-decoration: none;
   -webkit-transition: all 0.5s;
@@ -1419,106 +1418,111 @@ html body.dark footer .contenedor .credits p a:link:active, html body.dark foote
   transition: all 0.5s false;
   border-bottom: none;
 }
-/* line 50, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
-.subnav ul li a:hover {
-  text-shadow: 0px 1px rgba(255, 255, 255, 0.5);
-  background: #D8D8D8;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: all 0s;
-  -moz-transition: all 0s;
-  -ms-transition: all 0s;
-  -o-transition: all 0s;
-  transition: all 0s false;
-}
-/* line 58, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
-.subnav ul li a:active {
-  background: #CFCFCF;
-  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 45, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul li a.activo {
-  background: #E5E5E5;
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
   text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px rgba(129, 127, 127, 0.3);
-  -webkit-box-shadow: inset 0px 0px 5px rgba(129, 127, 127, 0.3);
-  box-shadow: inset 0px 0px 5px rgba(129, 127, 127, 0.3);
+  background: #E5E5E5;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s false;
 }
-/* line 74, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 51, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav ul li a:hover {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  background: #D8D8D8;
+}
+/* line 56, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav ul li a:active {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
+  background: #CFCFCF;
+}
+/* line 62, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul li:last-child {
   border-right: none;
 }
-/* line 78, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 66, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
 .subnav ul:after {
   clear: both;
   display: table;
   content: "";
 }
 
-/* Fixed subnav on scroll, but only for 990px and up (sorry IE!) */
-@media (min-width: 990px) {
-  /* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
-  .subnav.fixed {
-    position: fixed;
-    top: 50px;
-    left: 0;
-    right: 0;
-    margin-top: 35px;
-    z-index: 450;
-    /* 10 less than .navbar-fixed to prevent any overlap */
-    background-image: url(/imagenes/background.png);
-    background-repeat: repeat;
-    background-color: #fafafa;
-    border-top: 1px solid #c9c9c9;
-    border-bottom: 1px solid #bebebe;
-    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  }
-  /* line 102, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+/* line 73, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav.fixed {
+  background: url('/imagenes/background.png?1331221128'), #fafafa;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin-top: 15px;
+  z-index: 450;
+  border-bottom: 1px solid #d2d2d2;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 84, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav.fixed .nav {
+  border-top: 1px solid #dddddd;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px / 0px;
+  -ms-border-radius: 0px / 0px;
+  -o-border-radius: 0px / 0px;
+  border-radius: 0px / 0px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+/* line 91, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav.fixed .nav li:first-child {
+  border-left: 1px solid #dddddd;
+}
+/* line 94, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav.fixed .nav li:first-child > a, .subnav.fixed .nav li:first-child > a:hover {
+  -webkit-border-radius: 0px 0px;
+  -moz-border-radius: 0px / 0px;
+  -ms-border-radius: 0px / 0px;
+  -o-border-radius: 0px / 0px;
+  border-radius: 0px / 0px;
+}
+/* line 98, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+.subnav.fixed:before {
+  background: url('/imagenes/background.png?1331221128'), #fafafa;
+  width: 100%;
+  height: 40px;
+  display: table;
+  content: "";
+  border-bottom: 1px solid #d2d2d2;
+}
+
+@media (max-width: 989px) {
+  /* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
   .subnav.fixed .nav {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    -webkit-border-radius: 0px 0px;
-    -moz-border-radius: 0px / 0px;
-    -ms-border-radius: 0px / 0px;
-    -o-border-radius: 0px / 0px;
-    border-radius: 0px / 0px;
-    width: 938px;
-    margin: 0 auto;
-    padding: 0;
-    border: none;
-  }
-  /* line 109, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
-  .subnav.fixed .nav li:first-child > a, .subnav.fixed .nav li:first-child > a:hover {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-  }
-  /* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
-  .subnav.fixed:before {
-    width: 100%;
-    height: 40px;
-    display: table;
-    content: "";
-    background-image: url(/imagenes/background.png);
-    background-repeat: repeat;
-    background-color: #fafafa;
-    border-bottom: 1px solid #bebebe;
+    width: 728px;
   }
 }
-@media (min-width: 1200px) {
-  /* line 128, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+@media (min-width: 990px) {
+  /* line 115, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
+  .subnav.fixed .nav {
+    width: 940px;
+  }
+}
+@media (min-width: 1240px) {
+  /* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_subnav-nueva.scss */
   .subnav.fixed .nav {
     width: 1170px;
   }
