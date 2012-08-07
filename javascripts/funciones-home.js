@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
 		Functions for HOME
 	
 	*******************************************************************************************************************/
-	var homeDelay = 3000;
+	var homeDelay = 8000;
 	var slideShowHomeInterval;  // variable for clearing interval
 	var n_home = $('.contenedorPoster').find('div.posterProyecto').length;  // number of images in VISTA HOME
 	// Implementar un ciclo automatico que cambia la clase .activo del div .posterProyecto y del div .selectorProyectos>li . 

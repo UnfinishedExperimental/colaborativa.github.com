@@ -92,8 +92,64 @@ jQuery(document).ready(function () {
 		},
 		function () { // Mouse pointer leaves the element.
 			if ($('body').hasClass('imagenes')){
-				$('.resumenProyecto').addClass("fade");		
+				$('.resumenProyecto').addClass("fade");
 			}
 		}
-	);	
+	);
+	/*
+		PUT section DescripcionProyecto INTO div indexTitle 
+	*/
+	var tempScrollTop, currentScrollTop = 0; // for getting the scroll direction
+	$(window).bind('scroll', function(){ // check only for vertical scroll
+		currentScrollTop = $(window).scrollTop(); 
+		if (tempScrollTop > currentScrollTop ) {
+		      // Upscroll code
+		      	$('.descripcionProyecto').find('h2').each(function(index, item) {
+					var indexTop = $('.indexTitle').css('top').replace('px','');
+					var indexHeight = $('.indexTitle').css('height').replace('px','');
+					var previousChild, limitPrevious;
+					var limitCurrent = Number($(this).position().top) - Number($(this).css('height').replace('px','')) - Number(indexTop) - Number(indexHeight);
+					if ( index == 0 ){
+						 $('.indexTitle').children().remove();
+						 if (limitCurrent < $(window).scrollTop()){
+							$(this).clone().appendTo($('.indexTitle')); // add next
+						}
+					}else{
+						previousChild = $('.descripcionProyecto').children('h2')[Number(index)-Number(1)];
+						limitPrevious = Number($(previousChild).position().top) - Number(indexTop) - Number(indexHeight);
+						if (limitPrevious < $(window).scrollTop() && limitCurrent < $(window).scrollTop()){
+							$('.indexTitle').children().remove(); // only one H2 at a time in indexTitle.
+							$(this).clone().appendTo($('.indexTitle')); // add next
+						}
+					}
+					
+				});
+		}else if (tempScrollTop < currentScrollTop ){
+		      // Downscroll code
+		      $('.descripcionProyecto').find('h2').each(function(index, item) {
+					var indexTop = $('.indexTitle').css('top').replace('px',''); // Remove 'px'
+					var indexHeight = $('.indexTitle').css('height').replace('px',''); // Remove 'px'
+					var limit = Number($(this).position().top) + Number($(this).css('height').replace('px',''))/2 - Number(indexTop) - Number(indexHeight);
+					if (limit < $(window).scrollTop() ){
+						$('.indexTitle').children().remove(); // only one H2 at a time in indexTitle.
+						$(this).clone().appendTo($('.indexTitle'));
+					}
+				});
+		      
+		}
+		tempScrollTop = currentScrollTop; 
+	});
+	// Depending on direction of scroll we need to Add or Remove Title. Think about it.
+		
 });
+
+
+
+
+
+
+
+
+
+
+
