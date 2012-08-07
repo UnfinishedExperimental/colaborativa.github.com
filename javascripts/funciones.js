@@ -1,10 +1,33 @@
 jQuery(document).ready(function () {
-	var imagesDelay = 2000; // 2 seconds for slideshow in VISTA imagenes
-	var slideShowInterval = false;
+	var imagesDelay = 3000; // 2 seconds for slideshow in VISTA imagenes
+	var slideShowInterval;  // variable for clearing interval
+	var n_images = $('.imagenesProyecto').find('div.imagenFullScreen').length; // number of images in VISTA imagenes
+	var slideShow =	function() {
+		var el, el_id; 			 // Activo Imagen
+		var next_el, next_el_id; // Next Activo Imagen
+	    el = $('.imagenesProyecto').find('div.imagenFullScreen.activo'); // Current Image
+		el_id = (el).attr('id').split('imagen').pop(); // me da el número de imagen
+		if( el_id < n_images){
+			next_el_id = Number(el_id) + Number(1);
+		}else{
+			next_el_id = Number(1);
+		}
+		next_el= $('.imagenesProyecto').children('div[id=imagen'+next_el_id+']'); // Next Image
+	    (next_el).addClass("activo");	
+		// Show Next Image and caption
+		$('.selectorImagenes li a[href=#'+next_el_id+']').parent().addClass('activo');
+		$('.captionImagenes div[id=caption'+next_el_id+']').addClass('activo');
+		(el).removeClass("activo");
+		// Hide Current Image and caption
+		$('.selectorImagenes li a[href=#'+el_id+']').parent().removeClass('activo');
+		$('.captionImagenes div[id=caption'+el_id+']').removeClass('activo');
+	};
 	/* La variable "botonInicial" se actualiza con la vista inicial */
 	$(botonInicial).find('a').trigger('click'); 	// hacer click
 	$(botonInicial).find('a').addClass('activo'); 	// seleccionar
-	var n_images = $('.imagenesProyecto').find('div.imagenFullScreen').length; // number of images in VISTA imagenes
+	if (botonInicial == '#imagenes'){
+		slideShowInterval= setInterval(slideShow,imagesDelay);
+	}
 	/* 
 	Seleccionar imagen de fondo asociada a la vista IMAGENES.
 	*/
@@ -36,6 +59,7 @@ jQuery(document).ready(function () {
 	    var idAdd = $(this).attr('href').split('#').pop();
 		$('body').addClass(idAdd); // Cambio la clase del Body
 		if (idAdd == 'imagenes'){
+			clearInterval(slideShowInterval);
 			slideShowInterval= setInterval(slideShow,imagesDelay);
 		}else{
 			clearInterval(slideShowInterval);
@@ -54,23 +78,5 @@ jQuery(document).ready(function () {
 		  }
 	);
 
-	var slideShow =	function() {
-		var el, el_id; 			 // Activo Imagen
-		var next_el, next_el_id; // Next Activo Imagen
-	    el = $('.imagenesProyecto').find('div.imagenFullScreen.activo');
-		el_id = (el).attr('id').split('imagen').pop(); // me da el número de imagen
-		if( el_id < n_images){
-			next_el_id = Number(el_id) + Number(1);
-		}else{
-			next_el_id = 1;
-		}
-		next_el= $('.imagenesProyecto').children('div[id=imagen'+next_el_id+']');
-		(el).removeClass("activo");
-	    (next_el).addClass("activo");	
-		$('.selectorImagenes li a[href=#'+el_id+']').parent().removeClass('activo');
-		$('.captionImagenes div[id=caption'+el_id+']').removeClass('activo');
-		$('.selectorImagenes li a[href=#'+next_el_id+']').parent().addClass('activo');
-		$('.captionImagenes div[id=caption'+next_el_id+']').addClass('activo');
-	};
 
 });
