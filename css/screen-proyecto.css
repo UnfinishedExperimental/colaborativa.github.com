@@ -127,29 +127,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 3, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
+/* line 3, ../sass/_general.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 4, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
+/* line 4, ../sass/_general.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 5, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_general.scss */
+/* line 5, ../sass/_general.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 7, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 7, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .funnyline {
   width: 100%;
   height: 63px;
   border-bottom: 1px solid rgba(40, 40, 40, 0.2);
 }
-/* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 12, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina {
   position: relative;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(230, 230, 230, 0.8)), color-stop(100%, rgba(230, 230, 230, 0))), url('/imagenes/background.png?1331221128'), #fafafa;
@@ -175,12 +175,12 @@ html body.neutral .cabeceraPagina {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina a:link, html body.neutral .cabeceraPagina a:visited, html body.neutral .cabeceraPagina a:active {
   color: #393939;
   text-decoration: none;
 }
-/* line 17, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 17, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina a:link {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -188,24 +188,24 @@ html body.neutral .cabeceraPagina a:link {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 20, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina a:hover, html body.neutral .cabeceraPagina a:hover.active {
   color: #393939;
   text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -213,13 +213,13 @@ html body.neutral .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: #393939;
   font: 24px/50px "colaborativasemibold";
@@ -233,7 +233,7 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: none;
 }
-/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -246,14 +246,14 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -261,7 +261,7 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: #393939;
   text-shadow: none;
 }
-/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -269,18 +269,18 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -288,26 +288,26 @@ html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.i
   margin: 0;
   padding: 0;
 }
-/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, ../sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
 
-/* line 7, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 7, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .funnyline {
   width: 100%;
   height: 63px;
   border-bottom: 1px solid rgba(40, 40, 40, 0.2);
 }
-/* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 12, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina {
   position: relative;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0.8)), color-stop(100%, rgba(210, 210, 210, 0)));
@@ -333,12 +333,12 @@ html body.light .cabeceraPagina {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina a:link, html body.light .cabeceraPagina a:visited, html body.light .cabeceraPagina a:active {
   color: #393939;
   text-decoration: none;
 }
-/* line 17, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 17, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina a:link {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -346,24 +346,24 @@ html body.light .cabeceraPagina a:link {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 20, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina a:hover, html body.light .cabeceraPagina a:hover.active {
   color: #00a9da;
   text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -371,13 +371,13 @@ html body.light .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: #393939;
   font: 24px/50px "colaborativasemibold";
@@ -391,7 +391,7 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: 0 1px #ffffff;
 }
-/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -404,14 +404,14 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -419,7 +419,7 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: #393939;
   text-shadow: 0 1px #ffffff;
 }
-/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -427,18 +427,18 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -446,26 +446,26 @@ html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idi
   margin: 0;
   padding: 0;
 }
-/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, ../sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
 
-/* line 7, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 7, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .funnyline {
   width: 100%;
   height: 63px;
   border-bottom: 1px solid rgba(210, 210, 210, 0.4);
 }
-/* line 12, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 12, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina {
   position: relative;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(100%, rgba(0, 0, 0, 0)));
@@ -491,12 +491,12 @@ html body.dark .cabeceraPagina {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 13, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina a:link, html body.dark .cabeceraPagina a:visited, html body.dark .cabeceraPagina a:active {
   color: white;
   text-decoration: none;
 }
-/* line 17, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 17, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina a:link {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -504,24 +504,24 @@ html body.dark .cabeceraPagina a:link {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
-/* line 20, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina a:hover, html body.dark .cabeceraPagina a:hover.active {
   color: white;
   text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
 }
-/* line 37, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 37, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed {
   position: fixed;
   top: 0px;
   left: 0px;
 }
-/* line 41, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 41, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed .tituloMenuBusqueda {
   position: absolute;
   bottom: 0px;
   top: 0px;
 }
-/* line 55, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 55, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor {
   position: absolute;
   left: 50%;
@@ -529,13 +529,13 @@ html body.dark .cabeceraPagina .contenedor {
   height: 90px;
   padding: 0px;
 }
-/* line 61, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 61, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda {
   position: absolute;
   top: 30px;
   display: table;
 }
-/* line 65, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 65, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   color: white;
   font: 24px/50px "colaborativasemibold";
@@ -549,7 +549,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
   resize: none;
   text-shadow: none;
 }
-/* line 80, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 80, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -562,14 +562,14 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
   padding-right: 15px;
   padding-left: 15px;
 }
-/* line 89, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 89, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 92, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 92, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   margin-top: 11px;
   margin-bottom: 14px;
@@ -577,7 +577,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
   color: white;
   text-shadow: none;
 }
-/* line 104, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 104, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   display: inline-block;
   width: 22%;
@@ -585,18 +585,18 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li {
   margin: 0;
   padding: 0;
 }
-/* line 110, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a {
   padding: 3px 15px 3px 10px;
 }
-/* line 112, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 112, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li a::before {
   font: 25px "colaborativa-icons";
   padding-right: 6px;
   position: relative;
   top: 3px;
 }
-/* line 120, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 120, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idioma {
   display: inline-block;
   width: 8%;
@@ -604,71 +604,71 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu li.idio
   margin: 0;
   padding: 0;
 }
-/* line 127, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 127, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuBlog:before {
   content: "\f011";
 }
-/* line 130, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 130, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuProyectos:before {
   content: "\f013";
 }
-/* line 133, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 133, ../sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEquipo:before {
   content: "\f012";
 }
 
-/* line 167, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 167, ../sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina {
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 169, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 169, ../sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .funnyline {
   border-bottom: 1px solid rgba(210, 210, 210, 0.4);
 }
-/* line 173, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 173, ../sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:link, html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:visited, html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:active {
   color: white;
   text-decoration: none;
 }
-/* line 178, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 178, ../sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .tituloMenuBusqueda h1 a {
   color: white;
   text-shadow: none;
 }
-/* line 184, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+/* line 184, ../sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   color: white;
   text-shadow: none;
 }
 
 @media (max-width: 989px) {
-  /* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 151, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 768px;
   }
-  /* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 153, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -364px;
     width: 728px;
   }
 }
 @media (min-width: 990px) {
-  /* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 151, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 980px;
   }
-  /* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 153, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -470px;
     width: 940px;
   }
 }
 @media (min-width: 1240px) {
-  /* line 151, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 151, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina {
     min-width: 1230px;
   }
-  /* line 153, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  /* line 153, ../sass/_cabecerapaginaResponsive.scss */
   body .cabeceraPagina .contenedor {
     margin-left: -585px;
     width: 1170px;
@@ -676,39 +676,39 @@ html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
 }
 /* Definicion de los distintos estados de visualización en funcion del modo seleccionado*/
 /* Tres modos: descripcion, imagenes y reacciones */
-/* line 488, ../sass/screen-proyecto.scss */
+/* line 494, ../sass/screen-proyecto.scss */
 html body.descripcion .resumenProyecto {
   z-index: 110;
   opacity: 1;
 }
-/* line 491, ../sass/screen-proyecto.scss */
+/* line 497, ../sass/screen-proyecto.scss */
 html body.descripcion .resumenProyecto .infoAdicionalProyecto {
   z-index: -1;
   opacity: 0;
 }
-/* line 496, ../sass/screen-proyecto.scss */
+/* line 502, ../sass/screen-proyecto.scss */
 html body.descripcion .indexTitle {
   z-index: 100;
   opacity: 1;
 }
-/* line 500, ../sass/screen-proyecto.scss */
+/* line 506, ../sass/screen-proyecto.scss */
 html body.descripcion .descripcionProyecto {
   z-index: 100;
   opacity: 1;
 }
-/* line 504, ../sass/screen-proyecto.scss */
+/* line 510, ../sass/screen-proyecto.scss */
 html body.descripcion .imagenesProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 509, ../sass/screen-proyecto.scss */
+/* line 515, ../sass/screen-proyecto.scss */
 html body.descripcion .reaccionesProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 516, ../sass/screen-proyecto.scss */
+/* line 522, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto {
   z-index: 110;
   opacity: 1;
@@ -726,7 +726,7 @@ html body.imagenes .resumenProyecto {
   -moz-box-shadow: #404040 0 2px 5px;
   box-shadow: #404040 0 2px 5px;
 }
-/* line 522, ../sass/screen-proyecto.scss */
+/* line 528, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto .navegacion, html body.imagenes .resumenProyecto .infoProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -734,89 +734,89 @@ html body.imagenes .resumenProyecto .navegacion, html body.imagenes .resumenProy
   -o-transition: opacity 0.5s linear z-index 0.5s linear;
   transition: opacity 0.5s linear, z-index 0.5s linear;
 }
-/* line 525, ../sass/screen-proyecto.scss */
+/* line 531, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto .infoAdicionalProyecto {
   z-index: 100;
   opacity: 1;
 }
-/* line 529, ../sass/screen-proyecto.scss */
+/* line 535, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto.fade {
   opacity: 0.2;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 532, ../sass/screen-proyecto.scss */
+/* line 538, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto.fade .navegacion {
   z-index: -1;
   opacity: 0;
 }
-/* line 536, ../sass/screen-proyecto.scss */
+/* line 542, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto.fade .infoProyecto {
   z-index: -1;
   opacity: 0;
 }
-/* line 542, ../sass/screen-proyecto.scss */
+/* line 548, ../sass/screen-proyecto.scss */
 html body.imagenes .indexTitle {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 547, ../sass/screen-proyecto.scss */
+/* line 553, ../sass/screen-proyecto.scss */
 html body.imagenes .descripcionProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 552, ../sass/screen-proyecto.scss */
+/* line 558, ../sass/screen-proyecto.scss */
 html body.imagenes .imagenesProyecto {
   z-index: 100;
   opacity: 1;
 }
-/* line 555, ../sass/screen-proyecto.scss */
+/* line 561, ../sass/screen-proyecto.scss */
 html body.imagenes .imagenesProyecto .imagenFullScreen {
   z-index: -1;
   opacity: 0;
 }
-/* line 558, ../sass/screen-proyecto.scss */
+/* line 564, ../sass/screen-proyecto.scss */
 html body.imagenes .imagenesProyecto .imagenFullScreen.activo {
   z-index: 100;
   opacity: 1;
 }
-/* line 564, ../sass/screen-proyecto.scss */
+/* line 570, ../sass/screen-proyecto.scss */
 html body.imagenes .reaccionesProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 571, ../sass/screen-proyecto.scss */
+/* line 577, ../sass/screen-proyecto.scss */
 html body.reacciones .resumenProyecto {
   z-index: 110;
   opacity: 1;
 }
-/* line 574, ../sass/screen-proyecto.scss */
+/* line 580, ../sass/screen-proyecto.scss */
 html body.reacciones .resumenProyecto .infoAdicionalProyecto {
   z-index: -1;
   opacity: 0;
 }
-/* line 579, ../sass/screen-proyecto.scss */
+/* line 585, ../sass/screen-proyecto.scss */
 html body.reacciones .indexTitle {
   z-index: 100;
   opacity: 1;
 }
-/* line 583, ../sass/screen-proyecto.scss */
+/* line 589, ../sass/screen-proyecto.scss */
 html body.reacciones .descripcionProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 588, ../sass/screen-proyecto.scss */
+/* line 594, ../sass/screen-proyecto.scss */
 html body.reacciones .imagenesProyecto {
   z-index: -1;
   opacity: 0;
   display: none;
 }
-/* line 593, ../sass/screen-proyecto.scss */
+/* line 599, ../sass/screen-proyecto.scss */
 html body.reacciones .reaccionesProyecto {
   z-index: 100;
   opacity: 1;
@@ -859,7 +859,14 @@ html body.light .cuerpoPagina .contenedor .indexTitle {
   height: 77px;
   background-color: #fafafa;
 }
-/* line 86, ../sass/screen-proyecto.scss */
+/* line 85, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .indexTitle h2 {
+  height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* line 92, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -869,35 +876,35 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto {
   left: 50%;
   background-color: #fafafa;
 }
-/* line 92, ../sass/screen-proyecto.scss */
+/* line 98, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto hgroup {
   padding-bottom: 30px;
   margin-bottom: 25px;
   border-bottom: 1px solid #dadada;
 }
-/* line 97, ../sass/screen-proyecto.scss */
+/* line 103, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto h1 {
   font: 26px/30px "colaborativaMedium";
   color: #393939;
   padding-bottom: 25px;
 }
-/* line 102, ../sass/screen-proyecto.scss */
+/* line 108, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto h2 {
   font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 106, ../sass/screen-proyecto.scss */
+/* line 112, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto p {
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
   margin-bottom: 15px;
 }
-/* line 111, ../sass/screen-proyecto.scss */
+/* line 117, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion {
   display: block;
   margin-bottom: 25px;
 }
-/* line 120, ../sass/screen-proyecto.scss */
+/* line 126, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -913,7 +920,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul {
   box-shadow: white 0 1px 0px;
   font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 130, ../sass/screen-proyecto.scss */
+/* line 136, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li {
   display: inline;
   float: left;
@@ -923,7 +930,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li {
   box-sizing: border-box;
   height: 30px;
 }
-/* line 136, ../sass/screen-proyecto.scss */
+/* line 142, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -941,7 +948,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a {
   color: #6c6c6c;
   text-shadow: 0px 1px rgba(255, 255, 255, 0.75);
 }
-/* line 153, ../sass/screen-proyecto.scss */
+/* line 159, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:link, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:visited, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover, html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
   text-decoration: none;
   -webkit-transition: all 0.5s;
@@ -951,7 +958,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:l
   transition: all 0.5s false;
   border-bottom: none;
 }
-/* line 158, ../sass/screen-proyecto.scss */
+/* line 164, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
   -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
@@ -959,7 +966,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.a
   text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
   background: #E5E5E5;
 }
-/* line 169, ../sass/screen-proyecto.scss */
+/* line 175, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover {
   -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -967,7 +974,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:h
   text-shadow: 0px 1px rgba(255, 255, 255, 0.5);
   background: #D8D8D8;
 }
-/* line 180, ../sass/screen-proyecto.scss */
+/* line 186, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active {
   -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -975,17 +982,17 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:a
   text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
   background: #CFCFCF;
 }
-/* line 192, ../sass/screen-proyecto.scss */
+/* line 198, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li:last-child {
   border-right: none;
 }
-/* line 196, ../sass/screen-proyecto.scss */
+/* line 202, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .navegacion ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 203, ../sass/screen-proyecto.scss */
+/* line 209, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -993,7 +1000,7 @@ html body.light .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyect
   -o-transition: opacity 0.5s linear z-index 0.5s linear;
   transition: opacity 0.5s linear, z-index 0.5s linear;
 }
-/* line 207, ../sass/screen-proyecto.scss */
+/* line 213, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -1010,11 +1017,11 @@ html body.light .cuerpoPagina .contenedor .descripcionProyecto {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 216, ../sass/screen-proyecto.scss */
+/* line 222, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto cite {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 219, ../sass/screen-proyecto.scss */
+/* line 225, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1030,34 +1037,34 @@ html body.light .cuerpoPagina .contenedor .descripcionProyecto img {
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
-/* line 227, ../sass/screen-proyecto.scss */
+/* line 233, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto figure figcaption {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   margin-top: 5px;
   margin-bottom: 15px;
 }
-/* line 233, ../sass/screen-proyecto.scss */
+/* line 239, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 236, ../sass/screen-proyecto.scss */
+/* line 242, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto h2 {
   font: 26px/32px "colaborativaBook";
   margin-top: 20px;
   margin-bottom: 10px;
   color: #393939;
 }
-/* line 242, ../sass/screen-proyecto.scss */
+/* line 248, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .descripcionProyecto p {
   margin-top: 30px;
   margin-bottom: 30px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 249, ../sass/screen-proyecto.scss */
+/* line 255, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -1072,14 +1079,14 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 256, ../sass/screen-proyecto.scss */
+/* line 262, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 260, ../sass/screen-proyecto.scss */
+/* line 266, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
   font: 26px/32px "colaborativaBook";
   color: #393939;
@@ -1087,53 +1094,53 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
   padding-bottom: 25px;
   margin: 0px;
 }
-/* line 267, ../sass/screen-proyecto.scss */
+/* line 273, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article {
   margin: 0px;
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #dadada;
 }
-/* line 272, ../sass/screen-proyecto.scss */
+/* line 278, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h3 {
   font: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   padding-bottom: 10px;
   color: #393939;
 }
-/* line 276, ../sass/screen-proyecto.scss */
+/* line 282, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h3 a {
   border-bottom: none;
   color: #393939;
 }
-/* line 281, ../sass/screen-proyecto.scss */
+/* line 287, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4 {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
   padding-bottom: 12px;
 }
-/* line 285, ../sass/screen-proyecto.scss */
+/* line 291, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4:first-child {
   padding-bottom: 0px;
 }
-/* line 288, ../sass/screen-proyecto.scss */
+/* line 294, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4:last-child {
   padding-bottom: 0px;
 }
-/* line 292, ../sass/screen-proyecto.scss */
+/* line 298, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article p {
   padding-top: 8px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: #393939;
 }
-/* line 297, ../sass/screen-proyecto.scss */
+/* line 303, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article:first-child {
   border-top: 1px solid #dadada;
 }
-/* line 300, ../sass/screen-proyecto.scss */
+/* line 306, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets {
   padding-bottom: 22px;
 }
-/* line 302, ../sass/screen-proyecto.scss */
+/* line 308, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1143,11 +1150,11 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tw
   padding: 0px 0px 8px 0px;
   margin: 0px;
 }
-/* line 308, ../sass/screen-proyecto.scss */
+/* line 314, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
   padding: 0px 0px 0px 0px;
 }
-/* line 311, ../sass/screen-proyecto.scss */
+/* line 317, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1158,12 +1165,12 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tw
   margin: 0px;
   height: 40px;
 }
-/* line 318, ../sass/screen-proyecto.scss */
+/* line 324, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
   padding: 0px;
   margin: 0px;
 }
-/* line 323, ../sass/screen-proyecto.scss */
+/* line 329, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
   display: table-cell;
   width: 70%;
@@ -1172,11 +1179,11 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tw
   vertical-align: middle;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 330, ../sass/screen-proyecto.scss */
+/* line 336, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
   color: black;
 }
-/* line 334, ../sass/screen-proyecto.scss */
+/* line 340, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
   display: table-cell;
   width: 30%;
@@ -1185,17 +1192,17 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tw
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: rgba(57, 57, 57, 0.8);
 }
-/* line 344, ../sass/screen-proyecto.scss */
+/* line 350, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog {
   overflow: auto;
   width: 100%;
 }
-/* line 347, ../sass/screen-proyecto.scss */
+/* line 353, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
   float: left;
   clear: both;
 }
-/* line 348, ../sass/screen-proyecto.scss */
+/* line 354, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1211,24 +1218,24 @@ html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.ar
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
-/* line 358, ../sass/screen-proyecto.scss */
+/* line 364, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
   margin-left: 170px;
   margin-top: 4px;
 }
-/* line 361, ../sass/screen-proyecto.scss */
+/* line 367, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
   overflow: hidden;
   line-height: 24px;
   height: 48px;
 }
-/* line 366, ../sass/screen-proyecto.scss */
+/* line 372, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 376, ../sass/screen-proyecto.scss */
+/* line 382, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
@@ -1245,7 +1252,7 @@ html body.light .cuerpoPagina .contenedor .imagenesProyecto {
   bottom: 0px;
   z-index: -100;
 }
-/* line 387, ../sass/screen-proyecto.scss */
+/* line 393, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
@@ -1260,14 +1267,14 @@ html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
   width: 100%;
   height: 100%;
 }
-/* line 389, ../sass/screen-proyecto.scss */
+/* line 395, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 400, ../sass/screen-proyecto.scss */
+/* line 406, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1280,16 +1287,16 @@ html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyect
   bottom: 0px;
   position: fixed;
 }
-/* line 409, ../sass/screen-proyecto.scss */
+/* line 415, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
   display: table;
   margin: 0px auto;
 }
-/* line 412, ../sass/screen-proyecto.scss */
+/* line 418, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
   padding-top: 5px;
 }
-/* line 414, ../sass/screen-proyecto.scss */
+/* line 420, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
   display: inline;
   cursor: pointer;
@@ -1298,11 +1305,11 @@ html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyect
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 421, ../sass/screen-proyecto.scss */
+/* line 427, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
   display: none;
 }
-/* line 424, ../sass/screen-proyecto.scss */
+/* line 430, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1316,25 +1323,25 @@ html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyect
   -o-transition: color 1s;
   transition: color 1s false;
 }
-/* line 431, ../sass/screen-proyecto.scss */
+/* line 437, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
   color: #B6B6B6;
 }
-/* line 434, ../sass/screen-proyecto.scss */
+/* line 440, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
   color: white;
 }
-/* line 437, ../sass/screen-proyecto.scss */
+/* line 443, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
   color: white;
 }
-/* line 441, ../sass/screen-proyecto.scss */
+/* line 447, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 449, ../sass/screen-proyecto.scss */
+/* line 455, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
@@ -1347,13 +1354,13 @@ html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyect
   z-index: -1;
   opacity: 0;
 }
-/* line 456, ../sass/screen-proyecto.scss */
+/* line 462, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
   display: table;
   z-index: 100;
   opacity: 1;
 }
-/* line 461, ../sass/screen-proyecto.scss */
+/* line 467, ../sass/screen-proyecto.scss */
 html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
   font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
@@ -1403,7 +1410,14 @@ html body.dark .cuerpoPagina .contenedor .indexTitle {
   height: 77px;
   background-color: #393939;
 }
-/* line 86, ../sass/screen-proyecto.scss */
+/* line 85, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .indexTitle h2 {
+  height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* line 92, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1413,35 +1427,35 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto {
   left: 50%;
   background-color: #393939;
 }
-/* line 92, ../sass/screen-proyecto.scss */
+/* line 98, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto hgroup {
   padding-bottom: 30px;
   margin-bottom: 25px;
   border-bottom: 1px solid rgba(250, 250, 250, 0.6);
 }
-/* line 97, ../sass/screen-proyecto.scss */
+/* line 103, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto h1 {
   font: 26px/30px "colaborativaMedium";
   color: white;
   padding-bottom: 25px;
 }
-/* line 102, ../sass/screen-proyecto.scss */
+/* line 108, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto h2 {
   font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
 }
-/* line 106, ../sass/screen-proyecto.scss */
+/* line 112, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto p {
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
   margin-bottom: 15px;
 }
-/* line 111, ../sass/screen-proyecto.scss */
+/* line 117, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion {
   display: block;
   margin-bottom: 25px;
 }
-/* line 120, ../sass/screen-proyecto.scss */
+/* line 126, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1457,7 +1471,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul {
   box-shadow: none;
   font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 130, ../sass/screen-proyecto.scss */
+/* line 136, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li {
   display: inline;
   float: left;
@@ -1467,7 +1481,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li {
   box-sizing: border-box;
   height: 30px;
 }
-/* line 136, ../sass/screen-proyecto.scss */
+/* line 142, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1485,7 +1499,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a {
   color: #cccccc;
   text-shadow: none;
 }
-/* line 153, ../sass/screen-proyecto.scss */
+/* line 159, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:link, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:visited, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover, html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
   text-decoration: none;
   -webkit-transition: all 0.5s;
@@ -1495,7 +1509,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:li
   transition: all 0.5s false;
   border-bottom: none;
 }
-/* line 158, ../sass/screen-proyecto.scss */
+/* line 164, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.activo {
   text-shadow: none;
   -webkit-box-shadow: none;
@@ -1503,7 +1517,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a.ac
   box-shadow: none;
   background: #5f5f5f;
 }
-/* line 169, ../sass/screen-proyecto.scss */
+/* line 175, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:hover {
   text-shadow: none;
   -webkit-box-shadow: none;
@@ -1511,7 +1525,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:ho
   box-shadow: none;
   background: #6c6c6c;
 }
-/* line 180, ../sass/screen-proyecto.scss */
+/* line 186, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:active {
   text-shadow: none;
   -webkit-box-shadow: none;
@@ -1519,17 +1533,17 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li a:ac
   box-shadow: none;
   background: #535353;
 }
-/* line 192, ../sass/screen-proyecto.scss */
+/* line 198, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul li:last-child {
   border-right: none;
 }
-/* line 196, ../sass/screen-proyecto.scss */
+/* line 202, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .navegacion ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 203, ../sass/screen-proyecto.scss */
+/* line 209, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -1537,7 +1551,7 @@ html body.dark .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto
   -o-transition: opacity 0.5s linear z-index 0.5s linear;
   transition: opacity 0.5s linear, z-index 0.5s linear;
 }
-/* line 207, ../sass/screen-proyecto.scss */
+/* line 213, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -1554,11 +1568,11 @@ html body.dark .cuerpoPagina .contenedor .descripcionProyecto {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 216, ../sass/screen-proyecto.scss */
+/* line 222, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto cite {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 219, ../sass/screen-proyecto.scss */
+/* line 225, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1574,34 +1588,34 @@ html body.dark .cuerpoPagina .contenedor .descripcionProyecto img {
   -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-/* line 227, ../sass/screen-proyecto.scss */
+/* line 233, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto figure figcaption {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   margin-top: 5px;
   margin-bottom: 15px;
 }
-/* line 233, ../sass/screen-proyecto.scss */
+/* line 239, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 236, ../sass/screen-proyecto.scss */
+/* line 242, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto h2 {
   font: 26px/32px "colaborativaBook";
   margin-top: 20px;
   margin-bottom: 10px;
   color: white;
 }
-/* line 242, ../sass/screen-proyecto.scss */
+/* line 248, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .descripcionProyecto p {
   margin-top: 30px;
   margin-bottom: 30px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
 }
-/* line 249, ../sass/screen-proyecto.scss */
+/* line 255, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto {
   -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
   -moz-transition: opacity 0.5s linear z-index 0.5s linear;
@@ -1616,14 +1630,14 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 256, ../sass/screen-proyecto.scss */
+/* line 262, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto h1 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 260, ../sass/screen-proyecto.scss */
+/* line 266, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
   font: 26px/32px "colaborativaBook";
   color: white;
@@ -1631,53 +1645,53 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
   padding-bottom: 25px;
   margin: 0px;
 }
-/* line 267, ../sass/screen-proyecto.scss */
+/* line 273, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article {
   margin: 0px;
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #dadada;
 }
-/* line 272, ../sass/screen-proyecto.scss */
+/* line 278, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h3 {
   font: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   padding-bottom: 10px;
   color: white;
 }
-/* line 276, ../sass/screen-proyecto.scss */
+/* line 282, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h3 a {
   border-bottom: none;
   color: white;
 }
-/* line 281, ../sass/screen-proyecto.scss */
+/* line 287, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4 {
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
   padding-bottom: 12px;
 }
-/* line 285, ../sass/screen-proyecto.scss */
+/* line 291, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4:first-child {
   padding-bottom: 0px;
 }
-/* line 288, ../sass/screen-proyecto.scss */
+/* line 294, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4:last-child {
   padding-bottom: 0px;
 }
-/* line 292, ../sass/screen-proyecto.scss */
+/* line 298, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article p {
   padding-top: 8px;
   font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
 }
-/* line 297, ../sass/screen-proyecto.scss */
+/* line 303, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article:first-child {
   border-top: 1px solid #dadada;
 }
-/* line 300, ../sass/screen-proyecto.scss */
+/* line 306, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets {
   padding-bottom: 22px;
 }
-/* line 302, ../sass/screen-proyecto.scss */
+/* line 308, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1687,11 +1701,11 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.twe
   padding: 0px 0px 8px 0px;
   margin: 0px;
 }
-/* line 308, ../sass/screen-proyecto.scss */
+/* line 314, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
   padding: 0px 0px 0px 0px;
 }
-/* line 311, ../sass/screen-proyecto.scss */
+/* line 317, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1702,12 +1716,12 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.twe
   margin: 0px;
   height: 40px;
 }
-/* line 318, ../sass/screen-proyecto.scss */
+/* line 324, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
   padding: 0px;
   margin: 0px;
 }
-/* line 323, ../sass/screen-proyecto.scss */
+/* line 329, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
   display: table-cell;
   width: 70%;
@@ -1716,11 +1730,11 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.twe
   vertical-align: middle;
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 }
-/* line 330, ../sass/screen-proyecto.scss */
+/* line 336, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
   color: black;
 }
-/* line 334, ../sass/screen-proyecto.scss */
+/* line 340, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
   display: table-cell;
   width: 30%;
@@ -1729,17 +1743,17 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.twe
   font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 344, ../sass/screen-proyecto.scss */
+/* line 350, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog {
   overflow: auto;
   width: 100%;
 }
-/* line 347, ../sass/screen-proyecto.scss */
+/* line 353, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
   float: left;
   clear: both;
 }
-/* line 348, ../sass/screen-proyecto.scss */
+/* line 354, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1755,24 +1769,24 @@ html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.art
   -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-/* line 358, ../sass/screen-proyecto.scss */
+/* line 364, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
   margin-left: 170px;
   margin-top: 4px;
 }
-/* line 361, ../sass/screen-proyecto.scss */
+/* line 367, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
   overflow: hidden;
   line-height: 24px;
   height: 48px;
 }
-/* line 366, ../sass/screen-proyecto.scss */
+/* line 372, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 376, ../sass/screen-proyecto.scss */
+/* line 382, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
@@ -1789,7 +1803,7 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto {
   bottom: 0px;
   z-index: -100;
 }
-/* line 387, ../sass/screen-proyecto.scss */
+/* line 393, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
@@ -1804,14 +1818,14 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
   width: 100%;
   height: 100%;
 }
-/* line 389, ../sass/screen-proyecto.scss */
+/* line 395, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen h2 {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 400, ../sass/screen-proyecto.scss */
+/* line 406, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1824,16 +1838,16 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
   bottom: 0px;
   position: fixed;
 }
-/* line 409, ../sass/screen-proyecto.scss */
+/* line 415, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
   display: table;
   margin: 0px auto;
 }
-/* line 412, ../sass/screen-proyecto.scss */
+/* line 418, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
   padding-top: 5px;
 }
-/* line 414, ../sass/screen-proyecto.scss */
+/* line 420, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
   display: inline;
   cursor: pointer;
@@ -1842,11 +1856,11 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
   margin-right: 5px;
   text-shadow: none;
 }
-/* line 421, ../sass/screen-proyecto.scss */
+/* line 427, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
   display: none;
 }
-/* line 424, ../sass/screen-proyecto.scss */
+/* line 430, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1860,25 +1874,25 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
   -o-transition: color 1s;
   transition: color 1s false;
 }
-/* line 431, ../sass/screen-proyecto.scss */
+/* line 437, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
   color: #B6B6B6;
 }
-/* line 434, ../sass/screen-proyecto.scss */
+/* line 440, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
   color: white;
 }
-/* line 437, ../sass/screen-proyecto.scss */
+/* line 443, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
   color: white;
 }
-/* line 441, ../sass/screen-proyecto.scss */
+/* line 447, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
   clear: both;
   display: table;
   content: "";
 }
-/* line 449, ../sass/screen-proyecto.scss */
+/* line 455, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
   -webkit-transition: opacity 1s linear, z-index 1s linear;
   -moz-transition: opacity 1s linear z-index 1s linear;
@@ -1891,13 +1905,13 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
   z-index: -1;
   opacity: 0;
 }
-/* line 456, ../sass/screen-proyecto.scss */
+/* line 462, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
   display: table;
   z-index: 100;
   opacity: 1;
 }
-/* line 461, ../sass/screen-proyecto.scss */
+/* line 467, ../sass/screen-proyecto.scss */
 html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
   font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
   color: white;
@@ -1911,55 +1925,55 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
 }
 
 @media (max-width: 989px) {
-  /* line 604, ../sass/screen-proyecto.scss */
+  /* line 610, ../sass/screen-proyecto.scss */
   html body .cabeceraPagina .contenedor {
     width: 768px;
   }
-  /* line 606, ../sass/screen-proyecto.scss */
+  /* line 612, ../sass/screen-proyecto.scss */
   html body .cabeceraPagina .contenedor #fading {
     margin-left: -10px;
     width: 496px;
   }
-  /* line 613, ../sass/screen-proyecto.scss */
+  /* line 619, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor {
     width: 728px;
   }
-  /* line 615, ../sass/screen-proyecto.scss */
+  /* line 621, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .indexTitle {
     margin-left: -366px;
     width: 478px;
   }
-  /* line 619, ../sass/screen-proyecto.scss */
+  /* line 625, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto {
     width: 268px;
     margin-left: 114px;
     padding: 20px 20px 30px 20px;
   }
-  /* line 625, ../sass/screen-proyecto.scss */
+  /* line 631, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul {
     width: 228px;
   }
-  /* line 627, ../sass/screen-proyecto.scss */
+  /* line 633, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul li {
     width: 76px;
   }
-  /* line 630, ../sass/screen-proyecto.scss */
+  /* line 636, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
     width: 74px;
   }
-  /* line 636, ../sass/screen-proyecto.scss */
+  /* line 642, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul {
     width: 228px;
   }
-  /* line 638, ../sass/screen-proyecto.scss */
+  /* line 644, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul li {
     width: 114px;
   }
-  /* line 641, ../sass/screen-proyecto.scss */
+  /* line 647, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
     width: 112px;
   }
-  /* line 647, ../sass/screen-proyecto.scss */
+  /* line 653, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
     width: 228px;
     margin-left: 0px;
@@ -1967,91 +1981,91 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 653, ../sass/screen-proyecto.scss */
+  /* line 659, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
     width: 268px;
     margin-left: -20px;
     padding: 5px 20px 0px 20px;
   }
-  /* line 660, ../sass/screen-proyecto.scss */
+  /* line 666, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .descripcionProyecto {
     width: 476px;
     margin-left: 0px;
   }
-  /* line 663, ../sass/screen-proyecto.scss */
+  /* line 669, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .descripcionProyecto img {
     width: 474px;
   }
-  /* line 667, ../sass/screen-proyecto.scss */
+  /* line 673, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .reaccionesProyecto {
     width: 476px;
     margin-left: 0px;
   }
-  /* line 674, ../sass/screen-proyecto.scss */
+  /* line 680, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
     width: 728px;
   }
 
-  /* line 692, ../sass/screen-proyecto.scss */
+  /* line 698, ../sass/screen-proyecto.scss */
   body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
     width: 84%;
   }
 
-  /* line 695, ../sass/screen-proyecto.scss */
+  /* line 701, ../sass/screen-proyecto.scss */
   #fading {
     background-image: url(../imagenes/sombra-496.png);
   }
 }
 @media (min-width: 990px) {
-  /* line 604, ../sass/screen-proyecto.scss */
+  /* line 610, ../sass/screen-proyecto.scss */
   html body .cabeceraPagina .contenedor {
     width: 980px;
   }
-  /* line 606, ../sass/screen-proyecto.scss */
+  /* line 612, ../sass/screen-proyecto.scss */
   html body .cabeceraPagina .contenedor #fading {
     margin-left: -10px;
     width: 640px;
   }
-  /* line 613, ../sass/screen-proyecto.scss */
+  /* line 619, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor {
     width: 940px;
   }
-  /* line 615, ../sass/screen-proyecto.scss */
+  /* line 621, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .indexTitle {
     margin-left: -472px;
     width: 622px;
   }
-  /* line 619, ../sass/screen-proyecto.scss */
+  /* line 625, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto {
     width: 340px;
     margin-left: 150px;
     padding: 20px 20px 30px 20px;
   }
-  /* line 625, ../sass/screen-proyecto.scss */
+  /* line 631, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul {
     width: 300px;
   }
-  /* line 627, ../sass/screen-proyecto.scss */
+  /* line 633, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul li {
     width: 100px;
   }
-  /* line 630, ../sass/screen-proyecto.scss */
+  /* line 636, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
     width: 98px;
   }
-  /* line 636, ../sass/screen-proyecto.scss */
+  /* line 642, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul {
     width: 300px;
   }
-  /* line 638, ../sass/screen-proyecto.scss */
+  /* line 644, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul li {
     width: 150px;
   }
-  /* line 641, ../sass/screen-proyecto.scss */
+  /* line 647, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
     width: 148px;
   }
-  /* line 647, ../sass/screen-proyecto.scss */
+  /* line 653, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
     width: 300px;
     margin-left: 0px;
@@ -2059,91 +2073,91 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 653, ../sass/screen-proyecto.scss */
+  /* line 659, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
     width: 340px;
     margin-left: -20px;
     padding: 5px 20px 0px 20px;
   }
-  /* line 660, ../sass/screen-proyecto.scss */
+  /* line 666, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .descripcionProyecto {
     width: 620px;
     margin-left: 0px;
   }
-  /* line 663, ../sass/screen-proyecto.scss */
+  /* line 669, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .descripcionProyecto img {
     width: 618px;
   }
-  /* line 667, ../sass/screen-proyecto.scss */
+  /* line 673, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .reaccionesProyecto {
     width: 620px;
     margin-left: 0px;
   }
-  /* line 674, ../sass/screen-proyecto.scss */
+  /* line 680, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
     width: 940px;
   }
 
-  /* line 702, ../sass/screen-proyecto.scss */
+  /* line 708, ../sass/screen-proyecto.scss */
   body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
     width: 80%;
   }
 
-  /* line 705, ../sass/screen-proyecto.scss */
+  /* line 711, ../sass/screen-proyecto.scss */
   #fading {
     background-image: url(../imagenes/sombra-640.png);
   }
 }
 @media (min-width: 1240px) {
-  /* line 604, ../sass/screen-proyecto.scss */
+  /* line 610, ../sass/screen-proyecto.scss */
   html body .cabeceraPagina .contenedor {
     width: 1230px;
   }
-  /* line 606, ../sass/screen-proyecto.scss */
+  /* line 612, ../sass/screen-proyecto.scss */
   html body .cabeceraPagina .contenedor #fading {
     margin-left: -15px;
     width: 800px;
   }
-  /* line 613, ../sass/screen-proyecto.scss */
+  /* line 619, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor {
     width: 1170px;
   }
-  /* line 615, ../sass/screen-proyecto.scss */
+  /* line 621, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .indexTitle {
     margin-left: -587px;
     width: 772px;
   }
-  /* line 619, ../sass/screen-proyecto.scss */
+  /* line 625, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto {
     width: 430px;
     margin-left: 185px;
     padding: 30px 30px 45px 30px;
   }
-  /* line 625, ../sass/screen-proyecto.scss */
+  /* line 631, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul {
     width: 369px;
   }
-  /* line 627, ../sass/screen-proyecto.scss */
+  /* line 633, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul li {
     width: 123px;
   }
-  /* line 630, ../sass/screen-proyecto.scss */
+  /* line 636, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones3 ul li:last-child {
     width: 121px;
   }
-  /* line 636, ../sass/screen-proyecto.scss */
+  /* line 642, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul {
     width: 370px;
   }
-  /* line 638, ../sass/screen-proyecto.scss */
+  /* line 644, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul li {
     width: 185px;
   }
-  /* line 641, ../sass/screen-proyecto.scss */
+  /* line 647, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .navegacion.botones2 ul li:last-child {
     width: 183px;
   }
-  /* line 647, ../sass/screen-proyecto.scss */
+  /* line 653, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto {
     width: 370px;
     margin-left: 0px;
@@ -2151,37 +2165,37 @@ html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto
     margin-right: 30px;
     margin-top: 30px;
   }
-  /* line 653, ../sass/screen-proyecto.scss */
+  /* line 659, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
     width: 430px;
     margin-left: -30px;
     padding: 5px 30px 0px 30px;
   }
-  /* line 660, ../sass/screen-proyecto.scss */
+  /* line 666, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .descripcionProyecto {
     width: 770px;
     margin-left: 0px;
   }
-  /* line 663, ../sass/screen-proyecto.scss */
+  /* line 669, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .descripcionProyecto img {
     width: 768px;
   }
-  /* line 667, ../sass/screen-proyecto.scss */
+  /* line 673, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .reaccionesProyecto {
     width: 770px;
     margin-left: 0px;
   }
-  /* line 674, ../sass/screen-proyecto.scss */
+  /* line 680, ../sass/screen-proyecto.scss */
   html body .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
     width: 1170px;
   }
 
-  /* line 713, ../sass/screen-proyecto.scss */
+  /* line 719, ../sass/screen-proyecto.scss */
   body .contenedor .resumenProyecto {
     top: 95px;
   }
 
-  /* line 716, ../sass/screen-proyecto.scss */
+  /* line 722, ../sass/screen-proyecto.scss */
   #fading {
     background-image: url(../imagenes/sombra-800.png);
   }

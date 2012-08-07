@@ -82,6 +82,12 @@ $greyLine: 1px solid #DADADA;
 						left:50%;
 						height:77px;
 						background-color: $colorFondo;
+						h2{
+							height:32px;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+						}
 					}
 					.resumenProyecto{
 						@include box-sizing (border-box);
