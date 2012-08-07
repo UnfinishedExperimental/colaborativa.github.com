@@ -3,8 +3,9 @@
 @import "compass/css3/user-interface";
 @import "compass/utilities/general/clearfix";
 @import "fonts/fontfaces";
-@import "_cabecerapaginaResponsive";
 @import "_general";
+@import "_cabecerapaginaResponsive";
+
 
 $articuloTitulo: 26px/30px "colaborativaMedium";
 $articuloSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
