@@ -43,6 +43,9 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 						bottom:0px;
 						top:0px;
 					}
+					&.proyecto{
+						padding-bottom: 156px;
+					}
 				}
 				width: 100%;
 				@include user-select(none);
@@ -165,6 +168,11 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 html{
 	body.imagenes{
 		.cabeceraPagina{
+			&.fixed{
+				&.proyecto{
+					padding-bottom: 0px;
+				}
+			}
 			background: rgba(0,0,0,0.7) !important;
 			.funnyline{
 				border-bottom: 1px solid rgba(210,210,210, 0.4);

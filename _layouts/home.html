@@ -20,8 +20,6 @@
 		{% include _header-responsive.html %}
 		<div class="contenedorHome">
 			<div class="contenedorPoster">
-				<div class="cortinilla izquierda"></div>
-				<div class="cortinilla derecha"></div>
 			{% assign contadorProyecto = '' %}
 			{% assign contadorProyecto = tempProyecto %}
 			{% capture tempProyecto %}{{ contadorProyecto }}*{% endcapture %}
@@ -33,9 +31,9 @@
 						{% assign contadorProyecto = tempProyecto %}
 						{% assign indexProyecto = contadorProyecto.size %}
 						{% if forloop.first %}
-						<div class="posterProyecto activo" id="proyecto{{ indexProyecto }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						<div class="posterProyecto activo" id="proyecto{{ indexProyecto }}" colorFondo="{{ proyecto.colorFondo }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
 						{% else %}
-						<div class="posterProyecto" href="{{ proyecto.url }}" id="proyecto{{ indexProyecto }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						<div class="posterProyecto" href="{{ proyecto.url }}" id="proyecto{{ indexProyecto }}" colorFondo="{{ proyecto.colorFondo }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
 						{% endif %}
 					{% endif %}
 				{% endif %}

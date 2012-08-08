@@ -91,22 +91,6 @@ $seccionTitulo: 24px/30px "colaborativaMedium";
 					left:0px;
 					top:0px;
 					z-index:-500;
-					.cortinilla{
-						position:absolute;
-						top:0px;
-						width:130px;
-						height:1000px;
-						&.izquierda{
-							right:50%;
-							margin-right:620px;
-							@include background(linear-gradient(left, rgba($colorFondo, 1.0), rgba($colorFondo, 0.0)));
-						}
-						&.derecha{
-							left:50%;
-							margin-left:620px;
-							@include background(linear-gradient(right, rgba($colorFondo, 1.0), rgba($colorFondo, 0.0)));
-						}
-					}
 					.posterProyecto{
 						width:1500px;
 						height:1100px;

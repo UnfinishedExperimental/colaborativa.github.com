@@ -12,6 +12,7 @@ descripcion: Descripción localwiz
 descripcion-link-externo: http://www.cordoba.localwiz.eu
 en-cabecera: no
 template: light
+colorFondo: "#e6e6e6"
 inicio: descripcion
 
 colaboradores:

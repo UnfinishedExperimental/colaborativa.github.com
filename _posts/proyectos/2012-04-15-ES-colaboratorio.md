@@ -12,6 +12,7 @@ descripcion: Descripción colaboratorio
 descripcion-link-externo: http://www.colaboratorio.colaborativa.eu
 en-cabecera: yes
 template: dark
+colorFondo: "#4b95e1"
 inicio: descripcion
 
 colaboradores:

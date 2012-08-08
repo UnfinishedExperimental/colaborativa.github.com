@@ -88,7 +88,7 @@ $greyLine: 1px solid #DADADA;
 						top:80px;
 						left:50%;
 						height:77px;
-						background-color: $colorFondo;
+						z-index:1000;
 						h2{
 							height:32px;
 							overflow: hidden;
@@ -103,7 +103,7 @@ $greyLine: 1px solid #DADADA;
 						position:fixed;
 						top:105px;
 						left:50%;
-						background-color: $colorFondo;
+						z-index:1100;
 						hgroup{
 							padding-bottom:30px;
 							margin-bottom:25px;
