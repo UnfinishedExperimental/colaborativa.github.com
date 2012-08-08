@@ -14,6 +14,7 @@ descripcion-link-externo: http://janeswalk.net/
 en-cabecera: yes
 template: light
 inicio: imagenes
+colorFondo: "#fcfcfc"
 
 colaboradores:
  - a-pata
@@ -28,7 +29,7 @@ enlaces:
 
 reacciones:
  - { type: prensa, title: "Destripando Córdoba a pie", source: Diario ABC Córdoba, date: May 2012, url: http://www.abc.es/20120503/cordoba/abcp-destripando-cordoba-20120503.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
- - { type: prensa, title: "Los Paseos de Jane entrevista en PTV", source: PTV, date: May 2012, url: http://www.youtube.com/watch?v=fXkWfxveN6I&feature=relmfu, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
+ - { type: prensa, title: "Los Paseos de Jane entrevista en PTV", source: PTV, date: May 2012, url: "http://www.youtube.com/watch?v=fXkWfxveN6I&feature=relmfu", quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
  - { type: prensa, title: "Proponen 8 recorridos temáticos por Córdoba este fin de semana", source: Diario Córdoba, date: May 2012, url: http://www.diariocordoba.com/noticias/cultura/proponen-8-recorridos-tematicos-por-cordoba-este-fin-de-semana_712658.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
  - { type: prensa, title: "Los pasos cordobeses de Jane Jacobs", source: El Mundo, date: May 2012, url: http://www.elmundo.es/elmundo/2012/05/06/andalucia/1336317344.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }
  - { type: prensa, title: "Un paseo diferente por la ciudad", source: El día de Córdoba, date: May 2012, url: http://www.eldiadecordoba.es/article/cordoba/1248172/unos/paseos/tematicos/ofrecen/una/vision/distinta/la/ciudad.html, quote: "“Su obra cuestionó el modelo de urbanismo dominante en la segunda mitad del siglo XX basado en el uso del automóvil y la ciudad segregada”" }

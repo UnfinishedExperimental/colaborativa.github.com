@@ -12,6 +12,7 @@ descripcion: Descripción espacio creativo
 descripcion-link-externo: http://janeswalk.net/
 en-cabecera: yes
 template: dark
+colorFondo: "#2c2f38"
 inicio: descripcion
 
 colaboradores:

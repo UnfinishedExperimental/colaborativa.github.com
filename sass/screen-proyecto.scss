@@ -51,7 +51,6 @@ $greyLine: 1px solid #DADADA;
 				text-decoration: none;
 				color: $colorTexto;
 			}
-			background-color: $colorFondo;
 			.fondoProyecto{
 				top:0px;
 				left:0px;
@@ -630,9 +629,10 @@ html{
 				.contenedor{
 					width: $totalWidth;
 					.indexTitle{
-						margin-left: - $totalWidth/2 - 2;
-						width: $columnWidth*2 + $gutterWidth + 2;
+						margin-left: - $totalWidth/2 - $gutterWidth;
+						width: $columnWidth*2 + $gutterWidth*2;
 						h2{
+							margin-left: $gutterWidth;
 							width: $columnWidth*2 + $gutterWidth;
 						}
 					}

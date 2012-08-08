@@ -14,6 +14,7 @@
 			{% endif %}
 		</script>
 		<style>
+			html body.{{ page.template }} { background-color: {{ page.colorFondo }}; }
 			@media (max-width: 989px) {
 				.indexTitle{
 					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-tablet.jpg) left top no-repeat;
