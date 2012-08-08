@@ -52,6 +52,14 @@ $greyLine: 1px solid #DADADA;
 				color: $colorTexto;
 			}
 			background-color: $colorFondo;
+			.fondoProyecto{
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+				position:fixed;
+				z-index:-100;
+			}
 			.cabeceraPagina{
 				.contenedor{
 					#fading{
@@ -61,7 +69,7 @@ $greyLine: 1px solid #DADADA;
 						@if $templateNombre == light {
 							border-top: 1px solid white;
 						} @else {
-							border-top: 1px solid rgba(250,250,250,0.5);
+							border-top: 1px solid rgba(250,250,250,0.3);
 						}
 						height: 10px;
 						opacity:0;
@@ -87,6 +95,8 @@ $greyLine: 1px solid #DADADA;
 							overflow: hidden;
 							white-space: nowrap;
 							text-overflow: ellipsis;
+							position: absolute;
+							bottom:10px;
 						}
 					}
 					.resumenProyecto{
@@ -160,6 +170,7 @@ $greyLine: 1px solid #DADADA;
 											text-decoration: none;
 											@include single-transition(all, 0.5s);
 											border-bottom:none;
+											background: $colorFondo;
 										}
 										&.activo{
 											@if $templateNombre == light {
@@ -621,6 +632,9 @@ html{
 					.indexTitle{
 						margin-left: - $totalWidth/2 - 2;
 						width: $columnWidth*2 + $gutterWidth + 2;
+						h2{
+							width: $columnWidth*2 + $gutterWidth;
+						}
 					}
 					.resumenProyecto{
 						width: $columnWidth + 2*$gutterWidth;
@@ -667,7 +681,7 @@ html{
 						width: 2*$columnWidth + $gutterWidth;
 						margin-left: 0px;
 						img{
-							width:  2*$columnWidth + $gutterWidth - 2;
+							width:  2*$columnWidth + $gutterWidth - 4;
 						}
 					}
 					.reaccionesProyecto{

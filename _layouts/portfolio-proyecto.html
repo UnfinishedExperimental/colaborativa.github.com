@@ -13,12 +13,39 @@
 				var botonInicial = "#descripcion";
 			{% endif %}
 		</script>
+		<style>
+			@media (max-width: 989px) {
+				.indexTitle{
+					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-tablet.jpg) left top no-repeat;
+				}
+				.resumenProyecto{
+					background: url(/imagenes/proyectos/{{ page.slug }}-background-resumen-tablet.jpg) left top no-repeat;
+				}
+			}
+			@media (min-width: 990px) {
+				.indexTitle{
+					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-normal.jpg) left top no-repeat;
+				}
+				.resumenProyecto{
+					background: url(/imagenes/proyectos/{{ page.slug }}-background-resumen-normal.jpg) left top no-repeat;
+				}
+			}
+			@media (min-width: 1240px) {
+				.indexTitle{
+					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-big.jpg) left top no-repeat;
+				}
+				.resumenProyecto{
+					background: url(/imagenes/proyectos/{{ page.slug }}-background-resumen-big.jpg) left top no-repeat;
+				}
+			}
+		</style>
 	</head>
 	<body class="{{ page.template }} {{ page.inicio }}">
+		<div class="fondoProyecto" style="background: url(/imagenes/proyectos/{{ page.slug }}-background.jpg) center top no-repeat"></div>
 		{% include _header-responsive.html %}
 		<div class="cuerpoPagina">
 			<div class="contenedor">
-				<header class="resumenProyecto">
+				<header class="resumenProyecto" >
 					<div class="navegacion botones3">
 						<ul class='switcher ewf'>
 							<li class="imagenes" id="imagenes"><a href="#imagenes"><span>{{ site.proyectos-imagenes.[page.language] }} {% include _inline-project-number-of-images.html %}</span></a></li>

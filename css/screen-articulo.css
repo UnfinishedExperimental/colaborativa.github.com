@@ -619,7 +619,7 @@ html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav .menu .menuEq
 
 /* line 167, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 /* line 169, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.imagenes .cabeceraPagina .funnyline {

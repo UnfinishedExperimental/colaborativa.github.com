@@ -4,7 +4,11 @@
 	{% assign fixed = "fixed" %}
 {% endif %}
 
+{% if page.layout == "portfolio-proyecto" %}
+<header class="cabeceraPagina notranslate {{ fixed }}" style="background: url(/imagenes/proyectos/{{ page.slug }}-background.jpg) center top no-repeat">
+{% else %}
 <header class="cabeceraPagina notranslate {{ fixed }}">
+{% endif %}
 	<div class="funnyline"></div>
 	<div class="contenedor">
 		<div class="tituloMenuBusqueda">
