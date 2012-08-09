@@ -6,6 +6,7 @@ title: ¿Qué estás haciendo?
 permalink: /proyectos/que-estas-haciendo/
 permalink_otro_idioma: /en/projects/que-estas-haciendo/
 slug: que-estas-haciendo
+published: false
 
 subtitulo: "Una convocatoria anual abierta a creativos locales para que nos cuenten en que están trabajando"
 descripcion: Descripción ¿Qué estás haciendo?
