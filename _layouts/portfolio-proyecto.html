@@ -15,30 +15,6 @@
 		</script>
 		<style>
 			html body.{{ page.template }} { background-color: {{ page.colorFondo }}; }
-			@media (max-width: 989px) {
-				.indexTitle{
-					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-tablet.jpg) left top no-repeat;
-				}
-				.resumenProyecto{
-					background: url(/imagenes/proyectos/{{ page.slug }}-background-resumen-tablet.jpg) left top no-repeat;
-				}
-			}
-			@media (min-width: 990px) {
-				.indexTitle{
-					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-normal.jpg) left top no-repeat;
-				}
-				.resumenProyecto{
-					background: url(/imagenes/proyectos/{{ page.slug }}-background-resumen-normal.jpg) left top no-repeat;
-				}
-			}
-			@media (min-width: 1240px) {
-				.indexTitle{
-					background: url(/imagenes/proyectos/{{ page.slug }}-background-indexTitle-big.jpg) left top no-repeat;
-				}
-				.resumenProyecto{
-					background: url(/imagenes/proyectos/{{ page.slug }}-background-resumen-big.jpg) left top no-repeat;
-				}
-			}
 		</style>
 	</head>
 	<body class="{{ page.template }} {{ page.inicio }}">
