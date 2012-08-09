@@ -780,7 +780,7 @@ html body.descripcion .reaccionesProyecto {
 /* line 566, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto {
   z-index: 110;
-  opacity: 1;
+  opacity: 0.85;
   -webkit-transition: opacity 0.5s linear;
   -moz-transition: opacity 0.5s linear;
   -ms-transition: opacity 0.5s linear;
@@ -811,9 +811,9 @@ html body.imagenes .resumenProyecto .infoAdicionalProyecto {
 /* line 579, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto.fade {
   opacity: 0.2;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 5px;
-  box-shadow: rgba(0, 0, 0, 0.75) 0 2px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
 }
 /* line 582, ../sass/screen-proyecto.scss */
 html body.imagenes .resumenProyecto.fade .navegacion {
