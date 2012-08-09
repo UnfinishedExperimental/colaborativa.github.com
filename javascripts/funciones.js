@@ -1,4 +1,4 @@
-jQuery(document).ready(function () {
+$(document).ready(function () {
 	/*******************************************************************************************************************
 		Functions for PROYECTOS VISTA DETALLE (imagenes, descripción, reacciones)
 	
