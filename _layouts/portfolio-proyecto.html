@@ -15,14 +15,18 @@
 		</script>
 		<style>
 			html body.{{ page.template }} { background-color: {{ page.colorFondo }}; }
+			html body.{{ page.template }}.imagenes .cuerpoPagina .contenedor .resumenProyecto { background: {{ page.colorFondo }} !important;}
 		</style>
 	</head>
 	<body class="{{ page.template }} {{ page.inicio }}">
 		<div class="fondoProyecto" style="background: url(/imagenes/proyectos/{{ page.slug }}-background.jpg) center top no-repeat"></div>
+		<div class="auxiliar">
+			<div class="resumenProyectoFondo" style="background: url(/imagenes/proyectos/{{ page.slug }}-background.jpg) center top no-repeat"></div>
+		</div>
 		{% include _header-responsive.html %}
 		<div class="cuerpoPagina">
 			<div class="contenedor">
-				<header class="resumenProyecto" >
+				<header class="resumenProyecto">
 					<div class="navegacion botones3">
 						<ul class='switcher ewf'>
 							<li class="imagenes" id="imagenes"><a href="#imagenes"><span>{{ site.proyectos-imagenes.[page.language] }} {% include _inline-project-number-of-images.html %}</span></a></li>

@@ -51,6 +51,27 @@ $greyLine: 1px solid #DADADA;
 				text-decoration: none;
 				color: $colorTexto;
 			}
+			// intento no resuelto de añadir background a la vista resumen
+			.auxiliar{
+				display: none;
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+				position:fixed;
+				overflow: hidden;
+				.resumenProyectoFondo{
+					top:0px;
+					left:50%;
+					width:1500px;
+					margin-left:-750px;
+					height:1100px;
+					position:absolute;
+					z-index:500;
+					clip: rect(105px, 1365px, 460px, 935px);
+				}
+			}
+
 			.fondoProyecto{
 				top:0px;
 				left:0px;
@@ -100,6 +121,7 @@ $greyLine: 1px solid #DADADA;
 					}
 					.resumenProyecto{
 						@include box-sizing (border-box);
+						background: none;
 						position:fixed;
 						top:105px;
 						left:50%;

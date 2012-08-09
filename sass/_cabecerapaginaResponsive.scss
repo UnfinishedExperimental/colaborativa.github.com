@@ -45,7 +45,7 @@ $cabeceraMenu: 18px/23px "colaborativasemibold";
 					&.proyecto{
 						padding-bottom: 156px;
 						.cabeceraFondo{
-							@include transition( (opacity .5s linear, z-index .5s linear) );
+							@include transition( none );
 							position: absolute;
 							top:0px;
 							left:0px;

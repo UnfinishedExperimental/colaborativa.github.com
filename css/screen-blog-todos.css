@@ -211,11 +211,11 @@ html body.neutral .cabeceraPagina.fixed.proyecto {
 }
 /* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.neutral .cabeceraPagina.fixed.proyecto .cabeceraFondo {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -382,11 +382,11 @@ html body.light .cabeceraPagina.fixed.proyecto {
 }
 /* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.light .cabeceraPagina.fixed.proyecto .cabeceraFondo {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -553,11 +553,11 @@ html body.dark .cabeceraPagina.fixed.proyecto {
 }
 /* line 47, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
 html body.dark .cabeceraPagina.fixed.proyecto .cabeceraFondo {
-  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
-  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
-  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
-  -o-transition: opacity 0.5s linear z-index 0.5s linear;
-  transition: opacity 0.5s linear, z-index 0.5s linear;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
   position: absolute;
   top: 0px;
   left: 0px;
