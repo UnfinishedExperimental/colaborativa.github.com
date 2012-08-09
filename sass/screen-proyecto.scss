@@ -749,6 +749,9 @@ html{
 	#fading{
 		background-image: url(../imagenes/sombra-496.png);
 	}
+	.fondoProyecto.escalado{
+		background-size: 960px!important;
+	}
 }
 //Normal screens
 @media (min-width: 990px) {
@@ -758,6 +761,9 @@ html{
 	}
 	#fading{
 		background-image: url(../imagenes/sombra-640.png);
+	}
+	.fondoProyecto.escalado{
+		background-size: 1200px!important;
 	}
 
 }
@@ -769,5 +775,8 @@ html{
 	}
 	#fading{
 		background-image: url(../imagenes/sombra-800.png);
+	}
+	.fondoProyecto.escalado{
+		background-size: 1500px!important;
 	}
 }

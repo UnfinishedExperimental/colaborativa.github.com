@@ -705,6 +705,11 @@ html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     margin-left: -364px;
     width: 728px;
   }
+
+  /* line 218, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  .cabeceraFondo.escalado {
+    background-size: 960px!important;
+  }
 }
 @media (min-width: 990px) {
   /* line 163, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
@@ -716,6 +721,11 @@ html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
     margin-left: -470px;
     width: 940px;
   }
+
+  /* line 225, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  .cabeceraFondo.escalado {
+    background-size: 1200px!important;
+  }
 }
 @media (min-width: 1240px) {
   /* line 163, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
@@ -726,6 +736,11 @@ html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
   body .cabeceraPagina .contenedor {
     margin-left: -585px;
     width: 1170px;
+  }
+
+  /* line 232, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_cabecerapaginaResponsive.scss */
+  .cabeceraFondo.escalado {
+    background-size: 1500px!important;
   }
 }
 /* line 11, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */

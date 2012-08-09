@@ -11,8 +11,9 @@ subtitulo: "Visualizando la actividad de los creativos cordobeses"
 descripcion: Descripción creativos en Córdoba
 en-cabecera: yes
 template: light
-colorFondo: "#e6e6e6"
+colorFondo: "#FFF"
 inicio: descripcion
+escalaFondo: yes
 
 colaboradores:
 

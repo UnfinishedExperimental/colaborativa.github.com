@@ -215,12 +215,21 @@ html{
 //Tablets
 @media (max-width: 989px) {
 	@include cabecerapaginaResponsive(728px, 20px);
+	.cabeceraFondo.escalado{
+		background-size: 960px!important;
+	}
 }
 //Normal screens
 @media (min-width: 990px) {
 	@include cabecerapaginaResponsive(940px, 20px);
+	.cabeceraFondo.escalado{
+		background-size: 1200px!important;
+	}
 }
 //Big screens
 @media (min-width: 1240px) {
 	@include cabecerapaginaResponsive(1170px, 30px);
+	.cabeceraFondo.escalado{
+		background-size: 1500px!important;
+	}
 }
