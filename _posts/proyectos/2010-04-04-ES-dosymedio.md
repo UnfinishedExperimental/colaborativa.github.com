@@ -30,6 +30,7 @@ imagenes:
  - { titulo: "Mesa dosymedio", caption: "La primera tertulia gráfica dosymedio giro en torno a la imminente peatonalizacion de la calle Cruz Conde. Colaborativa 2010 CC BY 3.0" }
  - { titulo: "", caption: "Los primeros asistentes se acercan a la mesa. Colaborativa 2010 CC BY 3.0" }
  - { titulo: "", caption: "¿Es posible la peatonalización de la calle Cruz Conde? Miguel Gómez Losada 2010" }
+ - { titulo: "", caption: "¿Puede ser el parque Cruz Conde un lugar para todos? Colaborativa 2010 CC BY 3.0" }
  - { titulo: "", caption: "¿Qué significará la ronda norte para nuestra ciudad? Colaborativa 2010 CC BY 3.0" }
  - { titulo: "", caption: "¿Comprometen las parcelas ilegales el futuro de Córdoba? Colaborativa 2011 CC BY 3.0" }
 
