@@ -5,7 +5,6 @@
 		<meta charset='UTF-8'/>
 		<link href="/css/screen-blog.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		{% include _scripts-blog-top.html %}
-		<script src='/javascripts/libs/bootstrap-scrollspy.js' type='text/javascript'></script>
 	</head>
 	<body class="{{ page.template }}" data-spy="scroll">
 		{% include _header-responsive.html %}
@@ -227,6 +226,9 @@
 				</section>
 			</div>
 		</section>
+		<script src='/javascripts/libs/jquery-1.7.2.min.js' type='text/javascript'></script>
+		<script src='/javascripts/funciones-comunes.js' type='text/javascript'></script>
+		<script src='/javascripts/funciones-blog.js' type='text/javascript'></script>
 		{% include _footer-responsive.html %}
 		{% include _scripts-blog-bottom.html %}
 	</body>

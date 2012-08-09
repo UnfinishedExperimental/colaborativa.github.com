@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 	/******************************************************************************************************************
-		Functions for PORFOLIO
+		Functions for BLOG
 	
 	*******************************************************************************************************************/
 	/*
@@ -9,7 +9,7 @@ jQuery(document).ready(function () {
 		Tenemos que finar un valor del scroll a partir del cual se añade .fixed a subnav.
 	*/
 $(window).bind('scroll',function(){
-	var arrayH2 = $('.descripcion').find('h2');
+	var arrayH2 = $('.descripcion').find('h1');
 	var navigationVar = $('.subnav');
 	var navigationVarElements = $('.nav li a');
 	var offsetBefore = -10;
@@ -24,4 +24,5 @@ $(window).bind('scroll',function(){
 		offsetBefore, 
 		limitScroll);
 	});
+
 });
