@@ -15,7 +15,7 @@ $textoCreditos:12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-seri
 										image-url("/imagenes/background.png"),
 										$colorFondo);
 				} @else {
-					@include background(linear-gradient(rgba($colorFondoOscuro, 0.0), rgba($colorFondoOscuro, 1)));
+					@include background(none);
 				}
 				@include box-sizing (border-box);
 				padding:0px;
@@ -31,7 +31,7 @@ $textoCreditos:12px/16px "DroidSansRegular", Arial, Helvetica, Geneva, sans-seri
 										image-url("/imagenes/background.png"),
 										$colorFondo);
 				} @else {
-					@include background(linear-gradient(rgba($colorFondoOscuro, 1), rgba($colorFondoOscuro, 1)));
+					@include background(none);
 				}
 				a:link, a:visited, a:active {
 					color:$colorTexto;

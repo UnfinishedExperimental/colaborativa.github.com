@@ -963,12 +963,7 @@ html body.neutral footer .contenedor .credits p a:link:active, html body.neutral
 /* line 11, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light .footerGradient {
   width: 100%;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(210, 210, 210, 0)), color-stop(100%, #d2d2d2));
-  background: -webkit-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
-  background: -moz-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
-  background: -o-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
-  background: -ms-linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
-  background: linear-gradient(rgba(210, 210, 210, 0), #d2d2d2);
+  background: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -981,12 +976,7 @@ html body.light .footerGradient {
 /* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer {
   z-index: 50;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d2d2d2), color-stop(100%, #d2d2d2));
-  background: -webkit-linear-gradient(#d2d2d2, #d2d2d2);
-  background: -moz-linear-gradient(#d2d2d2, #d2d2d2);
-  background: -o-linear-gradient(#d2d2d2, #d2d2d2);
-  background: -ms-linear-gradient(#d2d2d2, #d2d2d2);
-  background: linear-gradient(#d2d2d2, #d2d2d2);
+  background: none;
 }
 /* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.light footer a:link, html body.light footer a:visited, html body.light footer a:active {
@@ -1180,12 +1170,7 @@ html body.light footer .contenedor .credits p a:link:active, html body.light foo
 /* line 11, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark .footerGradient {
   width: 100%;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #000000);
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0), #000000);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0), #000000);
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0), #000000);
-  background: linear-gradient(rgba(0, 0, 0, 0), #000000);
+  background: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1198,12 +1183,7 @@ html body.dark .footerGradient {
 /* line 27, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer {
   z-index: 50;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(#000000, #000000);
-  background: -moz-linear-gradient(#000000, #000000);
-  background: -o-linear-gradient(#000000, #000000);
-  background: -ms-linear-gradient(#000000, #000000);
-  background: linear-gradient(#000000, #000000);
+  background: none;
 }
 /* line 36, /Users/javito/Library/WebServer/Documents/colaborativa.github.com/sass/_footerpaginaResponsive.scss */
 html body.dark footer a:link, html body.dark footer a:visited, html body.dark footer a:active {
