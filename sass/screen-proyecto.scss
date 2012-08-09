@@ -149,17 +149,19 @@ $greyLine: 1px solid #DADADA;
 							$navWidth: 300px;
 							$navHeight: 30px;
 							$navbar-border-radius: 4px;
-							$navbar-border: 1px solid $borderGrey;
-							$navbar-border-inside: 1px solid $innerborderGrey;
 							$navbar-font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
 							display:block;
 							margin-bottom:25px;
 							ul{
 								@include box-sizing (border-box);
-								border: $navbar-border;
+								@if $templateNombre == light {
+									border: 1px solid rgba($colorTexto, 0.5);
+								} @else {
+									border: 1px solid rgba($colorTexto, 0.8);
+								}
 								@include border-radius( $navbar-border-radius,  $navbar-border-radius);
 								@if $templateNombre == light {
-									@include box-shadow(white 0 1px 0px);
+									@include box-shadow(rgba(255,255,255,0.5) 0 1px 0px);
 								} @else {
 									@include box-shadow(none);
 								}
@@ -167,7 +169,11 @@ $greyLine: 1px solid #DADADA;
 								li{
 									display: inline;
 									float:left;
-									border-right: $navbar-border-inside;
+									@if $templateNombre == light {
+										border-right: 1px solid rgba($colorTexto, 0.3);
+									} @else {
+										border-right: 1px solid rgba($colorTexto, 0.6);
+									}
 									@include box-sizing (border-box);
 									height: $navHeight;
 									a {
@@ -181,49 +187,55 @@ $greyLine: 1px solid #DADADA;
 										padding-top: 8px;
 										padding-bottom: 5px;
 										@if $templateNombre == light {
-											color: lighten($colorTexto, 20%);
 											text-shadow: 0px 1px rgba(255,255,255,0.75);
 										} @else {
-											color: darken($colorTexto, 20%);
 											text-shadow: none;
 										}
 										&:link, &:visited, &:active, &:hover, &.activo{
 											text-decoration: none;
 											@include single-transition(all, 0.5s);
 											border-bottom:none;
-											background: $colorFondo;
-										}
-										&.activo{
 											@if $templateNombre == light {
-												@include single-box-shadow(rgba(0,0,0,0.1), 0px, 0px, 5px, false, true);
+												@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
 												text-shadow: 0px 1px rgba(255,255,255,0.3);
-												background: #E5E5E5;
+												background: rgba(255,255,255,0.4);
 											} @else {
 												text-shadow: none;
 												@include box-shadow( none );
-												background: lighten($colorFondo, 15%);
+												background: rgba(255,255,255,0.4);
+											}
+										}
+										&.activo{
+											@if $templateNombre == light {
+												@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
+												text-shadow: 0px 1px rgba(255,255,255,0.3);
+												background: rgba(255,255,255,0.6);
+											} @else {
+												text-shadow: none;
+												@include box-shadow( none );;
+												background: rgba(255,255,255,0.6);
 											}
 										}
 										&:hover{
 											@if $templateNombre == light {
-												@include single-box-shadow(rgba(0,0,0,0.2), 0px, 0px, 5px, false, true);
+												@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
 												text-shadow: 0px 1px rgba(255,255,255,0.5);
-												background: #D8D8D8;
+												background: rgba(255,255,255,0.7);
 											} @else {
 												text-shadow: none;
 												@include box-shadow( none );
-												background: lighten($colorFondo, 20%);
+												background: rgba(255,255,255,0.7);
 											}
 										}
 										&:active{
 											@if $templateNombre == light {
-												@include single-box-shadow(rgba(0,0,0,0.2), 0px, 0px, 5px, false, true);
+												@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
 												text-shadow: 0px 1px rgba(255,255,255,0.3);
-												background: #CFCFCF;
+												background: rgba(255,255,255,0.4);
 											} @else {
 												text-shadow: none;
 												@include box-shadow( none );
-												background: lighten($colorFondo, 10%);
+												background: rgba(255,255,255,0.4);
 											}
 										}
 									}
